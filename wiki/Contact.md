@@ -14,9 +14,9 @@ layout: wiki
     into my spam folder. I don't want your junk, and yes, my spam filter
     will pick it up if you don't get the message.
 
-**IM/Chat protocols:** **'If you are trying to get a hold of me
-concerning a bug in some Banshee software, please file it on
-[bugzilla.gnome.org](http://bugzilla.gnome.org), component banshee.**
+**IM/Chat protocols:** *If you are trying to get a hold of me concerning
+a bug in some Banshee software, please file it on
+[bugzilla.gnome.org](http://bugzilla.gnome.org), component banshee.*
 
 -   AIM: goofyassmoose
 -   ICQ: 29652671
