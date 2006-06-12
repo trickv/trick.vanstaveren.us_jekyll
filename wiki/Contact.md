@@ -4,7 +4,7 @@ permalink: wiki/Contact/
 layout: wiki
 ---
 
-All the various IM protocols/IRCs I am on:
+**All the various IM protocols/IRCs I am on:**
 
 -   AIM: goofyassmoose
 -   ICQ: 29652671
@@ -17,8 +17,5 @@ All the various IM protocols/IRCs I am on:
 
 My primary email: trick@vanstaveren.us
 
-Snail mail:
-
-`Patrick van Staveren`  
-`816 W. Walnut St. Apt #202`  
-`Kalamazoo, MI 49007`
+'''Snail mail: ''' Patrick van Staveren 816 W. Walnut St. Apt \#202
+Kalamazoo, MI 49007
