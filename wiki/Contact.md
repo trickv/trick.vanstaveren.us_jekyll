@@ -4,17 +4,6 @@ permalink: wiki/Contact/
 layout: wiki
 ---
 
-**IM/Chat protocols:**
-
--   AIM: goofyassmoose
--   ICQ: 29652671
--   MSN: p\_vanstaveren@hotmail.com
--   Jabber: goofyassmoose@jabber.org
--   Yahoo!: p1313\_98
--   IRC
-    -   trick\_@irc.freenode.net (\#gphoto, \#gentoo sometimes)
-    -   trick@irc.gnome.org (\#banshee, \#mono sometimes)
-
 **E-mail**
 
 -   Primary: trick@vanstaveren.us
@@ -24,6 +13,20 @@ layout: wiki
     decade, please send it to junk@trick.vanstaveren.us so it goes right
     into my spam folder. I don't want your junk, and yes, my spam filter
     will pick it up if you don't get the message.
+
+**IM/Chat protocols:** **'If you are trying to get a hold of me
+concerning a bug in some Banshee software, please file it on
+[1](http://bugzilla.gnome.org%7Cbugzilla.gnome.org), component
+banshee.**
+
+-   AIM: goofyassmoose
+-   ICQ: 29652671
+-   MSN: p\_vanstaveren@hotmail.com
+-   Jabber: goofyassmoose@jabber.org
+-   Yahoo!: p1313\_98
+-   IRC
+    -   trick\_@irc.freenode.net (\#gphoto, \#gentoo sometimes)
+    -   trick@irc.gnome.org (\#banshee, \#mono sometimes)
 
 '''Snail mail: '''
 
