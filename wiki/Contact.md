@@ -11,7 +11,11 @@ layout: wiki
     <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=trick@vanstaveren.us&size=10">
 
     </html>
--   Secondary: pvanstav@cs.wmich.edu
+-   Secondary:
+    <html>
+    <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=pvanstav@cs.wmich.edu&size=10">
+
+    </html>
 -   If you want to send me spam, silly chain letters or rediculous joke
     emails that have been circling the globe in an email forward for a
     decade, please send it to junk@trick.vanstaveren.us so it goes right
@@ -22,7 +26,11 @@ layout: wiki
 
 -   **AIM: goofyassmoose**
 -   ICQ: 29652671
--   MSN: p\_vanstaveren@hotmail.com
+-   MSN:
+    <html>
+    <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=p_vanstaveren@hotmail.com&size=10">
+
+    </html>
 -   Jabber: goofyassmoose@jabber.org
 -   Yahoo!: p1313\_98
 -   IRC
