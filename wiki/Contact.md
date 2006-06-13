@@ -14,8 +14,6 @@ layout: wiki
     into my spam folder. I don't want your junk, and yes, my spam filter
     will pick it up if you don't get the message.
 
-*s**w**e**e**t*
-
 **IM/Chat protocols:**
 
 -   **AIM: goofyassmoose**
