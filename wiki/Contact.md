@@ -8,6 +8,9 @@ layout: wiki
 
 -   Primary: trick@vanstaveren.us
 -   Secondary: pvanstav@cs.wmich.edu
+
+*a**s**d**f**S**s**d**f*
+
 -   If you want to send me spam, silly chain letters or rediculous joke
     emails that have been circling the globe in an email forward for a
     decade, please send it to junk@trick.vanstaveren.us so it goes right
