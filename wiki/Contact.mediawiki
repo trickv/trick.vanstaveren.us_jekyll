@@ -1,5 +1,5 @@
 '''E-mail'''
-* Primary: img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=trick@vanstaveren.us&size=10">
+* Primary: <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=trick@vanstaveren.us&size=10">
 * Secondary: pvanstav@cs.wmich.edu
 * If you want to send me spam, silly chain letters or rediculous joke emails that have been circling the globe in an email forward for a decade, please send it to junk@trick.vanstaveren.us so it goes right into my spam folder.  I don't want your junk, and yes, my spam filter will pick it up if you don't get the message.
 
