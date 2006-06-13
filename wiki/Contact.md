@@ -7,7 +7,10 @@ layout: wiki
 **E-mail**
 
 -   Primary:
+    <html>
     <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=trick@vanstaveren.us&size=10">
+
+    </html>
 -   Secondary: pvanstav@cs.wmich.edu
 -   If you want to send me spam, silly chain letters or rediculous joke
     emails that have been circling the globe in an email forward for a
