@@ -16,7 +16,7 @@ layout: wiki
 
 **IM/Chat protocols:**
 
--   AIM: goofyassmoose
+-   **AIM: goofyassmoose**
 -   ICQ: 29652671
 -   MSN: p\_vanstaveren@hotmail.com
 -   Jabber: goofyassmoose@jabber.org
