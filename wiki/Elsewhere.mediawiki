@@ -10,4 +10,4 @@
 
 [http://www.gnome.org The GNOME Desktop] - an open source suite of software designed to provide a good desktop experience while also providing a suite of developer libraries to integrate applications further into the desktop.
 
-[http://www.mono-project.org The MONO Project] - an open source implementation of the .NET runtime for C#.  An amazingly flexible language.  As with most open source projects, it's a work in progress, but it's really taking off these days.  See the [http://www.banshee-project.org Banshee Project] for an excellent show of it's capabilities.
+[http://www.mono-project.org The Mono Project] - an open source implementation of the .NET framework.  Provides a whole host of programming languages that can be compiled and run as managed code with the mono runtime.  As with most open source projects, it's a work in progress, but it's really taking off these days (I currently write a LOT of C# code).  See the [http://www.banshee-project.org Banshee Project] for an excellent show of it's capabilities.
