@@ -1,7 +1,7 @@
 ==Web coding and related==
 [http://www.w3.org The World Wide Web Consortum] develops and maintains standards for Internet protocols.  Excellent reference for expert programmers (not for the young learners!)
 
-[http://www.w3schools.org W3 Schools] is devoted to making instructional sites for coding by various W3 standards.  The "blunt" version of the W3 standards, easier to read, find, and search than the actual standards whitepapers, but not always completely up to date or completely extensive.
+[http://www.w3schools.org W3 Schools] is devoted to making instructional sites for coding by various W3 standards.  The "quick 'n dirty" version of the W3 standards, easier to read, find, and search than the actual standards whitepapers, but not always completely up to date or completely extensive.
 
 ==Open-source related==
 [http://www.kernel.org The Linux Kernel Archives] - the home of the kernel to the GNU/Linux operating system.

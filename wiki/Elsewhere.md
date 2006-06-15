@@ -12,10 +12,10 @@ standards for Internet protocols. Excellent reference for expert
 programmers (not for the young learners!)
 
 [W3 Schools](http://www.w3schools.org) is devoted to making
-instructional sites for coding by various W3 standards. The “blunt”
-version of the W3 standards, easier to read, find, and search than the
-actual standards whitepapers, but not always completely up to date or
-completely extensive.
+instructional sites for coding by various W3 standards. The “quick 'n
+dirty” version of the W3 standards, easier to read, find, and search
+than the actual standards whitepapers, but not always completely up to
+date or completely extensive.
 
 Open-source related
 -------------------
