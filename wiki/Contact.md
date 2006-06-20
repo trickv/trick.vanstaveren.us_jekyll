@@ -43,7 +43,8 @@ layout: wiki
 
 **Keys**
 
--   {file|Id\_rsa.pub|SSH RSAv2 Public Key} (recommended)
+-   (recommended)
+
 -   ![SSH DSA Public Key](Id_dsa.pub "fig:SSH DSA Public Key") (old, but
     will work)
 -   GPG key coming...
