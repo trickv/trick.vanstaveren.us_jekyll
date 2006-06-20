@@ -4,7 +4,7 @@ permalink: wiki/Contact/
 layout: wiki
 ---
 
-**E-mail**
+### E-mail
 
 -   Primary:
     <html>
@@ -26,7 +26,7 @@ layout: wiki
     so it goes right into my spam folder. I don't want your junk, and
     yes, my spam filter will pick it up if you don't get the message.
 
-**IM/Chat protocols:**
+### IM/Chat protocols
 
 -   **AIM: goofyassmoose**
 -   ICQ: 29652671
@@ -41,7 +41,7 @@ layout: wiki
     -   trick\_@irc.freenode.net (\#gphoto, \#gentoo-userrel)
     -   trick@irc.gnome.org (\#banshee, \#mono sometimes)
 
-**Keys**
+### Keys
 
 -   (recommended)
 
@@ -49,7 +49,7 @@ layout: wiki
 
 -   GPG key coming...
 
-'''Snail mail: '''
+### Snail mail
 
 `Patrick van Staveren`  
 `816 W. Walnut St. Apt #202`  
