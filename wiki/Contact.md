@@ -45,8 +45,8 @@ layout: wiki
 
 -   (recommended)
 
--   ![SSH DSA Public Key](Id_dsa.pub "fig:SSH DSA Public Key") (old, but
-    will work)
+-   (old, but will work)
+
 -   GPG key coming...
 
 '''Snail mail: '''
