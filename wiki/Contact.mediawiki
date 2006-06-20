@@ -13,6 +13,10 @@
 ** trick_@irc.freenode.net (#gphoto, #gentoo-userrel)
 ** trick@irc.gnome.org (#banshee, #mono sometimes)
 
+'''Keys'''
+* [Image:Id_rsa.pub|SSH RSAv2 Public Key] (recommended)
+* [Image:Id_dsa.pub|SSH DSA Public Key] (old, but will work)
+* GPG key coming...
 
 '''Snail mail: '''
  Patrick van Staveren
