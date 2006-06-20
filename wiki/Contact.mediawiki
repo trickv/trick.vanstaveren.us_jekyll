@@ -10,7 +10,7 @@
 * Jabber: goofyassmoose@jabber.org
 * Yahoo!: p1313_98
 * IRC
-** trick_@irc.freenode.net (#gphoto, #gentoo sometimes)
+** trick_@irc.freenode.net (#gphoto, #gentoo-userrel)
 ** trick@irc.gnome.org (#banshee, #mono sometimes)
 
 

@@ -38,7 +38,7 @@ layout: wiki
 -   Jabber: goofyassmoose@jabber.org
 -   Yahoo!: p1313\_98
 -   IRC
-    -   trick\_@irc.freenode.net (\#gphoto, \#gentoo sometimes)
+    -   trick\_@irc.freenode.net (\#gphoto, \#gentoo-userrel)
     -   trick@irc.gnome.org (\#banshee, \#mono sometimes)
 
 '''Snail mail: '''
