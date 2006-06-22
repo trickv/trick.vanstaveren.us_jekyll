@@ -21,7 +21,6 @@ layout: wiki
     <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=junk@trick.vanstaveren.us&size=10">
 
     </html>
-    ,
 
 ### IM/Chat protocols
 
