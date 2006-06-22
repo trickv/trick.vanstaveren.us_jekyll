@@ -18,7 +18,7 @@
 * {{file|Id_dsa.pub|SSH DSA Public Key}} (old, but will work)
 * GPG key coming...
 
-===Snail mail===
+==="Snail mail"===
  Patrick van Staveren
  816 W. Walnut St. Apt #202
  Kalamazoo, MI 49007

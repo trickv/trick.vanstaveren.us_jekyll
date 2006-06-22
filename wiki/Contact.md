@@ -49,7 +49,7 @@ layout: wiki
 
 -   GPG key coming...
 
-### Snail mail
+### “Snail mail”
 
 `Patrick van Staveren`  
 `816 W. Walnut St. Apt #202`  
