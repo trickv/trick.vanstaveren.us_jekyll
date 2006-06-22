@@ -6,7 +6,7 @@ layout: wiki
 
 Welcome to the personal site for Patrick van Staveren. Here you'll find
 stuff about me and many of the works I've done over the years. If you
-are actually looking to find me, check out my
+are actually trying to get in touch with me, check out my
 [Contact](/wiki/Contact "wikilink") page!
 
 I'm busy porting all the content from
