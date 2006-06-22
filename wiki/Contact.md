@@ -16,15 +16,12 @@ layout: wiki
     <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=pvanstav@cs.wmich.edu&size=10">
 
     </html>
--   If you want to send me spam, silly chain letters or rediculous joke
-    emails that have been circling the globe in an email forward for a
-    decade, please send it to
+-   Spam goes here:
     <html>
     <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=junk@trick.vanstaveren.us&size=10">
 
     </html>
-    so it goes right into my spam folder. I don't want your junk, and
-    yes, my spam filter will pick it up if you don't get the message.
+    , please.
 
 ### IM/Chat protocols
 
