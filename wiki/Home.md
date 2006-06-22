@@ -20,3 +20,6 @@ If you are looking for something open source related, such as my
 [Banshee works](http://www.banshee-project.org), check out
 [wiki.vanstaveren.us](http://wiki.vanstaveren.us). It's most likely
 there somewhere!
+
+Curious as to what I've been up to lately? Looking for a boring read?
+Want to see my bicycle? Read [my log](http://trick.vanstaveren.us/wp/).
