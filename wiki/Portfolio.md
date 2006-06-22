@@ -4,10 +4,11 @@ permalink: wiki/Portfolio/
 layout: wiki
 ---
 
-This is where I'll put all my fancy schmanchy experiences. Yep.
+For years, I have been wanting to put together a live demo of all the
+major websites that I've written/maintained as a portfolio, of sorts.
 
-In the mean time, here's a basic version of my portfolio of websites
-i've worked on...someday I'll transport them all to this site. Enjoy.
+In the mean time, here's a basic version with links to websites i've
+worked on...someday I'll transport them all to this site. Enjoy.
 
 [Spectrum Printers, Inc.](http://www.spectrumprinters.com/) - I didn't
 design the layout, but the entire code was reworked in my years at
