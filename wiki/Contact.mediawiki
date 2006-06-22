@@ -1,7 +1,7 @@
 ===E-mail===
 * Primary: <html><img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=trick@vanstaveren.us&size=10"></html>
 * Secondary: <html><img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=pvanstav@cs.wmich.edu&size=10"></html>
-* Spam goes here: <html><img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=junk@trick.vanstaveren.us&size=10"></html>, please.
+* Spam: <html><img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=junk@trick.vanstaveren.us&size=10"></html>,
 
 ===IM/Chat protocols===
 * '''AIM: goofyassmoose'''

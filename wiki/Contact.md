@@ -16,12 +16,12 @@ layout: wiki
     <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=pvanstav@cs.wmich.edu&size=10">
 
     </html>
--   Spam goes here:
+-   Spam:
     <html>
     <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=junk@trick.vanstaveren.us&size=10">
 
     </html>
-    , please.
+    ,
 
 ### IM/Chat protocols
 
