@@ -1,1 +1,1 @@
-<rss>http://trick.vanstaveren.us/wp/?feed=rss2|short|max=5|charset=ISO-8859-1</rss>
+<rss>http://trick.vanstaveren.us/wp/?feed=rss2|short|max=5|charset=UTF-8</rss>
