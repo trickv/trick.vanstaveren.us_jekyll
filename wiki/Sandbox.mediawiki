@@ -1,0 +1,1 @@
+<rss>http://web2booklet.suprglu.com/feed/rss20/supr.xml|short|max=6</rss>
