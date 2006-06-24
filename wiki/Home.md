@@ -21,8 +21,6 @@ If you are looking for something open source related, such as my
 [wiki.vanstaveren.us](http://wiki.vanstaveren.us). It's most likely
 there somewhere!
 
-Curious as to what I've been up to lately? Looking for a boring read?
-Want to see my bicycle? Check out [My
-Log](http://trick.vanstaveren.us/wp). Some of the latest topics:
+Latest entries to [My Log](http://trick.vanstaveren.us/wp):
 
 <rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle%7Cnoli></rss>
