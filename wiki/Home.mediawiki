@@ -4,6 +4,6 @@ I'm busy porting all the content from [http://trick.vanstaveren.us trick.vanstav
 
 If you are looking for something open source related, such as my [http://www.banshee-project.org Banshee works], check out [http://wiki.vanstaveren.us wiki.vanstaveren.us].  It's most likely there somewhere!
 
-'''Latest entries to [http://trick.vanstaveren.us/wp My Log]:'''
+'''Recent entries to [http://trick.vanstaveren.us/wp My Log]:'''
 
 <rss>http://trick.vanstaveren.us/wp/?feed=rss2|date|max=5|charset=UTF-8|short|notitle</rss>
