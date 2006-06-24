@@ -22,4 +22,5 @@ If you are looking for something open source related, such as my
 there somewhere!
 
 **Latest entries to [My Log](http://trick.vanstaveren.us/wp):**
-<rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle%7Cnoli></rss>
+
+<rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle></rss>
