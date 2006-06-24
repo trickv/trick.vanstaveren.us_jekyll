@@ -24,3 +24,4 @@ there somewhere!
 Curious as to what I've been up to lately? Looking for a boring read?
 Want to see my bicycle? Check out:
 <rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort></rss>
+<rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cmax=5%7Ccharset=UTF-8%7Cshort></rss>
