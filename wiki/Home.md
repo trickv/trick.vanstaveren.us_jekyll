@@ -22,7 +22,6 @@ If you are looking for something open source related, such as my
 there somewhere!
 
 Curious as to what I've been up to lately? Looking for a boring read?
-Want to see my bicycle? Check out:
-<rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort></rss>
-<rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle></rss>
+Want to see my bicycle? Check out [My
+Log](http://trick.vanstaveren.us/wp). Some of the latest topics:
 <rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle%7Cnoli></rss>
