@@ -23,3 +23,5 @@ there somewhere!
 
 Curious as to what I've been up to lately? Looking for a boring read?
 Want to see my bicycle? Read [my log](http://trick.vanstaveren.us/wp/).
+
+<rss><http://trick.vanstaveren.us/wp/?feed=rss2></rss>
