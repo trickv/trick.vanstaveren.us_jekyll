@@ -7,4 +7,4 @@ If you are looking for something open source related, such as my [http://www.ban
 Curious as to what I've been up to lately?  Looking for a boring read?  Want to see my bicycle?  Read [http://trick.vanstaveren.us/wp/ my log].
 
 
-<html><!--rss>http://trick.vanstaveren.us/wp/?feed=rss2</rss--></html>
+<rss>http://trick.vanstaveren.us/wp/?feed=rss2|short|max=5|charset=UTF-8</rss>
