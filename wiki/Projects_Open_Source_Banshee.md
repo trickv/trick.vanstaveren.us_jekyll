@@ -7,3 +7,5 @@ layout: wiki
 [Plugins](/wiki/Projects/Open_Source/Banshee/Plugins "wikilink")
 
 [Randomness](/wiki/Projects/Open_Source/Banshee/Randomness "wikilink")
+
+[MTP](/wiki/Projects/Open_Source/Banshee/MTP "wikilink")
