@@ -4,4 +4,4 @@ permalink: wiki/Projects/Open_Source/Banshee/Plugins/
 layout: wiki
 ---
 
-\[\[Projects/Open Source/Banshee/Plugins/Wikipedia|Wikipedia\]
+[Wikipedia](/wiki/Projects/Open_Source/Banshee/Plugins/Wikipedia "wikilink")
