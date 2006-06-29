@@ -18,7 +18,7 @@ any of my other pages.
 
 If you are looking for something open source related, such as my
 [Banshee](http://www.banshee-project.org)
-\[\[Projects/Open\_Source/Banshee|projects\], check out
+[projects](/wiki/Projects/Open_Source/Banshee "wikilink"), check out
 [wiki.vanstaveren.us](http://wiki.vanstaveren.us). It's most likely
 there somewhere!
 
