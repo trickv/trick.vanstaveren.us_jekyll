@@ -2,7 +2,7 @@ Welcome to the personal site for Patrick van Staveren.  Here you'll find stuff a
 
 I'm busy porting all the content from [http://trick.vanstaveren.us trick.vanstaveren.us] and [http://wiki.vanstaveren.us wiki.vanstaveren.us] over to here, in a MediaWiki site.  It's pretty basic thus far, but consider everything on this site to be the most accurate if you find duplicate information on any of my other pages.
 
-If you are looking for something open source related, such as my [http://www.banshee-project.org Banshee works], check out [http://wiki.vanstaveren.us wiki.vanstaveren.us].  It's most likely there somewhere!
+If you are looking for something open source related, such as my [http://www.banshee-project.org Banshee] [[Projects/Open_Source/Banshee|projects], check out [http://wiki.vanstaveren.us wiki.vanstaveren.us].  It's most likely there somewhere!
 
 '''Recent entries to [http://trick.vanstaveren.us/wp My Log]:'''
 
