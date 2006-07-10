@@ -4,4 +4,5 @@ permalink: wiki/Pure...Sheer...Utter...Randomness!/
 layout: wiki
 ---
 
-![](My_Life_Broken_Down_Into_Segments.bmp "My_Life_Broken_Down_Into_Segments.bmp")
+sting uptime before shutdown: 22:14:06 up 53 days, 21:05, 1 user, load
+average: 0.00, 0.00, 0.00
