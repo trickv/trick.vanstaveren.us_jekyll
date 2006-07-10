@@ -1,5 +1,7 @@
 [[Projects/Open Source|Open Source]] projects including plugins, patches, rantings, etc. for Banshee.
 
+[[Projects/Traffic Shaping|Traffic Shaping]] is something I've been learning about...
+
 [[Projects/Bicycling|Bicycling]]: I like to [http://en.wikipedia.org/wiki/Bicycle_Race ride my bicycle]!
 
 [[Pure...Sheer...Utter...Randomness!]]
