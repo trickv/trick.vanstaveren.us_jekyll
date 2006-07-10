@@ -1,4 +1,6 @@
-Welcome to the personal site for Patrick van Staveren.  Here you'll find stuff about me and many of the works I've done over the years.  If you are actually trying to get in touch with me, check out my [[Contact]] page!
+This is the personal site for one Patrick van Staveren.
+
+If you are actually trying to get in touch with me, check out my [[Contact]] page!
 
 I'm busy porting all the content from [http://trick.vanstaveren.us trick.vanstaveren.us] and [http://wiki.vanstaveren.us wiki.vanstaveren.us] over to here, in a MediaWiki site.  It's pretty basic thus far, but consider everything on this site to be the most accurate if you find duplicate information on any of my other pages.
 
