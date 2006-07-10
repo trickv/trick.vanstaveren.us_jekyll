@@ -1,3 +1,2 @@
 
-
-[[Image:banshee-mtp-playlists1.png|700px]]
+[[Image:banshee-mtp-playlists1.png|700px|thumb|Banshee's MTP support with r/o playlists]]
