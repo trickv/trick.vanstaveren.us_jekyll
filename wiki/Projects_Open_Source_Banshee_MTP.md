@@ -4,4 +4,4 @@ permalink: wiki/Projects/Open_Source/Banshee/MTP/
 layout: wiki
 ---
 
-![](banshee-mtp-playlists1.png "banshee-mtp-playlists1.png")
+<img src="banshee-mtp-playlists1.png" title="banshee-mtp-playlists1.png" alt="banshee-mtp-playlists1.png" width="400" />
