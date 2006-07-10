@@ -1,1 +1,3 @@
 [[Image:My Life Broken Down Into Segments.bmp]]
+
+{pdf|asdf.pdf|sweet!}

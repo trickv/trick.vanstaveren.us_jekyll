@@ -5,3 +5,5 @@ layout: wiki
 ---
 
 ![](My_Life_Broken_Down_Into_Segments.bmp "My_Life_Broken_Down_Into_Segments.bmp")
+
+{pdf|asdf.pdf|sweet!}
