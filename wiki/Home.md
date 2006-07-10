@@ -6,8 +6,8 @@ layout: wiki
 
 This is the personal site for one Patrick van Staveren.
 
-If you are actually trying to get in touch with me, check out my
-[Contact](/wiki/Contact "wikilink") page!
+If you are actually trying to get in touch with him, check out the
+[contact](/wiki/Contact "wikilink") page!
 
 I'm busy porting all the content from
 [trick.vanstaveren.us](http://trick.vanstaveren.us) and
