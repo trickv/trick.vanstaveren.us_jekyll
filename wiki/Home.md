@@ -28,7 +28,11 @@ there somewhere!
 
 ------------------------------------------------------------------------
 
-I'm working on fixing up this template for
+<html>
+<span style="color: gray;"> I'm working on fixing up this template for
 [xhtml](http://validator.w3.org/check/referer) and
 [css](http://jigsaw.w3.org/css-validator/check/referer)
-[standards](http://www.w3.org).
+[standards](http://www.w3.org).</span>
+
+</html>
+
