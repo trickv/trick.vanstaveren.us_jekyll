@@ -25,3 +25,7 @@ there somewhere!
 **Recent entries to [My Log](http://trick.vanstaveren.us/wp):**
 
 <rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle></rss>
+
+[validate](http://validator.w3.org/check/referer)
+
+[validate css](http://jigsaw.w3.org/css-validator/check/referer)
