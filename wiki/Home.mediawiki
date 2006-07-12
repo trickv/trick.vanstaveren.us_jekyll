@@ -11,7 +11,7 @@ If you are looking for something open source related, such as my [http://www.ban
 <rss>http://trick.vanstaveren.us/wp/?feed=rss2|date|max=5|charset=UTF-8|short|notitle</rss>
 
 '''Recent commits (as tracked by cia.navi.cx)'''
-<rss>http://cia.navi.cx/stats/author/trickv/.rss?ver=2&medium=plaintext&limit=5|date|max=5|charset=UTF-8|notitle</rss>
+<rss>http://cia.navi.cx/stats/author/trickv/.rss?ver=1&medium=xhtml&limit=5|date|max=5|charset=UTF-8|notitle</rss>
 
 
 
