@@ -26,6 +26,9 @@ there somewhere!
 
 <rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle></rss>
 
+**Recent commits (as tracked by cia.navi.cx)**
+<rss><http://cia.navi.cx/stats/author/trickv/.rss?ver=2&medium=xhtml&limit=5%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Cshort%7Cnotitle></rss>
+
 <span style="color: gray;"> I'm working on fixing up this template for
 [xhtml](http://validator.w3.org/check/referer) and
 [css](http://jigsaw.w3.org/css-validator/check/referer)
