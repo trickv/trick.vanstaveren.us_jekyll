@@ -4,11 +4,6 @@ permalink: wiki/Projects/Open_Source/Banshee/MTP/
 layout: wiki
 ---
 
-[Playlists](/wiki/Projects/Open_Source/Banshee/MTP/Playlists "wikilink")
-support is coming...
-
-------------------------------------------------------------------------
-
 Interested in trying it out?
 
 Check out the
