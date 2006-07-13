@@ -104,11 +104,10 @@ and that the Banshee DAP interface will not be happy. Regardless, you
 can trudge on!
 
 If you have any issues at this point, post a debug output to
-[pastebin.com](http://www.pastebin.com) and hit up
-irc.gnome.org/\#banshee and ask trick for help. Optionally, if it looks
-more like an issue with the MTP (PTP2) driver, you can ask on
-irc.freenode.net/\#gphoto, but ask nicely as this driver is new and the
-developers are busy folks.
+[pastebin.us](http://www.pastebin.us) and hit up irc.gnome.org/\#banshee
+and ask trick for help. Optionally, if it looks more like an issue with
+the MTP (PTP2) driver, you can ask on irc.freenode.net/\#gphoto, but ask
+nicely as this driver is new and the developers are busy folks.
 
 If it's working great, lets try it in Banshee!
 
