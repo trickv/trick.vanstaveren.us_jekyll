@@ -1,5 +1,7 @@
 ==About MTP==
 
+Check out the [http://en.wikipedia.org/wiki/Media_Transfer_Protocol MTP] page on [http://www.wikipedia.org Wikipedia].
+
 MTP stands for the Media Transfer Protocol.  While it is a standard created and used almost solely by Microsoft, it is becoming a popular interface for newer Digital Audio Players.  Seeing this growth in MTP players, the need for an open-source implementation became necessary.  Thus, a handful of projects were born to try to communicate with these devices.  libgphoto2 made some pokes & prods at MTP devices, and the libmtp project was established by some of the libnjb/gnomad2 developers in the desire to support these newer devices.  Since then, libmtp and libgphoto2 have joined forces and collaborated to help each other out.  As of right now, they are basically the same base of code with two different interfaces, and were originally forked from the same base of code (libptp2).
 
 Banshee.Dap.Mtp uses libgphoto2, even though I originally started with libmtp...this will work for now :)

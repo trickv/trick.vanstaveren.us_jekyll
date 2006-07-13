@@ -7,6 +7,10 @@ layout: wiki
 About MTP
 ---------
 
+Check out the
+[MTP](http://en.wikipedia.org/wiki/Media_Transfer_Protocol) page on
+[Wikipedia](http://www.wikipedia.org).
+
 MTP stands for the Media Transfer Protocol. While it is a standard
 created and used almost solely by Microsoft, it is becoming a popular
 interface for newer Digital Audio Players. Seeing this growth in MTP
