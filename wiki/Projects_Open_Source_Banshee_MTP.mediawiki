@@ -4,7 +4,7 @@
 
 Interested in trying it out?
 
-Check out the [[Projects/Open Source/Banshee/MTP/Compatibility||Compatibility]] page first to make sure yours is on the list.  If it isn't, please [[Contact]] me!  I'm always looking to add MTP devices to my list.
+Check out the [[Projects/Open Source/Banshee/MTP/Compatibility|Compatibility]] page first to make sure yours is on the list.  If it isn't, please [[Contact]] me!  I'm always looking to add MTP devices to my list.
 
 ----
 

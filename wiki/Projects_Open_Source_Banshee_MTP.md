@@ -12,7 +12,7 @@ support is coming...
 Interested in trying it out?
 
 Check out the
-[|Compatibility](/wiki/Projects/Open_Source/Banshee/MTP/Compatibility "wikilink")
+[Compatibility](/wiki/Projects/Open_Source/Banshee/MTP/Compatibility "wikilink")
 page first to make sure yours is on the list. If it isn't, please
 [Contact](/wiki/Contact "wikilink") me! I'm always looking to add MTP devices
 to my list.
