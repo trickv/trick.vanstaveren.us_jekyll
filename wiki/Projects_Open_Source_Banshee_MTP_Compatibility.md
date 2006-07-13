@@ -14,6 +14,9 @@ know where that one went...
 I “hear” that some iRiver devices don't work perfectly yet with
 libgphoto2...
 
+Of course, if you'd like to donate me a MTP player, I'll do my best to
+make it work :)
+
 ------------------------------------------------------------------------
 
 The following devices are known MTP devices, recognized by libgphoto2.
