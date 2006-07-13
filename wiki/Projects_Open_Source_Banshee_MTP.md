@@ -165,8 +165,11 @@ likely be sorted out in the future.
 
 Playback does not work at all. It might someday, but not for now.
 
-Playlists don't work. Not yet. But, they're in the works...see this
-[teaser](/wiki/Projects/Open_Source/Banshee/MTP/Playlists "wikilink")...
+### Playlists
+
+Playlists don't work. Not yet. But, they're in the
+works...[playlist](/wiki/Projects/Open_Source/Banshee/MTP/Playlists "wikilink")
+support is coming...
 
 ### Reporting Bugs
 

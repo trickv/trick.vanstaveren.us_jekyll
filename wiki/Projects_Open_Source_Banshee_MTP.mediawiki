@@ -102,7 +102,9 @@ Editing of Metadata is possible, but has been disabled because of some strange c
 
 Playback does not work at all.  It might someday, but not for now.
 
-Playlists don't work.  Not yet.  But, they're in the works...see this [[Projects/Open Source/Banshee/MTP/Playlists|teaser]]...
+===Playlists===
+
+Playlists don't work.  Not yet.  But, they're in the works...[[Projects/Open Source/Banshee/MTP/Playlists|playlist]] support is coming...
 
 ===Reporting Bugs===
 
