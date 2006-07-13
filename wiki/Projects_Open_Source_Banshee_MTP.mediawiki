@@ -1,1 +1,5 @@
-[[Image:banshee-mtp-playlists1.png|left|700px|thumb|Banshee's MTP support with r/o playlists]]
+[[Projects/Open Source/Banshee/MTP/Playlists|Playlists]] support is coming...
+
+----
+
+insert guide here
