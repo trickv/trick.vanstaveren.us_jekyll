@@ -58,8 +58,8 @@ and build it, like normal:
 ` ./autogen.sh`
 
 If you get an error like
-[this](/wiki/Projects/Open_Source/Banshee/MTP/FAQ "wikilink"), be sure to have
-libltdl installed.
+[this](/wiki/Projects/Open_Source/Banshee/MTP/FAQ#Q:_What_does_this_mess_mean_when_I_run_autogen.sh_in_libgphoto2.3F "wikilink"),
+be sure to have libltdl installed.
 
 ` ./configure`
 

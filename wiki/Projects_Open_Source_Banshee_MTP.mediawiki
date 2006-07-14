@@ -26,7 +26,7 @@ and build it, like normal:
 
   ./autogen.sh
 
-If you get an error like [[Projects/Open Source/Banshee/MTP/FAQ|this]], be sure to have libltdl installed.
+If you get an error like [[Projects/Open Source/Banshee/MTP/FAQ#Q:_What_does_this_mess_mean_when_I_run_autogen.sh_in_libgphoto2.3F|this]], be sure to have libltdl installed.
 
   ./configure
 
