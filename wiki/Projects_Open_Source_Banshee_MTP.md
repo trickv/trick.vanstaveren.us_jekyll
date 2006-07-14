@@ -24,8 +24,7 @@ As of right now, they are basically the same base of code with two
 different interfaces, and were originally forked from the same base of
 code (libptp2).
 
-Banshee.Dap.Mtp uses libgphoto2, even though I originally started with
-libmtp...this will work for now :)
+Banshee.Dap.Mtp uses [libgphoto2](http://www.gphoto.org).
 
 Supported Devices
 -----------------
