@@ -14,6 +14,10 @@ Check out the [[Projects/Open Source/Banshee/MTP/Compatibility|Compatibility]] p
 
 Sometimes I keep some patches against Banshee CVS for MTP.  If so, you can find them on the [[Projects/Open Source/Banshee/MTP/Patches|MTP Patches]] page.
 
+===Remove old packages===
+
+First, be sure that you have removed any distribution packaged software such as libgphoto2, gphoto2, and banshee.  If you fail to do this, the installation will most likely have problems.
+
 ===Grabbing the latest libgphoto2===
 
 libgphoto2-sharp is now installed directly out of the libgphoto2 subversion tree.  In the future (2.2.2 hopefully) libgphoto2 will distribute with the -sharp binding, but for now you will need to work with a svn version.
