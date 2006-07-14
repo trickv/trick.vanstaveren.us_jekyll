@@ -7,8 +7,8 @@ layout: wiki
 About MTP
 ---------
 
-Check out the
-[MTP](http://en.wikipedia.org/wiki/Media_Transfer_Protocol) page on
+Check out the [Media Transfer
+Protocol](http://en.wikipedia.org/wiki/Media_Transfer_Protocol) page on
 [Wikipedia](http://www.wikipedia.org).
 
 MTP stands for the Media Transfer Protocol. While it is a standard
@@ -55,7 +55,12 @@ Snag yourself a copy of libgphoto2 from subversion:
 
 and build it, like normal:
 
-` ./autogen.sh`  
+` ./autogen.sh`
+
+If you get an error like
+[this](/wiki/Projects/Open_Source/Banshee/MTP/FAQ "wikilink"), be sure to have
+libltdl installed.
+
 ` ./configure`
 
 Watch the output of ./configure to make sure that the csharp bindings
