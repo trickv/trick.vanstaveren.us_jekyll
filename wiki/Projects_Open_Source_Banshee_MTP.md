@@ -80,7 +80,7 @@ Libgphoto2 and it's C\# bindings should now be installed!
 
 ### Installing gphoto2 to test libgphoto2
 
-The **gphoto2** command line tool is the easiest way to test that
+The `gphoto2` command line tool is the easiest way to test that
 libgphoto2 can find and access your MTP device. It's contained in the
 gphoto svn repository. You know the drill -- grab and install it as
 follows:
