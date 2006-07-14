@@ -1,4 +1,4 @@
-Q: What does this mess mean when I run <code>autogen.sh</code> in libgphoto2?
+===Q: What does this mess mean when I run <code>autogen.sh</code> in libgphoto2?===
  > ./autogen.sh
  Looking for `./configure.{ac,in}'... ./configure.in
  autogen.sh:init: Entering directory `.'

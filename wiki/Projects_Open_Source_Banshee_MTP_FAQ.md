@@ -4,7 +4,7 @@ permalink: wiki/Projects/Open_Source/Banshee/MTP/FAQ/
 layout: wiki
 ---
 
-Q: What does this mess mean when I run `autogen.sh` in libgphoto2?
+### Q: What does this mess mean when I run `autogen.sh` in libgphoto2?
 
 `> ./autogen.sh`  
 `` Looking for `./configure.{ac,in}'... ./configure.in ``  
