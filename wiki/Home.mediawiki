@@ -2,8 +2,6 @@ This is the personal site for one Patrick van Staveren.
 
 If you are actually trying to get in touch with him, check out the [[Contact|contact]] page!
 
-If you are looking for something open source related, such as my [http://www.banshee-project.org Banshee] [[Projects/Open_Source/Banshee|projects]], check out [http://wiki.vanstaveren.us wiki.vanstaveren.us].  It's most likely there somewhere!
-
 '''Recent entries to [http://trick.vanstaveren.us/wp My Log]:'''
 
 <rss>http://trick.vanstaveren.us/wp/?feed=rss2|date|max=5|charset=UTF-8|short|notitle</rss>
