@@ -31,11 +31,12 @@ me](/wiki/Contact "wikilink") and I'll help you out!
 ------------------------------------------------------------------------
 
 Devices that are in Banshee's MTP Support are listed as follows. The
-**Short Name** field is what will appear in the sources list in Banshee
-- if you have a better name, let me know! There are some ugly ones, for
-example, some like the Phillips HDD6320 where I have just put HDD6320.
+**Display Name** field is what will appear in the sources list in
+Banshee - if you have a better name, let me know! There are some ugly
+ones, for example, some like the Phillips HDD6320 where I have just put
+HDD6320.
 
-| Long Device Name                       | Short Name      | Vendor ID | Product ID |
+| Long Device Name                       | Display Name    | Vendor ID | Product ID |
 |----------------------------------------|-----------------|-----------|------------|
 | | iRiver T10 (alternative)             | iRiver T10      | 0x4102    | 0x1113     |
 | | iRiver T20 FM                        | iRiver T20 FM   | 0x4102    | 0x1114     |
