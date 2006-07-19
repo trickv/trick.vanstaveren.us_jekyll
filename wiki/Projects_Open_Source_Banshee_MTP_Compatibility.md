@@ -14,15 +14,16 @@ know where that one went...
 I “hear” that some iRiver devices don't work perfectly yet with
 libgphoto2...
 
-Of course, if you'd like to donate me a MTP player, I'll do my best to
-make it work :)
+Of course, if you'd like to donate me a MTP player of any brand or
+sorts, I'll be happy to make it work for you :)
 
 ------------------------------------------------------------------------
 
 The following devices are known MTP devices, recognized by libgphoto2.
 This is a direct snap from my codebase which filters out non-MTP
 devices. If you have a MTP player that's not on this list, Banshee will
-refuse to recognize it - email me and I'll help you out ASAP :)
+refuse to recognize it - [e-mail me](/wiki/Contact "wikilink") and I'll help
+you out ASAP :)
 
 `new DeviceId(`“`iRiver`` ``T10`` ``(alternative)`”`,                    `“`iRiver`` ``T10`”`,           0x4102,     0x1113),`  
 `new DeviceId(`“`iRiver`` ``U10`”`,                                  `“`iRiver`` ``U10`”`,           0x4102,     0x1116),`  
