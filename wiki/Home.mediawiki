@@ -5,8 +5,3 @@ If you are actually trying to get in touch with him, check out the [[Contact|con
 '''Recent entries to [http://trick.vanstaveren.us/wp My Log]:'''
 
 <rss>http://trick.vanstaveren.us/wp/?feed=rss2|date|max=5|charset=UTF-8|short|notitle</rss>
-
-
-
-<span style="color: gray;">
-I'm working on fixing up this template for [http://validator.w3.org/check/referer xhtml] and [http://jigsaw.w3.org/css-validator/check/referer css] [http://www.w3.org standards].</span>
