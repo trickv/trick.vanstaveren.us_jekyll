@@ -19,6 +19,13 @@ sorts, I'll be happy to make it work for you :)
 
 ------------------------------------------------------------------------
 
+Whether or not your player is compatible with Banshee's MTP support
+depends on [libgphoto2's device
+list](http://svn.sourceforge.net/viewcvs.cgi/*checkout*/gphoto/trunk/libgphoto2/camlibs/ptp2/library.c),
+and my [device
+list](http://cvs.gnome.org/viewcvs/*checkout*/banshee/src/Banshee.Dap/Mtp/MtpDeviceId.cs)
+in Banshee's MTP driver.
+
 The following devices are known MTP devices, recognized by libgphoto2.
 This is a direct snap from my codebase which filters out non-MTP
 devices. If you have a MTP player that's not on this list, Banshee will
