@@ -63,3 +63,5 @@ The following is a direct snap from my codebase of supported devices:
 `           new DeviceId(`“`JVC`` ``Aleno`` ``XA-HD500`”`,                          `“`JVC`` ``Aleno`”`,            0x04f1,     0x6105),`  
 `           new DeviceId(`“`Intel`` ``Bandon`` ``Portable`` ``Media`` ``Center`”`,          `“`Intel`` ``Bandon`”`,         0x045e,     0x00c9),`  
 `           new DeviceId(`“`Sandisk`` ``Sansa`` ``e200`”`,                          `“`Sansa`` ``e200`”`,           0x0781,     0x7420)`
+
+| asdf || dfg
