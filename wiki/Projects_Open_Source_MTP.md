@@ -4,9 +4,6 @@ permalink: wiki/Projects/Open_Source/MTP/
 layout: wiki
 ---
 
-{warning|This is an extremely old page with a bunch of random links.
-Disregard all content!}
-
 MTP: [Media Transfer
 Protocol](http://en.wikipedia.org/wiki/Media_transfer_protocol)
 

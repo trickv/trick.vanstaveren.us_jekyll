@@ -1,4 +1,4 @@
-{warning|This is an extremely old page with a bunch of random links.  Disregard all content!}
+{{warning|This is an extremely old page with a bunch of random links.  Disregard all content!}}
 
 MTP: [http://en.wikipedia.org/wiki/Media_transfer_protocol Media Transfer Protocol]
 
