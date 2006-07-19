@@ -30,7 +30,10 @@ me](/wiki/Contact "wikilink") and I'll help you out!
 
 ------------------------------------------------------------------------
 
-The following is a direct snap from my codebase of supported devices:
+Devices that are in Banshee's MTP Support are listed as follows. The
+**Short Name** field is what will appear in the sources list in Banshee
+- if you have a better name, let me know! There are some ugly ones, for
+example, some like the Phillips HDD6320 where I have just put HDD6320.
 
 | Long Device Name                       | Short Name      | Vendor ID | Product ID |
 |----------------------------------------|-----------------|-----------|------------|
