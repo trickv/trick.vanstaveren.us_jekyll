@@ -64,8 +64,11 @@ The following is a direct snap from my codebase of supported devices:
 `           new DeviceId(`“`Intel`` ``Bandon`` ``Portable`` ``Media`` ``Center`”`,          `“`Intel`` ``Bandon`”`,         0x045e,     0x00c9),`  
 `           new DeviceId(`“`Sandisk`` ``Sansa`` ``e200`”`,                          `“`Sansa`` ``e200`”`,           0x0781,     0x7420)`
 
-|                    |          |        |           |                    |           |        |           |                                    |              |        |           |                    |            |        |        |
-|--------------------|----------|--------|-----------|--------------------|-----------|--------|-----------|------------------------------------|--------------|--------|-----------|--------------------|------------|--------|--------|
-| | Toshiba Gigabeat | Gigabeat | 0x0930 | 0x000c |- | JVC Aleno XA-HD500 | JVC Aleno | 0x04f1 | 0x6105 |- | Intel Bandon Portable Media Center | Intel Bandon | 0x045e | 0x00c9 |- | Sandisk Sansa e200 | Sansa e200 | 0x0781 | 0x7420 |
+|                                      |              |        |        |
+|--------------------------------------|--------------|--------|--------|
+| | Toshiba Gigabeat                   | Gigabeat     | 0x0930 | 0x000c |
+| | JVC Aleno XA-HD500                 | JVC Aleno    | 0x04f1 | 0x6105 |
+| | Intel Bandon Portable Media Center | Intel Bandon | 0x045e | 0x00c9 |
+| | Sandisk Sansa e200                 | Sansa e200   | 0x0781 | 0x7420 |
 
 
