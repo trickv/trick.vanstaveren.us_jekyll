@@ -24,13 +24,13 @@ depends on [libgphoto2's device
 list](http://svn.sourceforge.net/viewcvs.cgi/*checkout*/gphoto/trunk/libgphoto2/camlibs/ptp2/library.c),
 and my [device
 list](http://cvs.gnome.org/viewcvs/*checkout*/banshee/src/Banshee.Dap/Mtp/MtpDeviceId.cs)
-in Banshee's MTP driver.
+in Banshee's MTP driver. If your device is not on both lists, it will
+not work. If you have a new device to add to the list, please [e-mail
+me](/wiki/Contact "wikilink") and I'll help you out!
 
-The following devices are known MTP devices, recognized by libgphoto2.
-This is a direct snap from my codebase which filters out non-MTP
-devices. If you have a MTP player that's not on this list, Banshee will
-refuse to recognize it - [e-mail me](/wiki/Contact "wikilink") and I'll help
-you out ASAP :)
+------------------------------------------------------------------------
+
+The following is a direct snap from my codebase of supported devices:
 
 `new DeviceId(`“`iRiver`` ``T10`` ``(alternative)`”`,                    `“`iRiver`` ``T10`”`,           0x4102,     0x1113),`  
 `new DeviceId(`“`iRiver`` ``U10`”`,                                  `“`iRiver`` ``U10`”`,           0x4102,     0x1116),`  
