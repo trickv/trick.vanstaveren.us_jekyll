@@ -6,11 +6,12 @@ layout: wiki
 
 This is a small plugin for the [Banshee Music
 Player](http://www.banshee-project.org/) and it works great. This code
-uses the [lirc-sharp](/wiki/Open_Source/lirc-sharp "wikilink") bindings that I
-have written. I use a background thread that calls Lirc.NextCommand()
-which is a blocking call, and when it returns I pull the command (which
-is one called from the system/user lircrc) and do as it intends. The
-plugin itself is incredibly simple using this set of bindings.
+uses the [lirc-sharp](/wiki/Projects/Open_Source/Lirc-sharp "wikilink")
+bindings that I have written. I use a background thread that calls
+Lirc.NextCommand() which is a blocking call, and when it returns I pull
+the command (which is one called from the system/user lircrc) and do as
+it intends. The plugin itself is incredibly simple using this set of
+bindings.
 
 In the future I'm toying with the idea of writing a standalone
 application that keeps a persistent connection with the lirc daemon, and
@@ -60,7 +61,7 @@ The compilation of this plugin isn't just plug 'n chug, but almost as
 easy...
 
 -   First, compile and install
-    [lirc-sharp](/wiki/Open_Source/lirc-sharp "wikilink").
+    [lirc-sharp](/wiki/Projects/Open_Source/Lirc-sharp "wikilink").
 -   Check out the source here, and install it. I recommend using the
     --enable-user-plugin flag so it installs to
     ~/.gnome2/banshee/plugins.
