@@ -1,3 +1,5 @@
 [[Projects/Open Source/Banshee|Banshee]]
 
 [[Projects/Open Source/Universal DAP|Universal DAP]]
+
+[[Projects/Open Source/Lirc-sharp|lirc-sharp]] is a set of Mono bindings for the [http://www.lirc.org/ LIRC] Client Library.
