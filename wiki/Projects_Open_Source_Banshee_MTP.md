@@ -121,9 +121,11 @@ Grab the latest CVS version of Banshee:
 
 ` cvs -z3 -d:pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co -P banshee`
 
-**NOTE: this will change as Gnome is moving to Subversion on July
-14th.** If you're getting errors with this command, odds are they have
-moved. Ask in \#banshee or \#gnome for help!
+**NOTE: this will change as Gnome is moving to Subversion
+(eventually).** If you're getting errors with this command, check out
+the [status of the subversion
+migration](http://live.gnome.org/Subversion). Ask in \#banshee or
+\#gnome for help!
 
 Finally, run autogen. Pass `--enable-mtp`:
 
