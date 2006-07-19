@@ -2,3 +2,6 @@
 
 
 [[Projects/Open Source/Banshee/Plugins/Lirc|Lirc]]
+
+
+[[Projects/Open Source/Banshee/Plugins/Assemblies|Assemblies]]
