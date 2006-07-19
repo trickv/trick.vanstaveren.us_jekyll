@@ -30,7 +30,7 @@ Supported Devices
 -----------------
 
 Check out the
-[Compatibility](/wiki/Projects/Open_Source/Banshee/MTP/Compatibility "wikilink")
+[compatibility](/wiki/Projects/Open_Source/Banshee/MTP/Compatibility "wikilink")
 page. [Contact](/wiki/Contact "wikilink") me if there are changes to be made
 to this list!
 

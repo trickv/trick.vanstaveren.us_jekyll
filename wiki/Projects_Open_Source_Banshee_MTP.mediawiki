@@ -8,7 +8,7 @@ Banshee.Dap.Mtp uses [http://www.gphoto.org libgphoto2].
 
 ==Supported Devices==
 
-Check out the [[Projects/Open Source/Banshee/MTP/Compatibility|Compatibility]] page.  [[Contact]] me if there are changes to be made to this list!
+Check out the [[Projects/Open Source/Banshee/MTP/Compatibility|compatibility]] page.  [[Contact]] me if there are changes to be made to this list!
 
 ==How to install==
 
