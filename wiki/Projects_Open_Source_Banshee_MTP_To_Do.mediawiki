@@ -1,0 +1,8 @@
+* Fix everything on the [[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] page.
+
+* libgphoto2 is missing some functions (these are all missing at the ptp driver level):
+** disk space level
+** battery level
+** time reading (and writing? synchronizing made easy!)
+** playlists
+** ability to read hardware & firmware revisions
