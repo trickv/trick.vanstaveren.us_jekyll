@@ -1,1 +1,4 @@
 [[Projects/Open Source/Banshee/Plugins/Wikipedia|Wikipedia]]
+
+
+[[Projects/Open Source/Banshee/Plugins/Lirc|Lirc]]
