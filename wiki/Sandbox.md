@@ -71,7 +71,7 @@ First, set up your `~/.gdbinit` file. This will instruct gdb to handle
 some special signals that Mono uses, as well as automate the managed
 code backtrace that we will be using:
 
-`cat > ~/.gdbinit << `“`EOF`”  
+`$ cat > ~/.gdbinit << `“`EOF`”  
 `handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint`  
   
 `define mono_backtrace`  
