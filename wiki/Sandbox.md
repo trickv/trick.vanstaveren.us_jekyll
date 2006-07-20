@@ -4,4 +4,96 @@ permalink: wiki/Sandbox/
 layout: wiki
 ---
 
-<rss><http://trick.vanstaveren.us/wp/?feed=rss2%7Cshort%7Cmax=5%7Ccharset=UTF-8></rss>
+Debugging Banshee
+-----------------
+
+Banshee is still under heavy development, and as such, you may encounter
+various bugs, some of which may lead to crashes. Banshee is developed
+under [Mono](http://mono-project.com/), and debugging a crash, depending
+on where the bug is, can either be easy or more difficult than with
+traditional C programs.
+
+Understanding Managed vs. Native
+--------------------------------
+
+There are two places where a crash can occur: in managed code (inside
+the Mono runtime), and in native code (C code, for example). Crashes in
+managed code usually lead to *exceptions*, and crashes in native code
+usually lead to *segmentation faults (segfault),* although it is
+possible for crashes in managed code to lead to segfaults (though this
+may indicate a bug in the Mono runtime).
+
+For the purposes of this document, “debugging” refers mainly to the act
+of reproducing a crash and obtaining a good *stack trace.* A stack trace
+helps developers isolate offending crash-causing code.
+
+A crash in managed code is usually easier to debug than a crash in
+native code. A managed crash will produce a stack trace immediately on
+an *unhandled exception.* This can then be copied and provided in bug
+reports. However, if the crash was in managed code and also caused a
+segfault, the Mono runtime will *attempt* to print a native stack trace
+as well, following the managed exception trace. While this is good,
+further debugging may be helpful in providing a more verbose native
+stack trace.
+
+Preparing to Reproduce a Crash
+------------------------------
+
+Once a crash is experienced, it is best to try to reproduce it
+immediately, under a “debugging” environment. The main requirement is to
+simply try running Banshee from a terminal, so trace information can be
+seen. However, there are a few things that can be done differently to
+produce better data.
+
+Banshee provides a `banshee` shell script that is installed to
+`$(prefix)/bin`. It sets a few environment variables, and runs the
+`mono` runtime program. This can be done manually from the command line,
+and the Mono `--debug` option can be added. This will use the `.mdb`
+files installed for each Banshee assembly to produce better managed
+stack traces (for instance, code line numbers are printed).
+
+**Run Banshee manually from command line**
+
+`$ mono --debug /usr/lib/banshee/banshee.exe`
+
+After running Banshee using this method, try reproducing the crash. If a
+managed stack trace is printed after the crash, copy and paste the trace
+into a text editor. If you notice the words “Segmentation Fault” or a
+native stack trace following a managed stack trace, further debugging
+may be necessary. If this is not the case, please file the bug, and
+include your managed trace and instructions on reproducing the crash.
+
+Getting a Backtrace for a Segfault
+----------------------------------
+
+First, set up your `~/.gdbinit` file to handle some special signals that
+Mono uses which will interfere with debugging:
+
+`echo `“`handle`` ``SIGXCPU`` ``SIG35`` ``SIG33`` ``SIGPWR`` ``nostop`` ``noprint`”` > ~/.gdbinit`
+
+Now run Banshee inside `gdb`. What follows is an example debugging
+session:
+
+`$ gdb mono`  
+`(gdb) run /usr/lib/banshee/banshee.exe`
+
+Banshee will now start to run. Once started, attempt to reproduce the
+crash. If a segfault happens (SIGSEGV), execution will be paused and you
+will return to the `gdb` prompt. Once this happens:
+
+`(gdb) bt`
+
+That will produce a stack trace. In order to resolve native function
+addresses to managed methods, you must do some special debugging. There
+will be a list of function addresses numbered from \#0 on. For the first
+two or three of these addresses (which will look like something
+`0x44bd928a`), enter the following `gdb` commands:
+
+`(gdb) p mono_print_method_from_ip (function_address)`
+
+Replacing `function_address` with a proper function address for each
+(\#0, \#1, \#2) lines in the trace.
+
+Now in your terminal, scroll up to where you issued `(gdb) bt` and
+select all the output until the last `gdb` output. This selection is
+your native trace that can be submitted on bug reports.
