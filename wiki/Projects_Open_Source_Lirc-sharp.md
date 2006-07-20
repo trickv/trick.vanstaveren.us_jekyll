@@ -7,7 +7,9 @@ layout: wiki
 These bindings aren't perfect, but will make for a great starting point
 for anyone who wants to capture LIRC button presses in a C\# program.
 
-This was designed and tested on lirc 0.8.0 only.
+This was designed and tested on lirc 0.8.0 only. It should be both
+backwards and forwards compatible as the LIRC Client API hasn't changed
+in quite a while.
 
 I have written a [simple proof-of-concept
 plugin](/wiki/Projects/Open_Source/Banshee/Plugins/banshee-lirc-plugin "wikilink")
