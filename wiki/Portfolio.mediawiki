@@ -4,7 +4,7 @@ In the mean time, here's a basic version with links to websites i've worked on..
 
 [http://www.spectrumprinters.com/ Spectrum Printers, Inc.] - I didn't design the layout, but the entire code was reworked in my years at Spectrum for a PHP template system and everything.  I redesigned the layout using Photoshop changing the theme from green to blue a while back, and it looks a lot nicer.
 
-[http://www.rha.wmich.edu The Residence Hall Association] - This actually isn't my site anymore, but I'll get online an old copy of the one I wrote.  RHA love!
+The Residence Hall Association - This actually isn't my site anymore, but I'll get online an old copy of the one I wrote.  RHA love!
 
 [http://conference.morha.net MORHA 2004 Conference] - Casey Hunt made the original design, but I made it a bit better, and I wrote the whole registration system for it.  This site has since been moved for future conferences, but I'll put online a copy of the site that I did eventually.
 
