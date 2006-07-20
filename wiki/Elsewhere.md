@@ -17,11 +17,8 @@ dirty” version of the W3 standards, easier to read, find, and search
 than the actual standards whitepapers, but not always completely up to
 date or completely extensive.
 
-Open-source related
+Open Source Related
 -------------------
-
-[The Linux Kernel Archives](http://www.kernel.org) - the home of the
-kernel to the GNU/Linux operating system.
 
 [KernelTrap](http://www.kerneltrap.org) is a news site about the Linux
 and \*BSD kernels. A lot more fun than grepping through your mbox
@@ -39,6 +36,11 @@ the Mono runtime. As with most open source projects, it's a work in
 progress, but it's really taking off these days (I currently write a LOT
 of C\# code). See the [Banshee Project](http://www.banshee-project.org)
 for an excellent show of it's capabilities.
+
+[FreeDesktop.Org](http://www.freedesktop.org): dedicated to supporting
+unification of free desktops (including Gnome, KDE, etc) by providing
+ground for setting standards, as well as hosting various software
+projects.
 
 [The Linux Documentation Project](http://www.tldp.org) is a great
 resource for all the little HOWTO's that you'd ever need - from
