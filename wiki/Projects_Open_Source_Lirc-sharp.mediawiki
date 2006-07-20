@@ -2,7 +2,7 @@ These bindings aren't perfect, but will make for a great starting point for anyo
 
 This was designed and tested on lirc 0.8.0 only.  It should be both backwards and forwards compatible as the LIRC Client API hasn't changed in quite a while.
 
-I have written a [[Projects/Open Source/Banshee/Plugins/banshee-lirc-plugin|simple proof-of-concept plugin]] for the [http://www.banshee-project.org Banshee Music Player].
+I have written a [[Projects/Open Source/Banshee/Plugins/Lirc|simple proof-of-concept plugin]] for the [http://www.banshee-project.org Banshee Music Player].
 
 It uses some icky C glue...if anyone's a real interop pro and understands how to keep a C file descriptor alive between function calls, let me know.  Maybe we can get rid of the C glue :)
 

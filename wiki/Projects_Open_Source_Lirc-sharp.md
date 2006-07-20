@@ -12,8 +12,8 @@ backwards and forwards compatible as the LIRC Client API hasn't changed
 in quite a while.
 
 I have written a [simple proof-of-concept
-plugin](/wiki/Projects/Open_Source/Banshee/Plugins/banshee-lirc-plugin "wikilink")
-for the [Banshee Music Player](http://www.banshee-project.org).
+plugin](/wiki/Projects/Open_Source/Banshee/Plugins/Lirc "wikilink") for the
+[Banshee Music Player](http://www.banshee-project.org).
 
 It uses some icky C glue...if anyone's a real interop pro and
 understands how to keep a C file descriptor alive between function
