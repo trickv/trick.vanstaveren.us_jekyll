@@ -20,16 +20,16 @@ date or completely extensive.
 Open Source Related
 -------------------
 
-[KernelTrap](http://www.kerneltrap.org) is a news site about the Linux
-and \*BSD kernels. A lot more fun than grepping through your mbox
-archive of the various kernel mailing lists for important info.
+[KernelTrap](http://www.kerneltrap.org): news site about the Linux and
+\*BSD kernels. A lot more fun than grepping through your mbox archive of
+the various kernel mailing lists for important info.
 
-[The GNOME Desktop](http://www.gnome.org) - an open source suite of
+[The GNOME Desktop](http://www.gnome.org): an open source suite of
 software designed to provide a good desktop experience while also
 providing a suite of developer libraries to integrate applications
 further into the desktop.
 
-[The Mono Project](http://www.mono-project.org) - an open source
+[The Mono Project](http://www.mono-project.org): an open source
 implementation of the .NET framework. Provides a whole host of
 programming languages that can be compiled and run as managed code with
 the Mono runtime. As with most open source projects, it's a work in
@@ -42,8 +42,8 @@ unification of free desktops (including Gnome, KDE, etc) by providing
 ground for setting standards, as well as hosting various software
 projects.
 
-[The Linux Documentation Project](http://www.tldp.org) is a great
-resource for all the little HOWTO's that you'd ever need - from
-compiling a linux kernel, setting up various system services/daemons, to
-making grilled cheese. A lot of the documentation is showing it's age
-but it is a great collection of resources.
+[The Linux Documentation Project](http://www.tldp.org): a great resource
+for all the little HOWTO's that you'd ever need - from compiling a linux
+kernel, setting up various system services/daemons, to making grilled
+cheese. A lot of the documentation is showing it's age but it is a great
+collection of resources.
