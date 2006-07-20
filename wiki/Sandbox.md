@@ -67,34 +67,43 @@ instructions on reproducing the crash.
 Getting a Backtrace for a Segfault
 ----------------------------------
 
-First, set up your `~/.gdbinit` file to handle some special signals that
-Mono uses which will interfere with debugging:
+First, set up your `~/.gdbinit` file. This will instruct gdb to handle
+some special signals that Mono uses, as well as provide the managed code
+backtrace that we will be using:
 
-`echo `“`handle`` ``SIGXCPU`` ``SIG35`` ``SIG33`` ``SIGPWR`` ``nostop`` ``noprint`”` > ~/.gdbinit`
+`cat > ~/.gdbinit << `“`EOF`”  
+`handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint`
 
-Now run Banshee inside `gdb`. What follows is an example debugging
-session:
+`define mono_backtrace`  
+` select-frame 0`  
+` set $i = 0`  
+` while ($i < $arg0)`  
+`   set $foo = mono_pmip ($pc)`  
+`   if ($foo == 0x00)`  
+`     frame`  
+`   else`  
+`     printf `“`#%d`` ``%p`` ``in`` ``%s\n`”`, $i, $pc, $foo`  
+`   end`  
+`   up-silently`  
+`   set $i = $i + 1`  
+` end`  
+`end`
 
-`$ gdb mono`  
-`(gdb) run /usr/lib/banshee/banshee.exe`
+`EOF`
+
+Now run Banshee inside `gdb`:
+
+`$ gdb --eval-command=run --args mono --debug /usr/lib/banshee/banshee.exe`
 
 Banshee will now start to run. Once started, attempt to reproduce the
 crash. If a segfault happens (SIGSEGV), execution will be paused and you
 will return to the `gdb` prompt. Once this happens:
 
-`(gdb) bt`
+`(gdb) mono_backtrace 15`
 
-That will produce a stack trace. In order to resolve native function
-addresses to managed methods, you must do some special debugging. There
-will be a list of function addresses numbered from \#0 on. For the first
-two or three of these addresses (which will look like something
-`0x44bd928a`), enter the following `gdb` commands:
+That will produce a backtrace of the last 15 calls; automatically
+showing managed names.
 
-`(gdb) p mono_print_method_from_ip (function_address)`
-
-Replacing `function_address` with a proper function address for each
-(\#0, \#1, \#2) lines in the trace.
-
-Now in your terminal, scroll up to where you issued `(gdb) bt` and
-select all the output until the last `gdb` output. This selection is
-your native trace that can be submitted on bug reports.
+Now in your terminal, scroll up to where you started `gdb` and copy all
+of the output. This selection is your native trace that will be useful
+on \[\[Bugs|bug reports\].
