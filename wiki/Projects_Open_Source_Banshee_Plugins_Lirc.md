@@ -67,10 +67,10 @@ easy...
     ~/.gnome2/banshee/plugins.
 -   Before you start banshee you need to manually copy the lirc-sharp
     library files into your plugins dir. The Makefile does not
-    automatically do this for you (it will in the future). Just run:
+    automatically do this for you. Just run:
 
 `   cp /usr/lib/lirc-sharp/* ~/.gnome2/banshee/plugins`
 
 Then, start Banshee :) That should do the trick!
 
-Send bug reports to trick AT vanstaveren DOT us :)
+Feel free to report bugs to me [via e-mail](/wiki/Contact "wikilink")!
