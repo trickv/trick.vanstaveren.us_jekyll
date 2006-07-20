@@ -61,8 +61,8 @@ managed stack trace is printed after the crash, copy and paste the trace
 into a text editor. If you notice the words “Segmentation Fault” or a
 native stack trace following a managed stack trace, further debugging
 may be necessary. If this is not the case, please [file the
-bug](/wiki/Bugs "wikilink"), and include your managed trace and instructions
-on reproducing the crash.
+bug](/wiki/Bugs "wikilink"), and include your full managed trace and
+instructions on reproducing the crash.
 
 Getting a Backtrace for a Segfault
 ----------------------------------
