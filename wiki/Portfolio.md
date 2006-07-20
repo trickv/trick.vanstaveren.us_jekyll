@@ -16,16 +16,15 @@ Spectrum for a PHP template system and everything. I redesigned the
 layout using Photoshop changing the theme from green to blue a while
 back, and it looks a lot nicer.
 
-The Residence Hall Association - This actually isn't my site anymore,
-but I'll get online an old copy of the one I wrote. RHA love!
+**The Residence Hall Association** - This actually isn't my site
+anymore, but I'll get online an old copy of the one I wrote. RHA love!
 
-[MORHA 2004 Conference](http://conference.morha.net) - Casey Hunt made
-the original design, but I made it a bit better, and I wrote the whole
-registration system for it. This site has since been moved for future
-conferences, but I'll put online a copy of the site that I did
-eventually.
+**MORHA 2004 Conference** - Casey Hunt made the original design, but I
+made it a bit better, and I wrote the whole registration system for it.
+This site has since been moved for future conferences, but I'll put
+online a copy of the site that I did eventually.
 
-WASS - Web-based Advising Scheduling System - my senior design project.
-Since this code technically belongs to the University, I'm not sure that
-I can publicly post it. If not, I'm sure I can drop in some screen shots
-- it's pretty sweet :)
+**WASS - Web-based Advising Scheduling System** - my senior design
+project. Since this code technically belongs to the University, I'm not
+sure that I can publicly post it. If not, I'm sure I can drop in some
+screen shots - it's pretty sweet :)
