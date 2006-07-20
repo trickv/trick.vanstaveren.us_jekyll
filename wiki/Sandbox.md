@@ -106,7 +106,7 @@ showing managed names.
 
 Now in your terminal, scroll up to where you started `gdb` and copy all
 of the output. This selection is your native trace that will be useful
-on \[\[Bugs|bug reports\].
+on [bug reports](/wiki/Bugs "wikilink").
 
 Other Resources
 ---------------
