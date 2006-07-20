@@ -15,10 +15,10 @@ bindings.
 
 In the future I'm toying with the idea of writing a standalone
 application that keeps a persistent connection with the lirc daemon, and
-would interface with Banshee using it's DBUS interface. This would also
+would interface with Banshee using it's D-Bus interface. This would also
 allow Banshee to be launched remotely, and would isolate any problems
 that may arise from the two programs. The only con of this approach is
-that I might have to do some work to extend the Banshee DBUS interface,
+that I might have to do some work to extend the Banshee D-Bus interface,
 but that would be a good thing for Banshee in the long run :)
 
 Ideas to work on:
