@@ -47,3 +47,15 @@ for all the little HOWTO's that you'd ever need - from compiling a linux
 kernel, setting up various system services/daemons, to making grilled
 cheese. A lot of the documentation is showing it's age but it is a great
 collection of resources.
+
+Other Places Relating to Me
+---------------------------
+
+[Sting](http://sting.vanstaveren.us:8000/), my trusty
+webserver/firewall/network server. Named after Bilbo/Frodo's sword that
+glows when the orcs are near, this box keeps both itself and my other
+computers safe and sound. It also provides a few public services that my
+ISP hasn't discovered yet. Unfortunately I cannot run my webserver on
+port 80 - so it's on port 8000. There you will find links to a ViewVC of
+my local subversion repository, and a nifty patch browser that I put
+together for when I want to host a patch.
