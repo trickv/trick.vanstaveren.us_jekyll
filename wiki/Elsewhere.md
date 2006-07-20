@@ -4,8 +4,8 @@ permalink: wiki/Elsewhere/
 layout: wiki
 ---
 
-Web coding and related
-----------------------
+Web Coding
+----------
 
 [The World Wide Web Consortum](http://www.w3.org) develops and maintains
 standards for Internet protocols. Excellent reference for expert
@@ -35,7 +35,13 @@ further into the desktop.
 [The Mono Project](http://www.mono-project.org) - an open source
 implementation of the .NET framework. Provides a whole host of
 programming languages that can be compiled and run as managed code with
-the mono runtime. As with most open source projects, it's a work in
+the Mono runtime. As with most open source projects, it's a work in
 progress, but it's really taking off these days (I currently write a LOT
 of C\# code). See the [Banshee Project](http://www.banshee-project.org)
 for an excellent show of it's capabilities.
+
+[The Linux Documentation Project](http://www.tldp.org) is a great
+resource for all the little HOWTO's that you'd ever need - from
+compiling a linux kernel, setting up various system services/daemons, to
+making grilled cheese. A lot of the documentation is showing it's age
+but it is a great collection of resources.
