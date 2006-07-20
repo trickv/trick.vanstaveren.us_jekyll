@@ -107,3 +107,10 @@ showing managed names.
 Now in your terminal, scroll up to where you started `gdb` and copy all
 of the output. This selection is your native trace that will be useful
 on \[\[Bugs|bug reports\].
+
+Other Resources
+---------------
+
+If you would like to learn a lot more about debugging Mono applications,
+read the Mono Project's
+[Debugging](http://www.mono-project.com/Debugging) page.

@@ -56,3 +56,7 @@ Banshee will now start to run. Once started, attempt to reproduce the crash. If 
 That will produce a backtrace of the last 15 calls; automatically showing managed names.
 
 Now in your terminal, scroll up to where you started <code>gdb</code> and copy all of the output. This selection is your native trace that will be useful on [[Bugs|bug reports].
+
+==Other Resources==
+
+If you would like to learn a lot more about debugging Mono applications, read the Mono Project's [http://www.mono-project.com/Debugging Debugging] page.
