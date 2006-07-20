@@ -59,4 +59,4 @@ Now in your terminal, scroll up to where you started <code>gdb</code> and copy a
 
 ==Other Resources==
 
-If you would like to learn a lot more about debugging Mono applications, read the Mono Project's [http://www.mono-project.com/Debugging Debugging] page.
+If you would like to learn a lot more about debugging Mono applications by displaying all exceptions, getting threaded stack traces, and tracing program flow in some or all namespaces, read the Mono Project's [http://www.mono-project.com/Debugging Debugging] page.

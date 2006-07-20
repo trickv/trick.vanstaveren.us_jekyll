@@ -111,6 +111,7 @@ on [bug reports](/wiki/Bugs "wikilink").
 Other Resources
 ---------------
 
-If you would like to learn a lot more about debugging Mono applications,
-read the Mono Project's
+If you would like to learn a lot more about debugging Mono applications
+by displaying all exceptions, getting threaded stack traces, and tracing
+program flow in some or all namespaces, read the Mono Project's
 [Debugging](http://www.mono-project.com/Debugging) page.
