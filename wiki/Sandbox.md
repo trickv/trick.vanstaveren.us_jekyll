@@ -72,8 +72,8 @@ some special signals that Mono uses, as well as automate the managed
 code backtrace that we will be using:
 
 `cat > ~/.gdbinit << `“`EOF`”  
-`handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint`
-
+`handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint`  
+  
 `define mono_backtrace`  
 ` select-frame 0`  
 ` set $i = 0`  
@@ -87,8 +87,8 @@ code backtrace that we will be using:
 `   up-silently`  
 `   set $i = $i + 1`  
 ` end`  
-`end`
-
+`end`  
+  
 `EOF`
 
 Now run Banshee inside `gdb`:

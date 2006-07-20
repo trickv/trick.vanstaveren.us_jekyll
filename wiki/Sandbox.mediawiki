@@ -27,7 +27,7 @@ First, set up your <code>~/.gdbinit</code> file.  This will instruct gdb to hand
 
  cat > ~/.gdbinit << "EOF"
  handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint
-
+ 
  define mono_backtrace
   select-frame 0
   set $i = 0
@@ -42,7 +42,7 @@ First, set up your <code>~/.gdbinit</code> file.  This will instruct gdb to hand
     set $i = $i + 1
   end
  end
-
+ 
  EOF
 
 Now run Banshee inside <code>gdb</code>:
