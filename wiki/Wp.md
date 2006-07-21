@@ -4,5 +4,5 @@ permalink: wiki/Wp/
 layout: wiki
 ---
 
-1.  REDIRECT [My Log](http://trick.vanstaveren.us/wp)
-
+You can find my web log at
+[<http://trick.vanstaveren.us/wp>](http://trick.vanstaveren.us/wp).
