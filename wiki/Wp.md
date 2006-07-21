@@ -1,8 +1,7 @@
 ---
 title: Wp
 permalink: wiki/Wp/
-layout: wiki
+redirect_to: /wiki/http://trick.vanstaveren.us/wp/
 ---
 
-1.  REDIRECT [1](http://trick.vanstaveren.us/wp)
-
+You should automatically be redirected to [http://trick.vanstaveren.us/wp](/wiki/http://trick.vanstaveren.us/wp/)
