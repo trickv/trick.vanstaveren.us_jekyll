@@ -121,5 +121,4 @@ Also, check out [[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] and t
 
 ===Icons===
 
-I'm working on some icons [[
-rojects/Open_Source/Banshee/MTP/Icons|here]].
+I'm working on some icons [[Projects/Open_Source/Banshee/MTP/Icons|here]].
