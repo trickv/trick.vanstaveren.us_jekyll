@@ -6,7 +6,7 @@ layout: wiki
 
 Holding space for this file:
 
-[1](http://tricky.vanstaveren.us/images/4/4e/Multimedia-player-creative-zen-micro-black.svg%7CMultimedia-player-creative-zen-micro-black.svg)
+[Multimedia-player-creative-zen-micro-black.svg](http://tricky.vanstaveren.us/images/4/4e/Multimedia-player-creative-zen-micro-black.svg)
 
 Of course, MW capitalizes the first letter...rename it.
 
