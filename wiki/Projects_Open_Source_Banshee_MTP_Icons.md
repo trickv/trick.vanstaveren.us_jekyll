@@ -6,7 +6,7 @@ layout: wiki
 
 Holding space for this file:
 
-![](Multimedia-player-creative-zen-micro-black.svg "Multimedia-player-creative-zen-micro-black.svg")
+[1](http://tricky.vanstaveren.us/images/4/4e/Multimedia-player-creative-zen-micro-black.svg)
 
 In the future when I make a few adjustments, it'll be easy to whip up a
 shell script to make all color varieties. Other colors can be seen
