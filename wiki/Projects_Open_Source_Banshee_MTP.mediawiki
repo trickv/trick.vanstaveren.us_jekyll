@@ -118,3 +118,8 @@ Please, by all means, report bugs.  There are so many possible bugs in this code
 As with reporting bugs, patches are more than welcome.  I've been experiencing a few troubles, particularly with shutting down banshee after making a transfer.  I'm pretty sure that they're native-code related, but I have no clue where (as of yet).  Please post patches to bugzilla!
 
 Also, check out [[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] and the [[Projects/Open Source/Banshee/MTP/To Do|To Do]] list.
+
+===Icons===
+
+I'm working on some icons [[
+rojects/Open_Source/Banshee/MTP/Icons|here]].

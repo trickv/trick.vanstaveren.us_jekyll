@@ -195,3 +195,8 @@ bugzilla!
 Also, check out [Known
 Bugs](/wiki/Projects/Open_Source/Banshee/MTP/Known_Bugs "wikilink") and the
 [To Do](/wiki/Projects/Open_Source/Banshee/MTP/To_Do "wikilink") list.
+
+### Icons
+
+I'm working on some icons
+[here](rojects/Open_Source/Banshee/MTP/Icons "wikilink").
