@@ -1,0 +1,1 @@
+[[Projects/Open Source/Packages/Slackware/IFolder|iFolder]] packages for Slackware 10.2
