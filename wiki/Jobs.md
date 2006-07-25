@@ -44,3 +44,6 @@ first](http://aol.careerbuilder.com/JobSeeker/Jobs/JobResults.aspx?sc=2&IPath=JR
 [2](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=Aku3UOuK9wVOoSqW9Fh.mhf6Q6IX?job_id=J929456BZ)
 
 [3](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=AqHbxD32ijFI0bB9t3yu7__6Q6IX?job_id=JNG99BOR0)
+
+**ChicagoJobs**
+[4](http://cj.chicagojobs.com/candidate/processcandviewjob?docid=A0256-192B6&source=search)
