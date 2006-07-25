@@ -55,3 +55,8 @@ Chicago Reader - IT Full Time Jobs\]
 **JobsInChicago**
 
 [4](http://www.jobsinchicago.com/view_chicago_jobs.cfm?id=1458&start=1&searchit=no_search&jobtype=13)
+
+RSS
+---
+
+[BlogLines account](http://www.bloglines.com/myblogs)
