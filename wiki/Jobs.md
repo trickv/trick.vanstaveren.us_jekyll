@@ -10,6 +10,9 @@ layout: wiki
 
 [<http://hotjobs.yahoo.com/>](http://hotjobs.yahoo.com/)
 
+[AOL job search for IT sorted by newest
+first](http://aol.careerbuilder.com/JobSeeker/Jobs/JobResults.aspx?sc=2&IPath=JRKGT&excrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bOB%3d-modifiedint%3bJQT%3dRAD&sd=2)
+
 ### to apply for
 
 \[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=113&job_did=J7X37F6CLSBMTSFXTSL&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=1&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dgt120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD\]
@@ -22,12 +25,9 @@ layout: wiki
 
 \[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=113&job_did=J8H2Z06KJH6MD2LKX97&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=1&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dgt120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD\]
 
-where i left off at aol.com:
-[1](http://aol.careerbuilder.com/JobSeeker/Jobs/JobResults.aspx?IPath=JRKGT&pg=2&excrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dgt120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD)
-
 randomness:
 -----------
 
-[2](http://www.jobsinchicago.com/view_chicago_jobs.cfm?id=1458&start=1&searchit=no_search&jobtype=13)
+[1](http://www.jobsinchicago.com/view_chicago_jobs.cfm?id=1458&start=1&searchit=no_search&jobtype=13)
 
-[3](http://www.jobsinchicago.com/view_chicago_jobs.cfm?id=1473&start=1&searchit=no_search&jobtype=13)
+[2](http://www.jobsinchicago.com/view_chicago_jobs.cfm?id=1473&start=1&searchit=no_search&jobtype=13)
