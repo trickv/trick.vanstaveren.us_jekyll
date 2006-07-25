@@ -16,6 +16,8 @@ first](http://aol.careerbuilder.com/JobSeeker/Jobs/JobResults.aspx?sc=2&IPath=JR
 \[<http://classifieds.chicagoreader.com/chicago/Results?sort=Random&subsection=oid%3A27048&jobType=Full-time&searchPhrase>=&submit=
 Chicago Reader - IT Full Time Jobs\]
 
+[ChicagoJobs.com](http://www.chicagojobs.com/)
+
 ### to apply for
 
 **AOL:**
