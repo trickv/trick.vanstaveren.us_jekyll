@@ -12,3 +12,6 @@ layout: wiki
 Mono bindings for the [LIRC](http://www.lirc.org/) Client Library.
 
 [MTP](/wiki/Projects/Open_Source/MTP "wikilink") links
+
+[Packages](/wiki/Projects/Open_Source/Packages "wikilink") for various Linux
+distributions

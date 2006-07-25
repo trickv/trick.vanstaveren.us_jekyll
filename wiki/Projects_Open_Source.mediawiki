@@ -5,3 +5,5 @@
 [[Projects/Open Source/Lirc-sharp|lirc-sharp]] is a set of Mono bindings for the [http://www.lirc.org/ LIRC] Client Library.
 
 [[Projects/Open Source/MTP|MTP]] links
+
+[[Projects/Open Source/Packages|Packages]] for various Linux distributions
