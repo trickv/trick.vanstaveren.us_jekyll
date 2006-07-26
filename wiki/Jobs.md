@@ -54,6 +54,7 @@ Application sent.
 **ChicagoJobs**
 
 [3](http://cj.chicagojobs.com/candidate/processcandviewjob?docid=A0256-192B6&source=search)
+Must fax resume.
 
 **JobsInChicago**
 
