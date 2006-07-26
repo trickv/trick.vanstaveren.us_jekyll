@@ -32,27 +32,8 @@ Application sent.
 \[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=112&job_did=J8C06G6BW0WGKS00HCC&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=2&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD
 Network Analyst, Potbelly Sandwich Works\]. Application sent.
 
-\[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=112&job_did=J8F5HF67CKJ89F4XJBT&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=2&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD
-Web Intern for Depression/Bipolar site.\] Not applying for.
-
-\[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=113&job_did=J8H2Z06KJH6MD2LKX97&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=1&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dgt120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD
-cars.com salesrep.\] Not applying.
-
 \[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=115&job_did=J8C47Q6Q1CRY9G9JWP8&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=2&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD
 Junior Programmer\]. Application sent.
-
-\[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=115&job_did=J8C06G6BW0WGKS00HCC&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=2&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD
-dupe - potbelly sandwiches\]
-
-\[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=114&job_did=J8C47Q6Q1CRY9G9JWP8&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=1&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bOB%3d-modifiedint%3bJQT%3dRAD
-dupe - junior programmer\]
-
-\[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=114&job_did=J3G6WZ6L19ZVBMG2QQB&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=1&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bOB%3d-modifiedint%3bJQT%3dRAD
-c/c\# developer - hewitt associates\]. not applying - in lincolnshire,
-il
-
-\[<http://aol.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?IPath=JRKGT&jobcount=114&job_did=J8C47Q6Q1CRY9G9JWP8&sfascc=entry+level&dv=dv&jrdid>=&lpage=5&sname=&CiBookMark=1&strcrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID\_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bOB%3d-modifiedint%3bJQT%3dRAD
-dupe- junior programmer\]
 
 **Yahoo hotjobs**
 
@@ -65,10 +46,6 @@ Corporation](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=A
 Application sent.
 
 **ChicagoJobs**
-
-[s/w
-engin.](http://cj.chicagojobs.com/candidate/processcandviewjob?docid=A0256-192B6&source=search)
-Must fax resume. not applying - Elgin area.
 
 **JobsInChicago**
 
