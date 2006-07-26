@@ -51,11 +51,13 @@ Application sent.
 International](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=Aku3UOuK9wVOoSqW9Fh.mhf6Q6IX?job_id=J929456BZ).
 Application sent.
 
-[1](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=AqHbxD32ijFI0bB9t3yu7__6Q6IX?job_id=JNG99BOR0)
+[Software Engineer: The Thomson
+Corporation](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=AqHbxD32ijFI0bB9t3yu7__6Q6IX?job_id=JNG99BOR0).
+Application sent.
 
 **ChicagoJobs**
 
-[2](http://cj.chicagojobs.com/candidate/processcandviewjob?docid=A0256-192B6&source=search)
+[1](http://cj.chicagojobs.com/candidate/processcandviewjob?docid=A0256-192B6&source=search)
 Must fax resume.
 
 **JobsInChicago**
