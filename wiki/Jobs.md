@@ -57,8 +57,6 @@ Application sent.
 
 **JobsInChicago**
 
-[4](http://www.jobsinchicago.com/view_chicago_jobs.cfm?id=1458&start=1&searchit=no_search&jobtype=13)
-
 RSS
 ---
 
