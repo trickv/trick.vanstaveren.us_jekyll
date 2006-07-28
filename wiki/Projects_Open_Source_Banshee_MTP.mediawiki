@@ -1,4 +1,11 @@
-Subpages: [[Compatibility]] [[Patches]] [[FAQ]] [[Known Bugs]] [[Playlists]] [[To Do]] [[Icons]]
+Subpages: 
+[[Projects/Open Source/Banshee/MTP/Compatibility]]
+[[Projects/Open Source/Banshee/MTP/FAQ]]
+[[Projects/Open Source/Banshee/MTP/Icons]]
+[[Projects/Open Source/Banshee/MTP/Known Bugs]]
+[[Projects/Open Source/Banshee/MTP/Patches]]
+[[Projects/Open Source/Banshee/MTP/Playlists]]
+[[Projects/Open Source/Banshee/MTP/To Do]]
 
 ==About MTP==
 

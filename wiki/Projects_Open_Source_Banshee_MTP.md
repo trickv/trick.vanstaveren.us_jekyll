@@ -4,10 +4,20 @@ permalink: wiki/Projects/Open_Source/Banshee/MTP/
 layout: wiki
 ---
 
-Subpages: [Compatibility](/wiki/Compatibility "wikilink")
-[Patches](/wiki/Patches "wikilink") [FAQ](FAQ "wikilink") [Known
-Bugs](/wiki/Known_Bugs "wikilink") [Playlists](Playlists "wikilink") [To
-Do](/wiki/To_Do "wikilink") [Icons](Icons "wikilink")
+Subpages: [Projects/Open
+Source/Banshee/MTP/Compatibility](/wiki/Projects/Open_Source/Banshee/MTP/Compatibility "wikilink")
+[Projects/Open
+Source/Banshee/MTP/FAQ](/wiki/Projects/Open_Source/Banshee/MTP/FAQ "wikilink")
+[Projects/Open
+Source/Banshee/MTP/Icons](/wiki/Projects/Open_Source/Banshee/MTP/Icons "wikilink")
+[Projects/Open Source/Banshee/MTP/Known
+Bugs](/wiki/Projects/Open_Source/Banshee/MTP/Known_Bugs "wikilink")
+[Projects/Open
+Source/Banshee/MTP/Patches](/wiki/Projects/Open_Source/Banshee/MTP/Patches "wikilink")
+[Projects/Open
+Source/Banshee/MTP/Playlists](/wiki/Projects/Open_Source/Banshee/MTP/Playlists "wikilink")
+[Projects/Open Source/Banshee/MTP/To
+Do](/wiki/Projects/Open_Source/Banshee/MTP/To_Do "wikilink")
 
 About MTP
 ---------
