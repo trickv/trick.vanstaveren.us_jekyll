@@ -13,8 +13,8 @@ layout: wiki
 [AOL job search for IT sorted by newest
 first](http://aol.careerbuilder.com/JobSeeker/Jobs/JobResults.aspx?sc=2&IPath=JRKGT&excrit=QID%3dA6653234762533%3bst%3dA%3buse%3dALL%3brawWords%3dentry+level%3bTID%3d113474%3bCTY%3dCHICAGO%3bSID%3dIL%3bCID%3dUS%3bENR%3dNO%3bDTP%3dDR3%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bJN%3dJN008%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dAL%3bQS%3dSID_CBAOL003%3bSS%3dNO%3bTITL%3d0%3bOB%3d-modifiedint%3bJQT%3dRAD&sd=2)
 
-\[<http://classifieds.chicagoreader.com/chicago/Results?sort=Random&subsection=oid%3A27048&jobType=Full-time&searchPhrase>=&submit=
-Chicago Reader - IT Full Time Jobs\]
+[Chicago Reader - IT Full Time
+Jobs](http://classifieds.chicagoreader.com/gyrobase/Results?sort=date&subsection=oid%3A27048&jobType=Full-time)
 
 [ChicagoJobs.com](http://www.chicagojobs.com/)
 
