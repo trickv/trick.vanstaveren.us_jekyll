@@ -1,11 +1,11 @@
-Subpages: 
-[[Projects/Open Source/Banshee/MTP/Compatibility|Compatibility]]
-[[Projects/Open Source/Banshee/MTP/FAQ|FAQ]]
-[[Projects/Open Source/Banshee/MTP/Icons|Icons]]
-[[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]]
-[[Projects/Open Source/Banshee/MTP/Patches|Patches]]
-[[Projects/Open Source/Banshee/MTP/Playlists|Playlists]]
-[[Projects/Open Source/Banshee/MTP/To Do|To Do]]
+'''
+[[Projects/Open Source/Banshee/MTP/Compatibility|Compatibility]] |
+[[Projects/Open Source/Banshee/MTP/FAQ|FAQ]] |
+[[Projects/Open Source/Banshee/MTP/Icons|Icons]] |
+[[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] |
+[[Projects/Open Source/Banshee/MTP/Patches|Patches]] |
+[[Projects/Open Source/Banshee/MTP/Playlists|Playlists]] |
+[[Projects/Open Source/Banshee/MTP/To Do|To Do]] '''
 
 ==About MTP==
 
