@@ -1,5 +1,4 @@
-'''
-[[Projects/Open Source/Banshee/MTP/Compatibility|Compatibility]] |
+''' [[Projects/Open Source/Banshee/MTP/Compatibility|Compatibility]] |
 [[Projects/Open Source/Banshee/MTP/FAQ|FAQ]] |
 [[Projects/Open Source/Banshee/MTP/Icons|Icons]] |
 [[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] |
