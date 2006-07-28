@@ -1,3 +1,5 @@
+Subpages: [[Compatibility]] [[Patches]] [[FAQ]] [[Known Bugs]] [[Playlists]] [[To Do]] [[Icons]]
+
 ==About MTP==
 
 Check out the [http://en.wikipedia.org/wiki/Media_Transfer_Protocol Media Transfer Protocol] page on [http://www.wikipedia.org Wikipedia].

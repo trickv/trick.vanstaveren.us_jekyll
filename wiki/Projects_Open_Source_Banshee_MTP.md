@@ -4,6 +4,11 @@ permalink: wiki/Projects/Open_Source/Banshee/MTP/
 layout: wiki
 ---
 
+Subpages: [Compatibility](/wiki/Compatibility "wikilink")
+[Patches](/wiki/Patches "wikilink") [FAQ](FAQ "wikilink") [Known
+Bugs](/wiki/Known_Bugs "wikilink") [Playlists](Playlists "wikilink") [To
+Do](/wiki/To_Do "wikilink") [Icons](Icons "wikilink")
+
 About MTP
 ---------
 
