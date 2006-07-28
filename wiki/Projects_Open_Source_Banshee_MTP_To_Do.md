@@ -27,3 +27,7 @@ layout: wiki
 -   Caching of metadata (dangerous - how do we keep the user informed,
     or automatically check the cache status?)
 
+<!-- -->
+
+-   Copying tracks from DAP to other sources (IImporter::Import methods)
+
