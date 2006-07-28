@@ -29,5 +29,8 @@ layout: wiki
 
 <!-- -->
 
--   Copying tracks from DAP to other sources (IImporter::Import methods)
+-   Generic reading from MTP DAP support
+    -   Copying tracks from DAP to other sources (IImporter::Import
+        methods)
+    -   Playback?
 
