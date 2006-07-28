@@ -14,6 +14,16 @@ layout: wiki
     -   disk space level
     -   battery level
     -   time reading (and writing? synchronizing made easy!)
-    -   playlists
+    -   playlist writing
     -   ability to read hardware & firmware revisions
+    -   owner name
+
+<!-- -->
+
+-   Purging of empty directories at the end of a sync
+
+<!-- -->
+
+-   Caching of metadata (dangerous - how do we keep the user informed,
+    or automatically check the cache status?)
 
