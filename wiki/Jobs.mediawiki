@@ -14,6 +14,16 @@
 
 [http://jobs.uchicago.com U of C]
 
+073336 - Desktop Support Specialist - Dept 22250-PSD-Admin
+073452 - Graphics Design & Digital Media Specialist - Dept 454770301 - Library-Digital Library Systems (Web programmer)
+072884 - Help Desk Support Specialist - Dept 44456-NSIT-Desktop & Personal Computing
+073598,9 - Microcomputer Support Analyst - Dept 30344-GSB-Computing Services (Tech Support)
+073428
+073520
+073600 - UNIX System Administrator - UNIX based administration
+073169
+
+
 Robert Morris
 
 UIC
