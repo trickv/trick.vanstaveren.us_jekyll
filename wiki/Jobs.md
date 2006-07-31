@@ -39,7 +39,8 @@ Art Institute of Chicago
 
 [Columbia College](http://www.colum.edu)
 
-### to apply for
+to apply for
+------------
 
 **AOL:**
 
