@@ -20,6 +20,25 @@ Jobs](http://classifieds.chicagoreader.com/gyrobase/Results?sort=date&subsection
 
 [ChicagoJobs.com](http://www.chicagojobs.com/)
 
+Universities & Colleges
+-----------------------
+
+U of C
+
+Robert Morris
+
+UIC
+
+Northwestern (evanston)
+
+Loyola
+
+DePaul
+
+Art Institute of Chicago
+
+Columbia College
+
 ### to apply for
 
 **AOL:**
