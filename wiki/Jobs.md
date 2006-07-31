@@ -39,8 +39,8 @@ Art Institute of Chicago
 
 [Columbia College](http://www.colum.edu)
 
-to apply for
-------------
+Applications Out
+----------------
 
 **AOL:**
 
@@ -78,7 +78,8 @@ Application sent.
 
 [Braincannon/KCN Tech - web
 developer](http://classifieds.chicagoreader.com/chicago/ViewAd?oid=oid%3A237134).
-Resume sent via email.
+Resume sent via email. Called 7/31 3PM - Willing to look more into a
+part time, telecommute from Kzoo until move.
 
 RSS
 ---
