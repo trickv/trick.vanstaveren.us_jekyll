@@ -31,7 +31,7 @@ UIC
 
 Northwestern (evanston)
 
-Loyola
+[Loyola](http://www.careers.luc.edu)
 
 DePaul
 
