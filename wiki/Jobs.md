@@ -23,7 +23,7 @@ Jobs](http://classifieds.chicagoreader.com/gyrobase/Results?sort=date&subsection
 Universities & Colleges
 -----------------------
 
-U of C
+[U of C](http://jobs.uchicago.com)
 
 Robert Morris
 
@@ -37,7 +37,7 @@ DePaul
 
 Art Institute of Chicago
 
-Columbia College
+[Columbia College](http://www.colum.edu)
 
 ### to apply for
 
