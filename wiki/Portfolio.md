@@ -4,17 +4,10 @@ permalink: wiki/Portfolio/
 layout: wiki
 ---
 
-For years, I have been wanting to put together a live demo of all the
-major websites that I've written/maintained as a portfolio, of sorts.
-
-In the mean time, here's a basic version with links to websites i've
-worked on...someday I'll transport them all to this site. Enjoy.
-
-[Spectrum Printers, Inc.](http://www.spectrumprinters.com/) - I didn't
-design the layout, but the entire code was reworked in my years at
-Spectrum for a PHP template system and everything. I redesigned the
-layout using Photoshop changing the theme from green to blue a while
-back, and it looks a lot nicer.
+Here are a few professional or organizational webistes that I have
+worked on in the past. If there is no link, odds are that the page has
+been changed since I used to work on it and I have not created a
+separate copy for demo uses.
 
 [WASS - Web-based Advising Scheduling
 System](http://portfolio-wass.vanstaveren.us/) - my senior design
@@ -24,10 +17,17 @@ employers. This site was put together in a real hurry - only about six
 weeks of 10-hour-a-week during the development phase and a very short
 testing & bug-hunting phase. The CEAS Advising & Admissions office has
 been using this application during Summer, 2006 as their primary
-scheduling system.
+scheduling system. Source code can be made available to prospective
+employers.
+
+[Spectrum Printers, Inc.](http://www.spectrumprinters.com/) - I didn't
+design the layout, but the entire code was reworked in my years at
+Spectrum for a PHP template system and everything. Source code can be
+made available at request but it is copyrighted by Spectrum Printers,
+Inc.
 
 **The Residence Hall Association** - This actually isn't my site
-anymore, but I'll get online an old copy of the one I wrote. RHA love!
+anymore, but I'll get online an old copy of the one I wrote.
 
 **MORHA 2004 Conference** - Casey Hunt made the original design, but I
 made it a bit better, and I wrote the whole registration system for it.
