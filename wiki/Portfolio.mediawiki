@@ -8,4 +8,4 @@ In the mean time, here's a basic version with links to websites i've worked on..
 
 '''MORHA 2004 Conference''' - Casey Hunt made the original design, but I made it a bit better, and I wrote the whole registration system for it.  This site has since been moved for future conferences, but I'll put online a copy of the site that I did eventually.
 
-'''WASS - Web-based Advising Scheduling System''' - my senior design project.  Since this code technically belongs to the University, I'm not sure that I can publicly post it.  If not, I'm sure I can drop in some screen shots - it's pretty sweet :)
+[http://portfolio-wass.vanstaveren.us/ WASS - Web-based Advising Scheduling System] - my senior design project.  Since this code technically belongs to the University, there's no demo username/password and I will only give this out to prospective employers.  This site was put together in a real hurry - only about six weeks of 10-hour-a-week during the development phase and a very short testing & bug-hunting phase.  The CEAS Advising & Admissions office has been using this application during Summer, 2006 as their primary scheduling system.
