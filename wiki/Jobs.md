@@ -24,6 +24,7 @@ Universities & Colleges
 -----------------------
 
 [U of C](http://jobopportunities.uchicago.edu/)
+username=patrickvanstaveren
 
 073336 - Desktop Support Specialist - Dept 22250-PSD-Admin 073452 -
 Graphics Design & Digital Media Specialist - Dept 454770301 -
