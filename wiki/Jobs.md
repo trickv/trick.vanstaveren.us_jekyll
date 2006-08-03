@@ -73,9 +73,7 @@ U of C NORC - Programmer\]. Application Sent. Auto confirm recieved.
 
 [Entry Level Developer: Mintel
 International](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=Aku3UOuK9wVOoSqW9Fh.mhf6Q6IX?job_id=J929456BZ).
-Application sent. Auto Confirmation recieved.
-<span style="color: red; ">First contact - pre-screening - still need to
-send in!</span>
+Application sent. Auto Confirmation recieved. Sent in test stuff.
 
 [Software Engineer: The Thomson
 Corporation](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=AqHbxD32ijFI0bB9t3yu7__6Q6IX?job_id=JNG99BOR0).
