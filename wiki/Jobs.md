@@ -23,7 +23,7 @@ Jobs](http://classifieds.chicagoreader.com/gyrobase/Results?sort=date&subsection
 Universities & Colleges
 -----------------------
 
-[U of C](http://jobs.uchicago.com)
+[U of C](http://jobopportunities.uchicago.edu/)
 
 073336 - Desktop Support Specialist - Dept 22250-PSD-Admin 073452 -
 Graphics Design & Digital Media Specialist - Dept 454770301 -
