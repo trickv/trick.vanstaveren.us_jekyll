@@ -10,7 +10,8 @@ If you are actually trying to get in touch with him, check out the
 [contact](/wiki/Contact "wikilink") page!
 
 I also have a computer named [sting](/wiki/Computers/Sting "wikilink") who
-hosts some other, more fun stuff of mine.
+[hosts some other, more fun stuff](http://sting.vanstaveren.us:8000/) of
+mine.
 
 **Recent entries to [My Log](http://trick.vanstaveren.us/wp):**
 
