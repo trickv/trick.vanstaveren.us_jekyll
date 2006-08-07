@@ -1,0 +1,15 @@
+---
+title: Computers/Sting
+permalink: wiki/Computers/Sting/
+layout: wiki
+---
+
+Sting, my fabulous dual P2-350 128meg ram server/firewall/etc box.
+
+It runs lots of fun software, including:
+
+-   Slackware 10.2, DropLine Gnome 2.14
+-   Apache 2.0 web server, with mod\_mono
+-   ifolder 3.5 server (instructions will come soon on
+    [Log](/wiki/Log "wikilink")
+
