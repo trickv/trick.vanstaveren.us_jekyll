@@ -9,3 +9,5 @@ It runs lots of fun software, including:
 * Subversion server
 * TightVNC server(s)
 * Netfilter firewall, with traffic shaping marking and l7_filter added on
+
+You can visit sting's web interface at [http://sting.vanstaveren.us:8000/ sting.vanstaveren.us:8000]

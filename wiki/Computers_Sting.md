@@ -20,3 +20,5 @@ It runs lots of fun software, including:
 -   Netfilter firewall, with traffic shaping marking and l7\_filter
     added on
 
+You can visit sting's web interface at
+[sting.vanstaveren.us:8000](http://sting.vanstaveren.us:8000/)
