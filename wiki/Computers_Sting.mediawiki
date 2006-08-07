@@ -4,9 +4,10 @@ It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline Gnome 2
 * Apache 2.0 web server, with mod_mono & PHP 5
 ** hosts lots of little bits 'n pieces of fun stuff, including iFolder
 * iFolder 3.5 server (instructions will come soon on [[Log]])
-* SSH server
+* SSH, FTP, TightVNC services
+* Testing box for the [http:/www.horde.org/ Horde Application Framework] CVS.
 * Subversion server
-* TightVNC server(s)
 * Netfilter firewall, with traffic shaping marking and l7_filter added on
+
 
 You can visit sting's web interface at [http://sting.vanstaveren.us:8000/ sting.vanstaveren.us:8000]

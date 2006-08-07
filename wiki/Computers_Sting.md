@@ -14,9 +14,10 @@ Gnome 2.14:
         iFolder
 -   iFolder 3.5 server (instructions will come soon on
     [Log](/wiki/Log "wikilink"))
--   SSH server
+-   SSH, FTP, TightVNC services
+-   Testing box for the [Horde Application
+    Framework](http:/www.horde.org/) CVS.
 -   Subversion server
--   TightVNC server(s)
 -   Netfilter firewall, with traffic shaping marking and l7\_filter
     added on
 
