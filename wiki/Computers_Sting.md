@@ -6,9 +6,9 @@ layout: wiki
 
 Sting, my fabulous dual P2-350 128meg ram server/firewall/etc box.
 
-It runs lots of fun software, including:
+It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline
+Gnome 2.14:
 
--   Slackware 10.2, DropLine Gnome 2.14
 -   Apache 2.0 web server, with mod\_mono & PHP 5
     -   hosts lots of little bits 'n pieces of fun stuff, including
         iFolder
