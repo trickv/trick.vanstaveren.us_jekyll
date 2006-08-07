@@ -7,7 +7,9 @@ It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline Gnome 2
 * SSH, FTP, TightVNC services
 * Testing box for the [http://www.horde.org/ Horde Application Framework] CVS.
 * Subversion server
-* Netfilter firewall, with traffic shaping marking and l7_filter added on
+* Netfilter firewall
+** w/ traffic shaping marking and l7_filter added on
+** Port forwarding stuff for [[Computers/Mc|mc]]
 
 
 You can visit sting's web interface at [http://sting.vanstaveren.us:8000/ sting.vanstaveren.us:8000]

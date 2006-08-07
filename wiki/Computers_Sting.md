@@ -18,8 +18,9 @@ Gnome 2.14:
 -   Testing box for the [Horde Application
     Framework](http://www.horde.org/) CVS.
 -   Subversion server
--   Netfilter firewall, with traffic shaping marking and l7\_filter
-    added on
+-   Netfilter firewall
+    -   w/ traffic shaping marking and l7\_filter added on
+    -   Port forwarding stuff for [mc](/wiki/Computers/Mc "wikilink")
 
 You can visit sting's web interface at
 [sting.vanstaveren.us:8000](http://sting.vanstaveren.us:8000/)
