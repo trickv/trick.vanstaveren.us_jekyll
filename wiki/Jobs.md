@@ -74,7 +74,8 @@ U of C NORC - Programmer\]. Application Sent. Auto confirm recieved.
 
 [Entry Level Developer: Mintel
 International](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=Aku3UOuK9wVOoSqW9Fh.mhf6Q6IX?job_id=J929456BZ).
-Application sent. Auto Confirmation recieved. Sent in test stuff.
+Application sent. Auto Confirmation recieved. Sent in test stuff. 312
+932 0400 Karen Flynn
 
 [Software Engineer: The Thomson
 Corporation](http://hotjobs.yahoo.com/jobseeker/jobsearch/job_detail.html;_ylt=AqHbxD32ijFI0bB9t3yu7__6Q6IX?job_id=JNG99BOR0).
