@@ -6,6 +6,11 @@ layout: wiki
 
 Sting, my fabulous dual P2-350 128meg ram server/firewall/etc box.
 
+Sting has been my firewall now for almost four years, and all I've had
+to replace on it is some bad ram and a bad hard drive. My best uptime
+was something like 80 days, but the best I have on record is “22:14:06
+up 53 days, 21:05, 1 user, load average: 0.00, 0.00, 0.00”
+
 It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline
 Gnome 2.14:
 
