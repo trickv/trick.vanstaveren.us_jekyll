@@ -16,7 +16,7 @@ Gnome 2.14:
     [Log](/wiki/Log "wikilink"))
 -   SSH, FTP, TightVNC services
 -   Testing box for the [Horde Application
-    Framework](http:/www.horde.org/) CVS.
+    Framework](http://www.horde.org/) CVS.
 -   Subversion server
 -   Netfilter firewall, with traffic shaping marking and l7\_filter
     added on
