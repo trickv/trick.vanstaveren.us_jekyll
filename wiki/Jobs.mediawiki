@@ -70,3 +70,10 @@ Art Institute of Chicago
 ==RSS==
 
 [http://www.bloglines.com/myblogs BlogLines account]
+
+==Questions to Ask an Employer==
+
+* What kind of work will I be doing?  Web programming, software programming, both?  Working with customers?
+* How many people work at Mintel, both in Chicago and globally?
+* What kind of a team will I be a part of?
+* I see on the description that you like .NET, but also stress open-source technologies.  Do you run Linux on any/many machines?  Do you use Mono at all?
