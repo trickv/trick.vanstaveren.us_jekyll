@@ -13,7 +13,7 @@ everyone. Send bug reports to me [via e-mail](/wiki/Contact "wikilink").
 
 **News:**
 
-<rss><http://trick.vanstaveren.us/wp/category/projects/lirc-sharp/feed%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Clong%7Cfullcontent%7Cnotitle%7Cdate=d>
+<rss><http://trick.vanstaveren.us/wp/category/projects/lirc-sharp/feed%7Cdate%7Cmax=5%7Ccharset=UTF-8%7Clong%7Cfullcontent%7Cnotitle%7Cdate_format=d>
 M Y</rss>
 
 This was designed and tested on lirc 0.8.0 only. It should be backwards
