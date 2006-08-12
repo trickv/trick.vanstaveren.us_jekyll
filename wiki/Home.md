@@ -6,7 +6,7 @@ layout: wiki
 
 This is the personal site for one Patrick van Staveren.
 
-If you are actually trying to get in touch with him, check out the
+If you are actually trying to get in touch, check out the
 [contact](/wiki/Contact "wikilink") page!
 
 I also have a computer named [sting](/wiki/Computers/Sting "wikilink") who

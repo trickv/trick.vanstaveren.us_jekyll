@@ -1,6 +1,6 @@
 This is the personal site for one Patrick van Staveren.
 
-If you are actually trying to get in touch with him, check out the [[Contact|contact]] page!
+If you are actually trying to get in touch, check out the [[Contact|contact]] page!
 
 I also have a computer named [[Computers/Sting|sting]] who [http://sting.vanstaveren.us:8000/ hosts some other, more fun stuff] of mine.
 
