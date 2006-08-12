@@ -17,10 +17,10 @@ dirty” version of the W3 standards, easier to read, find, and search
 than the actual standards whitepapers, but not always completely up to
 date or completely extensive.
 
-[RSS embed
-extension](http://meta.wikimedia.org/wiki/User:Niffler/RSS%7CMediaWiki)
-that I am using on this site. I have extended it a bit on my
-installation; you just need to grab
+[MediaWiki RSS embed
+extension](http://meta.wikimedia.org/wiki/User:Niffler/RSS) that I am
+using on this site. I have extended it a bit on my installation; you
+just need to grab
 [rss.php](http://tricky.vanstaveren.us/extensions/rss.phps) and follow
 the instructions in it.
 
