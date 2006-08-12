@@ -9,7 +9,7 @@ lirc-sharp is a set of Mono/.NET bindings for the LIRC Client Library.
 The latest pre-release of lirc-sharp is version
 [0.0.9](/wiki/Projects/Open_Source/Lirc-sharp/Releases/0.0.9 "wikilink"). This
 is a development version and I do not expect it to work perfectly for
-everyone. Send bug reports to me \[\[Contact|via e-mail\].
+everyone. Send bug reports to me [via e-mail](/wiki/Contact "wikilink").
 
 This was designed and tested on lirc 0.8.0 only. It should be backwards
 compatible for anyone running older libraries - the API hasn't changed
