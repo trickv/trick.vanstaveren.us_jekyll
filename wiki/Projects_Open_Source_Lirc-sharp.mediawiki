@@ -2,6 +2,11 @@ lirc-sharp is a set of Mono/.NET bindings for the LIRC Client Library.
 
 The latest pre-release of lirc-sharp is version [[Projects/Open Source/Lirc-sharp/Releases/0.0.9|0.0.9]].  This is a development version and I do not expect it to work perfectly for everyone.  Send bug reports to me [[Contact|via e-mail]].
 
+'''[http://trick.vanstaveren.us/wp News]:'''
+
+<rss>http://trick.vanstaveren.us/wp/category/projects/lirc-sharp/feed|date|max=5|charset=UTF-8|short|notitle</rss>
+
+
 This was designed and tested on lirc 0.8.0 only.  It should be backwards compatible for anyone running older libraries - the API hasn't changed in years.
 
 I have written a [[Projects/Open Source/Banshee/Plugins/Lirc|simple proof-of-concept plugin]] for the [http://www.banshee-project.org Banshee Music Player].
