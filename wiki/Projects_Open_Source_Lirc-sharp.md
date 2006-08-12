@@ -6,10 +6,10 @@ layout: wiki
 
 lirc-sharp is a set of Mono/.NET bindings for the LIRC Client Library.
 
-The latest pre-release of lirc-sharp is version \[\[Projects/Open
-Source/Lirc-sharp/Releases/0.0.9|0.0.9\]. This is a development version
-and I do not expect it to work perfectly for everyone. Send bug reports
-to me \[\[Contact|via e-mail\].
+The latest pre-release of lirc-sharp is version
+[0.0.9](/wiki/Projects/Open_Source/Lirc-sharp/Releases/0.0.9 "wikilink"). This
+is a development version and I do not expect it to work perfectly for
+everyone. Send bug reports to me \[\[Contact|via e-mail\].
 
 This was designed and tested on lirc 0.8.0 only. It should be backwards
 compatible for anyone running older libraries - the API hasn't changed
@@ -19,9 +19,9 @@ I have written a [simple proof-of-concept
 plugin](/wiki/Projects/Open_Source/Banshee/Plugins/Lirc "wikilink") for the
 [Banshee Music Player](http://www.banshee-project.org).
 
-I am also working on another project called \[\[Projects/Open
-Source/Lirc-dbus-relayer|lirc-dbus-relayer\] which will relay specified
-LIRC commands to D-Bus enabled applications.
+I am also working on another project called
+[lirc-dbus-relayer](/wiki/Projects/Open_Source/Lirc-dbus-relayer "wikilink")
+which will relay specified LIRC commands to D-Bus enabled applications.
 
 It uses some C glue...if anyone's a real interop pro and understands how
 to keep a C file descriptor alive between function calls, let me know.
