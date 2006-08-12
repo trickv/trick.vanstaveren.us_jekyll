@@ -1,0 +1,3 @@
+This is lirc-sharp 0.0.9, released 2006-08-11
+
+Send bugreports to me by [[Contact|e-mail]].
