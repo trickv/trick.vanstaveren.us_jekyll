@@ -21,7 +21,7 @@ date or completely extensive.
 extension](http://meta.wikimedia.org/wiki/User:Niffler/RSS%7CMediaWiki)
 that I am using on this site. I have extended it a bit on my
 installation; you just need to grab
-[rss.php](http://tricky.vanstaveren.us/extensions/rss.php) and follow
+[rss.php](http://tricky.vanstaveren.us/extensions/rss.phps) and follow
 the instructions in it.
 
 Open Source Related
