@@ -4,7 +4,7 @@ The latest pre-release of lirc-sharp is version [[Projects/Open Source/Lirc-shar
 
 '''News:'''
 
-<rss>http://trick.vanstaveren.us/wp/category/projects/lirc-sharp/feed|date|max=5|charset=UTF-8|long|fullcontent|notitle</rss>
+<rss>http://trick.vanstaveren.us/wp/category/projects/lirc-sharp/feed|date|max=5|charset=UTF-8|long|fullcontent|notitle|date=d M Y</rss>
 
 
 This was designed and tested on lirc 0.8.0 only.  It should be backwards compatible for anyone running older libraries - the API hasn't changed in years.
