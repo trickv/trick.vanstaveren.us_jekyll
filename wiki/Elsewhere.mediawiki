@@ -3,7 +3,7 @@
 
 [http://www.w3schools.org W3 Schools] is devoted to making instructional sites for coding by various W3 standards.  The "quick 'n dirty" version of the W3 standards, easier to read, find, and search than the actual standards whitepapers, but not always completely up to date or completely extensive.
 
-[http://meta.wikimedia.org/wiki/User:Niffler/RSS|MediaWiki RSS embed extension] that I am using on this site.  I have extended it a bit on my installation; you just need to grab [http://tricky.vanstaveren.us/extensions/rss.php|rss.php] and follow the instructions in it.
+[http://meta.wikimedia.org/wiki/User:Niffler/RSS|MediaWiki RSS embed extension] that I am using on this site.  I have extended it a bit on my installation; you just need to grab [http://tricky.vanstaveren.us/extensions/rss.php rss.php] and follow the instructions in it.
 
 ==Open Source Related==
 [http://www.kerneltrap.org KernelTrap]: news site about the Linux and *BSD kernels.  A lot more fun than grepping through your mbox archive of the various kernel mailing lists for important info.
