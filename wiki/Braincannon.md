@@ -6,9 +6,12 @@ layout: wiki
 
 [Hourly Log](/wiki/Braincannon/Hours "wikilink")
 
-### Task Queue:
+Task Queue:
+-----------
 
-Priority Items: 1. Setting a cookie that tracks which tab...**DONE**
+### Priority Items:
+
+1. Setting a cookie that tracks which tab...**DONE**
 
 2. Develop a better solution for sizing the widgets in the listing
 dashboard (xProperties.cfm?action=edit&pUID=whatever). You had some good
@@ -45,7 +48,11 @@ sense. Chew on it and get back to me.
 you to know every field that we need to have required, but figuring out
 how to tackle some of this as an item for you would be great.
 
-Intermediary Items: The photo gallery thing is pretty near and dear to
-the WOW factor (and I continue to be impressed with the architected it
-with things like dynamically changed the framecount to reflect computing
-speed), so chug on that as a constant project.
+### Intermediary Items
+
+The photo gallery thing is pretty near and dear to the WOW factor (and I
+continue to be impressed with the architected it with things like
+dynamically changed the framecount to reflect computing speed), so chug
+on that as a constant project.
+
+Subversion server
