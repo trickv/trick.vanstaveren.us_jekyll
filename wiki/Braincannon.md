@@ -4,14 +4,11 @@ permalink: wiki/Braincannon/
 layout: wiki
 ---
 
-[Braincannon/Hours](/wiki/Braincannon/Hours "wikilink")
+[Hourly Log](/wiki/Braincannon/Hours "wikilink")
 
-Task Queue:
+### Task Queue:
 
-Priority Items: 1. Setting a cookie that tracks which tab is active for
-each widget that utilizes them. This is (as we discussed) so that when
-someone is on the listing dashboard and does something, when the user
-comes back to dashboard everything is where it was prior.
+Priority Items: 1. Setting a cookie that tracks which tab...**DONE**
 
 2. Develop a better solution for sizing the widgets in the listing
 dashboard (xProperties.cfm?action=edit&pUID=whatever). You had some good
