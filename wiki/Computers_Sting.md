@@ -10,8 +10,9 @@ Sting has been my firewall now for almost four years, and all I've had
 to replace on it is some bad ram and a bad hard drive. My best uptime
 was something like 90 days, but the best I have on record is “22:14:06
 up 53 days, 21:05, 1 user, load average: 0.00, 0.00, 0.00”. Once I get
-down to Chicago and have some cash to buy it a backup battery, expect
-huge numbers :)
+down to Chicago and have some cash to buy it a backup battery and toss
+in some more ram, I suspect I will never turn it off until the next time
+I move. We'll see :)
 
 It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline
 Gnome 2.14:
