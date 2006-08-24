@@ -5,7 +5,7 @@ Sting has been my firewall now for almost four years, and all I've had to replac
 It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline Gnome 2.14:
 * Apache 2.0 web server, with mod_mono & PHP 5
 ** hosts lots of little bits 'n pieces of fun stuff, including iFolder
-* iFolder 3.5 server (instructions will come soon on [[Log]])
+* iFolder 3.5 server (instructions to build will come soon on [[Log]] and on ifolder site)
 * SSH, FTP, TightVNC services
 * Testing box for the [http://www.horde.org/ Horde Application Framework] CVS.
 * Subversion server

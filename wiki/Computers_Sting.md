@@ -20,8 +20,8 @@ Gnome 2.14:
 -   Apache 2.0 web server, with mod\_mono & PHP 5
     -   hosts lots of little bits 'n pieces of fun stuff, including
         iFolder
--   iFolder 3.5 server (instructions will come soon on
-    [Log](/wiki/Log "wikilink"))
+-   iFolder 3.5 server (instructions to build will come soon on
+    [Log](/wiki/Log "wikilink") and on ifolder site)
 -   SSH, FTP, TightVNC services
 -   Testing box for the [Horde Application
     Framework](http://www.horde.org/) CVS.
