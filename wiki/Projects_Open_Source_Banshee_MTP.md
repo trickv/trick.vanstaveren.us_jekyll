@@ -148,6 +148,56 @@ nicely as this driver is new and the developers are busy folks.
 
 If it's working great, lets try it in Banshee!
 
+#### OPTIONAL: HAL/hotplug info files install
+
+Please **take note**: **I HAVE NOT TESTED ANY OF THIS. IT IS PROVIDED
+ONLY FOR REFERENCE IN DESPERATE SITUATIONS.** You Have Been Warned! If
+you break your hotplug or HAL from this and are now reading this
+statement for the first time, take it as a lesson in life: READ the
+documentation, and then run whatever crazy command (or in
+Hollywood-speak, ask questions FIRST and shoot SECOND)
+
+**SYMPTOM:** `gphoto2 -L` returns “Permission denied”, “Could not grab
+device”, “Operation not permitted”, or a similar seemingly permissions
+related error. `gphoto2` and `Banshee` and MTP support works as root,
+but not as a regular user.
+
+**INFO:** If you're trying to get gphoto2 from the command line to work,
+or Banshee is giving you permissions errors, these commands might help.
+They are meant only for users who understand (somewhat) what they do and
+know that this is necessary. It's possible to cheat at this - before you
+install libgphoto2 from svn, just install libgphoto2 from your
+distribution and uninstall it. It might leave these files behind as they
+are not troublesome, and you'll be all set. On Gentoo, when you remove a
+package, it does not uninstall entries in /etc so I've never had to run
+any of these commands by hand.
+
+These commands were taken directly from the gentoo ebuild for 2.2.1-r1.
+Note that your prefix (/usr versus /usr/local) and your libdir (lib
+versus lib64 on x86\_64) may need to be swapped in. Also, please verify
+that these installation paths fit with the various packages on your
+distribution! Certain things may need to go to another location and I
+can't figure them out for you :)
+
+**SOLUTION:** **Install the hotplug usbcam script.** (from within the
+libgphoto2 checkout directory)
+
+`{vim|pico|emacs|gedit|whatever} packaging/linux-hotplug/usbcam.group`  
+`# be sure the GROUP variable is set to a group that you are a member of.`  
+`# Traditionally I think this is left as camera, but your distribution may very.`  
+`cp packaging/linux-hotplug/usbcam.group /etc/hotplug/usb/usbcam`  
+`chmod +x /etc/hotplug/usb/usbcam`
+
+**Install the USB hotplug system's userspace mapping.**
+
+`export HOTPLUG_USERMAP=`“`/etc/hotplug/usb/usbcam-gphoto2.usermap`”  
+`/usr/lib/libgphoto2/print-camera-list usb-usermap > $HOTPLUG_USERMAP`
+
+**Install the HAL FDI entries.**
+
+`export HAL_FDI=`“`/usr/share/hal/fdi/information/10freedesktop/10-camera-libgphoto2.fdi`”  
+`/usr/local/lib/libgphoto2/print-camera-list hal-fdi > $HAL_FDI`
+
 ### Installing Banshee from CVS
 
 Grab the latest CVS version of Banshee:
