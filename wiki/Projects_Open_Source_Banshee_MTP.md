@@ -57,25 +57,28 @@ installation will most likely have problems.
 
 ### Packages to have / Prerequisites
 
+Please be sure that you have all companion -dev/-devel packages
+installed. Configure scripts will fail if you are missing them - and
+they will act like you are missing the library itself.
+
 -   Mono and all it's devel packages.
-
-`* Ubuntu Dapper:`  
-` * libmono0`  
-` * libmono-dev`  
-` * mono`  
-` * mono-common`  
-` * mono-devel`  
-` * mono-mcs`
-
+    -   Ubuntu Dapper:
+        -   libmono0
+        -   libmono-dev
+        -   mono
+        -   mono-common
+        -   mono-devel
+        -   mono-mcs
 -   libltdl
-
-`* Ubuntu Dapper:`  
-` * libltdl`  
-` * libltdl-dev`
-
+    -   libltdl
+    -   libltdl-dev
 -   libusb - BE WARNED: libusb 0.1.12 is KNOWN to cause troubles. Use
     libusb 0.1.11 wherever possible
+    -   libusb
+    -   libusb-dev
 -   libexif
+    -   libexif
+    -   libexif-dev
 
 ### Grabbing the latest libgphoto2
 
