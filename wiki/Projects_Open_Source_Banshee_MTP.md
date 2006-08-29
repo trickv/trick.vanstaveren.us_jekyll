@@ -55,6 +55,28 @@ First, be sure that you have removed any distribution packaged software
 such as libgphoto2, gphoto2, and banshee. If you fail to do this, the
 installation will most likely have problems.
 
+### Packages to have / Prerequisites
+
+-   Mono and all it's devel packages.
+
+`* Ubuntu Dapper:`  
+` * libmono0`  
+` * libmono-dev`  
+` * mono`  
+` * mono-common`  
+` * mono-devel`  
+` * mono-mcs`
+
+-   libltdl
+
+`* Ubuntu Dapper:`  
+` * libltdl`  
+` * libltdl-dev`
+
+-   libusb - BE WARNED: libusb 0.1.12 is KNOWN to cause troubles. Use
+    libusb 0.1.11 wherever possible
+-   libexif
+
 ### Grabbing the latest libgphoto2
 
 libgphoto2-sharp is now installed directly out of the libgphoto2
