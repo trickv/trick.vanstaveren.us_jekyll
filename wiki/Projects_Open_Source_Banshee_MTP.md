@@ -198,6 +198,10 @@ libgphoto2 checkout directory)
 `export HAL_FDI=`“`/usr/share/hal/fdi/information/10freedesktop/10-camera-libgphoto2.fdi`”  
 `/usr/local/lib/libgphoto2/print-camera-list hal-fdi > $HAL_FDI`
 
+**Finally, be sure to restart hotplug and HAL to make these changes take
+effect**. I don't know if they do automatically. If you're not sure how
+to do this or what I'm talking about, just do a reboot.
+
 ### Installing Banshee from CVS
 
 Grab the latest CVS version of Banshee:
