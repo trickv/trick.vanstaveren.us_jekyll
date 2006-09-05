@@ -4,8 +4,6 @@ permalink: wiki/Braincannon/
 layout: wiki
 ---
 
-[Hourly Log](/wiki/Braincannon/Hours "wikilink")
-
 Task Queue:
 -----------
 

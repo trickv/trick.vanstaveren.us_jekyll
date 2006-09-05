@@ -1,5 +1,3 @@
-[[Braincannon/Hours|Hourly Log]]
-
 ==Task Queue:==
 
 ===Priority Items:===
