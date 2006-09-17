@@ -5,3 +5,6 @@
 
 
 [[Projects/Open Source/Banshee/Plugins/Assemblies|Assemblies]]
+
+
+[[Projects/Open Source/Banshee/Plugins/Alarm & Sleep Timer|Alarm & Sleep Timer]]
