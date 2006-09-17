@@ -11,4 +11,4 @@ layout: wiki
 [Assemblies](/wiki/Projects/Open_Source/Banshee/Plugins/Assemblies "wikilink")
 
 [Alarm & Sleep
-Timer](/wiki/Projects/Open_Source/Banshee/Plugins/Alarm_&_Sleep_Timer "wikilink")
+Timer](/wiki/Projects/Open_Source/Banshee/Plugins/Alarm_and_Sleep_Timer "wikilink")
