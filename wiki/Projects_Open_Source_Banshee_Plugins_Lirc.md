@@ -4,11 +4,6 @@ permalink: wiki/Projects/Open_Source/Banshee/Plugins/Lirc/
 layout: wiki
 ---
 
-{warning|This code isn't really maintained anymore in favour of
-[lirc-dbus-relayer](/wiki/Projects/Open_Source/Lirc-dbus-relayer "wikilink")
-which I haven't released or even really documented yet. If you know my
-svn repo, you can find it and try it out.}
-
 This is a small plugin for the [Banshee Music
 Player](http://www.banshee-project.org/) and it works great. This code
 uses the [lirc-sharp](/wiki/Projects/Open_Source/Lirc-sharp "wikilink")
