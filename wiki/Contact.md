@@ -50,3 +50,8 @@ layout: wiki
 `Patrick van Staveren`  
 `816 W. Walnut St. Apt #202`  
 `Kalamazoo, MI 49007`
+
+### Mobile Phone
+
+-   Just ask :)
+
