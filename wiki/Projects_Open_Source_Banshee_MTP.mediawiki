@@ -6,6 +6,8 @@
 [[Projects/Open Source/Banshee/MTP/Playlists|Playlists]] |
 [[Projects/Open Source/Banshee/MTP/To Do|To Do]]
 
+{{warning|These instructions are slightly out of date; libgphoto2-sharp is now a separate package of it's own.  If you don't know how to build it on your own, just check out revision 9339 from libgphoto2 trunk and you'll be fine.}}
+
 ==About MTP==
 
 Check out the [http://en.wikipedia.org/wiki/Media_Transfer_Protocol Media Transfer Protocol] page on [http://www.wikipedia.org Wikipedia].
