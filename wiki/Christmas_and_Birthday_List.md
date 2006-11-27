@@ -4,10 +4,21 @@ permalink: wiki/Christmas_and_Birthday_List/
 layout: wiki
 ---
 
-Bike Trainer
+### Books
 
-Books:
+-   (will fill in later)
 
-Moutain Bike Tires
+### Clothes
 
-Cyclocomputer for mtn bike
+-   Dress shirts: 17.5 or 18 neck, 36/37 sleeves. Don't buy anything
+    shorter. 2XL if it is just simple sizing, but look for a long
+    version (monkey arms).
+-   Pants: 42x32
+
+### Biking Stuff
+
+-   Moutain Bike Tires
+-   Bike Trainer
+-   Cyclocomputer for mtn bike
+-   Wheel truing stand
+
