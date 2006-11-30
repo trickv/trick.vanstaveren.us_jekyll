@@ -33,4 +33,8 @@ layout: wiki
 -   Wheel truing stand
 -   Long sleeve t-shirts for riding (no silky jerseys or anything)
 -   Some sort of simple, under-the-seat bag (mountain bike)
+-   New headlight, one that uses LEDs rather than nasty halogens that
+    kill batteries.
+    (\[<http://www.nashbar.com/profile.cfm?category>=&subcategory=&brand=&sku=18850&storetype=estore&estoreid=747&pagename=Estore%3A%20Lights%20on%20Sale
+    example\])
 
