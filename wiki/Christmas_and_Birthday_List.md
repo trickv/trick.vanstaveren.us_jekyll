@@ -8,6 +8,10 @@ layout: wiki
 
 -   “Design of Everyday Things”, Norman.
     ([Amazon](http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107/sr=8-1/qid=1164909028/ref=pd_bbs_sr_1/102-9596148-3812120?ie=UTF8&s=books))
+-   “Don't Make Me Think!”, Krug
+    ([amazon](http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758/sr=1-2/qid=1164910344/ref=pd_bbs_sr_2/102-9596148-3812120?ie=UTF8&s=books))
+-   “AJAX and PHP: Building Responsive Web Applications”, many authors
+    ([amazon](http://www.amazon.com/AJAX-PHP-Building-Responsive-Applications/dp/1904811825/ref=pd_sim_b_2/102-9596148-3812120))
 -   “Pro C\# 2005 and the .NET 2.0 Platform, Third Edition”, Troelsen
     ([Amazon](http://www.amazon.com/Pro-2005-NET-Platform-Third/dp/1590594193/sr=8-1/qid=1164909634/ref=pd_bbs_sr_1/102-9596148-3812120?ie=UTF8&s=books))
 
