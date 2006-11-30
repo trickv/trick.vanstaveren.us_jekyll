@@ -8,7 +8,7 @@ layout: wiki
 
 -   “Design of Everyday Things”, Norman.
     ([Amazon](http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107/sr=8-1/qid=1164909028/ref=pd_bbs_sr_1/102-9596148-3812120?ie=UTF8&s=books))
--   “Pro C\# 2005 and the .NET 2.0 Platform, Third Edition”
+-   “Pro C\# 2005 and the .NET 2.0 Platform, Third Edition”, Troelsen
     ([Amazon](http://www.amazon.com/Pro-2005-NET-Platform-Third/dp/1590594193/sr=8-1/qid=1164909634/ref=pd_bbs_sr_1/102-9596148-3812120?ie=UTF8&s=books))
 
 ### Clothes
