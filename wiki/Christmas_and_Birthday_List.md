@@ -27,5 +27,5 @@ layout: wiki
 -   Cyclocomputer for mountain bike. Doesn't need to be anything fancy.
 -   Wheel truing stand
 -   Long sleeve t-shirts for riding (no silky jerseys or anything)
--   Some sort of simple, under-the-seat bag
+-   Some sort of simple, under-the-seat bag (mountain bike)
 
