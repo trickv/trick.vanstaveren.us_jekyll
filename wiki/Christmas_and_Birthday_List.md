@@ -38,3 +38,9 @@ layout: wiki
     (\[<http://www.nashbar.com/profile.cfm?category>=&subcategory=&brand=&sku=18850&storetype=estore&estoreid=747&pagename=Estore%3A%20Lights%20on%20Sale
     example\])
 
+### Compy Stuff
+
+-   4 port KVM, with two sets of cables. Ask Dad what this is. Not an IP
+    (network) KVM - physical monitor cables and USB or PS/2
+    keyboard/mouse.
+
