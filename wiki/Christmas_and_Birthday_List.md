@@ -45,3 +45,13 @@ layout: wiki
     (network) KVM - physical monitor cables and USB or PS/2
     keyboard/mouse.
 
+### Random Stuff
+
+-   Cordless Drill
+    -   No cheap-o black and decker crap, please...craftsman or dewalt
+        or something worth the money! I've burned one drill just in the
+        last year, and my second is already dying...
+    -   Variable speed
+    -   cordless rechargeable battery packs (preferrably one that's
+        interchangable with other gizmos like saws and sanders)
+
