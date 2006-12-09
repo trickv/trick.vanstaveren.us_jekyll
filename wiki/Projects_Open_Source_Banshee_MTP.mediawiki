@@ -6,7 +6,7 @@
 [[Projects/Open Source/Banshee/MTP/Playlists|Playlists]] |
 [[Projects/Open Source/Banshee/MTP/To Do|To Do]]
 
-{{warning|These instructions are slightly out of date; libgphoto2-sharp is now a separate package of it's own.  If you don't know how to build it on your own, just check out revision 9339 from libgphoto2 trunk and you'll be fine.}}
+{{warning|I'm updating these instructions...}}
 
 ==About MTP==
 
@@ -20,13 +20,25 @@ Banshee.Dap.Mtp uses [http://www.gphoto.org libgphoto2].
 
 Check out the [[Projects/Open Source/Banshee/MTP/Compatibility|compatibility]] page.  [[Contact]] me if there are changes to be made to this list!
 
+===Testing your device with gphoto2===
+
+To get a quick test of whether your device works with your installation of libgphoto2, plug it in and open a terminal, and run:
+
+  gphoto2 -L
+
+It should list all the files & folders on your device.  If you get any errors as this point, you can safely assume that you will have trouble getting Banshee to work with your device.  You can ask for help with these errors on irc.freenode.net/#gphoto or on the [http://sourceforge.net/mail/?group_id=8874 gphoto2-devel mailing list].  Be sure to mention this is a MTP device; the library here is actually a camera library.
+
+If it's working properly, lets try it in Banshee!
+
 ==How to install==
 
 Sometimes I keep some patches against Banshee CVS for MTP.  If so, you can find them on the [[Projects/Open Source/Banshee/MTP/Patches|MTP Patches]] page.
 
+MTP support got really good in libgphoto2 around v2.2.2; so if you have a package for your distribution of 2.2.2 or 2.3.0, you are much better off using that.  I am tailoring these instructions against this case.
+
 ===Remove old packages===
 
-First, be sure that you have removed any distribution packaged software such as libgphoto2, gphoto2, and banshee.  If you fail to do this, the installation will most likely have problems.
+Be sure that you have removed any old files from a Banshee install.  To make sure your system is clean, make sure /usr/lib/banshee and /usr/local/lib/banshee are both nonexistent - if not, find and remove packages or manually wipe out the directories.
 
 ===Packages to have / Prerequisites===
 
@@ -40,96 +52,26 @@ Please be sure that you have all companion -dev/-devel packages installed.  Conf
 *** mono-common
 *** mono-devel
 *** mono-mcs
-* libltdl
-** libltdl
-** libltdl-dev
-* libusb - BE WARNED: libusb 0.1.12 is KNOWN to cause troubles.  Use libusb 0.1.11 wherever possible
-** libusb
-** libusb-dev
-* libexif
-** libexif
-** libexif-dev
+* libltdl and libltdl-dev
+* libusb and libusb-dev (Warning: libusb 0.1.12 was known to cause troubles when first released...do inform me if these issues persist)
+* libexif and libexif-dev
+* libgphoto2 and libgphoto2-dev
 
-===Grabbing the latest libgphoto2===
+===Grabbing the latest libgphoto2-sharp===
 
-libgphoto2-sharp is now installed directly out of the libgphoto2 subversion tree.  In the future (2.2.2 hopefully) libgphoto2 will distribute with the -sharp binding, but for now you will need to work with a svn version.
+Due to the quest for modularity (and some other reasons), libgphoto2-sharp is it's own separate module in subversion these days.
 
-Snag yourself a copy of libgphoto2 from subversion:
+Snag yourself a copy of libgphoto2-sharp from subversion:
 
-   svn co https://svn.sourceforge.net/svnroot/gphoto/trunk/libgphoto2
+   svn co https://gphoto.svn.sourceforge.net/svnroot/gphoto/trunk/playground/libgphoto2-sharp
 
-and build it, like normal:
+Prepare the build like normal:
 
-  ./autogen.sh
+  ./autogen.sh && ./configure
 
-If you get an error like [[Projects/Open Source/Banshee/MTP/FAQ#Q:_What_does_this_mess_mean_when_I_run_autogen.sh_in_libgphoto2.3F|this]], be sure to have libltdl installed.
+Make sure there's no errors, and then do the usual:
 
-  ./configure
-
-Watch the output of ./configure to make sure that the csharp bindings are enabled.  It should have a line in it something like:
-
-  Bindings:             csharp
-
-then, just do the usual:
-
-  make && sudo make install && sudo ldconfig
-
-To get around an ugly bug that we have with libgphoto2_port's disk driver, be sure to remove it:
-
-  sudo rm /usr/local/lib/libgphoto2_port/0.6.1/disk.*
-
-Libgphoto2 and it's C# bindings should now be installed!
-
-===Installing gphoto2 to test libgphoto2===
-
-The <code>gphoto2</code> command line tool is the easiest way to test that libgphoto2 can find and access your MTP device.  It's contained in the gphoto svn repository.  You know the drill -- grab and install it as follows:
-
-  svn co https://svn.sourceforge.net/svnroot/gphoto/trunk/gphoto2
-  cd gphoto2
-  ./autogen.sh
-  ./configure
-  make
-  sudo make install
-
-Once it's installed, test to see if gphoto2 can find your MTP device:
-
-  gphoto2 -L
-
-It should list all the files & folders on your device.  If you get any errors as this point, you can safely assume that you will have trouble and that the Banshee DAP interface will not be happy.  Regardless, you can trudge on!
-
-If you have any issues at this point, post a debug output to [http://www.pastebin.us pastebin.us] and hit up irc.gnome.org/#banshee and ask trick for help.  Optionally, if it looks more like an issue with the MTP (PTP2) driver, you can ask on irc.freenode.net/#gphoto, but ask nicely as this driver is new and the developers are busy folks.
-
-If it's working great, lets try it in Banshee!
-
-====OPTIONAL: HAL/hotplug info files install====
-
-Please '''take note''': '''I HAVE NOT TESTED ANY OF THIS.  IT IS PROVIDED ONLY FOR REFERENCE IN DESPERATE SITUATIONS.'''  You Have Been Warned!  If you break your hotplug or HAL from this and are now reading this statement for the first time, take it as a lesson in life: READ the documentation, and then run whatever crazy command (or in Hollywood-speak, ask questions FIRST and shoot SECOND)
-
-'''SYMPTOM:'''
-<code>gphoto2 -L</code> returns "Permission denied", "Could not grab device", "Operation not permitted", or a similar seemingly permissions related error.  <code>gphoto2</code> and <code>Banshee</code> and MTP support works as root, but not as a regular user.
-
-'''INFO:'''
-If you're trying to get gphoto2 from the command line to work, or Banshee is giving you permissions errors, these commands might help.  They are meant only for users who understand (somewhat) what they do and know that this is necessary.  It's possible to cheat at this - before you install libgphoto2 from svn, just install libgphoto2 from your distribution and uninstall it.  It might leave these files behind as they are not troublesome, and you'll be all set.  On Gentoo, when you remove a package, it does not uninstall entries in /etc so I've never had to run any of these commands by hand.
-
-These commands were taken directly from the gentoo ebuild for 2.2.1-r1.  Note that your prefix (/usr versus /usr/local) and your libdir (lib versus lib64 on x86_64) may need to be swapped in.  Also, please verify that these installation paths fit with the various packages on your distribution!  Certain things may need to go to another location and I can't figure them out for you :)
-
-'''SOLUTION:'''
-'''Install the hotplug usbcam script.''' (from within the libgphoto2 checkout directory)
- {vim|pico|emacs|gedit|whatever} packaging/linux-hotplug/usbcam.group
- # be sure the GROUP variable is set to a group that you are a member of.
- # Traditionally I think this is left as camera, but your distribution may very.
- cp packaging/linux-hotplug/usbcam.group /etc/hotplug/usb/usbcam
- chmod +x /etc/hotplug/usb/usbcam
-
-'''Install the USB hotplug system's userspace mapping.'''
- export HOTPLUG_USERMAP="/etc/hotplug/usb/usbcam-gphoto2.usermap"
- /usr/lib/libgphoto2/print-camera-list usb-usermap > $HOTPLUG_USERMAP
-
-'''Install the HAL FDI entries.'''
- export HAL_FDI="/usr/share/hal/fdi/information/10freedesktop/10-camera-libgphoto2.fdi"
- /usr/local/lib/libgphoto2/print-camera-list hal-fdi > $HAL_FDI
-
-'''Finally, be sure to restart hotplug and HAL to make these changes take effect'''.  I don't know if they do automatically.  If you're not sure how to do this or what I'm talking about, just do a reboot.
+  make && sudo make install
 
 ===Installing Banshee from CVS===
 
@@ -155,11 +97,15 @@ That should do the trick.  Finally, make Banshee and install it:
 
 ===Testing it out===
 
-First, check out the [[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] page.  PLEASE, read this page!
+First, check out the [[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] page.  PLEASE, read it!
 
-It's not that hard to run Banshee.  Execute banshee (preferrably from a terminal, with the '''--debug''' flag, in case you get an error).
+Launch Banshee like normal.
 
-Once Banshee has started up, plug your MTP device in.  As long as all is well, the interface will show a little loading message as it reads the track information from the device.  Once the message disappears, you should be ready to go!  Drag 'n drop some tracks on the device, and run a Synchronize to see if it works.  Not only can you drag mp3's, but also ogg and flac (and possibly even other formats) to the device and they will be transcoded and then transferred to the device.  In my experience this has been flawless.
+Once Banshee has started up, plug your MTP device in.  As long as all is well, the interface will show a little loading message as it reads the track information from the device.  Be patient, it can take quite some time to load up - on my system, it can process about ten tracks per second.  This is a protocol limitation that hopefully we can get past :)
+
+If you do not see anything, try running Banshee in debug mode (run <code>banshee --debug</code> at a terminal), go to the Help menu, and click View Debugging Messages.  You should see some messages from the MTP driver trying to find your device; copy all this information down and [http://bugzilla.gnome.org/enter_bug.cgi?product=banshee&component=MTP submit a bug report].
+
+Once the message disappears, you should be ready to go!  Drag 'n drop some tracks on the device, and run a Synchronize to see if it works.  Not only can you drag mp3's, but also ogg and flac (and possibly even other formats) to the device and they will be transcoded and then transferred to the device.  In my experience this has been flawless.
 
 Removing tracks from the device is easy.  Just right click the file and hit Remove, and then run Synchronize.
 
