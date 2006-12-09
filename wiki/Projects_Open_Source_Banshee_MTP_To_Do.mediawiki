@@ -1,3 +1,5 @@
+{{MtpNav}}
+
 * Fix everything on the [[Projects/Open Source/Banshee/MTP/Known Bugs|Known Bugs]] page.
 
 * libgphoto2 is missing some functions (these are all missing at the ptp driver level):
