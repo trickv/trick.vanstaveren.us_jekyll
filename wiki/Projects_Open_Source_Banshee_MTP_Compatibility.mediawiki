@@ -1,3 +1,7 @@
+{{MtpNav}}
+
+{{warning|This page is now deprecated.  As of the latest Banshee CVS, I'm not maintaining a list of these as I'm relying on libgphoto2 installing the proper HAL properties.  All models on this list should work, and there are probably be more.  I will eventually get together the full list with the gphoto crew.}}
+
 The only actual tested device is, of course, my Creative Zen Micro, which is known to work fine.
 
 I've been in touch with a user with a Creative Portable Media Center which seemed to have some filesystem issues at the gphoto level.  I don't know where that one went...
