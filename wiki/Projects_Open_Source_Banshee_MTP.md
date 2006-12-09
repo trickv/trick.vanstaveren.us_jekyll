@@ -47,8 +47,8 @@ How to install
 --------------
 
 Sometimes I keep some patches against Banshee CVS for MTP. If so, you
-can find them on the [MTP
-Patches](/wiki/Projects/Open_Source/Banshee/MTP/Patches "wikilink") page.
+can find them on the
+[patches](/wiki/Projects/Open_Source/Banshee/MTP/Patches "wikilink") page.
 
 MTP support got really good in libgphoto2 around v2.2.2; so if you have
 a package for your distribution of 2.2.2 or 2.3.0, you are much better
@@ -67,14 +67,9 @@ Please be sure that you have all companion -dev/-devel packages
 installed. Configure scripts will fail if you are missing them - and
 they will act like you are missing the library itself.
 
--   Mono and all it's devel packages.
-    -   Ubuntu Dapper:
-        -   libmono0
-        -   libmono-dev
-        -   mono
-        -   mono-common
-        -   mono-devel
-        -   mono-mcs
+-   Mono
+    -   On Ubuntu Dapper, this is: libmono0, libmono-dev, mono,
+        mono-common, mono-devel, mono-mcs
 -   libltdl and libltdl-dev
 -   libusb and libusb-dev (Warning: libusb 0.1.12 was known to cause
     troubles when first released...do inform me if these issues persist)
