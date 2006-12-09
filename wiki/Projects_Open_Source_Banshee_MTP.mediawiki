@@ -8,10 +8,6 @@ MTP stands for the Media Transfer Protocol.  While it is a standard created and 
 
 Banshee.Dap.Mtp uses [http://www.gphoto.org libgphoto2].
 
-==Supported Devices==
-
-Check out the [[Projects/Open Source/Banshee/MTP/Compatibility|compatibility]] page.  [[Contact]] me if there are changes to be made to this list!
-
 ===Testing your device with gphoto2===
 
 To get a quick test of whether your device works with your installation of libgphoto2, plug it in and open a terminal, and run:

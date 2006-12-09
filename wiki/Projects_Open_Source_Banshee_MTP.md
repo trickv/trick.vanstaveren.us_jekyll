@@ -26,14 +26,6 @@ code (libptp2).
 
 Banshee.Dap.Mtp uses [libgphoto2](http://www.gphoto.org).
 
-Supported Devices
------------------
-
-Check out the
-[compatibility](/wiki/Projects/Open_Source/Banshee/MTP/Compatibility "wikilink")
-page. [Contact](/wiki/Contact "wikilink") me if there are changes to be made
-to this list!
-
 ### Testing your device with gphoto2
 
 To get a quick test of whether your device works with your installation
