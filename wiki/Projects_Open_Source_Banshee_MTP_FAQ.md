@@ -4,9 +4,6 @@ permalink: wiki/Projects/Open_Source/Banshee/MTP/FAQ/
 layout: wiki
 ---
 
-Banshee
--------
-
 ### Q: What devices are supported? What should I do if my MTP device is \_not\_ supported?
 
 **A:** Check the
@@ -17,9 +14,6 @@ libgphoto2's device list which is contained in
 of libgphoto2 from subversion. If you need a MTP device added to both my
 compatibility list (which is hardcoded in Banshee) and/or the libgphoto2
 library.c, please [contact](/wiki/Contact "wikilink") me :)
-
-gPhoto
-------
 
 ### Q: What does this mess mean when I run `autogen.sh` in libgphoto2?
 
@@ -33,5 +27,3 @@ gPhoto
 `` autogen.sh:init: Left directory `.' ``
 
 **A:** You are missing libltdl. Be sure to install it!
-
-------------------------------------------------------------------------

@@ -1,8 +1,7 @@
-==Banshee==
+{{MtpNav}}
+
 ===Q: What devices are supported?  What should I do if my MTP device is _not_ supported?===
 '''A:''' Check the [[Projects/Open Source/Banshee/MTP/Compatibility|compatibility]] page to see what players Banshee supports.  This list is derived from libgphoto2's device list which is contained in [http://svn.sourceforge.net/viewcvs.cgi/*checkout*/gphoto/trunk/libgphoto2/camlibs/ptp2/library.c camlibs/ptp2/library.c] of libgphoto2 from subversion.  If you need a MTP device added to both my compatibility list (which is hardcoded in Banshee) and/or the libgphoto2 library.c, please [[Contact|contact]] me :)
-
-==gPhoto==
 
 ===Q: What does this mess mean when I run <code>autogen.sh</code> in libgphoto2?===
  > ./autogen.sh
@@ -14,4 +13,3 @@
  Leaving `/home/jonathan/libgphoto2' and aborting.
  autogen.sh:init: Left directory `.'
 '''A:''' You are missing libltdl.  Be sure to install it!
-----
