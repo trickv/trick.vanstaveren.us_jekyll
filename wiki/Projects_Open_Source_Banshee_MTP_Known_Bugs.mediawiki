@@ -1,7 +1,3 @@
 * Shutdown causes segfaults and glib free errors, but only after doing a sync.  I have yet to figure out where this is coming from.
 
 * Metadata editing has been implemented and works, but ran into a bug as CVS HEAD progressed around April.  Never found the source of the problem.  This causes Edit Metadata to crash Banshee.  Don't use it!
-
-* libgphoto2_port's disk driver must be making some hal calls, because Banshee.Dap.Mtp looses it's hal information right when we first run a device scan with libgphoto2.  The workaround is to remove the disk driver:
-
-  sudo rm /usr/local/lib/libgphoto2_port/0.6.1/disk.*

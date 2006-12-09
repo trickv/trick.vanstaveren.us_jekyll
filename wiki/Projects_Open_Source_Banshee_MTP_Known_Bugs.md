@@ -13,11 +13,3 @@ layout: wiki
     as CVS HEAD progressed around April. Never found the source of the
     problem. This causes Edit Metadata to crash Banshee. Don't use it!
 
-<!-- -->
-
--   libgphoto2\_port's disk driver must be making some hal calls,
-    because Banshee.Dap.Mtp looses it's hal information right when we
-    first run a device scan with libgphoto2. The workaround is to remove
-    the disk driver:
-
-` sudo rm /usr/local/lib/libgphoto2_port/0.6.1/disk.*`
