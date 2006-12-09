@@ -6,7 +6,7 @@
 [[Projects/Open Source/Banshee/MTP/Playlists|Playlists]] |
 [[Projects/Open Source/Banshee/MTP/To Do|To Do]]
 
-{{warning|THESE ARE OLD BUILD INSTRUCTIONS.  I've kept these only for reference.  Do not follow them.  Instead, visit [[Projects/Open Source/Banshee/MTP|here for the latest instructions]].}}
+{{error|THESE ARE OLD BUILD INSTRUCTIONS.  I've kept these only for reference.  Do not follow them.  Instead, visit [[Projects/Open Source/Banshee/MTP|here for the latest instructions]].}}
 
 ==About MTP==
 
