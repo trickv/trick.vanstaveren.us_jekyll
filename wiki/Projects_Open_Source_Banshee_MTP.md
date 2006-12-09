@@ -46,10 +46,6 @@ If it's working properly, lets try it in Banshee!
 How to install
 --------------
 
-Sometimes I keep some patches against Banshee CVS for MTP. If so, you
-can find them on the
-[patches](/wiki/Projects/Open_Source/Banshee/MTP/Patches "wikilink") page.
-
 MTP support got really good in libgphoto2 around v2.2.2; so if you have
 a package for your distribution of 2.2.2 or 2.3.0, you are much better
 off using that. I am tailoring these instructions against this case.
