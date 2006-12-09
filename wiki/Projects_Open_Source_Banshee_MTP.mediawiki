@@ -1,7 +1,5 @@
 {{MtpNav}}
 
-{{warning|I'm updating these instructions...}}
-
 ==About MTP==
 
 Check out the [http://en.wikipedia.org/wiki/Media_Transfer_Protocol Media Transfer Protocol] page on [http://www.wikipedia.org Wikipedia].
