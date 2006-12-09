@@ -4,7 +4,9 @@ permalink: wiki/Projects/Open_Source/Banshee/MTP/Patches/
 layout: wiki
 ---
 
-I have a debugging patch that'll help diagnose initialization issues,
-but it's not up to date with Banshee. There are no known issues with
-initialization anymore. If I draft up another patch for debugging, this
-is where I'll post it!
+I don't seem to have any uncommitted patches left over that haven't been
+implemented.
+
+Debugging these days is pretty verbose; it mostly spits out to the
+Banshee LogCore which is visible both on the command line, and if in
+debug mode, on the Help/View Logged Events.
