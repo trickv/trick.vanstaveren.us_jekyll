@@ -66,24 +66,26 @@ they will act like you are missing the library itself.
 -   Mono
     -   On Ubuntu Dapper, this is: libmono0, libmono-dev, mono,
         mono-common, mono-devel, mono-mcs
--   libltdl and libltdl-dev
--   libusb and libusb-dev (Warning: libusb 0.1.12 was known to cause
-    troubles when first released...do inform me if these issues persist)
--   libexif and libexif-dev
+-   libltdl
+-   libusb (Warning: libusb 0.1.12 was known to cause troubles when
+    first released...do inform me if these issues persist)
+-   libexif
 -   libgphoto2 and libgphoto2-dev
+-   libgphoto2-sharp from a release or installed from source as
+    described here
 
 ### Grabbing the latest libgphoto2-sharp
 
-Due to the quest for modularity (and some other reasons),
-libgphoto2-sharp is it's own separate module in subversion these days.
+libgphoto2-sharp 2.3.0 is the latest release, dated 2006-12-10. If you
+cannot find a package for your distribution, you will have to build it
+from source:
 
-Snag yourself a copy of libgphoto2-sharp from subversion:
-
-`  svn co `[`https://gphoto.svn.sourceforge.net/svnroot/gphoto/trunk/playground/libgphoto2-sharp`](https://gphoto.svn.sourceforge.net/svnroot/gphoto/trunk/playground/libgphoto2-sharp)
+First grab the tarball off the [gPhoto SourceForge downloads
+page](http://sourceforge.net/project/showfiles.php?group_id=8874&package_id=214288).
 
 Prepare the build like normal:
 
-` ./autogen.sh && ./configure`
+` ./configure`
 
 Make sure there's no errors, and then do the usual:
 
