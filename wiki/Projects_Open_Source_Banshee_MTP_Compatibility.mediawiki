@@ -1,1 +1,1 @@
-#REDIRECT [http://banshee-project.org/Guide/DAPs/MTP/Compatibility]
+#REDIRECT [http://banshee-project.org/Guide/DAPs/MTP/Compatibility Compatibility]

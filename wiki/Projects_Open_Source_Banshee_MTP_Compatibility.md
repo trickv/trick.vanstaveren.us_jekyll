@@ -5,5 +5,5 @@ layout: wiki
 ---
 
 1.  REDIRECT
-    [1](http://banshee-project.org/Guide/DAPs/MTP/Compatibility)
+    [Compatibility](http://banshee-project.org/Guide/DAPs/MTP/Compatibility)
 
