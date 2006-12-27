@@ -1,2 +1,1 @@
-This page has been moved to the Banshee wiki
-[http://banshee-project.org/Guide/DAPs/MTP/Compatibility here].
+#REDIRECT [[Projects/Open_Source/Banshee/Mtp/MovedToBansheeProject]]
