@@ -1,9 +1,7 @@
 ---
 title: Projects/Open Source/Banshee/MTP/Playlists
 permalink: wiki/Projects/Open_Source/Banshee/MTP/Playlists/
-layout: wiki
+redirect_to: /wiki/Projects/Open_Source/Banshee/MTP/MovedToBansheeProject/
 ---
 
-### See?
-
-<img src="banshee-mtp-playlists1.png" title="Banshee&#39;s MTP support with r/o playlists" alt="Banshee&#39;s MTP support with r/o playlists" width="700" />
+You should automatically be redirected to [Projects/Open Source/Banshee/MTP/MovedToBansheeProject](/wiki/Projects/Open_Source/Banshee/MTP/MovedToBansheeProject/)
