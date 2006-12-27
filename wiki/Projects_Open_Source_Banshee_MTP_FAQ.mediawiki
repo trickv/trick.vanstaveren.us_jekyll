@@ -1,2 +1,1 @@
-This page (and all the Banshee MTP info pages) have been moved to the Banshee wiki
-[http://banshee-project.org/Guide/DAPs/MTP/FAQ here].
+#REDIRECT [[Projects/Open Source/Banshee/MTP/MovedToBansheeProject]]
