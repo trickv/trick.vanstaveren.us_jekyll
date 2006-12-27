@@ -1,1 +1,1 @@
-#REDIRECT [[Projects/Open_Source/Banshee/Mtp/MovedToBansheeProject]]
+#REDIRECT [[Projects/Open Source/Banshee/MTP/MovedToBansheeProject]]
