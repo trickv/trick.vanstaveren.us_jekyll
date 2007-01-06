@@ -4,4 +4,5 @@ permalink: wiki/Thoughts/Distro_Wars/
 layout: wiki
 ---
 
-My 2 cents on Linux Distribution Wars.
+{warning|This is a draft, and has not been published. If you're here,
+please do not pass this along to anyone until I publish it.}
