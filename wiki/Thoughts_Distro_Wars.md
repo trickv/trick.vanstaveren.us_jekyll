@@ -4,5 +4,4 @@ permalink: wiki/Thoughts/Distro_Wars/
 layout: wiki
 ---
 
-{warning|This is a draft, and has not been published. If you're here,
-please do not pass this along to anyone until I publish it.}
+
