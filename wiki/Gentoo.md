@@ -4,4 +4,4 @@ permalink: wiki/Gentoo/
 layout: wiki
 ---
 
-[Dev](/wiki/Dev "wikilink")
+[Gentoo/Dev](/wiki/Gentoo/Dev "wikilink")
