@@ -2,3 +2,7 @@
 
 
 [[Gentoo/Dev/EbuildsToWorkOn]]
+
+
+===External Links===
+[http://www.gentoo.org/proj/en/metastructure/herds/herds.xml http://www.gentoo.org/proj/en/metastructure/herds/herds.xml]
