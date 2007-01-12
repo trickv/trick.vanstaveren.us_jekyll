@@ -6,6 +6,8 @@ layout: wiki
 
 [Gentoo/Dev/EbuildQuiz](/wiki/Gentoo/Dev/EbuildQuiz "wikilink")
 
+[Gentoo/Dev/EbuildQuiz2](/wiki/Gentoo/Dev/EbuildQuiz2 "wikilink")
+
 [Gentoo/Dev/EbuildsToWorkOn](/wiki/Gentoo/Dev/EbuildsToWorkOn "wikilink")
 
 ### External Links

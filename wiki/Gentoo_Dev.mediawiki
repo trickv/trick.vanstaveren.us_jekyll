@@ -1,5 +1,7 @@
 [[Gentoo/Dev/EbuildQuiz]]
 
+[[Gentoo/Dev/EbuildQuiz2]]
+
 
 [[Gentoo/Dev/EbuildsToWorkOn]]
 
