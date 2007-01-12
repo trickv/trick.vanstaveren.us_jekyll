@@ -4,6 +4,14 @@ permalink: wiki/Gentoo/Dev/EbuildsToWorkOn/
 layout: wiki
 ---
 
-libmtp (needs doc revision, and emake-&gt;make install fix) libgphoto2
-(many revs) gphoto2 (needs review) libgphoto2-sharp (new) timer-applet
-(new)
+libmtp (ready)
+
+libgphoto2 (many things to fix)
+
+gphoto2 (needs review)
+
+libgphoto2-sharp (new)
+
+timer-applet (new)
+
+link-monitor-applet (new)

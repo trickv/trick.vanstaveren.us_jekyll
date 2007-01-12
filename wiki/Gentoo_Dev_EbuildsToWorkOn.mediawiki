@@ -1,5 +1,11 @@
-libmtp (needs doc revision, and emake->make install fix)
-libgphoto2 (many revs)
+libmtp (ready)
+
+libgphoto2 (many things to fix)
+
 gphoto2 (needs review)
+
 libgphoto2-sharp (new)
+
 timer-applet (new)
+
+link-monitor-applet (new)
