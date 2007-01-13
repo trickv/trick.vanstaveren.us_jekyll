@@ -16,7 +16,7 @@
 ===Keys===
 * {{file|Id_rsa.pub|SSH RSAv2 Public Key}} (recommended)
 * {{file|Id_dsa.pub|SSH DSA Public Key}} (old, but will work)
-* GPG key coming...
+* GPG Public ID Key: B38115B7
 
 ===Snail Mail===
  Patrick van Staveren
