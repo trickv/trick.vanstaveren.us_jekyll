@@ -43,7 +43,7 @@ layout: wiki
 
 -   (old, but will work)
 
--   GPG Public ID Key: B38115B7
+-   GPG Public ID Key: B38115B7 (expires 2007-07-13)
 
 ### Snail Mail
 
