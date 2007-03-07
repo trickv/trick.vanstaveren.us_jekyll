@@ -48,8 +48,8 @@ layout: wiki
 ### Snail Mail
 
 `Patrick van Staveren`  
-`816 W. Walnut St. Apt #202`  
-`Kalamazoo, MI 49007`
+`1161 W. Lunt Ave #261`  
+`Chicago, IL 60626`
 
 ### Mobile Phone
 
