@@ -14,4 +14,4 @@ It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline Gnome 2
 ** Port forwarding stuff for [[Computers/Mc|mc]]
 
 
-You can visit sting's web interface at [http://sting.vanstaveren.us:8000/ sting.vanstaveren.us:8000]
+You can visit sting's web interface at [http://sting.vanstaveren.us/ sting.vanstaveren.us]

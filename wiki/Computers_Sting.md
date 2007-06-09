@@ -31,4 +31,4 @@ Gnome 2.14:
     -   Port forwarding stuff for [mc](/wiki/Computers/Mc "wikilink")
 
 You can visit sting's web interface at
-[sting.vanstaveren.us:8000](http://sting.vanstaveren.us:8000/)
+[sting.vanstaveren.us](http://sting.vanstaveren.us/)
