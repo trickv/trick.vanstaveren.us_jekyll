@@ -1,12 +1,15 @@
 Will be showing up by rail on Monday the 16th around noonish.
 
 Monday
-14:00 [http://guadec.org/node/576 Screensaver Sanity] or [http://www.guadec.org/node/774 Build Service]
-15:00 [http://guadec.org/node/641 Gnome accessibility for the blind]
-16:00 [http://guadec.org/node/620 Real-time rich text collaboration]
-17:00
+* 14:00 [http://guadec.org/node/576 Screensaver Sanity] or [http://www.guadec.org/node/774 Build Service]
+* 15:00 [http://guadec.org/node/641 Gnome accessibility for the blind]
+* 16:00 [http://guadec.org/node/620 Real-time rich text collaboration]
+* 17:00
 
 Tuesday
-10:30 [http://guadec.org/node/621 F-Spot Wide Angle] (recording)
-11:30 [http://guadec.org/node/550 libgnomedb] (recording)
-15:00
+* 10:30 [http://guadec.org/node/621 F-Spot Wide Angle] (recording)
+* 11:30 [http://guadec.org/node/550 libgnomedb] (recording)
+* 15:00
+* 
+* 
+*
