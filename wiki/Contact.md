@@ -31,7 +31,8 @@ layout: wiki
     <img src="/util/textimage.php?text=p_vanstaveren.fancy-a.hotmail.com&size=10">
 
     </html>
--   Jabber: goofyassmoose@jabber.org
+-   Jabber:
+    <img src="/util/textimage.php?text=goofyassmoose.fancy-a.jabber.org&size=10">
 -   Yahoo!: p1313\_98
 -   IRC
     -   trick\_@irc.freenode.net (\#gphoto, \#gentoo-userrel)
@@ -54,5 +55,6 @@ layout: wiki
 ### Phone
 
 -   Mobile Phone: Just ask :)
--   SIP: trickv@ekiga.net
+-   SIP:
+    <img src="/util/textimage.php?text=trickv.fancy-a.ekiga.net&size=10">
 
