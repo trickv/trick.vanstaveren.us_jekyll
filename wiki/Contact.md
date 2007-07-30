@@ -51,7 +51,8 @@ layout: wiki
 `1161 W. Lunt Ave #261`  
 `Chicago, IL 60626`
 
-### Mobile Phone
+### Phone
 
--   Just ask :)
+-   Mobile Phone: Just ask :)
+-   SIP: trickv@ekiga.net
 
