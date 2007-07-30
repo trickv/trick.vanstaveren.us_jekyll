@@ -8,17 +8,17 @@ layout: wiki
 
 -   Primary:
     <html>
-    <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=trick@vanstaveren.us&size=10">
+    <img src="/util/textimage.php?text=trick@vanstaveren.us&size=10">
 
     </html>
 -   Secondary:
     <html>
-    <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=pvanstav@cs.wmich.edu&size=10">
+    <img src="/util/textimage.php?text=pvanstav@cs.wmich.edu&size=10">
 
     </html>
 -   Spam:
     <html>
-    <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=junk@trick.vanstaveren.us&size=10">
+    <img src="/util/textimage.php?text=junk@trick.vanstaveren.us&size=10">
 
     </html>
 
@@ -28,7 +28,7 @@ layout: wiki
 -   ICQ: 29652671
 -   MSN:
     <html>
-    <img src="http://www.trick.vanstaveren.us/inc/textimage.php?text=p_vanstaveren@hotmail.com&size=10">
+    <img src="/util/textimage.php?text=p_vanstaveren@hotmail.com&size=10">
 
     </html>
 -   Jabber: goofyassmoose@jabber.org
