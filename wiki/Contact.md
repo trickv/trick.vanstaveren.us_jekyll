@@ -32,7 +32,10 @@ layout: wiki
 
     </html>
 -   Jabber:
+    <html>
     <img src="/util/textimage.php?text=goofyassmoose.fancy-a.jabber.org&size=10">
+
+    </html>
 -   Yahoo!: p1313\_98
 -   IRC
     -   trick\_@irc.freenode.net (\#gphoto, \#gentoo-userrel)
@@ -56,5 +59,8 @@ layout: wiki
 
 -   Mobile Phone: Just ask :)
 -   SIP:
+    <html>
     <img src="/util/textimage.php?text=trickv.fancy-a.ekiga.net&size=10">
+
+    </html>
 
