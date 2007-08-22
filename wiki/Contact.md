@@ -52,8 +52,8 @@ layout: wiki
 ### Snail Mail
 
 `Patrick van Staveren`  
-`1161 W. Lunt Ave #261`  
-`Chicago, IL 60626`
+`1420 W. Hutchinson St. Apt #1S`  
+`Chicago, IL 60613`
 
 ### Phone
 
