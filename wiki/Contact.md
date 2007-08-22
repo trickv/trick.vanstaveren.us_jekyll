@@ -53,6 +53,8 @@ layout: wiki
 
 #### Home
 
+*this address will likely have changed after 2008-07-31*
+
 `Patrick van Staveren`  
 `1420 W. Hutchinson St. Apt #1S`  
 `Chicago, IL 60613`
