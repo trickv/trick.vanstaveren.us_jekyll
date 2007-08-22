@@ -51,9 +51,18 @@ layout: wiki
 
 ### Snail Mail
 
+#### Home
+
 `Patrick van Staveren`  
 `1420 W. Hutchinson St. Apt #1S`  
 `Chicago, IL 60613`
+
+#### Work
+
+`Patrick van Staveren`  
+`Mintel International Group`  
+`351 W. Hubbard St. Fl. 8`  
+`Chicago, IL 60610`
 
 ### Phone
 
