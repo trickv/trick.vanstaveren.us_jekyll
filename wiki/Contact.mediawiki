@@ -10,8 +10,8 @@
 * Jabber: <html><img src="/util/textimage.php?text=goofyassmoose.fancy-a.jabber.org&size=10"></html>
 * Yahoo!: p1313_98
 * IRC
-** trick_@irc.freenode.net (#gphoto, #gentoo-userrel)
-** trick@irc.gnome.org (#banshee, #mono sometimes)
+** trick_@irc.freenode.net
+** trick@irc.gnome.org
 
 ===Keys===
 * {{file|Id_rsa.pub|SSH RSAv2 Public Key}} (recommended)

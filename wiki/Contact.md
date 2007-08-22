@@ -38,8 +38,8 @@ layout: wiki
     </html>
 -   Yahoo!: p1313\_98
 -   IRC
-    -   trick\_@irc.freenode.net (\#gphoto, \#gentoo-userrel)
-    -   trick@irc.gnome.org (\#banshee, \#mono sometimes)
+    -   trick\_@irc.freenode.net
+    -   trick@irc.gnome.org
 
 ### Keys
 
