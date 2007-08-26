@@ -16,11 +16,6 @@ layout: wiki
     <img src="/util/textimage.php?text=pvanstav.fancy-a.cs.wmich.edu&size=10">
 
     </html>
--   Spam:
-    <html>
-    <img src="/util/textimage.php?text=junk.fancy-a.trick.vanstaveren.us&size=10">
-
-    </html>
 
 ### IM/Chat protocols
 
