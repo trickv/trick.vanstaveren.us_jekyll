@@ -21,3 +21,5 @@ Non-fiction
 <http://www.amazon.com/Peopleware-Productive-Projects-Tom-DeMarco/dp/0932633439>
 
 “Lucky Man” - Michael J Fox
+
+Dave Barry: <http://en.wikipedia.org/wiki/Dave_Barry#Works>
