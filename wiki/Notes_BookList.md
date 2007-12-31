@@ -23,3 +23,5 @@ Non-fiction
 “Lucky Man” - Michael J Fox
 
 Dave Barry: <http://en.wikipedia.org/wiki/Dave_Barry#Works>
+
+Eric Clapton - Autobiography
