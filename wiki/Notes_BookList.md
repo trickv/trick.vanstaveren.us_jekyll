@@ -15,6 +15,9 @@ Fiction
     -   The Worthing Saga
 -   Hitchhikers guide books?
 
+Stephen King - Nightmares and Dreamscapes
+<http://www.amazon.com/Nightmares-Dreamscapes-King-Stephen/dp/B000LAY24O/ref=pd_bbs_sr_3?ie=UTF8&s=books&qid=1200284002&sr=1-3>
+
 Non-fiction
 -----------
 
