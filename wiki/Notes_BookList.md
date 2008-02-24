@@ -16,6 +16,7 @@ Fiction
 -   Hitchhikers guide books?
 -   Steve Donaldson
 -   Penn - “The Powers That Be”
+-   “A Scanner Darkly” - Philip K Dick
 
 Stephen King - Nightmares and Dreamscapes
 <http://www.amazon.com/Nightmares-Dreamscapes-King-Stephen/dp/B000LAY24O/ref=pd_bbs_sr_3?ie=UTF8&s=books&qid=1200284002&sr=1-3>
