@@ -48,23 +48,12 @@ layout: wiki
 
 #### Home
 
-*Valid after 2008-07-19*
-
 `Patrick van Staveren`  
 `916 N. Washtenaw #1`  
 `Chicago, IL 60622`
 
 [http://maps.google.com/maps?q=916%20N.%20Washtenaw,%20Chicago,%20IL%2060622
 map](http://maps.google.com/maps?q=916%20N.%20Washtenaw,%20Chicago,%20IL%2060622_map "wikilink")
-
-*Valid until 2008-07-31*
-
-`Patrick van Staveren`  
-`1420 W. Hutchinson St. Apt #1S`  
-`Chicago, IL 60613`
-
-[http://maps.google.com/maps?q=1420%20W.%20Hutchinson,%20Chicago,%20IL%2060613
-map](http://maps.google.com/maps?q=1420%20W.%20Hutchinson,%20Chicago,%20IL%2060613_map "wikilink")
 
 #### Work
 
