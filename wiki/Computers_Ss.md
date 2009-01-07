@@ -7,15 +7,21 @@ layout: wiki
 In December 2008 I purchased a Lenovo IdeaPad U330.
 
 I bought this specific model because quite a few modern laptops aren't
-exactly portable. The IdeaPad series is built to be lightweight (&lt;5
-pounds) and low power to make for good battery life. I bought it from my
-local [MicroCenter](http://www.microcenter.com/) in Chicago for $1300.
-The closest competitor in the store was a Sony for about $1800 which was
+exactly portable anymore -- they're bulky widescreen overweight beasts.
+The IdeaPad series is built to be lightweight (&lt;5 pounds) and low
+power to make for good battery life. I bought it from my local
+[MicroCenter](http://www.microcenter.com/) in Chicago for $1300. The
+closest competitor in the store was a Sony for about $1800 which was
 also an ultra-light model.
 
 Upon purchase I didn't allow Vista to see the light of day and installed
 GNU/Linux on it. I've been too tired too maintain Gentoo on my machines
 in the past year, so I'm trying on Ubuntu for style.
+
+I'm slightly regretting not installing Vista. I would never want to use
+it, but it seems Lenovo's BIOS updates are run from Windows. So I'm
+going to have to install Windows somewhere (probably on a spare hard
+drive or a USB stick if I can manage it.)
 
 Hardware Details
 ----------------
@@ -95,6 +101,15 @@ and loaded `videodev` and `uvcvideo` from the compiled copy, and I have
 video! The picture is inverted, but it's close. From a few sources I've
 read that this is a common issue and can be worked around with using a
 parameter on `insmod` and I'll post these results to the UVC list soon.
+
+Keyboard double-presses
+-----------------------
+
+The keyboard is a full-size keyboard which makes me happy. But I'm
+having one issue: sometimes I'm getting double key-presses. Irregularly,
+`vim foo` actually comes out as `vimm foo`. I'm not sure if this is a
+hardware issue or a software issue, but I'm a solid typist and confident
+that this isn't just shaky hands.
 
 Comments
 --------
