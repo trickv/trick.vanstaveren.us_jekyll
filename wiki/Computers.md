@@ -11,3 +11,5 @@ My compies:
 [Computers/McTrickster](/wiki/Computers/McTrickster "wikilink")
 
 [Computers/Stuart](/wiki/Computers/Stuart "wikilink")
+
+[Computers/Ss](/wiki/Computers/Ss "wikilink")

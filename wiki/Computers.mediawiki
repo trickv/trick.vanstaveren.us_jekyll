@@ -5,3 +5,5 @@ My compies:
 [[Computers/McTrickster]]
 
 [[Computers/Stuart]]
+
+[[Computers/Ss]]
