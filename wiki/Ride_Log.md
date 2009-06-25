@@ -1,10 +1,7 @@
 ---
 title: Ride Log
 permalink: wiki/Ride_Log/
-layout: wiki
-tags:
- -  Ride Log
+redirect_to: /wiki/Category%3A_Ride_Log/
 ---
 
-1.  REDIRECT
-
+You should automatically be redirected to [Category%3A Ride Log](/wiki/Category%3A_Ride_Log/)
