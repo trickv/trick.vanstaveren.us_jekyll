@@ -5,4 +5,5 @@ layout: tagpage
 tag: Ride Log
 ---
 
-foo
+logging rides on my fancy new Bianchi Imola so I can keep track of fit
+issues and such
