@@ -24,7 +24,8 @@ __NOTOC__
  Patrick van Staveren
  916 N. Washtenaw #1
  Chicago, IL 60622
-[[http://maps.google.com/maps?q=916%20N.%20Washtenaw,%20Chicago,%20IL%2060622 map]]
+ United States of America
+[[http://maps.google.com/maps?q=916%20N.%20Washtenaw,%20Chicago,%20IL%2060622,USA map]]
 
 ====Work====
  Patrick van Staveren
