@@ -7,92 +7,92 @@ Of course, the Wings are going to win.  C'mon.  But I hear there are other teams
 |Stanley Cup Final
 |RD1-seed01
 |RD1-team01  = Washington Capitals
-|RD1-score01 =
+|RD1-score01 = 4
 |RD1-seed02
 |RD1-team02  = Montreal Canadiens
-|RD1-score02 =
+|RD1-score02 = 2
 |RD1-seed03
 |RD1-team03  = New Jersey Devils
-|RD1-score03 =
+|RD1-score03 = 3
 |RD1-seed04
 |RD1-team04  = Philadelphia Flyers
-|RD1-score04 =
+|RD1-score04 = 4
 |RD1-seed05
 |RD1-team05  = Buffalo Sabres
-|RD1-score05 =
+|RD1-score05 = 4
 |RD1-seed06
 |RD1-team06  = Boston Bruins
-|RD1-score06 =
+|RD1-score06 = 0
 |RD1-seed07
 |RD1-team07  = Pittsburgh Penguins
-|RD1-score07 = 
+|RD1-score07 = 3
 |RD1-seed08
 |RD1-team08  = Ottawa Senators
-|RD1-score08 =
+|RD1-score08 = 4
 |RD1-seed09
 |RD1-team09  = San Jose Sharks
-|RD1-score09 =
+|RD1-score09 = 4
 |RD1-seed10
 |RD1-team10  = Colorado Avalanche
-|RD1-score10 =
+|RD1-score10 = 1
 |RD1-seed11
 |RD1-team11  = Chicago Blackhawks
-|RD1-score11 = 
+|RD1-score11 = 4
 |RD1-seed12
 |RD1-team12  = Nashville Predators
-|RD1-score12 =
+|RD1-score12 = 2
 |RD1-seed13
 |RD1-team13  = Vancouver Canucks
-|RD1-score13 =
+|RD1-score13 = 2
 |RD1-seed14
 |RD1-team14  = Los Angeles Kings
-|RD1-score14 =
+|RD1-score14 = 4
 |RD1-seed15
 |RD1-team15  = Phoenix Coyotes
-|RD1-score15 = 
+|RD1-score15 = 1
 |RD1-seed16
 |RD1-team16  = Detroit Red Wings
-|RD1-score16 = 
-| RD2-seed01= 
-| RD2-team01=
-| RD2-score01=
-| RD2-seed02=
-| RD2-team02=
-| RD2-score02=
-| RD2-seed03=
-| RD2-team03=
-| RD2-score03=
-| RD2-seed04=
-| RD2-team04=
-| RD2-score04=
-| RD2-seed05=
-| RD2-team05=
-| RD2-score05=
-| RD2-seed06=
-| RD2-team06=
-| RD2-score06=
-| RD2-seed07=
-| RD2-team07=
-| RD2-score07=
-| RD2-seed08=
-| RD2-team08=
-| RD2-score08=
-| RD3-seed01=
-| RD3-team01=
-| RD3-score01=
-| RD3-seed02=
-| RD3-team02= 
-| RD3-score02=
-| RD3-seed03=
-| RD3-team03=
-| RD3-score03=
-| RD3-seed04=
-| RD3-team04=
-| RD3-score04=
-| RD4-seed01=
-| RD4-team01=
-| RD4-score01=
-| RD4-seed02=
-| RD4-team02=
-| RD4-score02=
+|RD1-score16 = 4
+| RD2-seed01= 1
+| RD2-team01= Washington Capitals
+| RD2-score01= 4
+| RD2-seed02= 7
+| RD2-team02= Philadelphia Flyers
+| RD2-score02= 3
+| RD2-seed03= 3
+| RD2-team03= Buffalo Sabres
+| RD2-score03= 4
+| RD2-seed04= 5
+| RD2-team04= Ottawa Senators
+| RD2-score04= 1
+| RD2-seed05= 1
+| RD2-team05= San Jose Sharks
+| RD2-score05= 4
+| RD2-seed06= 6
+| RD2-team06= Los Angeles Kings
+| RD2-score06= 3
+| RD2-seed07= 2
+| RD2-team07= Chicago Blackhawks
+| RD2-score07= 3
+| RD2-seed08= 5
+| RD2-team08= Detroit Red Wings
+| RD2-score08= 4
+| RD3-seed01= 1
+| RD3-team01= Washington Capitals
+| RD3-score01= 2
+| RD3-seed02= 3
+| RD3-team02= Buffalo Sabres
+| RD3-score02= 4
+| RD3-seed03= 1
+| RD3-team03= San Jose Sharks
+| RD3-score03= 3
+| RD3-seed04= 5
+| RD3-team04= Detroit Red Wings
+| RD3-score04= 4
+| RD4-seed01= 3
+| RD4-team01= Buffalo Sabres
+| RD4-score01= 3
+| RD4-seed02= 5
+| RD4-team02= Detroit Red Wings
+| RD4-score02= 4
  }}
