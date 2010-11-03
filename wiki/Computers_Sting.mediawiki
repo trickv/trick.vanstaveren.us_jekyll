@@ -1,17 +1,34 @@
-Sting, my fabulous dual P2-350 128meg ram server/firewall/etc box.
+=== What It Is ===
+Sting is my dual P2-350 <del>128meg</del> 256meg [http://www.motherboard.cz/mb/asus/P2B-D.htm Asus P2B-D] webserver/router/firewall/backup/you-name-it box.
 
-Sting has been my firewall now for almost four years, and all I've had to replace on it is some bad ram and a bad hard drive.  My best uptime was something like 90 days, but the best I have on record is "22:14:06 up 53 days, 21:05, 1 user, load average: 0.00, 0.00, 0.00".  Once I get down to Chicago and have some cash to buy it a backup battery and toss in some more ram, I suspect I will never turn it off until the next time I move.  We'll see :)
+[[Image:IMG 4113.jpg|168px]] [[Image:IMG 20101101 072133.jpg|300px]] [[Image:IMG 4118.jpg|300px]]
 
-It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline Gnome 2.14:
-* Apache 2.0 web server, with mod_mono & PHP 5
-** hosts lots of little bits 'n pieces of fun stuff, including iFolder
-* iFolder 3.5 server (instructions to build will come soon on [[Log]] and on ifolder site)
-* SSH, FTP, TightVNC services
-* Testing box for the [http://www.horde.org/ Horde Application Framework] CVS.
+=== History ===
+Sting has been my home network keystone since about 2004.  It's an old slow dog that never quits.
+
+=== The Uptime Saga ===
+* Back in college, I was excited when it hit uptimes of 90 and 53 days.
+* I moved to Chicago in 2006 and made some money, and bought a UPS.  That helped.
+* After a year, living at my Hutchinson St apartment, the uptime grew.  It prompted me to write a simple [http://vanstaveren.us/~trick/uptime/ uptime tracking service for my computers], so I would have a proper record aside this page.
+* Less than 12 hours before I moved out of that apartment, it crashed due to a disk controller fault at an uptime of 279 days.
+* I moved to my Washtenaw Ave apartment in 2008, replaced the disk controller and disks with hand-me-down SATA disks, and left it on from December 2008 onwards.
+* In May 2010, I moved from the ground floor to the top floor of the apartment on Washtenaw Ave.  I planned and executed a successful move of Sting whilst on, with it's UPS in hand!
+* On November 1st 2010, the [[:Image:IMG 20101101 211542.jpg|power supply in Sting finally gave way]] and it died in the middle of the night, at 687 days up.  94% of the way to two years.  I replaced the power supply with a [[:Image:IMG 4120.jpg|new gigantic one]] from Cooler Master.
+
+I may never beat 687 days with a real physical computer of my own.  [[Computers/Sam|Sam]], my linode has proven to be reasonably stable and may someday go years, but it's not the same challenge.
+
+=== Software ===
+
+Sting runs [http://www.gnu.org/ GNU]/[http://kernel.org/ Linux] with a 2.6 kernel.  It's primary based on [http://www.slackware.org/ Slackware 10.2] and [http://www.droplinegnome.org/ Dropline Gnome 2.14] with a 2.4 kernel.
+
+It has been massively upgraded over the years.  2.4 to 2.6 was a bit of a challenge, and I've found my <tt>/usr/local</tt> to be extensive.
+
+It runs lots of fun services like:
+* Apache 2.0 web server with PHP 5
+* SSH and OpenVPN servers
+* Exim SMTP server
 * Subversion server
-* Netfilter firewall
-** w/ traffic shaping marking and l7_filter added on
-** Port forwarding stuff for [[Computers/Mc|mc]]
-
+* Internal services like a Netfilter firewall, VPN bridge and DHCP server, DNS server with custom records and an NTP server.
+* Tunnels or proxies several services from [[Computers/Mc|mc]] for music sharing.
 
 You can visit sting's web interface at [http://sting.vanstaveren.us/ sting.vanstaveren.us]

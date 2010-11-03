@@ -4,31 +4,69 @@ permalink: wiki/Computers/Sting/
 layout: wiki
 ---
 
-Sting, my fabulous dual P2-350 128meg ram server/firewall/etc box.
+### What It Is
 
-Sting has been my firewall now for almost four years, and all I've had
-to replace on it is some bad ram and a bad hard drive. My best uptime
-was something like 90 days, but the best I have on record is “22:14:06
-up 53 days, 21:05, 1 user, load average: 0.00, 0.00, 0.00”. Once I get
-down to Chicago and have some cash to buy it a backup battery and toss
-in some more ram, I suspect I will never turn it off until the next time
-I move. We'll see :)
+Sting is my dual P2-350 ~~128meg~~ 256meg [Asus
+P2B-D](http://www.motherboard.cz/mb/asus/P2B-D.htm)
+webserver/router/firewall/backup/you-name-it box.
 
-It runs lots of fun software, built on top of Slackware 10.2 w/ Dropline
-Gnome 2.14:
+<img src="IMG_4113.jpg" title="fig:IMG_4113.jpg" alt="IMG_4113.jpg" width="168" />
+<img src="IMG_20101101_072133.jpg" title="fig:IMG_20101101_072133.jpg" alt="IMG_20101101_072133.jpg" width="300" />
+<img src="IMG_4118.jpg" title="fig:IMG_4118.jpg" alt="IMG_4118.jpg" width="300" />
 
--   Apache 2.0 web server, with mod\_mono & PHP 5
-    -   hosts lots of little bits 'n pieces of fun stuff, including
-        iFolder
--   iFolder 3.5 server (instructions to build will come soon on
-    [Log](/wiki/Log "wikilink") and on ifolder site)
--   SSH, FTP, TightVNC services
--   Testing box for the [Horde Application
-    Framework](http://www.horde.org/) CVS.
+### History
+
+Sting has been my home network keystone since about 2004. It's an old
+slow dog that never quits.
+
+### The Uptime Saga
+
+-   Back in college, I was excited when it hit uptimes of 90 and 53
+    days.
+-   I moved to Chicago in 2006 and made some money, and bought a UPS.
+    That helped.
+-   After a year, living at my Hutchinson St apartment, the uptime grew.
+    It prompted me to write a simple [uptime tracking service for my
+    computers](http://vanstaveren.us/~trick/uptime/), so I would have a
+    proper record aside this page.
+-   Less than 12 hours before I moved out of that apartment, it crashed
+    due to a disk controller fault at an uptime of 279 days.
+-   I moved to my Washtenaw Ave apartment in 2008, replaced the disk
+    controller and disks with hand-me-down SATA disks, and left it on
+    from December 2008 onwards.
+-   In May 2010, I moved from the ground floor to the top floor of the
+    apartment on Washtenaw Ave. I planned and executed a successful move
+    of Sting whilst on, with it's UPS in hand!
+-   On November 1st 2010, the [power supply in Sting finally gave
+    way](:Image:IMG_20101101_211542.jpg "wikilink") and it died in the
+    middle of the night, at 687 days up. 94% of the way to two years. I
+    replaced the power supply with a [new gigantic
+    one](:Image:IMG_4120.jpg "wikilink") from Cooler Master.
+
+I may never beat 687 days with a real physical computer of my own.
+[Sam](/wiki/Computers/Sam "wikilink"), my linode has proven to be reasonably
+stable and may someday go years, but it's not the same challenge.
+
+### Software
+
+Sting runs [GNU](http://www.gnu.org/)/[Linux](http://kernel.org/) with a
+2.6 kernel. It's primary based on [Slackware
+10.2](http://www.slackware.org/) and [Dropline Gnome
+2.14](http://www.droplinegnome.org/) with a 2.4 kernel.
+
+It has been massively upgraded over the years. 2.4 to 2.6 was a bit of a
+challenge, and I've found my `/usr/local` to be extensive.
+
+It runs lots of fun services like:
+
+-   Apache 2.0 web server with PHP 5
+-   SSH and OpenVPN servers
+-   Exim SMTP server
 -   Subversion server
--   Netfilter firewall
-    -   w/ traffic shaping marking and l7\_filter added on
-    -   Port forwarding stuff for [mc](/wiki/Computers/Mc "wikilink")
+-   Internal services like a Netfilter firewall, VPN bridge and DHCP
+    server, DNS server with custom records and an NTP server.
+-   Tunnels or proxies several services from
+    [mc](/wiki/Computers/Mc "wikilink") for music sharing.
 
 You can visit sting's web interface at
 [sting.vanstaveren.us](http://sting.vanstaveren.us/)
