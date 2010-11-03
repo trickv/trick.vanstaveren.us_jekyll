@@ -1,0 +1,3 @@
+Sam is a [http://www.linode.com/ Linode] 360 Xen machine.  It runs [http://vanstaveren.us/ vanstaveren.us] and everything on it, aside what you'll find under [http://sting.vanstaveren.us/ sting.vanstaveren.us] or <tt>home.vanstaveren.us</tt>.
+
+It runs Gentoo.  And it's a mess.
