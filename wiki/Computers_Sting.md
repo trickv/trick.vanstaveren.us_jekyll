@@ -10,6 +10,11 @@ Sting is my dual P2-350 ~~128meg~~ 256meg [Asus
 P2B-D](http://www.motherboard.cz/mb/asus/P2B-D.htm)
 webserver/router/firewall/backup/you-name-it box.
 
+It is named for [the
+dagger](http://en.wikipedia.org/wiki/List_of_Middle-earth_weapons_and_armour#Sting)
+which Bilbo and later Frodo used in *The Hobbit* and *The Lord Of The
+Rings*.
+
 <img src="IMG_4113.jpg" title="fig:IMG_4113.jpg" alt="IMG_4113.jpg" width="168" />
 <img src="IMG_20101101_072133.jpg" title="fig:IMG_20101101_072133.jpg" alt="IMG_20101101_072133.jpg" width="300" />
 <img src="IMG_4118.jpg" title="fig:IMG_4118.jpg" alt="IMG_4118.jpg" width="300" />
