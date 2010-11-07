@@ -49,7 +49,7 @@ layout: wiki
 #### Home
 
 `Patrick van Staveren`  
-`916 N. Washtenaw #1`  
+`916 N. Washtenaw #3`  
 `Chicago, IL 60622`  
 `United States of America`
 
