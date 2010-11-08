@@ -50,7 +50,7 @@ layout: wiki
 
 `Patrick van Staveren`  
 `916 N. Washtenaw #3`  
-`Chicago, IL 60622`  
+`Chicago, IL 60622-4455`  
 `United States of America`
 
 [http://maps.google.com/maps?q=916%20N.%20Washtenaw,%20Chicago,%20IL%2060622,USA
