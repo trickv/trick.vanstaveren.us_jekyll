@@ -12,7 +12,21 @@ layout: wiki
 </html>
 ### IM/Chat protocols
 
--   **AIM: goofyassmoose**
+Google Talk:
+
+<html>
+<img src="/util/textimage.php?text=trickv.fancy-a.gmail.com&size=10">
+
+</html>
+I occasionally use Skype:
+
+<html>
+<img src="/util/textimage.php?text=patrick.van.staveren&size=10">
+
+</html>
+I used to use:
+
+-   AIM: goofyassmoose
 -   ICQ: 29652671
 -   MSN:
     <html>
