@@ -2,8 +2,6 @@ This is the personal site for one Patrick van Staveren.
 
 If you are actually trying to get in touch, check out the [[Contact|contact]] page!
 
-I also have a computer named [[Computers/Sting|sting]] who [http://sting.vanstaveren.us/ hosts some other, more fun stuff] of mine.
-
-'''Recent entries to [http://trick.vanstaveren.us/wp My Log]:'''
+'''Recent entries to [http://trick.vanstaveren.us/wp My Web Log]:'''
 
 <rss>http://trick.vanstaveren.us/wp/feed/|date|max=5|charset=UTF-8|short|notitle|date_format=Y-m-d</rss>
