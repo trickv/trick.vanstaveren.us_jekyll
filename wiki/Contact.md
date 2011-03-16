@@ -6,17 +6,10 @@ layout: wiki
 
 ### E-mail
 
--   Primary:
-    <html>
-    <img src="/util/textimage.php?text=trick.fancy-a.vanstaveren.us&size=10">
+<html>
+<img src="/util/textimage.php?text=trick.fancy-a.vanstaveren.us&size=10">
 
-    </html>
--   Secondary:
-    <html>
-    <img src="/util/textimage.php?text=pvanstav.fancy-a.cs.wmich.edu&size=10">
-
-    </html>
-
+</html>
 ### IM/Chat protocols
 
 -   **AIM: goofyassmoose**
