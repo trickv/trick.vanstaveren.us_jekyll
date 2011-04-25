@@ -20,5 +20,7 @@ until Trick moves to China!”; FinishMessage = “I'm off to China!”;
 </html>
 </big></big>
 
+(Assuming he leaves on June 1st, which isn't confirmed yet...)
+
 <small><small><small>Script from:
 <http://www.hashemian.com/tools/javascript-countdown.htm></small></small></small>
