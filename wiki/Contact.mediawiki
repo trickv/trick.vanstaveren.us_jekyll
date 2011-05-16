@@ -6,7 +6,7 @@ __NOTOC__
 
 Google Talk: <html><img src="/util/textimage.php?text=trickv.fancy-a.gmail.com&size=10"></html>
 
-I occasionally use Skype: <html><img src="/util/textimage.php?text=patrick.van.staveren&size=10"></html>
+Skype: <html><img src="/util/textimage.php?text=patrick.van.staveren&size=10"></html>
 
 I used to use:
 * AIM: goofyassmoose

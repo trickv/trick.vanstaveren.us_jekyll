@@ -18,7 +18,7 @@ Google Talk:
 <img src="/util/textimage.php?text=trickv.fancy-a.gmail.com&size=10">
 
 </html>
-I occasionally use Skype:
+Skype:
 
 <html>
 <img src="/util/textimage.php?text=patrick.van.staveren&size=10">
