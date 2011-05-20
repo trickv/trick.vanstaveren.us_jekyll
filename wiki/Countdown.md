@@ -8,7 +8,7 @@ layout: wiki
 
 <html>
 <script language="JavaScript">
-TargetDate = “06/01/2011 10:00 AM”; BackColor = “white”; ForeColor =
+TargetDate = “06/02/2011 10:32 AM”; BackColor = “white”; ForeColor =
 “\#330066”; CountActive = true; CountStepper = -1; LeadingZero = false;
 //DisplayFormat = “Oh shoot! %%D%% days, %%H%% Hours, %%M%% Minutes
 until Trick moves to China!”; DisplayFormat = “Oh shoot! %%D%% days and
@@ -21,7 +21,7 @@ China!”;
 </html>
 </big></big>
 
-(Assuming he leaves on June 1st at 10 AM, which isn't confirmed yet...)
+(Assuming he leaves on June 2nd at 10:32 AM)
 
 <small><small><small>Script from:
 <http://www.hashemian.com/tools/javascript-countdown.htm></small></small></small>
