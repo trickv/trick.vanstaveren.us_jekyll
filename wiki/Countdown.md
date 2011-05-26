@@ -21,7 +21,7 @@ China!”;
 </html>
 </big></big>
 
-(Assuming he leaves on June 2nd at 10:32 AM)
+(Leaving on June 2nd at 10:32 AM)
 
 <small><small><small>Script from:
 <http://www.hashemian.com/tools/javascript-countdown.htm></small></small></small>
