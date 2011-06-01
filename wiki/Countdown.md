@@ -12,8 +12,8 @@ TargetDate = “06/02/2011 10:32 AM”; BackColor = “white”; ForeColor =
 “\#330066”; CountActive = true; CountStepper = -1; LeadingZero = false;
 //DisplayFormat = “Oh shoot! %%D%% days, %%H%% Hours, %%M%% Minutes
 until Trick moves to China!”; DisplayFormat = “Oh shoot! %%D%% days and
-%%H%% hours until Trick moves to China!”; FinishMessage = “I'm off to
-China!”;
+%%H%% hours, %%M%% Minutes until Trick moves to China!”; FinishMessage =
+“I'm off to China!”;
 
 </script>
 <script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js">
