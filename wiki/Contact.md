@@ -54,9 +54,9 @@ Valid until 2011-08-01
 `Patrick van Staveren room 1506`  
 `c/o Citadines Shanghai Jinqiao`  
 `55 Beijing Xi Road, Huangpu District`  
-`Shanghai 200003, China`  
-`Phone: +86 21 2308 6666`
+`Shanghai 200003, China`
 
+Phone: +86 21 2308 6666
 [http://maps.google.com/maps?f=q&source=s\_q&hl=en&geocode=&q=55+Beijing+West+Road,+Huangpu,+Shanghai,+China&aq=&sll=31.23702,121.472307&sspn=0.00921,0.021136&ie=UTF8&hq=&hnear=China+Shanghai+Huang+Pu+Qu+Bei+Jing+Xi+Lu+55%E5%8F%B7&ll=31.237004,121.472268&spn=0.00921,0.021136&z=16
 map](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=55+Beijing+West+Road,+Huangpu,+Shanghai,+China&aq=&sll=31.23702,121.472307&sspn=0.00921,0.021136&ie=UTF8&hq=&hnear=China+Shanghai+Huang+Pu+Qu+Bei+Jing+Xi+Lu+55%E5%8F%B7&ll=31.237004,121.472268&spn=0.00921,0.021136&z=16_map "wikilink")
 
