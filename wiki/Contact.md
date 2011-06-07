@@ -4,6 +4,21 @@ permalink: wiki/Contact/
 layout: wiki
 ---
 
+<html>
+&lt;!-Local Time Clock widget - HTML code - localtimes.info --&gt;
+
+<div align="right" style="float: right;margin:15px 0px 0px 0px">
+<div align="center" style="width:140px;border:1px solid #ccc;background:#fff ;color: #fff ;font-weight:bold">
+<a style="padding:2px 1px;margin:2px 1px;font-size:13px;line-height:16px;font-family:arial;text-decoration:none;color:#000 ;" href="http://localtimes.info/Asia/China/Beijing/Beijing/"><img src="http://localtimes.info/images/countries/cn.png" border=0 style="border:0;margin:0;padding:0">  Shanghai
+Time</a>
+
+</div>
+<script type="text/javascript" src="http://localtimes.info/clock.php?continent=Asia&country=China&city=Beijing&color=black-white&widget_number=1000">
+</script>
+</div>
+&lt;!-end of code--&gt;
+
+</html>
 ### E-mail
 
 <html>
