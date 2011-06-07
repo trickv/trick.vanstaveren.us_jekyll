@@ -83,10 +83,7 @@ More information: <http://www.mintel.com/office-locations>
 
 ### Phone
 
--   Mobile Phone: Just ask :)
--   SIP:
-    <html>
-    <img src="/util/textimage.php?text=trickv.fancy-a.ekiga.net&size=10">
-
-    </html>
+-   Chinese mobile phone: +86 186 210 99822
+-   Google Voice for text messaging: +1 312 469 0036 (text me and I'll
+    Skype you back)
 
