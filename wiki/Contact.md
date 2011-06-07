@@ -10,6 +10,12 @@ layout: wiki
 <img src="/util/textimage.php?text=trick.fancy-a.vanstaveren.us&size=10">
 
 </html>
+### Phone
+
+-   Chinese mobile phone: +86 186 210 99822
+-   Google Voice for text messaging: +1 312 469 0036 (text me and I'll
+    Skype you back)
+
 ### IM/Chat protocols
 
 Google Talk:
@@ -24,33 +30,6 @@ Skype:
 <img src="/util/textimage.php?text=patrick.van.staveren&size=10">
 
 </html>
-I used to use:
-
--   AIM: goofyassmoose
--   ICQ: 29652671
--   MSN:
-    <html>
-    <img src="/util/textimage.php?text=p_vanstaveren.fancy-a.hotmail.com&size=10">
-
-    </html>
--   Jabber:
-    <html>
-    <img src="/util/textimage.php?text=goofyassmoose.fancy-a.jabber.org&size=10">
-
-    </html>
--   Yahoo!: p1313\_98
--   IRC
-    -   trick\_@irc.freenode.net
-    -   trick@irc.gnome.org
-
-### Keys
-
--   (recommended)
-
--   (old, but will work)
-
--   GPG Public ID Key: B38115B7 (expires 2007-07-13)
-
 ### Snail Mail
 
 #### Citadines Apartment in Shanghai
@@ -81,9 +60,11 @@ Phone: +86 (21) 63866609 extension 8037
 
 More information: <http://www.mintel.com/office-locations>
 
-### Phone
+### Keys
 
--   Chinese mobile phone: +86 186 210 99822
--   Google Voice for text messaging: +1 312 469 0036 (text me and I'll
-    Skype you back)
+-   (recommended)
+
+-   (old, but will work)
+
+-   GPG Public ID Key: B38115B7 (expires 2007-07-13)
 
