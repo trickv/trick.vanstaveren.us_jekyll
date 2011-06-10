@@ -51,8 +51,8 @@ Skype:
 
 Valid until 2011-08-01
 
-`Patrick van Staveren room 1506`  
-`c/o Citadines Shanghai Jinqiao`  
+`Patrick van Staveren`  
+`c/o Citadines Shanghai Jinqiao room 1506`  
 `55 Beijing Xi Road, Huangpu District`  
 `Shanghai 200003, China`
 
