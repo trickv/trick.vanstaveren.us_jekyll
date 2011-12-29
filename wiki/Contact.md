@@ -28,8 +28,10 @@ Time</a>
 ### Phone
 
 -   Chinese mobile phone: +86 186 210 99822
--   Google Voice for text messaging: +1 312 469 0036 (text me and I'll
-    Skype you back)
+-   Google Voice: +1 312 469 0036 (If I'm in China, text and I'll Skype
+    you back)
+-   Skype number: +1 312 288 8509
+-   US mobile phone: +1 773 574 7582 (only works if I'm in the US)
 
 ### IM/Chat protocols
 
