@@ -17,6 +17,8 @@ Services:
 -   httpd for 10-15 vhosts, including trick.vanstaveren.us
     -   Bicycle mileage DB
     -   Uptime DB
+    -   Roundcube webmail
+    -   trick.vanstaveren.us mediawiki
 -   mysql with a variety of DBs
 -   Postgres with a variety of DBs
 -   Mail
@@ -24,7 +26,8 @@ Services:
     -   IMAP: dovecot
     -   Spam assassin (which doesn't work well anymore, it's out of
         date)
-    -   Roundcube webmail
 -   L2TP/IPSec VPN server
 -   OpenVPN client (and defunct, but willing, OpenVPN servers)
+-   Nagios
+-   Munin node
 
