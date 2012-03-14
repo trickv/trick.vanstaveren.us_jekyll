@@ -1,9 +1,11 @@
 My compies:
 
-[[Computers/Sting]]
-
-[[Computers/McTrickster]]
-
-[[Computers/Stuart]]
-
-[[Computers/Ss]]
+* [[Computers/Sting|Sting]]
+* [[Computers/McTrickster|mc]]
+* [[Computers/Stuart|stuart]]
+* [[Computers/ss|ss]]
+* [[Computers/Sam|sam]]
+* [[Computers/ll|ll]]
+* [[Computers/hg|hg]]
+* [[Computers/ci|ci]]
+* [[Computers/ro|ro]]

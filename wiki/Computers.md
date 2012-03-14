@@ -6,10 +6,13 @@ layout: wiki
 
 My compies:
 
-[Computers/Sting](/wiki/Computers/Sting "wikilink")
+-   [Sting](/wiki/Computers/Sting "wikilink")
+-   [mc](/wiki/Computers/McTrickster "wikilink")
+-   [stuart](/wiki/Computers/Stuart "wikilink")
+-   [ss](/wiki/Computers/ss "wikilink")
+-   [sam](/wiki/Computers/Sam "wikilink")
+-   [ll](/wiki/Computers/ll "wikilink")
+-   [hg](/wiki/Computers/hg "wikilink")
+-   [ci](/wiki/Computers/ci "wikilink")
+-   [ro](/wiki/Computers/ro "wikilink")
 
-[Computers/McTrickster](/wiki/Computers/McTrickster "wikilink")
-
-[Computers/Stuart](/wiki/Computers/Stuart "wikilink")
-
-[Computers/Ss](/wiki/Computers/Ss "wikilink")
