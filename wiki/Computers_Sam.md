@@ -26,4 +26,5 @@ Services:
         date)
     -   Roundcube webmail
 -   L2TP/IPSec VPN server
+-   OpenVPN client (and defunct, but willing, OpenVPN servers)
 
