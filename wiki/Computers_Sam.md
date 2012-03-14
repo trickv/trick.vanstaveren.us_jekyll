@@ -24,5 +24,6 @@ Services:
     -   IMAP: dovecot
     -   Spam assassin (which doesn't work well anymore, it's out of
         date)
+    -   Roundcube webmail
 -   L2TP/IPSec VPN server
 
