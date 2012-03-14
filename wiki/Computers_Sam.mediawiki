@@ -1,3 +1,15 @@
 Sam is a [http://www.linode.com/ Linode] 360 Xen machine.  It runs [http://vanstaveren.us/ vanstaveren.us] and everything on it, aside what you'll find under [http://sting.vanstaveren.us/ sting.vanstaveren.us] or <tt>home.vanstaveren.us</tt>.
 
 It runs Gentoo.  And it's a mess.
+
+Services:
+* httpd for 10-15 vhosts, including trick.vanstaveren.us
+** Bicycle mileage DB
+** Uptime DB
+* mysql with a variety of DBs
+* Postgres with a variety of DBs
+* Mail
+** MTA: exim
+** IMAP: dovecot
+** Spam assassin (which doesn't work well anymore, it's out of date)
+* L2TP/IPSec VPN server

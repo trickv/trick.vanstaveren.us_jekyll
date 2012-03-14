@@ -11,3 +11,18 @@ what you'll find under
 `home.vanstaveren.us`.
 
 It runs Gentoo. And it's a mess.
+
+Services:
+
+-   httpd for 10-15 vhosts, including trick.vanstaveren.us
+    -   Bicycle mileage DB
+    -   Uptime DB
+-   mysql with a variety of DBs
+-   Postgres with a variety of DBs
+-   Mail
+    -   MTA: exim
+    -   IMAP: dovecot
+    -   Spam assassin (which doesn't work well anymore, it's out of
+        date)
+-   L2TP/IPSec VPN server
+
