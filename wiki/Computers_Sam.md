@@ -31,3 +31,5 @@ Services:
 -   Nagios
 -   Munin node
 
+HG's Squiddy is set to consume tons of ram, so it's making HG run out of
+memory.
