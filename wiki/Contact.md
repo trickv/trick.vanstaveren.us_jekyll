@@ -51,7 +51,7 @@ Skype:
 
 #### Apartment
 
-Valid until 2011-01-15
+Valid until 2012-07-15
 
 `Patrick van Staveren`  
 `Apartment #9H`  
