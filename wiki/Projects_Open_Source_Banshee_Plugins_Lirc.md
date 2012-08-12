@@ -4,6 +4,9 @@ permalink: wiki/Projects/Open_Source/Banshee/Plugins/Lirc/
 layout: wiki
 ---
 
+I haven't worked on this project since about 2006. But feel free to
+enjoy the code.
+
 This is a small plugin for the [Banshee Music
 Player](http://www.banshee-project.org/) and it works great. This code
 uses the [lirc-sharp](/wiki/Projects/Open_Source/Lirc-sharp "wikilink")
@@ -50,10 +53,7 @@ Ideas to work on:
 The source is hosted on my personal svn repository. Check out by
 issuing:
 
-`   cvs co `[`svn://sting.vanstaveren.us/trunk/banshee-lirc-plugin`](svn://sting.vanstaveren.us/trunk/banshee-lirc-plugin)
-
-Or you can [view it
-online](http://sting.vanstaveren.us:8000/trunk/banshee-lirc-plugin).
+`   svn co `[`http://svn.vanstaveren.us/banshee-lirc-plugin`](http://svn.vanstaveren.us/banshee-lirc-plugin)
 
 ------------------------------------------------------------------------
 

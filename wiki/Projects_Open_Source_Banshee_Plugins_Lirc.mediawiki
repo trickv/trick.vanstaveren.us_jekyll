@@ -1,4 +1,4 @@
-{{warning|This code isn't really maintained anymore in favour of [[Projects/Open Source/Lirc-dbus-relayer|lirc-dbus-relayer]] which I haven't released or even really documented yet.  If you know my svn repo, you can find it and try it out.}}
+I haven't worked on this project since about 2006.  But feel free to enjoy the code.
 
 This is a small plugin for the [http://www.banshee-project.org/ Banshee Music Player] and it works great.  This code uses the [[Projects/Open_Source/Lirc-sharp|lirc-sharp]] bindings that I have written.  I use a background thread that calls Lirc.NextCommand() which is a blocking call, and when it returns I pull the command (which is one called from the system/user lircrc) and do as it intends.  The plugin itself is incredibly simple using this set of bindings.
 
@@ -21,8 +21,7 @@ Ideas to work on:
 ** Toggle shuffle and repeat modes (idea from Josiah Ritchie <josiah.ritchie@gmail.com>)
 
 The source is hosted on my personal svn repository.  Check out by issuing:
-    cvs co svn://sting.vanstaveren.us/trunk/banshee-lirc-plugin
-Or you can [http://sting.vanstaveren.us:8000/trunk/banshee-lirc-plugin view it online].
+    svn co http://svn.vanstaveren.us/banshee-lirc-plugin
 
 ----
 
