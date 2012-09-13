@@ -51,15 +51,15 @@ Skype:
 
 #### Apartment
 
-Valid until 2012-07-15
+Valid until 2013-07-15
 
 `Patrick van Staveren`  
-`Apartment #9H`  
-`435 Haifang Road, Jingan District`  
+`500 Chang De Lu #04-26D`  
+`Jingan District`  
 `Shanghai 200040, China`
 
-[http://maps.google.com/maps?q=%E4%B8%AD%E5%9B%BD%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%B5%B7%E9%98%B2%E8%B7%AF435%E5%8F%B7&hl=en&ie=UTF8&ll=31.237463,121.445167&spn=0.010366,0.021136&sll=31.237877,121.445281&sspn=0.010366,0.021136&z=16
-map](http://maps.google.com/maps?q=%E4%B8%AD%E5%9B%BD%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%B5%B7%E9%98%B2%E8%B7%AF435%E5%8F%B7&hl=en&ie=UTF8&ll=31.237463,121.445167&spn=0.010366,0.021136&sll=31.237877,121.445281&sspn=0.010366,0.021136&z=16_map "wikilink")
+[https://maps.google.com/maps?q=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&sll=37.0625,-95.677068&sspn=40.052282,86.572266&oq=500+changd&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16
+map](https://maps.google.com/maps?q=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&sll=37.0625,-95.677068&sspn=40.052282,86.572266&oq=500+changd&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16_map "wikilink")
 
 #### Work
 
