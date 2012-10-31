@@ -85,3 +85,6 @@ More information: <http://www.mintel.com/office-locations>
 
 -   GPG Public ID Key: B38115B7 (expires 2007-07-13)
 
+### Other Contact Details
+
+ARIN handle [PNVS-ARIN](http://whois.arin.net/rest/poc/PNVS-ARIN)
