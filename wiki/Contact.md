@@ -31,7 +31,6 @@ Time</a>
 -   Google Voice: +1 312 469 0036 (If I'm in China, text and I'll Skype
     you back)
 -   Skype number: +1 312 288 8509
--   US mobile phone: +1 773 574 7582 (only works if I'm in the US)
 
 ### IM/Chat protocols
 
