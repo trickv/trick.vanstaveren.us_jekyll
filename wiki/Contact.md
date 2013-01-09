@@ -53,7 +53,7 @@ Skype:
 Valid until 2013-07-15
 
 `Patrick van Staveren`  
-`500 Chang De Lu #04-26D`  
+`500 Chang De Lu #4-26D`  
 `Jingan District`  
 `Shanghai 200040`  
 `China`
