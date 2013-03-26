@@ -58,8 +58,8 @@ Valid until 2013-07-15
 `Shanghai 200040`  
 `China`
 
-[https://maps.google.com/maps?q=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&sll=37.0625,-95.677068&sspn=40.052282,86.572266&oq=500+changd&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16
-map](https://maps.google.com/maps?q=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&sll=37.0625,-95.677068&sspn=40.052282,86.572266&oq=500+changd&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16_map "wikilink")
+[https://maps.google.com/maps?q=Chang+De+Lu+500%E5%8F%B7,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&ll=31.229665,121.446519&spn=0.01,0.021136&sll=31.2275,121.462465&sspn=0.01,0.021136&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16
+map](https://maps.google.com/maps?q=Chang+De+Lu+500%E5%8F%B7,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&ll=31.229665,121.446519&spn=0.01,0.021136&sll=31.2275,121.462465&sspn=0.01,0.021136&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16_map "wikilink")
 
 #### Work
 
