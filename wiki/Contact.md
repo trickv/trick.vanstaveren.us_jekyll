@@ -67,7 +67,8 @@ map](https://maps.google.com/maps?q=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shangh
 `c/o Mintel Group Ltd.`  
 `Room C, 20th Floor, Century Bashi Building`  
 `398 Huaihai Zhong Road,`  
-`Shanghai 200020, China`
+`Shanghai 200020`  
+`China`
 
 [http://maps.google.com/maps?f=q&source=s\_q&hl=en&geocode=&q=Huaihai+Middle+Road+398,+Luwan+District,+Shanghai+200020,+China&aq=&sll=31.218692,121.470788&sspn=0.009212,0.021136&ie=UTF8&hq=&hnear=China+Shanghai+Lu+Wan+Qu+Huai+Hai+Zhong+Lu+398%E5%8F%B7&ll=31.222325,121.472161&spn=0.009212,0.021136&z=16
 map](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Huaihai+Middle+Road+398,+Luwan+District,+Shanghai+200020,+China&aq=&sll=31.218692,121.470788&sspn=0.009212,0.021136&ie=UTF8&hq=&hnear=China+Shanghai+Lu+Wan+Qu+Huai+Hai+Zhong+Lu+398%E5%8F%B7&ll=31.222325,121.472161&spn=0.009212,0.021136&z=16_map "wikilink")
