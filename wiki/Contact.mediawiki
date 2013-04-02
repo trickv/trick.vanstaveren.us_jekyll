@@ -22,12 +22,32 @@ Skype: <html><img src="/util/textimage.php?text=patrick.van.staveren&size=10"></
 Valid until 2013-07-15
 
  Patrick van Staveren
- 500 Chang De Lu #4-26D
- Jingan District
+ 500 ChangDe Lu #4-26D
+ JingAn District
  Shanghai 200040
  China
 
 [[https://maps.google.com/maps?q=Chang+De+Lu+500%E5%8F%B7,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&ll=31.229665,121.446519&spn=0.01,0.021136&sll=31.2275,121.462465&sspn=0.01,0.021136&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16 map]]
+
+===== Dual Language =====
+
+The USPS wants addresses on lots of lines.  China Post wants it all on one line like 中国上海市静安区常德路500弄4号26D室 but deals with multiple lines if it's a foreign letter.  The US insists that the bottom of the envelope must have the country name - so I'm not sure we can tag it onto the end.  So here's two ideas:
+
+====== Inline ======
+I think the USPS might fall over itself with all this inline Chinese?
+ Patrick van Staveren
+ 500 ChangDe Lu #4-26D 常德路弄4号26D室
+ JingAn District 静安区
+ Shanghai 200040 上海
+ China 中国
+====== As a sub-title to my name ======
+The USPS might be OK with this, and I think China Post would be happy too. Maybe? :)
+ Patrick van Staveren
+ 中国上海市静安区常德路500弄4号26D室
+ 500 ChangDe Lu #4-26D
+ JingAn District
+ Shanghai 200040
+ China
 
 ====Work====
  Patrick van Staveren
