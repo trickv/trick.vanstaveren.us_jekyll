@@ -31,7 +31,7 @@ Valid until 2013-07-15
 
 ===== Dual Language =====
 
-The USPS wants addresses on lots of lines.  China Post wants it all on one line like [http://translate.google.com/?source=osdd#auto|auto|%E4%B8%AD%E5%9B%BD%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF500%E5%BC%844%E5%8F%B726D%E5%AE%A4 中国上海市静安区常德路500弄4号26D室] but deals with multiple lines if it's a foreign letter.  The US insists that the bottom of the envelope must have the country name - so I'm not sure we can tag it onto the end.  So here's two ideas:
+The USPS wants addresses on lots of lines, and also suggests [http://pe.usps.com/text/imm/immc1_007.htm translations can be on separate lines].  China Post wants it all on one line like [http://translate.google.com/?source=osdd#auto|auto|%E4%B8%AD%E5%9B%BD%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF500%E5%BC%844%E5%8F%B726D%E5%AE%A4 中国上海市静安区常德路500弄4号26D室] but deals with multiple lines if it's a foreign letter.  The US insists that the bottom of the envelope must have the country name - so I'm not sure we can tag it onto the end.  So here's two ideas:
 
 ====== Inline ======
 I think the USPS might fall over itself with all this inline Chinese?

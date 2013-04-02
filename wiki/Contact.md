@@ -63,8 +63,10 @@ map](https://maps.google.com/maps?q=Chang+De+Lu+500%E5%8F%B7,+Jing+An+Qu,+Shangh
 
 ##### Dual Language
 
-The USPS wants addresses on lots of lines. China Post wants it all on
-one line like
+The USPS wants addresses on lots of lines, and also suggests
+[translations can be on separate
+lines](http://pe.usps.com/text/imm/immc1_007.htm). China Post wants it
+all on one line like
 [中国上海市静安区常德路500弄4号26D室](http://translate.google.com/?source=osdd#auto%7Cauto%7C%E4%B8%AD%E5%9B%BD%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF500%E5%BC%844%E5%8F%B726D%E5%AE%A4)
 but deals with multiple lines if it's a foreign letter. The US insists
 that the bottom of the envelope must have the country name - so I'm not
