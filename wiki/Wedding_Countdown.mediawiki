@@ -1,7 +1,7 @@
 <big><big>
 <html>
 <script language="JavaScript">
-TargetDate = "09/28/2013 12:00 PM";
+TargetDate = "09/28/2013 12:00 PM CDT";
 BackColor = "white";
 ForeColor = "#330066";
 CountActive = true;
