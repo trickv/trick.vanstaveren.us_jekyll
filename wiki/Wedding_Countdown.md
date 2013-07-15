@@ -8,7 +8,7 @@ layout: wiki
 
 <html>
 <script language="JavaScript">
-TargetDate = “09/28/2013 12:00 PM CST”; BackColor = “white”; ForeColor =
+TargetDate = “09/28/2013 12:00 PM”; BackColor = “white”; ForeColor =
 “\#330066”; CountActive = true; CountStepper = -1; LeadingZero = false;
 DisplayFormat = “Oh shoot! %%D%% days, %%H%% Hours, %%M%% Minutes until
 Patrick and Sarah get married!”; FinishMessage = “We're married!”;
