@@ -27,10 +27,10 @@ Time</a>
 </html>
 ### Phone
 
--   Chinese mobile phone: +86 186 210 99822
--   Google Voice: +1 312 469 0036 (If I'm in China, text and I'll Skype
-    you back)
--   Skype number: +1 312 288 8509
+-   Chinese mobile: +86 186 210 99822
+-   Google Voice: +1 312 469 0036 (Great for SMS, also rings my phone at
+    work and Google Chat)
+-   Skype number: +1 312 288 8509 (Only works when I'm on Skype)
 
 ### IM/Chat protocols
 
