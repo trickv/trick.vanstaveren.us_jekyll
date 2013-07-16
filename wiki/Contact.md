@@ -27,10 +27,23 @@ Time</a>
 </html>
 ### Phone
 
--   Chinese mobile: +86 186 210 99822
+Primary contact numbers
+
+-   China mobile: +86 186 210 99822
 -   Google Voice: +1 312 469 0036 (Great for SMS, also rings my phone at
     work and Google Chat)
 -   Skype number: +1 312 288 8509 (Only works when I'm on Skype)
+
+Numbers I rarely use:
+
+-   +1 312 450 6159: Mintel Chicago office phone (sometimes use to call
+    from China)
+-   +1 630 923 1679: T-Mobile number on Sarah's family plan which I use
+    when I visit the USA.
+
+Old numbers I don't use anymore
+
+-   +1 773 574 7582: My old Chicago mobile number, discontinued.
 
 ### IM/Chat protocols
 
