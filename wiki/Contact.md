@@ -50,49 +50,20 @@ Skype:
 
 #### Apartment
 
-Valid until 2013-07-15
+Valid until 2014-06-27
 
 `Patrick van Staveren`  
-`500 ChangDe Lu #4-26D`  
-`JingAn District`  
-`Shanghai 200040`  
+`XuJiaHui Road No. 135, Building 2, Room 1203`  
+`HuangPu District`  
+`Shanghai 200023`  
 `China`
 
-[https://maps.google.com/maps?q=Chang+De+Lu+500%E5%8F%B7,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&ll=31.229665,121.446519&spn=0.01,0.021136&sll=31.2275,121.462465&sspn=0.01,0.021136&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16
-map](https://maps.google.com/maps?q=Chang+De+Lu+500%E5%8F%B7,+Jing+An+Qu,+Shanghai,+China&hl=en&ie=UTF8&ll=31.229665,121.446519&spn=0.01,0.021136&sll=31.2275,121.462465&sspn=0.01,0.021136&hnear=500%E5%8F%B7+Chang+De+Lu,+Jing+An+Qu,+Shanghai,+China&t=m&z=16_map "wikilink")
+[Map
+it](https://maps.google.com/maps?q=1203,+135%E5%8F%B7+Xu+Jia+Hui+Lu,+Huang+Pu+Qu,+Shanghai,+China,+200023&hl=en&ie=UTF8&ll=31.209645,121.478233&spn=0.038687,0.082998&sll=31.224349,121.476753&sspn=1.312899,2.655945&geocode=FaY43AEdgpw9Bw&hnear=135%E5%8F%B7+Xu+Jia+Hui+Lu,+Huang+Pu+Qu,+Shanghai,+China&t=m&z=14)
 
-##### Dual Language
+#### 中文
 
-The USPS wants addresses on lots of lines, and also suggests
-[translations can be on separate
-lines](http://pe.usps.com/text/imm/immc1_007.htm). China Post wants it
-all on one line like
-[中国上海市静安区常德路500弄4号26D室](http://translate.google.com/?source=osdd#auto%7Cauto%7C%E4%B8%AD%E5%9B%BD%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF500%E5%BC%844%E5%8F%B726D%E5%AE%A4)
-but deals with multiple lines if it's a foreign letter. The US insists
-that the bottom of the envelope must have the country name - so I'm not
-sure we can tag it onto the end. So here's two ideas:
-
-###### Inline
-
-I think the USPS might fall over itself with all this inline Chinese?
-
-`Patrick van Staveren`  
-`500 ChangDe Lu #4-26D 常德路弄4号26D室`  
-`JingAn District 静安区`  
-`Shanghai 200040 上海`  
-`China 中国`
-
-###### As a sub-title to my name
-
-The USPS might be OK with this, and I think China Post would be happy
-too. Maybe? :)
-
-`Patrick van Staveren`  
-`中国上海市静安区常德路500弄4号26D室`  
-`500 ChangDe Lu #4-26D`  
-`JingAn District`  
-`Shanghai 200040`  
-`China`
+中国上海市上海黄浦区徐家汇路135弄2号1203室
 
 #### Work
 
