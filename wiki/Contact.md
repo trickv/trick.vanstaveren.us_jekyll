@@ -76,7 +76,7 @@ it](https://maps.google.com/maps?q=1203,+135%E5%8F%B7+Xu+Jia+Hui+Lu,+Huang+Pu+Qu
 
 #### 中文
 
-中国上海市上海黄浦区徐家汇路135弄2号1203室
+中国上海市黄浦区徐家汇路135弄2号1203室
 
 #### Work
 
