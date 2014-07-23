@@ -63,7 +63,7 @@ Skype:
 
 #### Apartment
 
-Valid until 2014-06-27
+Valid until early 2015
 
 `Patrick van Staveren`  
 `XuJiaHui Road No. 135, Building 2, Room 1203`  
