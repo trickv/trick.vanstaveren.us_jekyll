@@ -25,6 +25,11 @@ Time</a>
 <img src="/util/textimage.php?text=trick.fancy-a.vanstaveren.us&size=10">
 
 </html>
+### Technology Communities
+
+-   ARIN handle [PNVS-ARIN](http://whois.arin.net/rest/poc/PNVS-ARIN)
+-   GitHub handle [trickv](https://github.com/trickv)
+
 ### Phone
 
 Primary contact numbers
@@ -102,6 +107,3 @@ More information: <http://www.mintel.com/office-locations>
 
 -   GPG Public ID Key: B38115B7 (expires 2007-07-13)
 
-### Other Contact Details
-
-ARIN handle [PNVS-ARIN](http://whois.arin.net/rest/poc/PNVS-ARIN)

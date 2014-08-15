@@ -4,6 +4,10 @@ __NOTOC__
 ===E-mail===
 <html><img src="/util/textimage.php?text=trick.fancy-a.vanstaveren.us&size=10"></html>
 
+=== Technology Communities ===
+* ARIN handle [http://whois.arin.net/rest/poc/PNVS-ARIN PNVS-ARIN]
+* GitHub handle [https://github.com/trickv trickv]
+
 ===Phone===
 Primary contact numbers
 * China mobile: +86 186 210 99822
@@ -58,6 +62,3 @@ More information: http://www.mintel.com/office-locations
 * {{file|Id_rsa.pub|SSH RSAv2 Public Key}} (recommended)
 * {{file|Id_dsa.pub|SSH DSA Public Key}} (old, but will work)
 * GPG Public ID Key: B38115B7 (expires 2007-07-13)
-
-===Other Contact Details===
-ARIN handle [http://whois.arin.net/rest/poc/PNVS-ARIN PNVS-ARIN]
