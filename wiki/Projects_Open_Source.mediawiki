@@ -1,9 +1,9 @@
-[[Projects/Open Source/Banshee|Banshee]]
+Projects I've worked on:
+* [http://vyos.net/ VyOS], a fork of Vyatta Core.
+* [[Projects/Open Source/Banshee|Banshee]]
+* [[Projects/Open Source/Universal DAP|Universal DAP]]
+* [[Projects/Open Source/Lirc-sharp|lirc-sharp]] is a set of Mono bindings for the [http://www.lirc.org/ LIRC] Client Library.
+* [[Projects/Open Source/MTP|MTP]] links
+* [[Projects/Open Source/Packages|Packages]] for various Linux distributions
 
-[[Projects/Open Source/Universal DAP|Universal DAP]]
-
-[[Projects/Open Source/Lirc-sharp|lirc-sharp]] is a set of Mono bindings for the [http://www.lirc.org/ LIRC] Client Library.
-
-[[Projects/Open Source/MTP|MTP]] links
-
-[[Projects/Open Source/Packages|Packages]] for various Linux distributions
+You can also follow me on GitHub where I publish a bit of work: https://github.com/trickv
