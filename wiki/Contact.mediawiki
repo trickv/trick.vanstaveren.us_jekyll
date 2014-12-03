@@ -27,6 +27,8 @@ Google Talk: <html><img src="/util/textimage.php?text=trickv.fancy-a.gmail.com&s
 
 Skype: <html><img src="/util/textimage.php?text=patrick.van.staveren&size=10"></html>
 
+IRC: irc.freenode.net as trickv
+
 ===Snail Mail===
 
 ==== Apartment ====

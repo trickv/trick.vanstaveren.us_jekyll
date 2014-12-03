@@ -64,6 +64,8 @@ Skype:
 <img src="/util/textimage.php?text=patrick.van.staveren&size=10">
 
 </html>
+IRC: irc.freenode.net as trickv
+
 ### Snail Mail
 
 #### Apartment
