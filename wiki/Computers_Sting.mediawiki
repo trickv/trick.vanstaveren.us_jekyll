@@ -3,7 +3,7 @@ Sting is my dual P2-350 <del>128meg</del> 256meg [http://www.motherboard.cz/mb/a
 
 It is named for [http://en.wikipedia.org/wiki/List_of_Middle-earth_weapons_and_armour#Sting the dagger] which Bilbo and later Frodo used in ''The Hobbit'' and ''The Lord Of The Rings''.
 
-[[Image:IMG 4113.jpg|168px]] [[Image:IMG 20101101 072133.jpg|300px]] [[Image:IMG 4118.jpg|300px]]
+[[Image:Sting front 2015-01-01.jpg|168px]] [[Image:IMG 4113.jpg|168px]] [[Image:IMG 20101101 072133.jpg|300px]] [[Image:IMG 4118.jpg|300px]]
 
 === History ===
 Sting has been my home network keystone since about 2004.  It's an old slow dog that never quits.
@@ -16,12 +16,15 @@ Sting has been my home network keystone since about 2004.  It's an old slow dog 
 * I moved to my Washtenaw Ave apartment in 2008, replaced the disk controller and disks with hand-me-down SATA disks, and left it on from December 2008 onwards.
 * In May 2010, I moved from the ground floor to the top floor of the apartment on Washtenaw Ave.  I planned and executed a successful move of Sting whilst on, with it's UPS in hand!
 * On November 1st 2010, the [[:Image:IMG 20101101 211542.jpg|power supply in Sting finally gave way]] and it died in the middle of the night, at 687 days up.  94% of the way to two years.  I replaced the power supply with a [[:Image:IMG 4120.jpg|new gigantic one]] from Cooler Master.
+* In 2011 I moved to China and left Sting with my friend Dan. Disks from [[Computers/McTrickster|mc]] were consolidated into sting, and mc found a dumpster.
+** Unfortunately Sting was taken offline a few months later, and was in storage for 3 years.
+* In December 2014 Sting was installed to the Weir house. Set up with an automatic shutdown when idle, and a monthly power-on schedule for the 13th at 07:00 UTC, sting will surface from time to time.
 
-I may never beat 687 days with a real physical computer of my own.  [[Computers/Sam|Sam]], my linode has proven to be reasonably stable and may someday go years, but it's not the same challenge.
+I may never beat 687 days with a real physical computer of my own.
 
 === Software ===
 
-Sting runs [http://www.gnu.org/ GNU]/[http://kernel.org/ Linux] with a 2.6 kernel.  It's primary based on [http://www.slackware.org/ Slackware 10.2] and [http://www.droplinegnome.org/ Dropline Gnome 2.14] with a 2.4 kernel.
+Sting runs [http://www.gnu.org/ GNU]/[http://kernel.org/ Linux] with a 2.6 kernel.  It's primary based on [http://www.slackware.org/ Slackware 10.2] and [http://www.droplinegnome.org/ Dropline Gnome 2.14].
 
 It has been massively upgraded over the years.  2.4 to 2.6 was a bit of a challenge, and I've found my <tt>/usr/local</tt> to be extensive.
 
