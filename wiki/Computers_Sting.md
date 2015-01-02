@@ -80,5 +80,7 @@ It runs lots of fun services like:
 -   Tunnels or proxies several services from
     [mc](/wiki/Computers/Mc "wikilink") for music sharing.
 
-You can visit sting's web interface at
-[sting.vanstaveren.us](http://sting.vanstaveren.us/)
+If sting is online, you can visit sting's web interface at
+[sting.vanstaveren.us](http://sting.vanstaveren.us/) which is proxied
+from [sam](/wiki/Computers/sam "wikilink") over a vpn. If sting is unavailable
+(which is true most of the time) you will get a friendly error page.
