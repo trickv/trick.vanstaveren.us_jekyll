@@ -70,7 +70,7 @@ IRC: irc.freenode.net as trickv
 
 #### Apartment
 
-Valid until early 2015
+Valid until mid 2015
 
 `Patrick van Staveren`  
 `XuJiaHui Road No. 135, Building 2, Room 1203`  
@@ -88,8 +88,8 @@ it](https://maps.google.com/maps?q=1203,+135%E5%8F%B7+Xu+Jia+Hui+Lu,+Huang+Pu+Qu
 #### Work
 
 `Patrick van Staveren`  
-`c/o Mintel Group Ltd.`  
-`Room C, 20th Floor, Century Bashi Building`  
+`c/o Mintel Information (Consulting) Shanghai Co. Ltd.`  
+`Room C, 25th Floor, Broad Silver International Building`  
 `398 Huaihai Zhong Road,`  
 `Shanghai 200020`  
 `China`
