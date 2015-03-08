@@ -19,6 +19,11 @@ Time</a>
 &lt;!-end of code--&gt;
 
 </html>
+### Name
+
+Patrick van Staveren, aka Trick, or 范睿科 to some of my colleagues in
+Shanghai.
+
 ### E-mail
 
 <html>
