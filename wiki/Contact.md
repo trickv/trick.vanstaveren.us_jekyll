@@ -75,7 +75,8 @@ IRC: irc.freenode.net as trickv
 
 #### Apartment
 
-Valid until mid 2015
+Valid until June 1st, 2015. After which I will be living out of a
+suitcase for several months.
 
 `Patrick van Staveren`  
 `XuJiaHui Road No. 135, Building 2, Room 1203`  
