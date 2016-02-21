@@ -73,37 +73,25 @@ IRC: irc.freenode.net as trickv
 
 ### Snail Mail
 
-#### Apartment
-
-Valid until June 1st, 2015. After which I will be living out of a
-suitcase for several months.
+Valid until January 2017.
 
 `Patrick van Staveren`  
-`XuJiaHui Road No. 135, Building 2, Room 1203`  
-`HuangPu District`  
-`Shanghai 200023`  
-`China`
+`5 Malyons Terrace`  
+`London`  
+`SE13 7XJ`  
+`United Kingdom`
 
-[Map
-it](https://maps.google.com/maps?q=1203,+135%E5%8F%B7+Xu+Jia+Hui+Lu,+Huang+Pu+Qu,+Shanghai,+China,+200023&hl=en&ie=UTF8&ll=31.209645,121.478233&spn=0.038687,0.082998&sll=31.224349,121.476753&sspn=1.312899,2.655945&geocode=FaY43AEdgpw9Bw&hnear=135%E5%8F%B7+Xu+Jia+Hui+Lu,+Huang+Pu+Qu,+Shanghai,+China&t=m&z=14)
-
-#### 中文
-
-中国上海市黄浦区徐家汇路135弄2号1203室
+\[<https://www.google.co.uk/maps/place/5+Malyons+Terrace,+London+SE13+7XJ/@51.456064,-0.0233398,17z/data>=!3m1!4b1!4m2!3m1!1s0x4876026a39d266c7:0xa8d810509a640f5a?hl=en
+Map it\]
 
 #### Work
 
 `Patrick van Staveren`  
-`c/o Mintel Information (Consulting) Shanghai Co. Ltd.`  
-`Room C, 25th Floor, Broad Silver International Building`  
-`398 Huaihai Zhong Road,`  
-`Shanghai 200020`  
-`China`
-
-[http://maps.google.com/maps?f=q&source=s\_q&hl=en&geocode=&q=Huaihai+Middle+Road+398,+Luwan+District,+Shanghai+200020,+China&aq=&sll=31.218692,121.470788&sspn=0.009212,0.021136&ie=UTF8&hq=&hnear=China+Shanghai+Lu+Wan+Qu+Huai+Hai+Zhong+Lu+398%E5%8F%B7&ll=31.222325,121.472161&spn=0.009212,0.021136&z=16
-map](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Huaihai+Middle+Road+398,+Luwan+District,+Shanghai+200020,+China&aq=&sll=31.218692,121.470788&sspn=0.009212,0.021136&ie=UTF8&hq=&hnear=China+Shanghai+Lu+Wan+Qu+Huai+Hai+Zhong+Lu+398%E5%8F%B7&ll=31.222325,121.472161&spn=0.009212,0.021136&z=16_map "wikilink")
-
-Phone: +86 (21) 6032 7337
+`Mintel Group Ltd.`  
+`11 Pilgrim Street`  
+`London`  
+`EC4V 6RN`  
+`United Kingdom`
 
 More information: <http://www.mintel.com/office-locations>
 
