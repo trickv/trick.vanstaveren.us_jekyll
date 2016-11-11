@@ -5,11 +5,12 @@ layout: wiki
 ---
 
 This is the personal site for one Patrick van Staveren. I'm an American
-expat living in Shanghai, working for [Mintel](http://www.mintel.com/),
-running our IT Infrastructure team. I'm also a software developer with a
-B.S. in Computer Science from [Western Michigan
-University](http://wmich.edu/). I dabble in photography, and I'm usually
-happiest when I've been on my bicycle all day long.
+expat living in ~~Shanghai~~ London, working for
+[Mintel](http://www.mintel.com/), running our IT Infrastructure team.
+I'm also a software developer with a B.S. in Computer Science from
+[Western Michigan University](http://wmich.edu/). I dabble in
+photography, and I'm usually happiest when I've been on my bicycle all
+day long.
 
 If you are actually trying to get in touch, check out the
 [contact](/wiki/Contact "wikilink") page!
