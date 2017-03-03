@@ -4,25 +4,11 @@ permalink: wiki/Contact/
 layout: wiki
 ---
 
-<html>
-&lt;!-Local Time Clock widget - HTML code - localtimes.info --&gt;
-
-<div align="right" style="float: right;margin:15px 0px 0px 0px">
-<div align="center" style="width:140px;border:1px solid #ccc;background:#fff ;color: #fff ;font-weight:bold">
-<a style="padding:2px 1px;margin:2px 1px;font-size:13px;line-height:16px;font-family:arial;text-decoration:none;color:#000 ;" href="http://localtimes.info/Asia/China/Beijing/Beijing/"><img src="http://localtimes.info/images/countries/cn.png" border=0 style="border:0;margin:0;padding:0">  Shanghai
-Time</a>
-
-</div>
-<script type="text/javascript" src="http://localtimes.info/clock.php?continent=Asia&country=China&city=Beijing&color=black-white&widget_number=1000">
-</script>
-</div>
-&lt;!-end of code--&gt;
-
-</html>
 ### Name
 
 Patrick van Staveren, aka Trick, or 范睿科 to some of my colleagues in
-Shanghai.
+Shanghai. I live in London now though, so you can just call me That Loud
+American.
 
 ### E-mail
 
@@ -39,21 +25,20 @@ Shanghai.
 
 Primary contact numbers
 
--   China mobile: +86 186 210 99822
--   Google Voice: +1 312 469 0036 (Great for SMS, also rings my phone at
-    work and Google Chat)
--   Skype number: +1 312 288 8509 (Only works when I'm on Skype)
+-   UK mobile: +44 7504 508 209
+-   Google Voice: +1 312 469 0036 (Call or text me from the US for
+    free!)
 
 Numbers I rarely use:
 
 -   +1 312 450 6159: Mintel Chicago office phone (sometimes use to call
     from China)
--   +1 630 923 1679: T-Mobile number on Sarah's family plan which I use
-    when I visit the USA.
 
 Old numbers I don't use anymore
 
 -   +1 773 574 7582: My old Chicago mobile number, discontinued.
+-   +1 630 923 1679: T-Mobile number on Sarah's family plan which I used
+    to have. Gone.
 
 ### IM/Chat protocols
 
