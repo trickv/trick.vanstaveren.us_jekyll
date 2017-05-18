@@ -18,10 +18,9 @@ Retired
 **retired wallets: don't send me money here, I don't use these
 anymore...**
 
--   -   Dash:
-        [XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp](https://chainz.cryptoid.info/dash/address.dws?XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp.htm) -
-        mining from xpool.ca in 2015, empted in 2017 into Poloniex
-
+-   Dash:
+    [XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp](https://chainz.cryptoid.info/dash/address.dws?XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp.htm) -
+    mining from xpool.ca in 2015, empted in 2017 into Poloniex
 -   Litecoin:
     [LZ8PEuSWWAb1D9oHi4i3m3N8RJ9ErJqG5h](http://ltc.blockr.io/address/info/LZ8PEuSWWAb1D9oHi4i3m3N8RJ9ErJqG5h) -
     mined with litecoinpool.org in 2015 but emptied in 2017 into
