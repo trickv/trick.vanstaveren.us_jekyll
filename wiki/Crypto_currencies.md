@@ -15,8 +15,8 @@ Retired
 =======
 
   
-**retired wallets: don't send me money here, I don't use these
-anymore...**
+*retired wallets: don't send me money here, I don't use these
+anymore...*
 
 -   Dash:
     [XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp](https://chainz.cryptoid.info/dash/address.dws?XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp.htm) -
