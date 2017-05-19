@@ -10,6 +10,7 @@ Active
 -   Monero:
     47yTytYanvMKPRHuK1isKD3v9f4TG6muqBJiDY9bETxgRvwynn4sixBE8RhxJSQzEaacp7hZC7AhC7nDDrDSRcgDDFLm8QP
 -   Ultracoin:
+-   Bitcoin: 1FJHR1GWeCm4bUQ5ZonP4cN15Nit4o8RKd (coinbase)
 
 Retired
 =======
