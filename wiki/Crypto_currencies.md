@@ -9,7 +9,6 @@ Active
 
 -   Monero:
     47yTytYanvMKPRHuK1isKD3v9f4TG6muqBJiDY9bETxgRvwynn4sixBE8RhxJSQzEaacp7hZC7AhC7nDDrDSRcgDDFLm8QP
--   Ultracoin:
 -   Bitcoin: 1FJHR1GWeCm4bUQ5ZonP4cN15Nit4o8RKd (coinbase)
 -   Ethereum: 0x0c87b883317e82ee665644dc7be8dd17669cb64c
 
@@ -20,6 +19,7 @@ Retired
 *retired wallets: don't send me money here, I don't use these
 anymore...*
 
+-   Ultracoin: (several addresses)
 -   Dash:
     [XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp](https://chainz.cryptoid.info/dash/address.dws?XythC5HdxEpAqrgZ1CTmvXCoSyTr5PSdFp.htm) -
     mining from xpool.ca in 2015, empted in 2017 into Poloniex
