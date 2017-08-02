@@ -12,6 +12,7 @@ Active
 -   Bitcoin:
     -   1FJHR1GWeCm4bUQ5ZonP4cN15Nit4o8RKd (coinbase)
     -   1DCJ4K3FtsDmsA3zDzUwPeJHGRHchnPhVs (nicehash target)
+    -   1Nteuf7dJRWfxywWkSZNa2VUMkwPi4uupr (unused)
 -   Ethereum: 0x0c87b883317e82ee665644dc7be8dd17669cb64c
 
 Retired
