@@ -78,9 +78,9 @@ It runs lots of fun services like:
 -   Internal services like a Netfilter firewall, VPN bridge and DHCP
     server, DNS server with custom records and an NTP server.
 -   Tunnels or proxies several services from
-    [mc](/wiki/Computers/Mc "wikilink") for music sharing.
+    [mc](/Computers/Mc "wikilink") for music sharing.
 
 If sting is online, you can visit sting's web interface at
 [sting.vanstaveren.us](http://sting.vanstaveren.us/) which is proxied
-from [sam](/wiki/Computers/sam "wikilink") over a vpn. If sting is unavailable
+from [sam](/Computers/Sam "wikilink") over a vpn. If sting is unavailable
 (which is true most of the time) you will get a friendly error page.

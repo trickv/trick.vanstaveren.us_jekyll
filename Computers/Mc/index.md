@@ -1,6 +1,6 @@
 ---
 title: Computers/Mc
-permalink: wiki/Computers/Mc/
+permalink: Computers/Mc/
 redirect_to: /wiki/Computers/McTrickster/
 ---
 

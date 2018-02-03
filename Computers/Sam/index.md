@@ -1,6 +1,6 @@
 ---
 title: Computers/Sam
-permalink: wiki/Computers/Sam/
+permalink: Computers/Sam/
 layout: wiki
 ---
 
