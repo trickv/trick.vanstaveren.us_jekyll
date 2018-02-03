@@ -1,6 +1,6 @@
 ---
 title: Contact
-permalink: wiki/Contact/
+permalink: Contact/
 layout: wiki
 toplevel: True
 ---
