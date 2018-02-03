@@ -1,6 +1,6 @@
 ---
 title: Computers/Sting
-permalink: wiki/Computers/Sting/
+permalink: Computers/Sting/
 layout: wiki
 ---
 
