@@ -2,6 +2,7 @@
 title: Home
 permalink: wiki/Home/
 layout: wiki
+toplevel: True
 ---
 
 This is the personal site for one Patrick van Staveren. I'm an American

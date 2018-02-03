@@ -2,6 +2,7 @@
 title: Projects
 permalink: wiki/Projects/
 layout: wiki
+toplevel: True
 ---
 
 [Open Source](/wiki/Projects/Open_Source "wikilink") projects including

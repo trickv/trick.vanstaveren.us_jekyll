@@ -2,6 +2,7 @@
 title: Contact
 permalink: wiki/Contact/
 layout: wiki
+toplevel: True
 ---
 
 ### Name
