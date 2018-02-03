@@ -1,8 +1,6 @@
 ---
 title: Home
-permalink: wiki/Home/
-layout: wiki
-toplevel: True
+layout: default
 ---
 
 This is the personal site for one Patrick van Staveren. I'm an American
