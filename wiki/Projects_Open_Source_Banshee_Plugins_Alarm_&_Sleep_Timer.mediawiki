@@ -1,5 +1,0 @@
-Here you can find the Alarm & Sleep Timer plugin.
-
-Latest release: version 0.1
-
-You can grab it here

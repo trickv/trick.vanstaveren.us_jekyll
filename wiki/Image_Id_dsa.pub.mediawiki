@@ -1,1 +1,0 @@
-Patrick van Staveren's 2048-bit DSA key.

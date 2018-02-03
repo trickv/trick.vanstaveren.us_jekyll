@@ -1,7 +1,0 @@
-This is the personal site for one Patrick van Staveren.  I'm an American expat living in <del>Shanghai</del> London, working for [http://www.mintel.com/ Mintel], running our IT Infrastructure team.  I studied as a software developer with a B.S. in Computer Science from [http://wmich.edu/ Western Michigan University] and worked as a developer for 5 years before moving around and eventually landing as a manager of system administrators.  I dabble in photography, and I'm usually happiest when I've been on my bicycle all day long.
-
-If you are trying to get in touch, check out the [[Contact|contact]] page!
-
-'''Recent entries to [http://trick.vanstaveren.us/wp Web Log]:'''
-
-<rss>http://trick.vanstaveren.us/wp/feed/|date|max=5|charset=UTF-8|short|notitle|date_format=Y-m-d</rss>

@@ -1,5 +1,0 @@
-[[Projects/Open Source/Banshee/Plugins|Plugins]]
-
-[[Projects/Open Source/Banshee/Randomness|Randomness]]
-
-[[Projects/Open Source/Banshee/MTP|MTP]]

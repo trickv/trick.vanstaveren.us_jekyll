@@ -1,3 +1,0 @@
-It _is_ possible!
-
-I stole a lot of the build commands from some old iFolder Gentoo ebuilds that I found elsewhere.
