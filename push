@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if [ "$1" == "--real" ]; then
+    echo "Pushing LIVE."
+    flags=""
+else
+    flags="-n"
+    echo "DRY RUN mode, specify --real to go"
+fi
+
+rsync -avc $flags --delete-after --exclude wp  _site/ root@hg:/var/www/trick.vanstaveren.us/
