@@ -1,6 +1,6 @@
 ---
 title: Computers/Stuart
-permalink: wiki/Computers/Stuart/
+permalink: Computers/Stuart/
 layout: wiki
 ---
 

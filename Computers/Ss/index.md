@@ -1,6 +1,6 @@
 ---
 title: Computers/Ss
-permalink: wiki/Computers/Ss/
+permalink: Computers/Ss/
 layout: wiki
 ---
 

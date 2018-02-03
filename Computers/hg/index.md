@@ -1,6 +1,6 @@
 ---
 title: Computers/hg
-permalink: wiki/Computers/hg/
+permalink: Computers/hg/
 layout: wiki
 ---
 
