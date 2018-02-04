@@ -6,8 +6,6 @@ description: >-
   Just a few more bytes on the Internet.
 baseurl: ""
 url: "http://trick.vanstaveren.us"
-twitter_username: trickv
-github_username:  trickv
 
 # Build settings
 markdown: kramdown
