@@ -22,7 +22,7 @@ trick@vanstaveren.us
 
 ## Phone
 
-Primary contact numbers
+Primary contact numbers:
 
 -   UK mobile: +44 7504 508 209
 -   Google Voice: +1 312 469 0036 (Call or text me from the US for
@@ -33,7 +33,7 @@ Numbers I rarely use:
 -   +1 312 450 6159: Mintel Chicago office phone (sometimes use to call
     from China)
 
-Old numbers I don't use anymore
+Old numbers I don't use anymore:
 
 -   +1 773 574 7582: My old Chicago mobile number, discontinued.
 -   +1 630 923 1679: T-Mobile number on Sarah's family plan which I used
