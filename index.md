@@ -16,6 +16,7 @@ If you are trying to get in touch, check out the
 [contact](/wiki/Contact "wikilink") page!
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [HAB flight 2 “EAGLE”](http://trick.vanstaveren.us/wp/2018/05/22/hab-flight-2-eagle/) - 2018-05-22
 * [First high-altitude balloon flight: lots learned](http://trick.vanstaveren.us/wp/2018/02/18/first-high-altitude-balloon-flight-lots-learned/) - 2018-02-18
 * [My first radio contact from a high altitude balloon](http://trick.vanstaveren.us/wp/2016/10/10/my-first-radio-contact-from-a-high-altitude-balloon/) - 2016-10-10
 * [Iceland - Aurora Borealis](http://trick.vanstaveren.us/wp/2016/09/01/iceland-aurora-borealis/) - 2016-09-01
