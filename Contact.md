@@ -50,7 +50,7 @@ IRC: irc.freenode.net as trickv
 
 ### Home
 
-Valid until mid-2018.
+Valid until sometime in 2019.
 
 ```
 Patrick van Staveren
