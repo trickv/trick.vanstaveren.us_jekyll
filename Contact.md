@@ -65,17 +65,11 @@ United Kingdom
 
 #### Coordinates
 
-Measured from a GPS receiver: 51.553179,-0.193914
-- Latitude:  51.553179666666665
-- Longitude: -0.19391416666666667
+Measured from a GPS receiver:
+- Latitude:  51.55318
+- Longitude: -0.19391
 - Altitude: 75.9m (above MSL)
 - [QTH](https://en.wikipedia.org/wiki/Maidenhead_Locator_System) location: IO91VN
-
-Some actual NMEA sentences where I got this from:
-```
-$GNRMC,134508.00,A,5133.19078,N,00011.63485,W,0.061,,280218,,,A*7E
-$GNGGA,134508.00,5133.19078,N,00011.63485,W,1,12,0.72,75.9,M,45.7,M,,*6F
-```
 
 ### Work
 
