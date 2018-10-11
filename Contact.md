@@ -25,8 +25,7 @@ trick@vanstaveren.us
 Primary contact numbers:
 
 -   UK mobile: +44 7504 508 209
--   Google Voice: +1 312 469 0036 (Call or text me from the US for
-    free!)
+-   Google Voice: +1 312 469 0036
 
 Numbers I rarely use:
 
