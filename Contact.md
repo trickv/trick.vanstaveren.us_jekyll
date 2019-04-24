@@ -19,7 +19,7 @@ trick@vanstaveren.us
 
 -   ARIN handle [PNVS-ARIN](http://whois.arin.net/rest/poc/PNVS-ARIN)
 -   GitHub handle [trickv](https://github.com/trickv)
--   Amateur radio M6YVT
+-   Amateur radio M0RHA
 
 ## Phone
 
