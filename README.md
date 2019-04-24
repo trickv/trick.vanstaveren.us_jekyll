@@ -2,9 +2,25 @@ My website, started in 2006 in Mediawiki, now ported to Jekyll in 2018 using htt
 
 Most of this is rather buried history :)
 
-h1. How to build
+h1. Set up a dev environ
 
 ```
 sudo apt install ruby-bundler ruby-dev make
 bundle install --path vendor/bundle
-# it won't work but keep trying and installing -dev packages
+```
+
+h1. Make changes
+
+```
+bundle exec jekyll serve --livereload [--incremental]
+# hack hack hack
+```
+
+h1. Publish
+
+```
+bundle exec jekyll build
+./push
+# preview changeset from rsync
+./push --real
+```
