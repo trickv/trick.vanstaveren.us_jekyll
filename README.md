@@ -2,7 +2,7 @@ My website, started in 2006 in Mediawiki, now ported to Jekyll in 2018 using htt
 
 Most of this is rather buried history :)
 
-h1. Set up a dev environ
+# Set up a dev environ
 
 ```
 sudo apt install ruby-bundler ruby-dev make
@@ -12,14 +12,14 @@ cd vendor/bundle/ruby/2.5.0/gems/jekyll-last-modified-at-1.0.1/lib/jekyll-last-m
 curl https://github.com/trickv/jekyll-last-modified-at/commit/ae8f326499c59c485b47833991a1bc849f70e6ae.patch | patch -p3
 ```
 
-h1. Make changes
+# Make changes
 
 ```
 bundle exec jekyll serve --livereload [--incremental]
 # hack hack hack
 ```
 
-h1. Publish
+# Publish
 
 ```
 bundle exec jekyll build
@@ -28,6 +28,6 @@ bundle exec jekyll build
 ./push --real
 ```
 
-h1. Maintenance
+# Maintenance
 
 Learn bundler: https://bundler.io/v1.3/rationale.html#a-simple-bundler-workflow
