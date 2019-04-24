@@ -7,6 +7,9 @@ h1. Set up a dev environ
 ```
 sudo apt install ruby-bundler ruby-dev make
 bundle install --path vendor/bundle
+# mess it up
+cd vendor/bundle/ruby/2.5.0/gems/jekyll-last-modified-at-1.0.1/lib/jekyll-last-modified-at
+curl https://github.com/trickv/jekyll-last-modified-at/commit/ae8f326499c59c485b47833991a1bc849f70e6ae.patch | patch -p3
 ```
 
 h1. Make changes
