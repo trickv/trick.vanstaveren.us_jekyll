@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.0 -->
+<title>Gentoo/Dev/EbuildQuiz2 | Patrick van Staveren</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Gentoo/Dev/EbuildQuiz2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Just a few more bytes on the Internet." />
+<meta property="og:description" content="Just a few more bytes on the Internet." />
+<link rel="canonical" href="http://localhost:4000/wiki/Gentoo/Dev/EbuildQuiz2/" />
+<meta property="og:url" content="http://localhost:4000/wiki/Gentoo/Dev/EbuildQuiz2/" />
+<meta property="og:site_name" content="Patrick van Staveren" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/wiki/Gentoo/Dev/EbuildQuiz2/","dateModified":"2018-02-03T10:26:42+00:00","headline":"Gentoo/Dev/EbuildQuiz2","description":"Just a few more bytes on the Internet.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Patrick van Staveren" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" rel="author" href="/">Patrick van Staveren</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/Contact/">Contact</a>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/wiki/Projects/">Projects</a>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+          <a class="page-link" href="/wp/">Web Log</a>
+        </div>
+      </nav>
+    
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="page">
+  <ul class="tag_list_in_post">
+    
+  </ul>
+  <h1 class="page-title">Gentoo/Dev/EbuildQuiz2</h1>
+  <p>original:
+<a href="http://www.gentoo.org/proj/en/devrel/quiz/ebuild-quiz.txt"><a href="http://www.gentoo.org/proj/en/devrel/quiz/ebuild-quiz.txt">http://www.gentoo.org/proj/en/devrel/quiz/ebuild-quiz.txt</a></a></p>
+
+<hr />
+
+<p>Ebuild development quiz Revision 1.11.1 - 01 January 2007 Answer in
+whatever length necessary for completeness. Review documentation.
+Consult your mentor if you’re unable to locate answers.</p>
+
+<ul>
+  <li>
+    <ul>
+      <li>Organizational structure questions</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <p>When is it appropriate to post to gentoo-core rather than gentoo-dev?</p>
+  </li>
+  <li>
+    <p>Who should be contacted with complaints about specific developers or</p>
+  </li>
+</ol>
+
+<p><code class="highlighter-rouge">   projects?</code></p>
+
+<ol>
+  <li>What is the proper method for suggesting a wide-ranging feature or</li>
+</ol>
+
+<p><code class="highlighter-rouge">   enhancement to Gentoo?</code></p>
+
+<ol>
+  <li>
+    <p>What is the purpose of the Gentoo Council?</p>
+  </li>
+  <li>
+    <p>What is the purpose of the Gentoo project structure?</p>
+  </li>
+  <li>
+    <p>What is the purpose of herds? To allow developers who work on similar
+packages to collaborate and share work.</p>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <ul>
+      <li>Ebuild technical/policy questions</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>You 1. You change a package’s ebuild to install an init script.
+Previously,</li>
+</ol>
+
+<p><code class="highlighter-rouge">   the package had no init script at all.</code><br />
+<code class="highlighter-rouge">   Is a revision bump necessary? Why? What about when adding a patch?</code></p>
+
+<ul>
+  <li>
+    <ul>
+      <li>yes, a new revision is required, else current users will not get
+the script installed. unless it is a trivial init script. i
+can’t think of an example where an init script is trivial.</li>
+      <li>with adding a patch, it is necessary unless the patch fixes a
+build failure (in which case the package would nt be installed
+anywhere regardless.) user submits a “live” CVS ebuild. What
+would be a preferable</li>
+    </ul>
+  </li>
+</ul>
+
+<p><code class="highlighter-rouge">   alternative to such an ebuild?</code></p>
+
+<p>A versioned CVS ebuild, which pulls from CVS using a specific date stamp
+(or -r for SVN) so that the code users would compile does not change.
+Better yet, a CVS snapshot could be used if upstream’s CVS server is
+unreliable, overloaded, or if the upstream developers can recommend one
+based on the state of the code.</p>
+
+<ol>
+  <li>(a) What is repoman? How would you check for QA problems with</li>
+</ol>
+
+<p><code class="highlighter-rouge">  repoman?</code></p>
+
+<ul>
+  <li>repoman is a bit of a wrapper for cvs and helper for managing and
+making commits to the portage tree.</li>
+</ul>
+
+<p><code class="highlighter-rouge">  (b) A user submits a brand-new ebuild for a new package. What are the</code><br />
+<code class="highlighter-rouge">   proper steps (including repoman/cvs commands) to take to add</code><br />
+<code class="highlighter-rouge">   this ebuild to the tree?</code></p>
+
+<ol>
+  <li>A user submits an ebuild that has numerous technical problems and</li>
+</ol>
+
+<p><code class="highlighter-rouge">   violates policy. How would you handle that situation?</code></p>
+
+<ol>
+  <li>You have a set of new ebuilds that could potentially benefit</li>
+</ol>
+
+<p><code class="highlighter-rouge">   from a global USE flag. What steps should be taken before</code><br />
+<code class="highlighter-rouge">   a new USE flag is implemented? What should be done if the</code><br />
+<code class="highlighter-rouge">   USE flag only applies to a single package?</code></p>
+
+<ul>
+  <li>First must be discussed on the gentoo-dev mailing list
+    <ul>
+      <li>There may already be a similar use flag, or</li>
+      <li>Other packages may want to use it and it should be generic
+enough for others to use</li>
+    </ul>
+  </li>
+  <li>It must be used by more than one project; else it belongs as a local
+use flag</li>
+</ul>
+
+<ol>
+  <li>You’re creating an ebuild. Unfortunately, the ebuild’s ‘make install’</li>
+</ol>
+
+<p><code class="highlighter-rouge">   target causes numerous access violations. What is the best </code><br />
+<code class="highlighter-rouge">   course of action to take to have a clean, straightforward</code><br />
+<code class="highlighter-rouge">   ebuild?</code></p>
+
+<ul>
+  <li>Get to the root of the problem - fix whatever part(s) of the autofoo
+system are broken and go from there. Ship a patch with the ebuild
+that fixes the sandbox violations, and work with upstream (or at
+least file a bug with them) to get the build system fixed.</li>
+</ul>
+
+<ol>
+  <li>You’re creating an ebuild that needs a patch. The patch is</li>
+</ol>
+
+<p><code class="highlighter-rouge">   nontrivially large - bigger than 20kbytes. Where should</code><br />
+<code class="highlighter-rouge">   the patch be kept?</code></p>
+
+<ul>
+  <li>Within the Gentoo mirrors system; patches can be tarred up and added
+to SRC_URI so they get fetched with the package itself. This will
+keep the CVS tree from growing any bigger than it needs to be.</li>
+</ul>
+
+<ol>
+  <li>You’re creating an ebuild that has its own license - one that</li>
+</ol>
+
+<p><code class="highlighter-rouge">   doesn't exist in /usr/portage/licenses/. What is the proper</code><br />
+<code class="highlighter-rouge">   course of action?</code></p>
+
+<ul>
+  <li>First, make sure the new license permits us to use the package with
+Gentoo :)</li>
+  <li>Put it in a (preferrably plain text) file into the portage tree’s
+licenses directory and commit it before submitting the ebuild to the
+tree.</li>
+</ul>
+
+<ol>
+  <li>(a) You wish to have an ebuild marked “stable,” taking it out of</li>
+</ol>
+
+<p><code class="highlighter-rouge">   ~ARCH KEYWORDS. It's a library. What steps should</code><br />
+<code class="highlighter-rouge">   be taken to do so?</code></p>
+
+<p><code class="highlighter-rouge">  (b) You wish to mark an ebuild </code>“<code class="highlighter-rouge">testing,</code>”<code class="highlighter-rouge"> putting it into ~ARCH</code><br />
+<code class="highlighter-rouge">   KEYWORDS. It was previously hard-masked in package.mask.</code><br />
+<code class="highlighter-rouge">   What should be done prior to doing so?</code></p>
+
+<p><code class="highlighter-rouge">  (c) You wish to have an ebuild marked </code>“<code class="highlighter-rouge">stable.</code>”<code class="highlighter-rouge"> It is a popular</code><br />
+<code class="highlighter-rouge">   application, but no other ebuilds depend on it.</code><br />
+<code class="highlighter-rouge">   What should be done first?</code></p>
+
+<ol>
+  <li>You’re committing a user-submitted ebuild. What should be in the</li>
+</ol>
+
+<p><code class="highlighter-rouge">   initial ChangeLog?</code></p>
+
+<ol>
+  <li>What is the difference between DEPEND and RDEPEND?</li>
+</ol>
+
+<ul>
+  <li>DEPEND is compile time dependencies - eg. compiler requirements,
+build libraries, etc.</li>
+  <li>RDEPEND is run time dependencies - dynamic linked libraries, and
+anything else that’s required to run.</li>
+</ul>
+
+<ol>
+  <li>You wish to make a change to an ebuild, but you checked</li>
+</ol>
+
+<p><code class="highlighter-rouge">   ChangeLogs and metadata.xml and it appears to be maintained by </code><br />
+<code class="highlighter-rouge">   someone else. How should you proceed?</code></p>
+
+<ol>
+  <li>You find a situation in which an eclass may be useful. What should</li>
+</ol>
+
+<p><code class="highlighter-rouge">   you do before implementing such an eclass?</code></p>
+
+<ol>
+  <li>You find a package that will not build on some architectures without</li>
+</ol>
+
+<p><code class="highlighter-rouge">   PIC (-fPIC) code in the shared libraries. What is the proper way</code><br />
+<code class="highlighter-rouge">   to handle this situation?</code></p>
+
+<ol>
+  <li>What do you do when you’d like to have a package you maintain</li>
+</ol>
+
+<p><code class="highlighter-rouge">   tested or marked stable on other architectures?</code></p>
+
+<ul>
+  <li>File a bug with the respective arch team, or contact a developer
+directly.</li>
+</ul>
+
+<ol>
+  <li>How can you verify an ebuild has correct run time dependencies</li>
+</ol>
+
+<p><code class="highlighter-rouge">   (RDEPEND) for all installed binaries?</code></p>
+
+<ol>
+  <li>How do you deal with a situation in which an ebuild wishes to</li>
+</ol>
+
+<p><code class="highlighter-rouge">   install a file already installed by another package?</code></p>
+
+<ul>
+  <li>There are few situations where this can happen, and the course of
+action is to either:
+    <ul>
+      <li>Set the other package as a blocker. This way the two packages
+cannot be installed at the same time. Or,</li>
+      <li>Have the ebuild depend on the other package, and then simply not
+install the file.</li>
+    </ul>
+  </li>
+  <li>Which is best depends on which packages are being dealt with.</li>
+</ul>
+
+<ol>
+  <li>Most configure scripts attempt to automatically determine</li>
+</ol>
+
+<p><code class="highlighter-rouge">   settings based on the host system. When should the ebuild</code><br />
+<code class="highlighter-rouge">   specifically override settings?</code></p>
+
+<ul>
+  <li>To implement USE flags</li>
+  <li>To enforce that any other gentoo specific things are picked up,
+including configured build tools, our filesystem heirarchy standard,
+etc.</li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>
+    <ul>
+      <li>Please also submit the following information:</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>GPG public key ID (if you do not have one, please create one)</li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>Date of birth: 1983-12-13</li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>Where do you live (Town/City, Country): Chicago, IL, USA</li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>What are your programming/scripting skills, if applicable?</li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>What other areas are you experienced in?</li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>What other projects have you contributed to, if any?
+    <ul>
+      <li>Banshee music player; author of several plugins as well as
+MTP-DAP interface</li>
+      <li>libgphoto2-sharp (maintainer) and libgphoto2 “enthusiast” (will
+write code someday, I swear!</li>
+      <li>lirc-sharp (author)…bit of a sleeping project, but I will get
+back to it</li>
+      <li>Used to hack xfce back in the day…but those were the bored
+college daze…</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>Tell us about yourself. This doesn’t need to be strictly</li>
+</ul>
+
+<p><code class="highlighter-rouge">  computer-relevant; things like where you're from,</code><br />
+<code class="highlighter-rouge">  hobbies, job, family, interests...</code></p>
+
+<ul>
+  <li>
+    <ul>
+      <li>Love to cycle, lots and lots :)</li>
+      <li>If you can buy it at Starbucks, it’s my kind of drink.</li>
+      <li>Work my 9-5 as a PHP/MySQL developer, so I love any language
+that is typed (not as in keyboard, but as in variables).</li>
+      <li>I love to watch people interact with computers and tell them how
+badly their computer is designed. It’s so true.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>q!</p>
+
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            Patrick van Staveren
+            </li>
+            
+            <li><a class="u-email" href="mailto:trick@vanstaveren.us">trick@vanstaveren.us</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list"></ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Just a few more bytes on the Internet.</p>
+        <p>Last Modified: 2018-02-03 10:26:42 +0000</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

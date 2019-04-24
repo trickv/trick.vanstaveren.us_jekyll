@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.0 -->
+<title>Sandbox | Patrick van Staveren</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Sandbox" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Just a few more bytes on the Internet." />
+<meta property="og:description" content="Just a few more bytes on the Internet." />
+<link rel="canonical" href="http://localhost:4000/wiki/Sandbox/" />
+<meta property="og:url" content="http://localhost:4000/wiki/Sandbox/" />
+<meta property="og:site_name" content="Patrick van Staveren" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/wiki/Sandbox/","dateModified":"2018-02-03T10:26:35+00:00","headline":"Sandbox","description":"Just a few more bytes on the Internet.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Patrick van Staveren" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" rel="author" href="/">Patrick van Staveren</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/Contact/">Contact</a>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/wiki/Projects/">Projects</a>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+          <a class="page-link" href="/wp/">Web Log</a>
+        </div>
+      </nav>
+    
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="page">
+  <ul class="tag_list_in_post">
+    
+  </ul>
+  <h1 class="page-title">Sandbox</h1>
+  <h2 id="debugging-banshee">Debugging Banshee</h2>
+
+<p>Banshee is still under heavy development, and as such, you may encounter
+various bugs, some of which may lead to crashes. Banshee is developed
+under <a href="http://mono-project.com/">Mono</a>, and debugging a crash, depending
+on where the bug is, can either be easy or more difficult than with
+traditional C programs.</p>
+
+<h2 id="understanding-managed-vs-native">Understanding Managed vs. Native</h2>
+
+<p>There are two places where a crash can occur: in managed code (inside
+the Mono runtime), and in native code (C code, for example). Crashes in
+managed code usually lead to <em>exceptions</em>, and crashes in native code
+usually lead to <em>segmentation faults (segfault),</em> although it is
+possible for crashes in managed code to lead to segfaults (though this
+may indicate a bug in the Mono runtime).</p>
+
+<p>For the purposes of this document, “debugging” refers mainly to the act
+of reproducing a crash and obtaining a good <em>stack trace.</em> A stack trace
+helps developers isolate offending crash-causing code.</p>
+
+<p>A crash in managed code is usually easier to debug than a crash in
+native code. A managed crash will produce a stack trace immediately on
+an <em>unhandled exception.</em> This can then be copied and provided in bug
+reports. However, if the crash was in managed code and also caused a
+segfault, the Mono runtime will <em>attempt</em> to print a native stack trace
+as well, following the managed exception trace. While this is good,
+further debugging may be helpful in providing a more verbose native
+stack trace.</p>
+
+<h2 id="preparing-to-reproduce-a-crash">Preparing to Reproduce a Crash</h2>
+
+<p>Once a crash is experienced, it is best to try to reproduce it
+immediately, under a “debugging” environment. The main requirement is to
+simply try running Banshee from a terminal, so trace information can be
+seen. However, there are a few things that can be done differently to
+produce better data.</p>
+
+<p>Banshee provides a <code class="highlighter-rouge">banshee</code> shell script that is installed to
+<code class="highlighter-rouge">$(prefix)/bin</code>. It sets a few environment variables, and runs the
+<code class="highlighter-rouge">mono</code> runtime program. This can be done manually from the command line,
+and the Mono <code class="highlighter-rouge">--debug</code> option can be added. This will use the <code class="highlighter-rouge">.mdb</code>
+files installed for each Banshee assembly to produce better managed
+stack traces (for instance, code line numbers are printed).</p>
+
+<p><strong>Run Banshee manually from command line</strong></p>
+
+<p><code class="highlighter-rouge">$ mono --debug /usr/lib/banshee/banshee.exe</code></p>
+
+<p>After running Banshee using this method, try reproducing the crash. If a
+managed stack trace is printed after the crash, copy and paste the trace
+into a text editor. If you notice the words “Segmentation Fault” or a
+native stack trace following a managed stack trace, further debugging
+may be necessary. If this is not the case, please <a href="/wiki/Bugs" title="wikilink">file the
+bug</a>, and include your full managed trace and
+instructions on reproducing the crash.</p>
+
+<h2 id="getting-a-backtrace-for-a-segfault">Getting a Backtrace for a Segfault</h2>
+
+<p>First, set up your <code class="highlighter-rouge">~/.gdbinit</code> file. This will instruct gdb to handle
+some special signals that Mono uses, as well as automate the managed
+code backtrace that we will be using:</p>
+
+<p><code class="highlighter-rouge">$ cat &gt; ~/.gdbinit &lt;&lt; </code>“<code class="highlighter-rouge">EOF</code>”<br />
+<code class="highlighter-rouge">handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint</code></p>
+
+<p><code class="highlighter-rouge">define mono_backtrace</code><br />
+<code class="highlighter-rouge"> select-frame 0</code><br />
+<code class="highlighter-rouge"> set $i = 0</code><br />
+<code class="highlighter-rouge"> while ($i &lt; $arg0)</code><br />
+<code class="highlighter-rouge">   set $foo = mono_pmip ($pc)</code><br />
+<code class="highlighter-rouge">   if ($foo == 0x00)</code><br />
+<code class="highlighter-rouge">     frame</code><br />
+<code class="highlighter-rouge">   else</code><br />
+<code class="highlighter-rouge">     printf </code>“<code class="highlighter-rouge">#%d</code><code class="highlighter-rouge"> </code><code class="highlighter-rouge">%p</code><code class="highlighter-rouge"> </code><code class="highlighter-rouge">in</code><code class="highlighter-rouge"> </code><code class="highlighter-rouge">%s\n</code>”<code class="highlighter-rouge">, $i, $pc, $foo</code><br />
+<code class="highlighter-rouge">   end</code><br />
+<code class="highlighter-rouge">   up-silently</code><br />
+<code class="highlighter-rouge">   set $i = $i + 1</code><br />
+<code class="highlighter-rouge"> end</code><br />
+<code class="highlighter-rouge">end</code></p>
+
+<p><code class="highlighter-rouge">EOF</code></p>
+
+<p>Now run Banshee inside <code class="highlighter-rouge">gdb</code>:</p>
+
+<p><code class="highlighter-rouge">$ gdb --eval-command=run --args mono --debug /usr/lib/banshee/banshee.exe</code></p>
+
+<p>Banshee will now start to run. Once started, attempt to reproduce the
+crash. If a segfault happens (SIGSEGV), execution will be paused and you
+will return to the <code class="highlighter-rouge">gdb</code> prompt. Once this happens:</p>
+
+<p><code class="highlighter-rouge">(gdb) mono_backtrace 15</code></p>
+
+<p>That will produce a backtrace of the last 15 calls; automatically
+showing managed names.</p>
+
+<p>Now in your terminal, scroll up to where you started <code class="highlighter-rouge">gdb</code> and copy all
+of the output. This selection is your native trace that will be useful
+on <a href="/wiki/Bugs" title="wikilink">bug reports</a>.</p>
+
+<h2 id="other-resources">Other Resources</h2>
+
+<p>If you would like to learn a lot more about debugging Mono applications
+by displaying all exceptions, getting threaded stack traces, and tracing
+program flow in some or all namespaces, read the Mono Project’s
+<a href="http://www.mono-project.com/Debugging">Debugging</a> page.</p>
+
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            Patrick van Staveren
+            </li>
+            
+            <li><a class="u-email" href="mailto:trick@vanstaveren.us">trick@vanstaveren.us</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list"></ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Just a few more bytes on the Internet.</p>
+        <p>Last Modified: 2018-02-03 10:26:35 +0000</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
