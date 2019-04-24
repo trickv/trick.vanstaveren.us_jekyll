@@ -16,6 +16,7 @@ If you are trying to get in touch, check out the
 [contact](/wiki/Contact "wikilink") page!
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [HAB flight 3: two payloads, some success, and more failure](https://trick.vanstaveren.us/wp/2019/04/23/hab-flight-3-two-payloads-some-success-and-more-failure/) - 2019-04-23
 * [HAB flight 2 “EAGLE”](http://trick.vanstaveren.us/wp/2018/05/22/hab-flight-2-eagle/) - 2018-05-22
 * [First high-altitude balloon flight: lots learned](http://trick.vanstaveren.us/wp/2018/02/18/first-high-altitude-balloon-flight-lots-learned/) - 2018-02-18
 * [My first radio contact from a high altitude balloon](http://trick.vanstaveren.us/wp/2016/10/10/my-first-radio-contact-from-a-high-altitude-balloon/) - 2016-10-10
