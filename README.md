@@ -5,6 +5,6 @@ Most of this is rather buried history :)
 h1. How to build
 
 ```
-sudo apt install ruby-bundler
+sudo apt install ruby-bundler ruby-dev make
 bundle install --path vendor/bundle
 # it won't work but keep trying and installing -dev packages
