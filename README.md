@@ -24,3 +24,7 @@ bundle exec jekyll build
 # preview changeset from rsync
 ./push --real
 ```
+
+h1. Maintenance
+
+Learn bundler: https://bundler.io/v1.3/rationale.html#a-simple-bundler-workflow
