@@ -86,5 +86,6 @@ More information: <http://www.mintel.com/office-locations>
 
 ## Keys
 
--   GPG Public ID Key: B38115B7 (expires 2007-07-13)
+- GPG Key [0x14F1A4A7](https://keyserver.2ndquadrant.com/pks/lookup?op=get&search=0x01F8267F096D3F52) generated in 2019
+- A long time ago I had a GPG key with ID B38115B7 (expired 2007-07-13)
 
