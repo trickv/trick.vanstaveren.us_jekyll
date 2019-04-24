@@ -5,7 +5,6 @@ Most of this is rather buried history :)
 h1. How to build
 
 ```
-# clone it
 sudo apt install ruby-bundler
 bundle install --path vendor/bundle
 # it won't work but keep trying and installing -dev packages
