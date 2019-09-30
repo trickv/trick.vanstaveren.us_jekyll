@@ -13,7 +13,7 @@ manager of system administrators. I dabble in photography, and I'm
 usually happiest when I've been on my bicycle all day long.
 
 If you are trying to get in touch, check out the
-[contact](/wiki/Contact "wikilink") page!
+[contact](/Contact) page!
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
 * [HAB flight 3: two payloads, some success, and more failure](https://trick.vanstaveren.us/wp/2019/04/23/hab-flight-3-two-payloads-some-success-and-more-failure/) - 2019-04-23
