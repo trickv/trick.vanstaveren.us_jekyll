@@ -19,6 +19,7 @@ If you are trying to get in touch, check out the
 [contact](/Contact) page!
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [IO91 -> EN51…NW6 1UE -> 60137…51N -> 41N…2001:8b0:da4::/48 -> 2601:249:902:50a1::/64 (completing the circuit)](https://trick.vanstaveren.us/wp/2019/10/14/completing-the-circuit/) - 2019-10-14
 * [HAB flight 3: two payloads, some success, and more failure](https://trick.vanstaveren.us/wp/2019/04/23/hab-flight-3-two-payloads-some-success-and-more-failure/) - 2019-04-23
 * [HAB flight 2 “EAGLE”](http://trick.vanstaveren.us/wp/2018/05/22/hab-flight-2-eagle/) - 2018-05-22
 * [First high-altitude balloon flight: lots learned](http://trick.vanstaveren.us/wp/2018/02/18/first-high-altitude-balloon-flight-lots-learned/) - 2018-02-18
