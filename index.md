@@ -3,13 +3,16 @@ title: Home
 layout: default
 ---
 
-This is the personal site for one Patrick van Staveren. I'm an American
-expat living in ~~Shanghai~~ London, working for
-[Mintel](http://www.mintel.com/), running our IT Infrastructure team. I
+This is the personal site of Patrick van Staveren. I work for
+[Mintel](http://www.mintel.com/), running our [IT](https://medium.com/mintel-tech-blog)
+Infrastructure team.
+I grew up in Michigan,
 studied as a software developer with a B.S. in Computer Science from
 [Western Michigan University](http://wmich.edu/) and worked as a
-developer for 5 years before moving around and eventually landing as a
-manager of system administrators. I dabble in photography, and I'm
+developer for 5 years in Chicago before moving around the globe
+and eventually landing as a manager of system administrators.
+I spent a few years living in [Shanghai](http://trick.vanstaveren.us/wp/2015/07/09/four-years-in-shanghai-without-a-doubt-the-coolest-thing-ive-ever-done-%E5%86%8D%E8%A7%81%E4%B8%8A%E6%B5%B7%EF%BC%81/) and [London](#) while working for Mintel and now live back in the suburbs of Chicago.
+I dabble in photography, and I'm
 usually happiest when I've been on my bicycle all day long.
 
 If you are trying to get in touch, check out the
