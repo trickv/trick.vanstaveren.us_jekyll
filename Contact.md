@@ -50,6 +50,26 @@ IRC: irc.freenode.net as trickv
 
 ## Snail Mail
 
+### Home
+
+Valid indefinitely!
+
+```
+Patrick van Staveren
+508 Newton Ave
+Glen Ellyn, IL 60137
+USA
+```
+
+[Map it](https://www.google.co.uk/maps/place/508+Newton+Ave,+Glen+Ellyn,+IL+60137/@41.8769888,-88.0807515,15.5z/data=!4m5!3m4!1s0x880e536c1cd7fd2d:0x89136298487a99cc!8m2!3d41.8781022!4d-88.0752279)
+
+#### Coordinates
+
+- Latitude:  41.87699
+- Longitude: -88.0808
+- Altitude: ??
+- [QTH](https://en.wikipedia.org/wiki/Maidenhead_Locator_System) location: EN51XV
+
 ### Work
 
 ```
