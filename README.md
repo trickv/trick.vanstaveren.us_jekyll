@@ -22,7 +22,7 @@ bundle exec jekyll serve --livereload [--incremental]
 # Publish
 
 ```
-bundle exec jekyll build
+./build # uses a container
 ./push
 # preview changeset from rsync
 ./push --real
