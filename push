@@ -8,7 +8,7 @@ else
     echo "DRY RUN mode, specify --real to go"
 fi
 
-rsync -avc $flags --delete-after --exclude wp  _site/ root@hg.v9n.us:/var/www/trick.vanstaveren.us/
+rsync -rlpgoD -vc $flags --delete-after --exclude wp  _site/ root@hg.v9n.us:/var/www/trick.vanstaveren.us/
 
 echo "If you have a long list of changes, remember to run:"
 echo "    bundle exec jekyll build"
