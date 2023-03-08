@@ -4,7 +4,7 @@ layout: default
 ---
 
 This is the personal site of Patrick van Staveren. I work for
-[Mintel](http://www.mintel.com/), running our [IT](https://medium.com/mintel-tech-blog)
+[Mintel](http://www.mintel.com/), running our [IT](https://www.mintel.com/insights/mintel-market-news/)
 Infrastructure team.
 I grew up in Michigan,
 studied as a software developer with a B.S. in Computer Science from
