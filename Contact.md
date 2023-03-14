@@ -37,8 +37,8 @@ USA
 
 #### Coordinates
 
-- Latitude:  41.87699
-- Longitude: -88.0808
+- Latitude:  41.8781
+- Longitude: -88.0754
 - Altitude [MSL](https://en.wikipedia.org/wiki/Sea_level): 234 meters
 - [QTH](https://en.wikipedia.org/wiki/Maidenhead_Locator_System) location: EN51XV
 
