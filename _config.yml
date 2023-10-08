@@ -23,6 +23,8 @@ last-modified-at:
 exclude:
   - push
   - build
+  - develop
+  - revert-generated
   - README.md
   - Gemfile
   - Gemfile.lock

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Reverts all generated content in _site back to git
+git checkout -- _site
