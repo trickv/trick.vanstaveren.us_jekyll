@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: base
 ---
 
 This is the personal site of Patrick van Staveren. I work for

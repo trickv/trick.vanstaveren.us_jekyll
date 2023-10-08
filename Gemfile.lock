@@ -6,6 +6,14 @@ GIT
       jekyll (>= 3.7, < 5.0)
       posix-spawn (~> 0.3.9)
 
+GIT
+  remote: https://github.com/trickv/minima
+  revision: 81b44ac8af472db22a6f2bcd9ef477c06646455f
+  specs:
+    minima (3.0.0.dev)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-seo-tag (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -35,11 +43,9 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.15.1)
-      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.7.1)
+    jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
@@ -49,10 +55,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.15)
@@ -73,9 +75,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.8.5)
-  jekyll-feed (~> 0.6)
   jekyll-last-modified-at (~> 1.0)!
-  minima (~> 2.0)
+  minima (= 3.0.0dev)!
   tzinfo-data
 
 BUNDLED WITH
