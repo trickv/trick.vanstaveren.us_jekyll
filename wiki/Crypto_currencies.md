@@ -11,8 +11,9 @@ Active
     47yTytYanvMKPRHuK1isKD3v9f4TG6muqBJiDY9bETxgRvwynn4sixBE8RhxJSQzEaacp7hZC7AhC7nDDrDSRcgDDFLm8QP
 -   Bitcoin:
     -   1FJHR1GWeCm4bUQ5ZonP4cN15Nit4o8RKd (coinbase)
-    -   1DCJ4K3FtsDmsA3zDzUwPeJHGRHchnPhVs (nicehash target)
-    -   1Nteuf7dJRWfxywWkSZNa2VUMkwPi4uupr (unused)
+    -   1DCJ4K3FtsDmsA3zDzUwPeJHGRHchnPhVs (nicehash target -> safety wallet)
+    -   1Nteuf7dJRWfxywWkSZNa2VUMkwPi4uupr (exchange target -> safety wallet)
+    -   18oZ3SmbUSukfMJyg9UmmDPCm9V3Z9Yrxy (unused -> safety wallet)
 -   Ethereum: 0x0c87b883317e82ee665644dc7be8dd17669cb64c
 
 Retired
