@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Sandbox | Patrick van Staveren</title>
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Sandbox" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Just a few more bytes on the Internet." />
@@ -15,7 +15,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sandbox" />
 <script type="application/ld+json">
-{"description":"Just a few more bytes on the Internet.","headline":"Sandbox","@type":"WebPage","dateModified":"2006-07-20T05:33:14-05:00","url":"http://trick.vanstaveren.us/wiki/Sandbox/","@context":"https://schema.org"}</script>
+{"description":"Just a few more bytes on the Internet.","@type":"WebPage","headline":"Sandbox","dateModified":"2006-07-20T05:33:14-05:00","url":"http://trick.vanstaveren.us/wiki/Sandbox/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://trick.vanstaveren.us/feed.xml" title="Patrick van Staveren" /></head>
 <body><header class="site-header" role="banner">
@@ -365,16 +365,16 @@ simply try running Banshee from a terminal, so trace information can be
 seen. However, there are a few things that can be done differently to
 produce better data.</p>
 
-<p>Banshee provides a <code class="highlighter-rouge">banshee</code> shell script that is installed to
-<code class="highlighter-rouge">$(prefix)/bin</code>. It sets a few environment variables, and runs the
-<code class="highlighter-rouge">mono</code> runtime program. This can be done manually from the command line,
-and the Mono <code class="highlighter-rouge">--debug</code> option can be added. This will use the <code class="highlighter-rouge">.mdb</code>
+<p>Banshee provides a <code class="language-plaintext highlighter-rouge">banshee</code> shell script that is installed to
+<code class="language-plaintext highlighter-rouge">$(prefix)/bin</code>. It sets a few environment variables, and runs the
+<code class="language-plaintext highlighter-rouge">mono</code> runtime program. This can be done manually from the command line,
+and the Mono <code class="language-plaintext highlighter-rouge">--debug</code> option can be added. This will use the <code class="language-plaintext highlighter-rouge">.mdb</code>
 files installed for each Banshee assembly to produce better managed
 stack traces (for instance, code line numbers are printed).</p>
 
 <p><strong>Run Banshee manually from command line</strong></p>
 
-<p><code class="highlighter-rouge">$ mono --debug /usr/lib/banshee/banshee.exe</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ mono --debug /usr/lib/banshee/banshee.exe</code></p>
 
 <p>After running Banshee using this method, try reproducing the crash. If a
 managed stack trace is printed after the crash, copy and paste the trace
@@ -386,44 +386,44 @@ instructions on reproducing the crash.</p>
 
 <h2 id="getting-a-backtrace-for-a-segfault">Getting a Backtrace for a Segfault</h2>
 
-<p>First, set up your <code class="highlighter-rouge">~/.gdbinit</code> file. This will instruct gdb to handle
+<p>First, set up your <code class="language-plaintext highlighter-rouge">~/.gdbinit</code> file. This will instruct gdb to handle
 some special signals that Mono uses, as well as automate the managed
 code backtrace that we will be using:</p>
 
-<p><code class="highlighter-rouge">$ cat &gt; ~/.gdbinit &lt;&lt; </code>“<code class="highlighter-rouge">EOF</code>”<br />
-<code class="highlighter-rouge">handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ cat &gt; ~/.gdbinit &lt;&lt; </code>“<code class="language-plaintext highlighter-rouge">EOF</code>”<br />
+<code class="language-plaintext highlighter-rouge">handle SIGXCPU SIG35 SIG33 SIGPWR nostop noprint</code></p>
 
-<p><code class="highlighter-rouge">define mono_backtrace</code><br />
-<code class="highlighter-rouge"> select-frame 0</code><br />
-<code class="highlighter-rouge"> set $i = 0</code><br />
-<code class="highlighter-rouge"> while ($i &lt; $arg0)</code><br />
-<code class="highlighter-rouge">   set $foo = mono_pmip ($pc)</code><br />
-<code class="highlighter-rouge">   if ($foo == 0x00)</code><br />
-<code class="highlighter-rouge">     frame</code><br />
-<code class="highlighter-rouge">   else</code><br />
-<code class="highlighter-rouge">     printf </code>“<code class="highlighter-rouge">#%d</code><code class="highlighter-rouge"> </code><code class="highlighter-rouge">%p</code><code class="highlighter-rouge"> </code><code class="highlighter-rouge">in</code><code class="highlighter-rouge"> </code><code class="highlighter-rouge">%s\n</code>”<code class="highlighter-rouge">, $i, $pc, $foo</code><br />
-<code class="highlighter-rouge">   end</code><br />
-<code class="highlighter-rouge">   up-silently</code><br />
-<code class="highlighter-rouge">   set $i = $i + 1</code><br />
-<code class="highlighter-rouge"> end</code><br />
-<code class="highlighter-rouge">end</code></p>
+<p><code class="language-plaintext highlighter-rouge">define mono_backtrace</code><br />
+<code class="language-plaintext highlighter-rouge"> select-frame 0</code><br />
+<code class="language-plaintext highlighter-rouge"> set $i = 0</code><br />
+<code class="language-plaintext highlighter-rouge"> while ($i &lt; $arg0)</code><br />
+<code class="language-plaintext highlighter-rouge">   set $foo = mono_pmip ($pc)</code><br />
+<code class="language-plaintext highlighter-rouge">   if ($foo == 0x00)</code><br />
+<code class="language-plaintext highlighter-rouge">     frame</code><br />
+<code class="language-plaintext highlighter-rouge">   else</code><br />
+<code class="language-plaintext highlighter-rouge">     printf </code>“<code class="language-plaintext highlighter-rouge">#%d</code><code class="language-plaintext highlighter-rouge"> </code><code class="language-plaintext highlighter-rouge">%p</code><code class="language-plaintext highlighter-rouge"> </code><code class="language-plaintext highlighter-rouge">in</code><code class="language-plaintext highlighter-rouge"> </code><code class="language-plaintext highlighter-rouge">%s\n</code>”<code class="language-plaintext highlighter-rouge">, $i, $pc, $foo</code><br />
+<code class="language-plaintext highlighter-rouge">   end</code><br />
+<code class="language-plaintext highlighter-rouge">   up-silently</code><br />
+<code class="language-plaintext highlighter-rouge">   set $i = $i + 1</code><br />
+<code class="language-plaintext highlighter-rouge"> end</code><br />
+<code class="language-plaintext highlighter-rouge">end</code></p>
 
-<p><code class="highlighter-rouge">EOF</code></p>
+<p><code class="language-plaintext highlighter-rouge">EOF</code></p>
 
-<p>Now run Banshee inside <code class="highlighter-rouge">gdb</code>:</p>
+<p>Now run Banshee inside <code class="language-plaintext highlighter-rouge">gdb</code>:</p>
 
-<p><code class="highlighter-rouge">$ gdb --eval-command=run --args mono --debug /usr/lib/banshee/banshee.exe</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ gdb --eval-command=run --args mono --debug /usr/lib/banshee/banshee.exe</code></p>
 
 <p>Banshee will now start to run. Once started, attempt to reproduce the
 crash. If a segfault happens (SIGSEGV), execution will be paused and you
-will return to the <code class="highlighter-rouge">gdb</code> prompt. Once this happens:</p>
+will return to the <code class="language-plaintext highlighter-rouge">gdb</code> prompt. Once this happens:</p>
 
-<p><code class="highlighter-rouge">(gdb) mono_backtrace 15</code></p>
+<p><code class="language-plaintext highlighter-rouge">(gdb) mono_backtrace 15</code></p>
 
 <p>That will produce a backtrace of the last 15 calls; automatically
 showing managed names.</p>
 
-<p>Now in your terminal, scroll up to where you started <code class="highlighter-rouge">gdb</code> and copy all
+<p>Now in your terminal, scroll up to where you started <code class="language-plaintext highlighter-rouge">gdb</code> and copy all
 of the output. This selection is your native trace that will be useful
 on <a href="/wiki/Bugs" title="wikilink">bug reports</a>.</p>
 

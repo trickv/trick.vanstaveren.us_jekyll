@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Computers/Ss | Patrick van Staveren</title>
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Computers/Ss" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Just a few more bytes on the Internet." />
@@ -15,7 +15,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Computers/Ss" />
 <script type="application/ld+json">
-{"description":"Just a few more bytes on the Internet.","headline":"Computers/Ss","@type":"WebPage","dateModified":"2018-02-03T12:27:41-06:00","url":"http://trick.vanstaveren.us/Computers/Ss/","@context":"https://schema.org"}</script>
+{"description":"Just a few more bytes on the Internet.","@type":"WebPage","headline":"Computers/Ss","dateModified":"2018-02-03T12:27:41-06:00","url":"http://trick.vanstaveren.us/Computers/Ss/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://trick.vanstaveren.us/feed.xml" title="Patrick van Staveren" /></head>
 <body><header class="site-header" role="banner">
@@ -413,27 +413,27 @@ further.</p>
 <p>The camera is a USB Video Class device. A bit of research shows the
 <a href="http://linux-uvc.berlios.de/">Linux UVC project</a> should cover this. UVC
 was committed to the mainstream kernel in 2.6.26 and Ubuntu 8.10 runs
-2.6.27.x. The device is detected and shown in <code class="highlighter-rouge">dmesg</code>, but no
-<code class="highlighter-rouge">/dev/video?</code> device is created. I later <code class="highlighter-rouge">rmmod</code> and <code class="highlighter-rouge">modprobe</code> the
-<code class="highlighter-rouge">uvcvideo</code> module which then properly detects the device and creates the
-<code class="highlighter-rouge">/dev/video0</code> device, but testing with <code class="highlighter-rouge">luvcvideo</code> program fails to work
-and <code class="highlighter-rouge">dmesg</code> shows the error:</p>
+2.6.27.x. The device is detected and shown in <code class="language-plaintext highlighter-rouge">dmesg</code>, but no
+<code class="language-plaintext highlighter-rouge">/dev/video?</code> device is created. I later <code class="language-plaintext highlighter-rouge">rmmod</code> and <code class="language-plaintext highlighter-rouge">modprobe</code> the
+<code class="language-plaintext highlighter-rouge">uvcvideo</code> module which then properly detects the device and creates the
+<code class="language-plaintext highlighter-rouge">/dev/video0</code> device, but testing with <code class="language-plaintext highlighter-rouge">luvcvideo</code> program fails to work
+and <code class="language-plaintext highlighter-rouge">dmesg</code> shows the error:</p>
 
-<p><code class="highlighter-rouge">uvcvideo: Failed to query (130) UVC control 1 (unit 0) : 2 (exp. 26).</code></p>
+<p><code class="language-plaintext highlighter-rouge">uvcvideo: Failed to query (130) UVC control 1 (unit 0) : 2 (exp. 26).</code></p>
 
 <p>I continued pursuing the latest UVC code and tried running a
 self-compiled 2.6.28 kernel which did not help, but I then grabbed the
 bleeding-edge sources from UVC mercurial repo (revision 9904,) compiled
-and loaded <code class="highlighter-rouge">videodev</code> and <code class="highlighter-rouge">uvcvideo</code> from the compiled copy, and I have
+and loaded <code class="language-plaintext highlighter-rouge">videodev</code> and <code class="language-plaintext highlighter-rouge">uvcvideo</code> from the compiled copy, and I have
 video! The picture is inverted, but it’s close. From a few sources I’ve
 read that this is a common issue and can be worked around with using a
-parameter on <code class="highlighter-rouge">insmod</code> and I’ll post these results to the UVC list soon.</p>
+parameter on <code class="language-plaintext highlighter-rouge">insmod</code> and I’ll post these results to the UVC list soon.</p>
 
 <h2 id="keyboard-double-presses">Keyboard double-presses</h2>
 
 <p>The keyboard is a full-size keyboard which makes me happy. But I’m
 having one issue: sometimes I’m getting double key-presses. Irregularly,
-<code class="highlighter-rouge">vim foo</code> actually comes out as <code class="highlighter-rouge">vimm foo</code>. I’m not sure if this is a
+<code class="language-plaintext highlighter-rouge">vim foo</code> actually comes out as <code class="language-plaintext highlighter-rouge">vimm foo</code>. I’m not sure if this is a
 hardware issue or a software issue, but I’m a solid typist and confident
 that this isn’t just shaky hands.</p>
 

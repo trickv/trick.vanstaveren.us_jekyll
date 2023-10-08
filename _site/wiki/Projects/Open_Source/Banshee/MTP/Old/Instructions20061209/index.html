@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Projects/Open Source/Banshee/MTP/Old/Instructions20061209 | Patrick van Staveren</title>
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Projects/Open Source/Banshee/MTP/Old/Instructions20061209" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Just a few more bytes on the Internet." />
@@ -15,7 +15,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Projects/Open Source/Banshee/MTP/Old/Instructions20061209" />
 <script type="application/ld+json">
-{"description":"Just a few more bytes on the Internet.","headline":"Projects/Open Source/Banshee/MTP/Old/Instructions20061209","@type":"WebPage","dateModified":"2006-12-09T13:24:19-06:00","url":"http://trick.vanstaveren.us/wiki/Projects/Open_Source/Banshee/MTP/Old/Instructions20061209/","@context":"https://schema.org"}</script>
+{"description":"Just a few more bytes on the Internet.","@type":"WebPage","headline":"Projects/Open Source/Banshee/MTP/Old/Instructions20061209","dateModified":"2006-12-09T13:24:19-06:00","url":"http://trick.vanstaveren.us/wiki/Projects/Open_Source/Banshee/MTP/Old/Instructions20061209/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://trick.vanstaveren.us/feed.xml" title="Patrick van Staveren" /></head>
 <body><header class="site-header" role="banner">
@@ -426,51 +426,51 @@ with a svn version.</p>
 
 <p>Snag yourself a copy of libgphoto2 from subversion:</p>
 
-<p><code class="highlighter-rouge">  svn co </code><a href="https://svn.sourceforge.net/svnroot/gphoto/trunk/libgphoto2"><code class="highlighter-rouge">https://svn.sourceforge.net/svnroot/gphoto/trunk/libgphoto2</code></a></p>
+<p><code class="language-plaintext highlighter-rouge">  svn co </code><a href="https://svn.sourceforge.net/svnroot/gphoto/trunk/libgphoto2"><code class="language-plaintext highlighter-rouge">https://svn.sourceforge.net/svnroot/gphoto/trunk/libgphoto2</code></a></p>
 
 <p>and build it, like normal:</p>
 
-<p><code class="highlighter-rouge"> ./autogen.sh</code></p>
+<p><code class="language-plaintext highlighter-rouge"> ./autogen.sh</code></p>
 
 <p>If you get an error like
 <a href="/wiki/Projects/Open_Source/Banshee/MTP/FAQ#Q:_What_does_this_mess_mean_when_I_run_autogen.sh_in_libgphoto2.3F" title="wikilink">this</a>,
 be sure to have libltdl installed.</p>
 
-<p><code class="highlighter-rouge"> ./configure</code></p>
+<p><code class="language-plaintext highlighter-rouge"> ./configure</code></p>
 
 <p>Watch the output of ./configure to make sure that the csharp bindings
 are enabled. It should have a line in it something like:</p>
 
-<p><code class="highlighter-rouge"> Bindings:             csharp</code></p>
+<p><code class="language-plaintext highlighter-rouge"> Bindings:             csharp</code></p>
 
 <p>then, just do the usual:</p>
 
-<p><code class="highlighter-rouge"> make &amp;&amp; sudo make install &amp;&amp; sudo ldconfig</code></p>
+<p><code class="language-plaintext highlighter-rouge"> make &amp;&amp; sudo make install &amp;&amp; sudo ldconfig</code></p>
 
 <p>To get around an ugly bug that we have with libgphoto2_port’s disk
 driver, be sure to remove it:</p>
 
-<p><code class="highlighter-rouge"> sudo rm /usr/local/lib/libgphoto2_port/0.6.1/disk.*</code></p>
+<p><code class="language-plaintext highlighter-rouge"> sudo rm /usr/local/lib/libgphoto2_port/0.6.1/disk.*</code></p>
 
 <p>Libgphoto2 and it’s C# bindings should now be installed!</p>
 
 <h3 id="installing-gphoto2-to-test-libgphoto2">Installing gphoto2 to test libgphoto2</h3>
 
-<p>The <code class="highlighter-rouge">gphoto2</code> command line tool is the easiest way to test that
+<p>The <code class="language-plaintext highlighter-rouge">gphoto2</code> command line tool is the easiest way to test that
 libgphoto2 can find and access your MTP device. It’s contained in the
 gphoto svn repository. You know the drill – grab and install it as
 follows:</p>
 
-<p><code class="highlighter-rouge"> svn co </code><a href="https://svn.sourceforge.net/svnroot/gphoto/trunk/gphoto2"><code class="highlighter-rouge">https://svn.sourceforge.net/svnroot/gphoto/trunk/gphoto2</code></a><br />
-<code class="highlighter-rouge"> cd gphoto2</code><br />
-<code class="highlighter-rouge"> ./autogen.sh</code><br />
-<code class="highlighter-rouge"> ./configure</code><br />
-<code class="highlighter-rouge"> make</code><br />
-<code class="highlighter-rouge"> sudo make install</code></p>
+<p><code class="language-plaintext highlighter-rouge"> svn co </code><a href="https://svn.sourceforge.net/svnroot/gphoto/trunk/gphoto2"><code class="language-plaintext highlighter-rouge">https://svn.sourceforge.net/svnroot/gphoto/trunk/gphoto2</code></a><br />
+<code class="language-plaintext highlighter-rouge"> cd gphoto2</code><br />
+<code class="language-plaintext highlighter-rouge"> ./autogen.sh</code><br />
+<code class="language-plaintext highlighter-rouge"> ./configure</code><br />
+<code class="language-plaintext highlighter-rouge"> make</code><br />
+<code class="language-plaintext highlighter-rouge"> sudo make install</code></p>
 
 <p>Once it’s installed, test to see if gphoto2 can find your MTP device:</p>
 
-<p><code class="highlighter-rouge"> gphoto2 -L</code></p>
+<p><code class="language-plaintext highlighter-rouge"> gphoto2 -L</code></p>
 
 <p>It should list all the files &amp; folders on your device. If you get any
 errors as this point, you can safely assume that you will have trouble
@@ -494,9 +494,9 @@ statement for the first time, take it as a lesson in life: READ the
 documentation, and then run whatever crazy command (or in
 Hollywood-speak, ask questions FIRST and shoot SECOND)</p>
 
-<p><strong>SYMPTOM:</strong> <code class="highlighter-rouge">gphoto2 -L</code> returns “Permission denied”, “Could not grab
+<p><strong>SYMPTOM:</strong> <code class="language-plaintext highlighter-rouge">gphoto2 -L</code> returns “Permission denied”, “Could not grab
 device”, “Operation not permitted”, or a similar seemingly permissions
-related error. <code class="highlighter-rouge">gphoto2</code> and <code class="highlighter-rouge">Banshee</code> and MTP support works as root,
+related error. <code class="language-plaintext highlighter-rouge">gphoto2</code> and <code class="language-plaintext highlighter-rouge">Banshee</code> and MTP support works as root,
 but not as a regular user.</p>
 
 <p><strong>INFO:</strong> If you’re trying to get gphoto2 from the command line to work,
@@ -519,21 +519,21 @@ can’t figure them out for you :)</p>
 <p><strong>SOLUTION:</strong> <strong>Install the hotplug usbcam script.</strong> (from within the
 libgphoto2 checkout directory)</p>
 
-<p><code class="highlighter-rouge">{vim|pico|emacs|gedit|whatever} packaging/linux-hotplug/usbcam.group</code><br />
-<code class="highlighter-rouge"># be sure the GROUP variable is set to a group that you are a member of.</code><br />
-<code class="highlighter-rouge"># Traditionally I think this is left as camera, but your distribution may very.</code><br />
-<code class="highlighter-rouge">cp packaging/linux-hotplug/usbcam.group /etc/hotplug/usb/usbcam</code><br />
-<code class="highlighter-rouge">chmod +x /etc/hotplug/usb/usbcam</code></p>
+<p><code class="language-plaintext highlighter-rouge">{vim|pico|emacs|gedit|whatever} packaging/linux-hotplug/usbcam.group</code><br />
+<code class="language-plaintext highlighter-rouge"># be sure the GROUP variable is set to a group that you are a member of.</code><br />
+<code class="language-plaintext highlighter-rouge"># Traditionally I think this is left as camera, but your distribution may very.</code><br />
+<code class="language-plaintext highlighter-rouge">cp packaging/linux-hotplug/usbcam.group /etc/hotplug/usb/usbcam</code><br />
+<code class="language-plaintext highlighter-rouge">chmod +x /etc/hotplug/usb/usbcam</code></p>
 
 <p><strong>Install the USB hotplug system’s userspace mapping.</strong></p>
 
-<p><code class="highlighter-rouge">export HOTPLUG_USERMAP=</code>“<code class="highlighter-rouge">/etc/hotplug/usb/usbcam-gphoto2.usermap</code>”<br />
-<code class="highlighter-rouge">/usr/lib/libgphoto2/print-camera-list usb-usermap &gt; $HOTPLUG_USERMAP</code></p>
+<p><code class="language-plaintext highlighter-rouge">export HOTPLUG_USERMAP=</code>“<code class="language-plaintext highlighter-rouge">/etc/hotplug/usb/usbcam-gphoto2.usermap</code>”<br />
+<code class="language-plaintext highlighter-rouge">/usr/lib/libgphoto2/print-camera-list usb-usermap &gt; $HOTPLUG_USERMAP</code></p>
 
 <p><strong>Install the HAL FDI entries.</strong></p>
 
-<p><code class="highlighter-rouge">export HAL_FDI=</code>“<code class="highlighter-rouge">/usr/share/hal/fdi/information/10freedesktop/10-camera-libgphoto2.fdi</code>”<br />
-<code class="highlighter-rouge">/usr/local/lib/libgphoto2/print-camera-list hal-fdi &gt; $HAL_FDI</code></p>
+<p><code class="language-plaintext highlighter-rouge">export HAL_FDI=</code>“<code class="language-plaintext highlighter-rouge">/usr/share/hal/fdi/information/10freedesktop/10-camera-libgphoto2.fdi</code>”<br />
+<code class="language-plaintext highlighter-rouge">/usr/local/lib/libgphoto2/print-camera-list hal-fdi &gt; $HAL_FDI</code></p>
 
 <p><strong>Finally, be sure to restart hotplug and HAL to make these changes take
 effect</strong>. I don’t know if they do automatically. If you’re not sure how
@@ -543,7 +543,7 @@ to do this or what I’m talking about, just do a reboot.</p>
 
 <p>Grab the latest CVS version of Banshee:</p>
 
-<p><code class="highlighter-rouge"> cvs -z3 -d:pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co -P banshee</code></p>
+<p><code class="language-plaintext highlighter-rouge"> cvs -z3 -d:pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co -P banshee</code></p>
 
 <p><strong>NOTE: this will change as Gnome is moving to Subversion
 (eventually).</strong> If you’re getting errors with this command, check out
@@ -551,18 +551,18 @@ the <a href="http://live.gnome.org/Subversion">status of the subversion
 migration</a>. Ask in #banshee or
 #gnome for help!</p>
 
-<p>Finally, run autogen. Pass <code class="highlighter-rouge">--enable-mtp</code>:</p>
+<p>Finally, run autogen. Pass <code class="language-plaintext highlighter-rouge">--enable-mtp</code>:</p>
 
-<p><code class="highlighter-rouge"> ./autogen.sh --enable-mtp --whatever-other-flags-you-usually-use</code></p>
+<p><code class="language-plaintext highlighter-rouge"> ./autogen.sh --enable-mtp --whatever-other-flags-you-usually-use</code></p>
 
 <p>If you’ve never built Banshee from source before, and are using a
 standard gstreamer installation…use:</p>
 
-<p><code class="highlighter-rouge"> ./autogen.sh --enable-mtp</code></p>
+<p><code class="language-plaintext highlighter-rouge"> ./autogen.sh --enable-mtp</code></p>
 
 <p>That should do the trick. Finally, make Banshee and install it:</p>
 
-<p><code class="highlighter-rouge"> make &amp;&amp; sudo make install</code></p>
+<p><code class="language-plaintext highlighter-rouge"> make &amp;&amp; sudo make install</code></p>
 
 <h2 id="moving-further">Moving further</h2>
 
