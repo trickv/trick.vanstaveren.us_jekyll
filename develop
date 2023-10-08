@@ -1,0 +1,6 @@
+export JEKYLL_VERSION=3.8.5
+docker run --rm \
+  --volume="$PWD:/srv/jekyll:Z" \
+  -p 4000:4000 -p 4001:4001 \
+  -it jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll serve --livereload --livereload-port 4001 --incremental
