@@ -6,7 +6,8 @@ Most of this is rather buried history :)
 
 ```
 sudo apt install ruby-bundler ruby-dev make
-bundle install --path vendor/bundle
+bundle config set --local path 'vendor/bundle'
+bundle install
 # mess it up
 cd vendor/bundle/ruby/*/gems/jekyll-last-modified-at-1*/lib/jekyll-last-modified-at
 curl https://github.com/trickv/jekyll-last-modified-at/commit/ae8f326499c59c485b47833991a1bc849f70e6ae.patch | patch -p3
