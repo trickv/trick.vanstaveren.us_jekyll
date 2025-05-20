@@ -3,6 +3,7 @@ title: Contact
 permalink: Contact/
 layout: wiki
 toplevel: True
+description: Patrick Trick van Staveren KD9PRC M0RHA
 ---
 
 ## Name
@@ -16,43 +17,10 @@ trick@vanstaveren.us
 
 ## Technology Communities
 
--   ARIN handle [PNVS-ARIN](http://whois.arin.net/rest/poc/PNVS-ARIN)
+-   Amateur radio [KD9PRC](https://www.qrz.com/db/KD9PRC) (US) or M0RHA (UK)
+-   Discord <tt>trickv</tt> on [Sondehub](https://discord.gg/B8bwBXvvkd) and [Chicagoland Mesh](https://discord.gg/FyQv2G4h6s)
 -   GitHub handle [trickv](https://github.com/trickv)
--   Amateur radio M0RHA (UK) or KD9PRC (US)
-
-## Snail Mail
-
-### Home
-
-Valid indefinitely!
-
-```
-Patrick van Staveren
-508 Newton Ave
-Glen Ellyn, IL 60137
-USA
-```
-
-[Map it](https://www.google.co.uk/maps/place/508+Newton+Ave,+Glen+Ellyn,+IL+60137/@41.8769888,-88.0807515,15.5z/data=!4m5!3m4!1s0x880e536c1cd7fd2d:0x89136298487a99cc!8m2!3d41.8781022!4d-88.0752279)
-
-#### Coordinates
-
-- Latitude:  41.8781
-- Longitude: -88.0754
-- Altitude [MSL](https://en.wikipedia.org/wiki/Sea_level): 234 meters
-- [QTH](https://en.wikipedia.org/wiki/Maidenhead_Locator_System) location: EN51XV
-
-### Work
-
-```
-Patrick van Staveren
-Mintel
-333 W. Wacker Drive, Suite 1100
-Chicago, IL 60606
-USA
-```
-
-More information: <http://www.mintel.com/office-locations>
+-   ARIN handle [PNVS-ARIN](http://whois.arin.net/rest/poc/PNVS-ARIN)
 
 ## Keys
 
