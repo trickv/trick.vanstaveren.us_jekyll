@@ -8,7 +8,25 @@ else
     echo "DRY RUN mode, specify --real to go"
 fi
 
-rsync -rlpgoD -vc $flags --delete-after --exclude wp  _site/ root@hg.v9n.us:/var/www/trick.vanstaveren.us/
+rsync -rlgoD --no-perms --itemize-changes --rsync-path="sudo rsync" -vc $flags --delete-after --exclude wp  _site/ hg.v9n.us:/var/www/trick.vanstaveren.us/
+
+if [ "$1" != "--real" ]; then
+    echo "rsync --itemize-changes quick ref
+-------------------------------------------------------------------------------
+Symbol  Meaning                 | Pos  Meaning
+>       sent to remote          | [1]  > = to remote, c = local change
+f       file                    | [2]  f = file, d = dir, L = symlink
+d       directory               | [3]  s = size differs
+L       symlink                 | [4]  t = time differs
+D       device                  | [5]  p = perms differ
+S       special file            | [6]  o = owner differs
++       new file on dest        | [7]  g = group differs
+                                | [8]  a = ACL differs
+                                | [9]  x = xattrs differ
+-------------------------------------------------------------------------------
+"
+
+fi
 
 echo "If you have a long list of changes, remember to run:"
 echo "    bundle exec jekyll build"
