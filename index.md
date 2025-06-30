@@ -22,13 +22,6 @@ usually happiest when my radio is locked onto a high-altitude balloon that I'm a
 * [Retrieved my first two radiosondes](/wp/2023/03/04/retrieved-my-first-two-radiosondes/) - 2023-03-03
 * [Introduction to ESPHome](/wp/2021/12/31/introduction-to-esphome/) - 2021-12-31
 * [IO91 -> EN51…NW6 1UE -> 60137…51N -> 41N…2001:8b0:da4::/48 -> 2601:249:902:50a1::/64 (completing the circuit)](https://trick.vanstaveren.us/wp/2019/10/14/completing-the-circuit/) - 2019-10-14
-* [HAB flight 3: two payloads, some success, and more failure](https://trick.vanstaveren.us/wp/2019/04/23/hab-flight-3-two-payloads-some-success-and-more-failure/) - 2019-04-23
-* [HAB flight 2 “EAGLE”](http://trick.vanstaveren.us/wp/2018/05/22/hab-flight-2-eagle/) - 2018-05-22
-* [First high-altitude balloon flight: lots learned](http://trick.vanstaveren.us/wp/2018/02/18/first-high-altitude-balloon-flight-lots-learned/) - 2018-02-18
-* [My first radio contact from a high altitude balloon](http://trick.vanstaveren.us/wp/2016/10/10/my-first-radio-contact-from-a-high-altitude-balloon/) - 2016-10-10
-* [Iceland - Aurora Borealis](http://trick.vanstaveren.us/wp/2016/09/01/iceland-aurora-borealis/) - 2016-09-01
-* [Iceland - Day 1](http://trick.vanstaveren.us/wp/2016/08/29/iceland/) - 2016-08-29
-* [Four years in Shanghai. 再见上海！](http://trick.vanstaveren.us/wp/2015/07/09/four-years-in-shanghai-without-a-doubt-the-coolest-thing-ive-ever-done-%E5%86%8D%E8%A7%81%E4%B8%8A%E6%B5%B7%EF%BC%81/) - 2015-07-09
 
 <!--
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
