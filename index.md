@@ -3,19 +3,15 @@ title: Home
 layout: default
 ---
 
-This is the personal site of Patrick van Staveren. I work for
-[Mintel](http://www.mintel.com/) as part of our IT team.
-I grew up in Michigan,
-studied as a software developer with a B.S. in Computer Science from
-[Western Michigan University](http://wmich.edu/) and worked as a
-developer for 5 years in Chicago before moving around the globe
-and eventually landing as a manager of system administrators.
-I spent a few years living in [Shanghai](http://trick.vanstaveren.us/wp/2015/07/09/four-years-in-shanghai-without-a-doubt-the-coolest-thing-ive-ever-done-%E5%86%8D%E8%A7%81%E4%B8%8A%E6%B5%B7%EF%BC%81/) and [London](#) while working for Mintel and now live back in the suburbs of Chicago.
-I dabble in photography, and I'm
-usually happiest when I've been on my bicycle all day long.
-
-If you are trying to get in touch, check out the
-[contact](/Contact) page!
+I'm a tech leader and [part-time nerd](https://github.com/trickv/) working in IT at 
+[Mintel](http://www.mintel.com/).
+Originally from Michigan, I earned my B.S. in Computer Science from 
+[Western Michigan University](http://wmich.edu/) and spent five years
+in Chicago before moving around the globe.
+My career at Mintel took off as I moved into management, and then literally as I relocated to [Shanghai](http://trick.vanstaveren.us/wp/2015/07/09/four-years-in-shanghai-without-a-doubt-the-coolest-thing-ive-ever-done-%E5%86%8D%E8%A7%81%E4%B8%8A%E6%B5%B7%EF%BC%81/) and later to [London](https://trick.vanstaveren.us/wp/2019/10/14/completing-the-circuit/).
+I'm now back in the suburbs of Chicago.
+I enjoy photography, running, biking, and radios. My kids keep me grounded, and I'm
+usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
 * [HAB flight 6 - SSH:C strikes again](https://trick.vanstaveren.us/wp/2025/05/08/hab-flight-6-sshc-strikes-again/) - 2025-05-08
