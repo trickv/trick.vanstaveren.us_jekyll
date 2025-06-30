@@ -24,6 +24,8 @@ docker start jekyll_builder
 
 ```
 bundle exec jekyll serve --livereload [--incremental]
+# OR
+docker exec -it jekyll_builder jekyll serve --livereload --incremental
 # hack hack hack
 ```
 
