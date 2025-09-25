@@ -14,6 +14,7 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [Chasing AI: running ollama on my old AMD RX470 GPU](https://trick.vanstaveren.us/wp/2025/09/24/chasing-ai-running-ollama-on-my-old-amd-rx470-gpu/) - 2025-09-24
 * [HAB flight 6 - SSH:C strikes again](https://trick.vanstaveren.us/wp/2025/05/08/hab-flight-6-sshc-strikes-again/) - 2025-05-08
 * [HAB flight 5 - collaboration with SSH:C](https://trick.vanstaveren.us/wp/2025/04/10/hab-flight-5-collaboration-with-sshc/) - 2025-04-10
 * [Florida Space Coast visit and launch viewing guide](https://trick.vanstaveren.us/wp/2024/11/25/florida-space-coast-visit-launch-viewing-guide/) - 2024-11-25
