@@ -20,7 +20,6 @@ trick@vanstaveren.us
 -   Amateur radio [KD9PRC](https://www.qrz.com/db/KD9PRC) (US) or M0RHA (UK)
 -   Discord <tt>trickv</tt> on [Sondehub](https://discord.gg/B8bwBXvvkd) and [Chicagoland Mesh](https://discord.gg/FyQv2G4h6s)
 -   GitHub handle [trickv](https://github.com/trickv)
--   ARIN handle [PNVS-ARIN](http://whois.arin.net/rest/poc/PNVS-ARIN)
 -   LinkedIn [patrick-van-staveren](https://www.linkedin.com/in/patrick-van-staveren/)
 
 ## Keys
