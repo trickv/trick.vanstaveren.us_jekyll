@@ -3,13 +3,12 @@ title: Home
 layout: default
 ---
 
-I'm a tech leader and [part-time nerd](https://github.com/trickv/) working in IT at 
-[Mintel](http://www.mintel.com/).
-Originally from Michigan, I earned my B.S. in Computer Science from 
+I'm a tech consultant solopreneuer, working for myself.
+Originally from Michigan, I earned my B.S. in Computer Science from
 [Western Michigan University](http://wmich.edu/) and spent five years
 in Chicago before moving around the globe.
 My career at Mintel took off as I moved into management, and then literally as I relocated to [Shanghai](http://trick.vanstaveren.us/wp/2015/07/09/four-years-in-shanghai-without-a-doubt-the-coolest-thing-ive-ever-done-%E5%86%8D%E8%A7%81%E4%B8%8A%E6%B5%B7%EF%BC%81/) and later to [London](https://trick.vanstaveren.us/wp/2019/10/14/completing-the-circuit/).
-I'm now back in the suburbs of Chicago.
+I'm now back in the suburbs of Chicago. I left Mintel in the summer of 2025 to work independently.
 I enjoy photography, running, biking, and radios. My kids keep me grounded, and I'm
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
