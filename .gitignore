@@ -3,5 +3,3 @@ _site/feed.xml
 .jekyll-metadata
 .bundle
 vendor/bundle
-*.orig
-*.patch

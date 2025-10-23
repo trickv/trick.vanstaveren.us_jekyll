@@ -34,4 +34,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
+  - "*.local"
+  - "*.orig"
+  - "*.patch"
