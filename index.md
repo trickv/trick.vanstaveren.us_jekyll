@@ -13,6 +13,7 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [Chasing AI: Vibe coding a New Years Resolution tracker app](https://trick.vanstaveren.us/wp/2026/01/23/chasing-ai-vibe-coding-a-new-years-resolution-tracker-app/) - 2026-01-23
 * [Chasing AI: Claude Code for...mobile!](https://trick.vanstaveren.us/wp/2025/11/04/chasing-ai-claude-code-for-mobile/) - 2025-11-04
 * [Chasing AI: breaking into AI coding with Claude Code](https://trick.vanstaveren.us/wp/2025/10/22/chasing-ai-breaking-into-ai-coding-with-claude-code/) - 2025-10-22
 * [Chasing AI: running ollama on my old AMD RX470 GPU](https://trick.vanstaveren.us/wp/2025/09/24/chasing-ai-running-ollama-on-my-old-amd-rx470-gpu/) - 2025-09-24
