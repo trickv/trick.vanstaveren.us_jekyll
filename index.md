@@ -13,6 +13,7 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [Home Assistant integration: Claude Usage](https://trick.vanstaveren.us/wp/2026/02/06/home-assistant-integration-claude-usage/) - 2026-02-08
 * [Chasing AI: Vibe coding a New Years Resolution tracker app](https://trick.vanstaveren.us/wp/2026/01/23/chasing-ai-vibe-coding-a-new-years-resolution-tracker-app/) - 2026-01-23
 * [Chasing AI: Claude Code for...mobile!](https://trick.vanstaveren.us/wp/2025/11/04/chasing-ai-claude-code-for-mobile/) - 2025-11-04
 * [Chasing AI: breaking into AI coding with Claude Code](https://trick.vanstaveren.us/wp/2025/10/22/chasing-ai-breaking-into-ai-coding-with-claude-code/) - 2025-10-22
