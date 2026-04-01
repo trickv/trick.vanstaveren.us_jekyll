@@ -13,6 +13,7 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [Chasing AI: Claude Code as a Sysadmin](https://trick.vanstaveren.us/wp/2026/03/31/chasing-ai-claude-code-as-a-sysadmin/) - 2026-03-31
 * [Chasing AI: Check engine light diagnostics and AI? Really?](https://trick.vanstaveren.us/wp/2026/03/03/chasing-ai-check-engine-light-diagnostics-and-ai-really/) - 2026-03-03
 * [hey.com email, a nice experiment, but I’m back to Google Workspace](https://trick.vanstaveren.us/wp/2026/02/13/hey-com-a-nice-experiment-but-im-back-to-google/) - 2026-02-13
 * [Home Assistant integration: Claude Usage](https://trick.vanstaveren.us/wp/2026/02/06/home-assistant-integration-claude-usage/) - 2026-02-08
