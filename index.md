@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-I'm an independent tech consultant and solopreneur.
+I'm an [independent tech consultant and solopreneur](https://v9n.us/).
 Originally from Michigan, I earned my B.S. in Computer Science from
 [Western Michigan University](http://wmich.edu/) and spent five years
 in Chicago before moving around the globe.
