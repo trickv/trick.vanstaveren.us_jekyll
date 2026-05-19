@@ -13,11 +13,14 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [Chasing AI: Who needs software anyway?](https://trick.vanstaveren.us/wp/2026/04/28/chasing-ai-who-needs-software-anyway/) - 2026-04-28
+* [The Impossible Job: Recovering a failing HFS+ external disk](https://trick.vanstaveren.us/wp/2026/04/25/recovering-a-failing-hfs-external-disk/) - 2026-04-25
 * [Chasing AI: Claude Code as a Sysadmin](https://trick.vanstaveren.us/wp/2026/03/31/chasing-ai-claude-code-as-a-sysadmin/) - 2026-03-31
 * [Chasing AI: Check engine light diagnostics and AI? Really?](https://trick.vanstaveren.us/wp/2026/03/03/chasing-ai-check-engine-light-diagnostics-and-ai-really/) - 2026-03-03
 * [hey.com email, a nice experiment, but I’m back to Google Workspace](https://trick.vanstaveren.us/wp/2026/02/13/hey-com-a-nice-experiment-but-im-back-to-google/) - 2026-02-13
-* [Home Assistant integration: Claude Usage](https://trick.vanstaveren.us/wp/2026/02/06/home-assistant-integration-claude-usage/) - 2026-02-08
+* [Home Assistant integration: Claude Usage](https://trick.vanstaveren.us/wp/2026/02/06/home-assistant-integration-claude-usage/) - 2026-02-06
 * [Chasing AI: Vibe coding a New Years Resolution tracker app](https://trick.vanstaveren.us/wp/2026/01/23/chasing-ai-vibe-coding-a-new-years-resolution-tracker-app/) - 2026-01-23
+* [42](https://trick.vanstaveren.us/wp/2025/12/13/42/) - 2025-12-13
 * [Chasing AI: Claude Code for...mobile!](https://trick.vanstaveren.us/wp/2025/11/04/chasing-ai-claude-code-for-mobile/) - 2025-11-04
 * [Chasing AI: breaking into AI coding with Claude Code](https://trick.vanstaveren.us/wp/2025/10/22/chasing-ai-breaking-into-ai-coding-with-claude-code/) - 2025-10-22
 * [Chasing AI: running ollama on my old AMD RX470 GPU](https://trick.vanstaveren.us/wp/2025/09/24/chasing-ai-running-ollama-on-my-old-amd-rx470-gpu/) - 2025-09-24
