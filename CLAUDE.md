@@ -65,6 +65,14 @@ bundle exec jekyll build
 
 **Important:** Before pushing with `--real`, run `bundle exec jekyll build` (not the development server) to avoid pushing local dev headers live.
 
+### Other Scripts
+
+- `./revert-generated` - Runs `git checkout -- _site` to discard local generated output and restore the committed `_site/` tree. Useful after a dev-server build polluted `_site/` with content you don't want to publish.
+
+### Testing & Linting
+
+There is no test suite, linter, or CI configured for this repository. Verification is manual: run `./develop` (or `bundle exec jekyll serve --livereload`) and visually inspect the rendered site at http://localhost:4000.
+
 ## Architecture
 
 ### Content Organization
@@ -72,7 +80,11 @@ bundle exec jekyll build
 - **Root markdown files:** `index.md`, `about.md`, `Contact.md` - top-level pages
 - **wiki/**: Legacy MediaWiki content converted to markdown, uses `layout: wiki`
 - **Computers/**: Computer/server documentation organized by hostname
-- **_site/**: Generated output (excluded from git)
+- **_site/**: Generated output. **This directory IS committed to git** (unusual for Jekyll) — only `_site/feed.xml` is gitignored. Regenerating the site will produce diffs in `_site/`; commit them along with source changes, or use `./revert-generated` to discard them.
+
+### Files Excluded from Jekyll Processing
+
+Per `_config.yml`, the following are skipped by Jekyll and should not be treated as site content (don't add front-matter, don't expect them to render as pages): `push`, `build`, `develop`, `revert-generated`, `README.md`, `CLAUDE.md`, `Gemfile`, `Gemfile.lock`, `node_modules`, `vendor/`, and `*.local`/`*.orig`/`*.patch` files.
 
 ### Layouts
 
