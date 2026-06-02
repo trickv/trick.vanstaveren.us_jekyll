@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LMS6 8192990 — drift projection (Cape Canaveral)</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<style>
+  :root {
+    --bg: #f7f6f2;
+    --panel: #ffffff;
+    --text: #2c2c2a;
+    --muted: #5f5e5a;
+    --border: rgba(0,0,0,0.12);
+    --accent-red: #A32D2D;
+    --accent-orange: #BA7517;
+    --accent-green: #0F6E56;
+    --accent-purple: #534AB7;
+    --accent-coral: #993C1D;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1c1a;
+      --panel: #2c2c2a;
+      --text: #f1efe8;
+      --muted: #b4b2a9;
+      --border: rgba(255,255,255,0.15);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; color: var(--text); background: var(--bg); }
+  .layout { display: grid; grid-template-columns: 1fr 320px; height: 100vh; }
+  @media (max-width: 800px) {
+    .layout { grid-template-columns: 1fr; grid-template-rows: 60vh 1fr; }
+  }
+  #map { width: 100%; height: 100%; }
+  .sidebar { background: var(--panel); border-left: 1px solid var(--border); padding: 20px; overflow-y: auto; }
+  @media (max-width: 800px) { .sidebar { border-left: none; border-top: 1px solid var(--border); } }
+  h1 { font-size: 18px; font-weight: 500; margin: 0 0 4px; }
+  .subtitle { font-size: 13px; color: var(--muted); margin: 0 0 16px; }
+  h2 { font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); margin: 20px 0 8px; }
+  .cond-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .cond { background: rgba(0,0,0,0.04); padding: 8px 10px; border-radius: 6px; }
+  @media (prefers-color-scheme: dark) { .cond { background: rgba(255,255,255,0.05); } }
+  .cond-label { font-size: 11px; color: var(--muted); margin: 0 0 2px; }
+  .cond-val { font-size: 13px; font-weight: 500; margin: 0; }
+  .legend { display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+  .legend-row { display: flex; align-items: center; gap: 8px; color: var(--muted); }
+  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; flex: 0 0 14px; border: 1px solid rgba(0,0,0,0.1); }
+  p { font-size: 13px; line-height: 1.5; color: var(--muted); margin: 0 0 10px; }
+  .leaflet-popup-content { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; font-size: 13px; line-height: 1.45; }
+  .leaflet-popup-content b { font-weight: 500; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; background: rgba(0,0,0,0.06); padding: 1px 4px; border-radius: 3px; }
+  @media (prefers-color-scheme: dark) { code { background: rgba(255,255,255,0.1); } }
+</style>
+</head>
+<body>
+<div class="layout">
+  <div id="map"></div>
+  <aside class="sidebar">
+    <h1>LMS6-403 #8192990</h1>
+    <p class="subtitle">Drift projection — splashdown 2026-05-24 21:16 EDT</p>
+
+    <h2>Conditions</h2>
+    <div class="cond-grid">
+      <div class="cond"><p class="cond-label">Wind</p><p class="cond-val">SE 10–15 kt</p></div>
+      <div class="cond"><p class="cond-label">Waves (41113)</p><p class="cond-val">1.1 m / 5.6 s ESE</p></div>
+      <div class="cond"><p class="cond-label">Splashdown tide</p><p class="cond-val">Low (~21:47)</p></div>
+      <div class="cond"><p class="cond-label">Then</p><p class="cond-val">Flood → 03:57 high</p></div>
+      <div class="cond"><p class="cond-label">Net drift</p><p class="cond-val">0.36 m/s @ 328°</p></div>
+      <div class="cond"><p class="cond-label">ETA shore</p><p class="cond-val">~2–3 hrs</p></div>
+    </div>
+
+    <h2>Most likely landing</h2>
+    <p>Sonde splashed just before low tide, so the 6-hour flood that followed pulled water (and the sonde) toward the Port Canaveral channel mouth. Highest-probability zones, in order:</p>
+    <ol style="font-size:13px; color: var(--muted); padding-left: 20px; margin: 0 0 10px;">
+      <li>South face of <b>south jetty</b> riprap</li>
+      <li><b>Jetty Park beach</b> sand (south of jetty)</li>
+      <li>Inside the <b>port channel</b> (against south jetty interior)</li>
+      <li>Cape Canaveral SFS beach (restricted)</li>
+    </ol>
+
+    <h2>Legend</h2>
+    <div class="legend">
+      <div class="legend-row"><span class="legend-swatch" style="background:#E24B4A"></span>Splashdown estimate</div>
+      <div class="legend-row"><span class="legend-swatch" style="background:#EF9F27"></span>Last telemetry (21:05 EDT)</div>
+      <div class="legend-row"><span class="legend-swatch" style="background:#1D9E75"></span>Primary recovery zone</div>
+      <div class="legend-row"><span class="legend-swatch" style="background:rgba(216,90,48,0.25); border:1px solid #D85A30"></span>Drift cone (±25°)</div>
+      <div class="legend-row"><span class="legend-swatch" style="background:#534AB7"></span>Jetties / hourly drift contours</div>
+      <div class="legend-row"><span class="legend-swatch" style="background:rgba(239,159,39,0.25); border:1px dashed #854F0B"></span>Secondary zone (restricted access)</div>
+    </div>
+
+    <h2>Notes</h2>
+    <p>Drift model: wind leeway 3% of wind speed (downwind 315°) + Stokes drift from waves (294°) + longshore current (000°). Resultant 0.36 m/s toward bearing 328°.</p>
+    <p>Click any marker, polygon, or line for details. Map data <code>© OpenStreetMap</code> contributors.</p>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+(function(){
+  var map = L.map('map', { scrollWheelZoom: true, zoomControl: true }).setView([28.405, -80.594], 14);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors',
+    maxZoom: 19
+  }).addTo(map);
+
+  var splash = [28.38833, -80.58421];
+  var lastFix = [28.36248, -80.55794];
+
+  function project(lat, lon, brgDeg, distKm){
+    var R = 6371;
+    var brg = brgDeg * Math.PI/180;
+    var lat1 = lat * Math.PI/180;
+    var lon1 = lon * Math.PI/180;
+    var lat2 = Math.asin(Math.sin(lat1)*Math.cos(distKm/R) + Math.cos(lat1)*Math.sin(distKm/R)*Math.cos(brg));
+    var lon2 = lon1 + Math.atan2(Math.sin(brg)*Math.sin(distKm/R)*Math.cos(lat1), Math.cos(distKm/R) - Math.sin(lat1)*Math.sin(lat2));
+    return [lat2*180/Math.PI, lon2*180/Math.PI];
+  }
+
+  // Drift cone (apex at splashdown)
+  var coneArc = [splash];
+  for (var b = 303; b <= 353; b += 2){
+    coneArc.push(project(splash[0], splash[1], b, 4.0));
+  }
+  coneArc.push(splash);
+  L.polygon(coneArc, {
+    color: '#D85A30', weight: 1.5, fillColor: '#D85A30', fillOpacity: 0.18, dashArray: '4,4'
+  }).addTo(map).bindPopup('<b>Drift cone</b><br>Central bearing 328°, ±25°<br>Net of wind leeway + Stokes drift + longshore current');
+
+  // Hourly drift contours (purple dashed arcs)
+  [1,2,3].forEach(function(h){
+    var arc = [];
+    var distKm = 0.36 * 3600 * h / 1000;
+    for (var b = 303; b <= 353; b += 2){
+      arc.push(project(splash[0], splash[1], b, distKm));
+    }
+    L.polyline(arc, { color: '#534AB7', weight: 1, opacity: 0.55, dashArray: '2,4' })
+      .addTo(map).bindTooltip(h + ' hr drift', { permanent: false, direction: 'top' });
+  });
+
+  // Central trajectory
+  var central = project(splash[0], splash[1], 328, 4.0);
+  L.polyline([splash, central], { color: '#A32D2D', weight: 2, dashArray: '6,6' })
+    .addTo(map).bindPopup('<b>Central drift trajectory</b><br>Bearing 328° from splashdown');
+
+  // Splashdown marker
+  L.circleMarker(splash, {
+    radius: 9, color: '#A32D2D', fillColor: '#E24B4A', fillOpacity: 0.9, weight: 2
+  }).addTo(map).bindPopup(
+    '<b>Projected splashdown</b><br>' +
+    '28.38833, −80.58421<br>' +
+    '2026-05-24 21:16 EDT<br>' +
+    'Descent rate 5.4 m/s<br>' +
+    'Splashed ~30 min before low tide'
+  );
+
+  // Last telemetry
+  L.circleMarker(lastFix, {
+    radius: 7, color: '#854F0B', fillColor: '#EF9F27', fillOpacity: 0.9, weight: 2
+  }).addTo(map).bindPopup(
+    '<b>Last RX position</b><br>' +
+    '28.36248, −80.55794<br>' +
+    '2026-05-24 21:05 EDT<br>' +
+    'Alt 3,774 m (descending −10.2 m/s)<br>' +
+    'Received by WX5MTS, 6 dB'
+  );
+
+  // Primary recovery zone (Jetty Park beach + south-jetty south face)
+  // Quadrilateral tracing the south face of the south jetty + the sandy
+  // beach on the south side of the Jetty Park spit.
+  L.polygon([
+    [28.4068, -80.5995],   // south jetty base, south side (land end)
+    [28.4070, -80.5840],   // south jetty tip area, south side (sea end)
+    [28.4045, -80.5855],   // offshore corner, south of jetty tip
+    [28.4040, -80.5945]    // sandy beach south end of Jetty Park spit
+  ], { color: '#0F6E56', weight: 2, fillColor: '#1D9E75', fillOpacity: 0.32 })
+    .addTo(map).bindPopup(
+      '<b>Primary recovery zone</b><br>' +
+      'South face of south jetty (riprap) + Jetty Park beach sand<br>' +
+      '<i>Walk wrack line west-to-east along the rocks</i><br>' +
+      'Public access via Jetty Park entrance off George King Blvd'
+    );
+
+  // Jetties (approximate geometry — south extends from ~28.4068, north from ~28.4124)
+  L.polyline([[28.4068, -80.6015], [28.4072, -80.5825]], {
+    color: '#534AB7', weight: 4, opacity: 0.85
+  }).addTo(map).bindPopup('<b>South jetty</b> (Jetty Park side)<br>Riprap — sonde may snag against rocks on south face');
+
+  L.polyline([[28.4124, -80.6015], [28.4123, -80.5818]], {
+    color: '#534AB7', weight: 4, opacity: 0.85
+  }).addTo(map).bindPopup('<b>North jetty</b> (Cape Canaveral SFS side)<br>Shoreline beyond is restricted USSF property');
+
+  // Inside-channel candidate (against south jetty interior — north face)
+  L.polyline([
+    [28.4075, -80.6000],
+    [28.4078, -80.5900],
+    [28.4078, -80.5835]
+  ], { color: '#1D9E75', weight: 3, opacity: 0.7, dashArray: '4,3' })
+    .addTo(map).bindPopup('<b>Channel-interior candidate</b><br>If pulled past jetty by flood tide,<br>likely against inside (north face) of south jetty');
+
+  // Secondary zone (Cape Canaveral SFS beach — east-facing shoreline strip)
+  L.polygon([
+    [28.430, -80.5895],   // NW — coastline at north end of strip
+    [28.430, -80.5830],   // NE — offshore
+    [28.418, -80.5870],   // SE — offshore at south end
+    [28.418, -80.5950]    // SW — coastline at south end (just north of port)
+  ], { color: '#854F0B', weight: 1.5, fillColor: '#EF9F27', fillOpacity: 0.15, dashArray: '3,4' })
+    .addTo(map).bindPopup(
+      '<b>Secondary zone</b><br>' +
+      'Cape Canaveral SFS beach<br>' +
+      '<i>Restricted access — would require coordination</i>'
+    );
+
+  // Fit bounds
+  var bounds = L.latLngBounds([lastFix, splash, [28.435, -80.610], [28.395, -80.555]]);
+  map.fitBounds(bounds, { padding: [40, 40] });
+})();
+</script>
+</body>
+</html>
