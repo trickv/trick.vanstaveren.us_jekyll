@@ -13,6 +13,7 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [Chasing AI: single-handedly programming a radio](https://trick.vanstaveren.us/wp/2026/06/02/chasing-ai-single-handedly-programming-a-radio/) - 2026-06-02
 * [Chasing AI: Who needs software anyway?](https://trick.vanstaveren.us/wp/2026/04/28/chasing-ai-who-needs-software-anyway/) - 2026-04-28
 * [The Impossible Job: Recovering a failing HFS+ external disk](https://trick.vanstaveren.us/wp/2026/04/25/recovering-a-failing-hfs-external-disk/) - 2026-04-25
 * [Chasing AI: Claude Code as a Sysadmin](https://trick.vanstaveren.us/wp/2026/03/31/chasing-ai-claude-code-as-a-sysadmin/) - 2026-03-31
