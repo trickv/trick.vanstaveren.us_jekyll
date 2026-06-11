@@ -1,4 +1,4 @@
-# Privacy Policy — rdzSonde
+# Privacy Policy - rdzSonde
 
 **Last updated:** 2026-06-07
 **Publisher:** Patrick van Staveren
