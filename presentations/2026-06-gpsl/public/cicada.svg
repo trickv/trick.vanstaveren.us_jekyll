@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- silly cartoon cicada -->
+  <g transform="rotate(12 120 120)">
+    <!-- wings -->
+    <g opacity="0.55">
+      <path d="M118 96 C 60 70, 20 120, 70 168 C 100 150, 112 130, 118 110 Z"
+            fill="#a3d4f7" stroke="#5b8fb0" stroke-width="3"/>
+      <path d="M122 96 C 180 70, 220 120, 170 168 C 140 150, 128 130, 122 110 Z"
+            fill="#cfe9fb" stroke="#5b8fb0" stroke-width="3"/>
+      <path d="M90 110 C 70 122, 64 142, 78 158" fill="none" stroke="#5b8fb0" stroke-width="1.5" opacity="0.6"/>
+      <path d="M150 110 C 170 122, 176 142, 162 158" fill="none" stroke="#5b8fb0" stroke-width="1.5" opacity="0.6"/>
+    </g>
+
+    <!-- legs -->
+    <g stroke="#3a3a3a" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M104 150 L 86 172 L 92 188"/>
+      <path d="M120 152 L 116 178 L 124 192"/>
+      <path d="M136 150 L 154 172 L 148 188"/>
+    </g>
+
+    <!-- body segments -->
+    <ellipse cx="120" cy="138" rx="26" ry="40" fill="#4f7d3a"/>
+    <path d="M96 130 q24 14 48 0" fill="none" stroke="#3c5f2c" stroke-width="3"/>
+    <path d="M97 146 q23 14 46 0" fill="none" stroke="#3c5f2c" stroke-width="3"/>
+    <path d="M99 162 q21 12 42 0" fill="none" stroke="#3c5f2c" stroke-width="3"/>
+
+    <!-- head -->
+    <circle cx="120" cy="92" r="30" fill="#5e9247"/>
+
+    <!-- big googly eyes -->
+    <circle cx="106" cy="86" r="14" fill="#fff" stroke="#2a2a2a" stroke-width="2.5"/>
+    <circle cx="134" cy="86" r="14" fill="#fff" stroke="#2a2a2a" stroke-width="2.5"/>
+    <circle cx="109" cy="89" r="6" fill="#1a1a1a"/>
+    <circle cx="131" cy="89" r="6" fill="#1a1a1a"/>
+    <circle cx="111" cy="87" r="2" fill="#fff"/>
+    <circle cx="133" cy="87" r="2" fill="#fff"/>
+
+    <!-- antennae -->
+    <path d="M110 64 q-8 -20 -22 -22" fill="none" stroke="#3a3a3a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M130 64 q8 -20 22 -22" fill="none" stroke="#3a3a3a" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="88" cy="42" r="3.5" fill="#3a3a3a"/>
+    <circle cx="152" cy="42" r="3.5" fill="#3a3a3a"/>
+
+    <!-- goofy grin -->
+    <path d="M108 104 q12 12 24 0" fill="none" stroke="#23381a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
