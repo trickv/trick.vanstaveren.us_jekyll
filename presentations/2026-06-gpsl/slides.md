@@ -84,11 +84,11 @@ layout: two-cols
 
 # Patrick van Staveren <span class="callsign">KD9PRC</span>
 
-- Independent tech consultant & solopreneur — **V9N Consulting LLC**
-- Michigan kid → B.S. Computer Science, Western Michigan University
+- Independent tech consultant & solopreneur — **V9N Consulting**
+- Grew up in Michigan, studied Computer Science, Western Michigan University
 - Chicago → **Shanghai** → **London** → back to the Chicago suburbs
 - Left a long career at Mintel in 2025 to go independent
-- Photography, running, biking, and **radios**
+- Photography, running, biking, **balloons and radios**
 
 ::right::
 
@@ -96,10 +96,10 @@ layout: two-cols
 
 **Happiest when my radio is locked onto a balloon I'm about to launch.**
 
-- Launching & chasing high-altitude balloons (HAB flight #6 and counting)
-- Radiosonde recovery & reflashing (DFM17, RS41, ...)
-- Meshtastic, APRS, LoRa, Sondehub
-- Writing it all up under *"Chasing AI"* on the blog
+- Launching & chasing high-altitude balloons as a hobby
+- Building my own trackers (Meshtastic, RTTY, LoRa, Wenet)
+- Radiosonde recovery & reflashing (DFM17)
+
 
 </div>
 
@@ -237,7 +237,7 @@ layout: section
 # What is rdzSonde?
 
 - An **iOS port** of [`rdzwx-go`](https://github.com/rdzSonde/rdzwx-go) — the receiver/companion app for the popular **TTGO / ESP32 LoRa radiosonde receiver**
-- Talks to your TTGO over your **local network** (mDNS/Bonjour `_jsonrdz._tcp`, then TCP)
+- Talks to your TTGO over your **WiFi** (mDNS/Bonjour)
 - On your phone you get:
   - A **live map** of every sonde the receiver is hearing
   - **Distance & bearing** from you to each sonde
@@ -246,15 +246,15 @@ layout: section
 - **Privacy-first:** no accounts, no analytics, no backend — nothing leaves your devices
 
 <!--
-Frame the "why": lots of us run a TTGO receiver, but the existing app story on
-iOS was thin. This puts the same map-and-chase workflow in everyone's pocket.
-Stress the privacy angle — it matters for App Store review AND it's just the
-right thing for a hobby tool.
+Many own and use a TTGO receiver, but the existing app story is thin.
+There wasn't an iOS app, and the Android app required sideloading.
+My goal: put the same map-and-chase workflow in everyone's pocket.
 -->
 
 ---
 layout: image-right
 image: /rdzsonde.png
+backgroundSize: contain
 ---
 
 # In the chase car
@@ -262,7 +262,6 @@ image: /rdzsonde.png
 - Glance-able map oriented around **you**
 - Tap a sonde → distance, bearing, predicted landing
 - Works alongside the TTGO already velcroed to your dash
-- Offline map tiles supported (great for cornfield-with-no-signal recoveries)
 
 <!--
 This is the screen people will actually use with one hand while driving (or
@@ -391,8 +390,8 @@ class: text-center
 
 # Thanks! 🎈
 
-Patrick van Staveren · KD9PRC · V9N Consulting LLC
+Patrick van Staveren · KD9PRC
 
-[trick.vanstaveren.us](https://trick.vanstaveren.us) · [github.com/trickv](https://github.com/trickv) · *"Chasing AI"* on the blog
+[trick.vanstaveren.us](https://trick.vanstaveren.us) · [github.com/trickv](https://github.com/trickv)
 
 <div class="text-sm opacity-70 mt-4">rdzSonde: github.com/rdzSonde/rdzwx-go</div>
