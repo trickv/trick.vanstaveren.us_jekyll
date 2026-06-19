@@ -8,7 +8,7 @@ else
     echo "DRY RUN mode, specify --real to go"
 fi
 
-rsync -rlgoD --no-perms --itemize-changes --rsync-path="sudo rsync" -vc $flags --delete-after --exclude wp  _site/ hg.v9n.us:/var/www/trick.vanstaveren.us/
+rsync -rlgoD --no-perms --itemize-changes --rsync-path="sudo rsync" -vc $flags --delete-after --exclude wp --exclude node_modules  _site/ hg.v9n.us:/var/www/trick.vanstaveren.us/
 
 if [ "$1" != "--real" ]; then
     echo "rsync --itemize-changes quick ref

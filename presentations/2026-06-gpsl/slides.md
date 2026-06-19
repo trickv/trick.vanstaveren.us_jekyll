@@ -10,9 +10,9 @@ class: cover-slide
 
 <div class="cover-title">
 
-# Chasing Balloons with an AI Pair Programmer
+# High Altitude Balloons and AI
 
-<div class="cover-sub">Building radiosonde &amp; HAB software with Claude Code</div>
+<div class="cover-sub">How can AI help with ballooning?</div>
 
 </div>
 
@@ -66,10 +66,10 @@ class: cover-slide
 </style>
 
 <!--
-Open warm: welcome to GPSL. I'm not here to sell you on AI — I'm here to show
-you what I actually built for OUR hobby over the last several months, almost
-all of it with an AI coding assistant riding shotgun. Set expectation: this is
-a builder's show-and-tell, ending with an open conversation.
+
+My first GPSL in person!
+I'm Patrick KD9PRC
+Stuff I've done with AI
 -->
 
 ---
@@ -78,13 +78,12 @@ a builder's show-and-tell, ending with an open conversation.
 # Agenda
 
 - **Who I am** - and how I got to the launch field
-- **How I got into AI**
+- **How I got into AI** - and why
 - **rdzSonde** - porting a radiosonde receiver companion app to iOS with Claude Code
 - **Open discussion** - where AI coding helps, where it doesn't, what you're seeing
 
 <!--
-Four beats. First three are show-and-tell; the last one flips it around and I
-want to hear from the room. Roughly: 5 / 12 / 10 / open-ended.
+Just read the slide.
 -->
 
 <ParticleField />
@@ -108,14 +107,13 @@ class: who-am-i
 - Grew up in Michigan, studied Computer Science, Western Michigan University
 - Chicago → **Shanghai** → **London** → back to the Chicago suburbs
 - Left a long career at Mintel in 2025 to go independent
-- Photography, running, biking, **balloons and radios**
 
 
 **Happiest when my radio is locked onto a balloon I'm about to launch.**
 
 - Launching & chasing high-altitude balloons as a hobby
 - Building my own trackers (Meshtastic, RTTY, LoRa, Wenet)
-- Radiosonde recovery & reflashing (DFM17)
+- Radiosonde recovery & re-flying (DFM17)
 
 
 <style scoped>
@@ -138,21 +136,22 @@ class: who-am-i
 </style>
 
 <!--
-Hi I'm Patrick, kd9prc. I got into ballooning by chance ten years ago, buying
-an Uputronics GPS board to play with NTP, only to see the balloon silk-screened
-on the PCB. I stumbled across UKHAS and went to a conference in 2017 and knew I
-needed to build my own trackers and launch a balloon. A few years later I got
+
+I got into ballooning by chance ten years ago, buying
+an Uputronics GPS board to play with NTP. Went to UKHAS.
+
+A few years later I got
 into tracking radiosondes, and I chase a few whenever I can between having three
 young kids.
 
-About a year ago I left my big-company job for a career break and ended up doing
-contract IT work — using, and now teaching, Agentic Coding with Claude Code.
+I left my big-company job for a career break; doing
+contract IT work, now teaching Agentic Coding with Claude Code.
+Balloons got me into rockets, and we're thinking about moving to the Space Coast
+to watch some of the worlds largest rockets come online in the coming years.
+
 Most of what I'll talk about today somehow stems from my slippery slope into
 becoming an SME on AI agents, and how I'm applying that to ballooning.
 
-Then keep it tight — the room cares more about the balloons than the CV. The one
-line that matters: I'm a hobbyist who started letting an AI write most of my
-code about a year ago, and it changed how much I can ship for this hobby.
 -->
 
 ---
@@ -187,12 +186,16 @@ For years AI never clicked for me. Chatbots were a fun party trick; I'd ask
 something, get a plausible paragraph back, shrug, and move on. It didn't change
 anything I actually did.
 
-The turning point was the CICADA MIC project — [SPEAKER: tell the story —
-what I was trying to build, how I was writing the code *with* the AI rather than
-just chatting at it, and the moment it iterated to something that actually
-worked]. That was when it flipped from "neat" to "this changes everything,"
-because I wasn't reading its homework — I was watching it build, run, fail,
-and fix in a loop.
+The turning point was the CICADA MIC project
+
+I plugged a microphone into a Raspberry Pi and put it on my front porch.
+I asked ChatGPT to write a script
+- Prometheus/Grafana
+- ffmpeg or something to listen to the mic
+- Generate graphs of mean/max audio levels
+
+That was when it flipped from "what" to "this changes things"
+It strung together disparate concepts and got me 80% of the way there.
 
 In 2025, about a year ago, I left my big company job for a career break, some time with
 my kids (you certainly heard them yesterday.)  I ended up doing some contract work, 
@@ -212,13 +215,67 @@ layout: section
 
 # What is rdzSonde?
 
-- An **iOS or Android app** also called [`rdzwx-go`](https://github.com/rdzSonde/rdzwx-go) — the receiver/companion app for the popular **TTGO / ESP32 LoRa radiosonde receiver**
+- An **iOS / Android app** also called [`rdzwx-go`](https://github.com/rdzSonde/rdzwx-go) — the receiver/companion app for the popular **TTGO / ESP32 LoRa radiosonde receiver**
 - Talks to your TTGO over your **WiFi** (mDNS/Bonjour)
 - On your phone you get:
   - A **live map** of every sonde the receiver is hearing
   - **Distance & bearing** from you to each sonde
   - **Landing predictions** via the Sondehub Tawhiri API
   - Push **your GPS** to the receiver so it can compute relative bearings
+
+<div class="arch">
+  <div class="arch-node">
+    <div class="arch-icon">📱</div>
+    <div class="arch-name">Phone</div>
+    <div class="arch-desc">rdzSonde app</div>
+  </div>
+  <div class="arch-link"><div class="arch-arrow">←</div><div class="arch-llabel">WiFi</div></div>
+  <div class="arch-node">
+    <div class="arch-icon arch-icon-mcu"></div>
+    <div class="arch-name">TTGO</div>
+    <div class="arch-desc">ESP32 receiver</div>
+  </div>
+  <div class="arch-link"><div class="arch-arrow">←</div><div class="arch-llabel">radio</div></div>
+  <div class="arch-node">
+    <div class="arch-icon">🎈</div>
+    <div class="arch-name">Balloon</div>
+    <div class="arch-desc">radiosonde</div>
+  </div>
+</div>
+
+<style scoped>
+.arch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2.2rem;
+}
+.arch-node {
+  border: 2px solid #4c566a;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1.1rem;
+  text-align: center;
+  min-width: 8.5rem;
+}
+.arch-icon { font-size: 2rem; line-height: 1; height: 2.2rem; }
+.arch-icon-mcu {
+  width: 2.5rem;
+  height: 2.2rem;
+  margin: 0 auto;
+  background: url('/mcu.svg') center / contain no-repeat;
+}
+.arch-name { font-weight: 700; margin-top: 0.25rem; }
+.arch-desc { font-size: 0.8rem; opacity: 0.6; }
+.arch-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.2rem;
+}
+.arch-arrow { font-size: 1.8rem; line-height: 1; color: #4c566a; }
+.arch-llabel { font-size: 0.7rem; opacity: 0.55; margin-top: 0.1rem; }
+</style>
 
 <!--
 Many own and use a TTGO receiver, but the existing app story is thin.

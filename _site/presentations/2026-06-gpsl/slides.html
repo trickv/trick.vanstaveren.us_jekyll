@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>GPSL 2026 — Chasing Balloons with an AI Pair Programmer | Patrick van Staveren</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="GPSL 2026 — Chasing Balloons with an AI Pair Programmer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Just a few more bytes on the Internet." />
+<meta property="og:description" content="Just a few more bytes on the Internet." />
+<link rel="canonical" href="http://trick.vanstaveren.us/presentations/2026-06-gpsl/slides.html" />
+<meta property="og:url" content="http://trick.vanstaveren.us/presentations/2026-06-gpsl/slides.html" />
+<meta property="og:site_name" content="Patrick van Staveren" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="GPSL 2026 — Chasing Balloons with an AI Pair Programmer" />
+<script type="application/ld+json">
+{"description":"Just a few more bytes on the Internet.","headline":"GPSL 2026 — Chasing Balloons with an AI Pair Programmer","dateModified":"2026-06-19T10:40:47-05:00","@type":"WebPage","url":"http://trick.vanstaveren.us/presentations/2026-06-gpsl/slides.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://trick.vanstaveren.us/feed.xml" title="Patrick van Staveren" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" rel="author" href="/">Patrick van Staveren</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+            <a class="page-link" href="/Contact/">Contact</a>
+          <a class="page-link" href="/wp/">Web Log</a>
+          <a class="page-link" href="https://www.linkedin.com/in/patrick-van-staveren/">LinkedIn</a>
+          <a class="page-link" href="https://github.com/trickv">GitHub</a>
+        </div>
+      </nav>
+    
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="cover-title">
+
+# High Altitude Balloons and AI
+
+<div class="cover-sub">How can AI help with ballooning?</div>
+
+</div>
+
+<div class="hero-branding" />
+
+<div class="hero-byline">Patrick van Staveren · KD9PRC · Great Plains Super Launch 2026 · Pella, IA</div>
+
+<style scoped="">
+.cover-title {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  padding: 0 3.5rem;
+  z-index: 1;
+}
+.cover-title h1 {
+  font-size: 3.2rem;
+  line-height: 1.12;
+  margin: 0;
+}
+.cover-sub {
+  font-size: 1.35rem;
+  opacity: 0.65;
+  margin-top: 0.6rem;
+}
+.hero-branding {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3.25rem;
+  height: 46%;
+  background-image: url('/cover-branding.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 0;
+}
+.hero-byline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  text-align: center;
+  font-size: 1.05rem;
+  opacity: 0.85;
+  z-index: 1;
+}
+</style>
+
+<!--
+
+My first GPSL in person!
+I'm Patrick KD9PRC
+Stuff I've done with AI
+-->
+
+<hr />
+
+<h1 id="agenda">Agenda</h1>
+
+<ul>
+  <li><strong>Who I am</strong> - and how I got to the launch field</li>
+  <li><strong>How I got into AI</strong> - and why</li>
+  <li><strong>rdzSonde</strong> - porting a radiosonde receiver companion app to iOS with Claude Code</li>
+  <li><strong>Open discussion</strong> - where AI coding helps, where it doesn’t, what you’re seeing</li>
+</ul>
+
+<!--
+Just read the slide.
+-->
+
+<ParticleField />
+
+<hr />
+<p>layout: section
+—</p>
+
+<h1 id="who-i-am">Who I am</h1>
+
+<hr />
+<p>layout: image-right
+image: /IMG_1601.JPG
+class: who-am-i
+—</p>
+
+<h1 id="patrick-van-staveren-kd9prc">Patrick van Staveren <span class="callsign">KD9PRC</span></h1>
+
+<ul>
+  <li>Independent tech consultant &amp; solopreneur — <strong>V9N Consulting</strong></li>
+  <li>Grew up in Michigan, studied Computer Science, Western Michigan University</li>
+  <li>Chicago → <strong>Shanghai</strong> → <strong>London</strong> → back to the Chicago suburbs</li>
+  <li>Left a long career at Mintel in 2025 to go independent</li>
+</ul>
+
+<p><strong>Happiest when my radio is locked onto a balloon I’m about to launch.</strong></p>
+
+<ul>
+  <li>Launching &amp; chasing high-altitude balloons as a hobby</li>
+  <li>Building my own trackers (Meshtastic, RTTY, LoRa, Wenet)</li>
+  <li>Radiosonde recovery &amp; re-flying (DFM17)</li>
+</ul>
+
+<style scoped="">
+.callsign {
+  font-size: 0.5em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  vertical-align: middle;
+  opacity: 0.75;
+  margin-left: 0.4em;
+}
+</style>
+
+<style>
+/* Give the text 70% and the photo ~30% so all the copy fits.
+   Keyed off the slide's `class: who-am-i` so reordering slides is safe. */
+.grid:has(> .who-am-i) {
+  grid-template-columns: 70% 30% !important;
+}
+</style>
+
+<!--
+
+I got into ballooning by chance ten years ago, buying
+an Uputronics GPS board to play with NTP. Went to UKHAS.
+
+A few years later I got
+into tracking radiosondes, and I chase a few whenever I can between having three
+young kids.
+
+I left my big-company job for a career break; doing
+contract IT work, now teaching Agentic Coding with Claude Code.
+Balloons got me into rockets, and we're thinking about moving to the Space Coast
+to watch some of the worlds largest rockets come online in the coming years.
+
+Most of what I'll talk about today somehow stems from my slippery slope into
+becoming an SME on AI agents, and how I'm applying that to ballooning.
+
+-->
+
+<hr />
+
+<h1 id="how-i-got-into-ai">How I got into AI</h1>
+
+<p>AI never really did it for me</p>
+<div class="text-lg opacity-90 -mt-2 mb-4">...until I learned to <strong>write code</strong> with it. Then I knew this would change things.</div>
+
+<div class="cicada-buddy" />
+
+<style scoped="">
+.cicada-buddy {
+  position: absolute;
+  right: 2rem;
+  bottom: 1.5rem;
+  width: 190px;
+  height: 190px;
+  z-index: 10;
+  background-image: url('/cicada-outline.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.9;
+}
+</style>
+
+<!--
+
+For years AI never clicked for me. Chatbots were a fun party trick; I'd ask
+something, get a plausible paragraph back, shrug, and move on. It didn't change
+anything I actually did.
+
+The turning point was the CICADA MIC project — [SPEAKER: tell the story —
+what I was trying to build, how I was writing the code *with* the AI rather than
+just chatting at it, and the moment it iterated to something that actually
+worked].
+
+I plugged a microphone into a Raspberry Pi and put it on my front porch.
+I asked ChatGPT to write a script
+- Prometheus/Grafana
+- ffmpeg or something to listen to the mic
+- Generate graphs of mean/max audio levels
+
+That was when it flipped from "what" to "this changes things"
+It strung together disparate concepts and got me 80% of the way there.
+
+In 2025, about a year ago, I left my big company job for a career break, some time with
+my kids (you certainly heard them yesterday.)  I ended up doing some contract work, 
+had the time/energy to learn AI coding before it became valuable, and now I teach
+classes on Claude Code.
+
+-->
+
+<hr />
+<p>layout: section
+—</p>
+
+<h1 id="rdzsonde">rdzSonde</h1>
+<h3 id="porting-a-radiosonde-receiver-companion-app-to-ios">Porting a radiosonde receiver companion app to iOS</h3>
+
+<hr />
+
+<h1 id="what-is-rdzsonde">What is rdzSonde?</h1>
+
+<ul>
+  <li>An <strong>iOS / Android app</strong> also called <a href="https://github.com/rdzSonde/rdzwx-go"><code class="language-plaintext highlighter-rouge">rdzwx-go</code></a> — the receiver/companion app for the popular <strong>TTGO / ESP32 LoRa radiosonde receiver</strong></li>
+  <li>Talks to your TTGO over your <strong>WiFi</strong> (mDNS/Bonjour)</li>
+  <li>On your phone you get:
+    <ul>
+      <li>A <strong>live map</strong> of every sonde the receiver is hearing</li>
+      <li><strong>Distance &amp; bearing</strong> from you to each sonde</li>
+      <li><strong>Landing predictions</strong> via the Sondehub Tawhiri API</li>
+      <li>Push <strong>your GPS</strong> to the receiver so it can compute relative bearings</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="arch">
+  <div class="arch-node">
+    <div class="arch-icon">📱</div>
+    <div class="arch-name">Phone</div>
+    <div class="arch-desc">rdzSonde app</div>
+  </div>
+  <div class="arch-link"><div class="arch-arrow">←</div><div class="arch-llabel">WiFi</div></div>
+  <div class="arch-node">
+    <div class="arch-icon arch-icon-mcu"></div>
+    <div class="arch-name">TTGO</div>
+    <div class="arch-desc">ESP32 receiver</div>
+  </div>
+  <div class="arch-link"><div class="arch-arrow">←</div><div class="arch-llabel">radio</div></div>
+  <div class="arch-node">
+    <div class="arch-icon">🎈</div>
+    <div class="arch-name">Balloon</div>
+    <div class="arch-desc">radiosonde</div>
+  </div>
+</div>
+
+<style scoped="">
+.arch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2.2rem;
+}
+.arch-node {
+  border: 2px solid #4c566a;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1.1rem;
+  text-align: center;
+  min-width: 8.5rem;
+}
+.arch-icon { font-size: 2rem; line-height: 1; height: 2.2rem; }
+.arch-icon-mcu {
+  width: 2.5rem;
+  height: 2.2rem;
+  margin: 0 auto;
+  background: url('/mcu.svg') center / contain no-repeat;
+}
+.arch-name { font-weight: 700; margin-top: 0.25rem; }
+.arch-desc { font-size: 0.8rem; opacity: 0.6; }
+.arch-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.2rem;
+}
+.arch-arrow { font-size: 1.8rem; line-height: 1; color: #4c566a; }
+.arch-llabel { font-size: 0.7rem; opacity: 0.55; margin-top: 0.1rem; }
+</style>
+
+<!--
+Many own and use a TTGO receiver, but the existing app story is thin.
+There wasn't an iOS app, and the Android app required sideloading.
+My goal: put the same map-and-chase workflow in everyone's pocket.
+-->
+
+<hr />
+<p>layout: image-right
+image: /rdzSonde2.png
+backgroundSize: contain
+—</p>
+
+<h1 id="in-the-chase-car">In the chase car</h1>
+
+<ul>
+  <li>Glance-able map oriented around <strong>you</strong></li>
+  <li>Tap a sonde → distance, bearing, predicted landing</li>
+  <li>Works alongside the TTGO already velcroed to your dash</li>
+</ul>
+
+<!--
+This is the screen people will actually use with one hand while driving (or
+better, while their navigator drives). Tell a recovery story here if time.
+-->
+
+<hr />
+
+<h1 id="getting-there-with-claude-code">Getting there with Claude Code</h1>
+
+<p>This started as an experiment: how far can I get a coding agent to go?</p>
+
+<p>The end result: rdzSonde is available in testing on Apple/Google stores today.</p>
+
+<p>Google: https://play.google.com/apps/internaltest/4701410666610803801</p>
+
+<p>Apple: https://testflight.apple.com/join/5aQNkGnv</p>
+
+<!--
+
+The answer to my question is: **quite far**
+
+App development and porting is something that I can do technically, but probably 
+would have never gotten the time for.
+
+AI helped me navigate the app release pipeline too, configuring Github Actions to
+publish to both stores automatically.
+
+Today: I've been in touch with DL9RDZ Hansi Reiser to merge in changes and he's given me the thumbs up to publish.
+It might be live on the Apple App Store today!
+For Google I need another ten testers or so first.
+-->
+
+<hr />
+<p>layout: center
+class: text-center
+—</p>
+
+<h1 id="experimental-a-live-chase-commentary-app">Experimental: a live <strong>chase-commentary</strong> app</h1>
+
+<p>Turning live telemetry into play-by-play during a chase</p>
+
+<div class="mt-8 text-xl">
+
+Follow tomorrow's flight: [**@KD9PRC_balloon**](https://mastodon.social/@KD9PRC_balloon)
+
+</div>
+
+<!--
+Ingests data from several receivers, including imagery, and runs them through an AI model.
+Provides commentary. The idea is for those non-technical folks like my mom to have something to read during a flight.
+I've gone so experimental that not only has AI written the code, but I have an AI Agent whose job it is to monitor the code telemetry during flight Saturday and has authorization to modify the code in-flight. (No, it's not on board!)
+-->
+
+<hr />
+<p>layout: section
+—</p>
+
+<h1 id="open-questions">Open questions</h1>
+<h3 id="lets-talk-about-this-ai-stuff">Let’s talk about this AI stuff</h3>
+
+<hr />
+
+<h1 id="what-im-still-chewing-on">What I’m still chewing on</h1>
+
+<ul>
+  <li><strong>Where does it actually help?</strong> Boilerplate &amp; unfamiliar platforms = huge. Novel algorithms = less so.</li>
+  <li><strong>Do you trust code you didn’t write?</strong> How I review, test, and what I refuse to ship blind</li>
+  <li><strong>Open source communities</strong> have mixed perspectives - understandably</li>
+  <li><strong>Skill atrophy</strong> vs. leverage - am I still learning, or just steering?</li>
+  <li><strong>Cost &amp; lock-in</strong> - subscriptions, models changing under you, offline/privacy</li>
+  <li><strong>For our hobby:</strong> what <em>should</em> we be building now that the typing is cheap?</li>
+</ul>
+
+<div class="text-lg mt-6 opacity-90">What are <strong>you</strong> seeing? What should I try next?</div>
+
+<!--
+This slide is the real point of the section — open the floor. Have 2-3 of my
+own opinions ready in case the room is quiet, but the goal is discussion, not
+a lecture. Collect ideas; some will become next year's projects.
+-->
+
+<hr />
+<p>layout: center
+class: text-center
+—</p>
+
+<h1 id="thanks-">Thanks! 🎈</h1>
+
+<p>Patrick van Staveren · KD9PRC</p>
+
+<p><a href="https://trick.vanstaveren.us">trick.vanstaveren.us</a> · <a href="https://github.com/trickv">github.com/trickv</a></p>
+
+<div class="text-sm opacity-70 mt-4">rdzSonde: github.com/rdzSonde/rdzwx-go</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            Patrick van Staveren
+            </li>
+            
+            <li><a class="u-email" href="mailto:trick@vanstaveren.us">trick@vanstaveren.us</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list"></ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Just a few more bytes on the Internet.</p>
+        <p>Last Modified: 2026-06-19 10:40:47 -0500</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

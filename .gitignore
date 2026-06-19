@@ -1,4 +1,5 @@
 _site/feed.xml
+node_modules
 .sass-cache
 .jekyll-metadata
 .bundle

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64"
+     fill="none" stroke="#2e3440" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- microcontroller dev board (e.g. TTGO / ESP32) -->
+  <!-- board -->
+  <rect x="9" y="15" width="46" height="34" rx="3"/>
+
+  <!-- header pins along the top edge -->
+  <line x1="15" y1="15" x2="15" y2="10"/>
+  <line x1="21" y1="15" x2="21" y2="10"/>
+  <line x1="27" y1="15" x2="27" y2="10"/>
+  <line x1="33" y1="15" x2="33" y2="10"/>
+  <line x1="39" y1="15" x2="39" y2="10"/>
+  <line x1="45" y1="15" x2="45" y2="10"/>
+
+  <!-- header pins along the bottom edge -->
+  <line x1="15" y1="49" x2="15" y2="54"/>
+  <line x1="21" y1="49" x2="21" y2="54"/>
+  <line x1="27" y1="49" x2="27" y2="54"/>
+  <line x1="33" y1="49" x2="33" y2="54"/>
+  <line x1="39" y1="49" x2="39" y2="54"/>
+  <line x1="45" y1="49" x2="45" y2="54"/>
+
+  <!-- USB connector on the left edge -->
+  <rect x="4" y="27" width="5" height="10"/>
+
+  <!-- the chip -->
+  <rect x="25" y="26" width="16" height="13" rx="1.5"/>
+  <circle cx="28.5" cy="29.5" r="1"/>
+</svg>

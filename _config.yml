@@ -30,6 +30,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - presentations/2026-06-gpsl/node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

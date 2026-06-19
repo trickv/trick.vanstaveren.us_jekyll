@@ -19,12 +19,12 @@
         </label>
 
         <div class="trigger">
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.toplevel %}
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.toplevel %}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {% endif %}
-          {% endfor %}
+            {%- endif -%}
+          {%- endfor %}
           <a class="page-link" href="/wp/">Web Log</a>
           <a class="page-link" href="https://www.linkedin.com/in/patrick-van-staveren/">LinkedIn</a>
           <a class="page-link" href="https://github.com/trickv">GitHub</a>
