@@ -167,7 +167,6 @@ AI never really did it for me
 
 
 <!--
-The personal arc — this is the slide where I get the non-coders on board.
 
 For years AI never clicked for me. Chatbots were a fun party trick; I'd ask
 something, get a plausible paragraph back, shrug, and move on. It didn't change
@@ -180,21 +179,11 @@ worked]. That was when it flipped from "neat" to "this changes everything,"
 because I wasn't reading its homework — I was watching it build, run, fail,
 and fix in a loop.
 
--->
+In 2025, about a year ago, I left my big company job for a career break, some time with
+my kids (you certainly heard them yesterday.)  I ended up doing some contract work, 
+had the time/energy to learn AI coding before it became valuable, and now I teach
+classes on Claude Code.
 
----
-layout: statement
----
-
-# Everything that follows was built
-# *with* an AI coding assistant
-
-Mostly **Claude Code** — an agentic CLI that reads my repo, writes code, runs it, and iterates.
-
-<!--
-Define the tool plainly for the non-coders: it's not autocomplete. It's an
-agent that lives in my terminal, can see the whole project, makes changes,
-runs them, reads the errors, and tries again. I'm the navigator; it drives.
 -->
 
 ---
@@ -202,7 +191,7 @@ layout: section
 ---
 
 # rdzSonde
-### Porting a radiosonde receiver to iOS
+### Porting a radiosonde receiver companion app to iOS
 
 ---
 
@@ -252,11 +241,18 @@ Google: https://play.google.com/apps/internaltest/4701410666610803801
 Apple: https://testflight.apple.com/join/5aQNkGnv
 
 <!--
+
+The answer to my question is: **quite far**
+
 App development and porting is something that I can do technically, but probably 
 would have never gotten the time for.
 
 AI helped me navigate the app release pipeline too, configuring Github Actions to
 publish to both stores automatically.
+
+Today: I've been in touch with DL9RDZ Hansi Reiser to merge in changes and he's given me the thumbs up to publish.
+It might be live on the Apple App Store today!
+For Google I need another ten testers or so first.
 -->
 
 ---
@@ -265,19 +261,13 @@ class: text-center
 ---
 
 # Experimental: a live **chase-commentary** app
-🎈🎙️
 
-Turning live telemetry into spoken play-by-play during a chase
-
-<div class="text-sm opacity-70 mt-6">[ live demo / screen recording ]</div>
+Turning live telemetry into play-by-play during a chase
 
 <!--
-SPEAKER: fill in the real specifics before the talk —
-- what it ingests (Sondehub feed? TTGO? my own GPS?)
-- what it produces (TTS audio? on-screen ticker? altitude/burst/descent callouts?)
-- the fun failure modes
-This is the "wow / laugh" slide — demo it live if the venue network cooperates,
-otherwise play a recording. Keep it loose; it's explicitly experimental.
+Ingests data from several receivers, including imagery, and runs them through an AI model.
+Provides commentary. The idea is for those non-technical folks like my mom to have something to read during a flight.
+I've gone so experimental that not only has AI written the code, but I have an AI Agent whose job it is to monitor the code telemetry during flight Saturday and has authorization to modify the code in-flight. (No, it's not on board!)
 -->
 
 ---
@@ -293,8 +283,9 @@ layout: section
 
 - **Where does it actually help?** Boilerplate & unfamiliar platforms = huge. Novel algorithms = less so.
 - **Do you trust code you didn't write?** How I review, test, and what I refuse to ship blind
-- **Skill atrophy** vs. leverage — am I still learning, or just steering?
-- **Cost & lock-in** — subscriptions, models changing under you, offline/privacy
+- **Open source communities** have mixed perspectives - understandably
+- **Skill atrophy** vs. leverage - am I still learning, or just steering?
+- **Cost & lock-in** - subscriptions, models changing under you, offline/privacy
 - **For our hobby:** what *should* we be building now that the typing is cheap?
 
 <div class="text-lg mt-6 opacity-90">What are <strong>you</strong> seeing? What should I try next?</div>
