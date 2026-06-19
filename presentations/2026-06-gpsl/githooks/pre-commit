@@ -1,0 +1,22 @@
+#!/bin/sh
+# Auto-render the GPSL Slidev deck to a flat static webpage (dist/) whenever its
+# source changes, and include the build in the commit.
+#
+# Output uses hash routing (routerMode: hash in slides.md) + a relative asset
+# base (--base ./), so the built dist/ needs NO server-side / path-based routing
+# and can be served from any path on the webserver.
+#
+# Install:  ln -sf ../../presentations/2026-06-gpsl/githooks/pre-commit .git/hooks/pre-commit
+# (or copy it there and chmod +x). Requires npm on PATH.
+set -e
+
+DECK="presentations/2026-06-gpsl"
+
+# Did this commit touch deck source (anything under the deck except its own dist/)?
+changed=$(git diff --cached --name-only --diff-filter=ACMR -- "$DECK" | grep -v "^$DECK/dist/" || true)
+
+if [ -n "$changed" ]; then
+  echo "[pre-commit] deck source changed -> rendering flat webpage"
+  ( cd "$DECK" && npm run build -- --base ./ >/dev/null )
+  git add "$DECK/dist"
+fi

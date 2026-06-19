@@ -1,36 +1,50 @@
 ---
-theme: nord
+theme: academic
 title: "GPSL 2026 — Chasing Balloons with an AI Pair Programmer"
 transition: slide-left
 routerMode: hash
 colorSchema: light
+layout: default
+class: cover-slide
 ---
 
-<div class="hero-branding" />
-
-<div class="hero-content">
+<div class="cover-title">
 
 # Chasing Balloons with an AI Pair Programmer
 
-Building radiosonde & HAB software with Claude Code
+<div class="cover-sub">Building radiosonde &amp; HAB software with Claude Code</div>
 
 </div>
 
-<div class="hero-byline">
-  <span class="px-2 py-1 rounded bg-white bg-opacity-10">Patrick van Staveren · KD9PRC · Great Plains Super Launch 2026 · Pella, IA</span>
-</div>
+<div class="hero-branding" />
+
+<div class="hero-byline">Patrick van Staveren · KD9PRC · Great Plains Super Launch 2026 · Pella, IA</div>
 
 <style scoped>
-.hero-content {
-  position: relative;
+.cover-title {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  padding: 0 3.5rem;
   z-index: 1;
+}
+.cover-title h1 {
+  font-size: 3.2rem;
+  line-height: 1.12;
+  margin: 0;
+}
+.cover-sub {
+  font-size: 1.35rem;
+  opacity: 0.65;
+  margin-top: 0.6rem;
 }
 .hero-branding {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 4.5rem;
-  height: 44%;
+  bottom: 3.25rem;
+  height: 46%;
   background-image: url('/cover-branding.png');
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -43,8 +57,10 @@ Building radiosonde & HAB software with Claude Code
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 2rem;
+  bottom: 1rem;
   text-align: center;
+  font-size: 1.05rem;
+  opacity: 0.85;
   z-index: 1;
 }
 </style>
@@ -64,7 +80,6 @@ a builder's show-and-tell, ending with an open conversation.
 - **Who I am** - and how I got to the launch field
 - **How I got into AI**
 - **rdzSonde** - porting a radiosonde receiver companion app to iOS with Claude Code
-- **More balloon hacks** - the little tools, plus an experimental chase-commentary app
 - **Open discussion** - where AI coding helps, where it doesn't, what you're seeing
 
 <!--
@@ -263,6 +278,12 @@ class: text-center
 # Experimental: a live **chase-commentary** app
 
 Turning live telemetry into play-by-play during a chase
+
+<div class="mt-8 text-xl">
+
+Follow tomorrow's flight: [**@KD9PRC_balloon**](https://mastodon.social/@KD9PRC_balloon)
+
+</div>
 
 <!--
 Ingests data from several receivers, including imagery, and runs them through an AI model.

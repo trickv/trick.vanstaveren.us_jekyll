@@ -41,7 +41,7 @@ onMounted(() => {
     ctx.clearRect(0, 0, width, height)
 
     const grad = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, 400)
-    grad.addColorStop(0, 'rgba(74, 158, 255, 0.03)')
+    grad.addColorStop(0, 'rgba(94, 129, 172, 0.06)')
     grad.addColorStop(1, 'rgba(0, 0, 0, 0)')
     ctx.fillStyle = grad
     ctx.fillRect(0, 0, width, height)
@@ -55,7 +55,7 @@ onMounted(() => {
 
       ctx.beginPath()
       ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2)
-      ctx.fillStyle = 'rgba(74, 158, 255, 0.4)'
+      ctx.fillStyle = 'rgba(59, 66, 82, 0.55)'
       ctx.fill()
 
       for (let j = i + 1; j < particles.length; j++) {
@@ -67,8 +67,8 @@ onMounted(() => {
           ctx.beginPath()
           ctx.moveTo(p.x, p.y)
           ctx.lineTo(p2.x, p2.y)
-          ctx.strokeStyle = `rgba(74, 158, 255, ${0.15 * (1 - dist / 120)})`
-          ctx.lineWidth = 0.5
+          ctx.strokeStyle = `rgba(59, 66, 82, ${0.22 * (1 - dist / 120)})`
+          ctx.lineWidth = 0.6
           ctx.stroke()
         }
       }
@@ -80,8 +80,8 @@ onMounted(() => {
         ctx.beginPath()
         ctx.moveTo(p.x, p.y)
         ctx.lineTo(mouse.x, mouse.y)
-        ctx.strokeStyle = `rgba(168, 85, 247, ${0.3 * (1 - mouseDist / 200)})`
-        ctx.lineWidth = 0.8
+        ctx.strokeStyle = `rgba(94, 129, 172, ${0.55 * (1 - mouseDist / 200)})`
+        ctx.lineWidth = 1
         ctx.stroke()
         p.vx += (mouse.x - p.x) * 0.00005
         p.vy += (mouse.y - p.y) * 0.00005
