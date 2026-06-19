@@ -58,17 +58,21 @@ a builder's show-and-tell, ending with an open conversation.
 
 ---
 
+
 # Agenda
 
-- **Who I am** — and how I got to the launch field
-- **rdzSonde** — porting a radiosonde receiver app to iOS with Claude Code
-- **More balloon hacks** — the little tools, plus an experimental chase-commentary app
-- **Open questions** — where AI coding helps, where it doesn't, what you're seeing
+- **Who I am** - and how I got to the launch field
+- **How I got into AI**
+- **rdzSonde** - porting a radiosonde receiver companion app to iOS with Claude Code
+- **More balloon hacks** - the little tools, plus an experimental chase-commentary app
+- **Open discussion** - where AI coding helps, where it doesn't, what you're seeing
 
 <!--
 Four beats. First three are show-and-tell; the last one flips it around and I
 want to hear from the room. Roughly: 5 / 12 / 10 / open-ended.
 -->
+
+<ParticleField />
 
 ---
 layout: section
@@ -77,10 +81,11 @@ layout: section
 # Who I am
 
 ---
-layout: two-cols
+layout: image-right
+image: /IMG_1601.JPG
+class: who-am-i
 ---
 
-<ParticleField />
 
 # Patrick van Staveren <span class="callsign">KD9PRC</span>
 
@@ -90,9 +95,6 @@ layout: two-cols
 - Left a long career at Mintel in 2025 to go independent
 - Photography, running, biking, **balloons and radios**
 
-::right::
-
-<div class="pl-6">
 
 **Happiest when my radio is locked onto a balloon I'm about to launch.**
 
@@ -100,8 +102,6 @@ layout: two-cols
 - Building my own trackers (Meshtastic, RTTY, LoRa, Wenet)
 - Radiosonde recovery & reflashing (DFM17)
 
-
-</div>
 
 <style scoped>
 .callsign {
@@ -111,6 +111,14 @@ layout: two-cols
   vertical-align: middle;
   opacity: 0.75;
   margin-left: 0.4em;
+}
+</style>
+
+<style>
+/* Give the text 70% and the photo ~30% so all the copy fits.
+   Keyed off the slide's `class: who-am-i` so reordering slides is safe. */
+.grid:has(> .who-am-i) {
+  grid-template-columns: 70% 30% !important;
 }
 </style>
 
@@ -134,57 +142,29 @@ code about a year ago, and it changed how much I can ship for this hobby.
 
 ---
 
-# AI never really did it for me...
+# How I got into AI
 
-<div class="text-lg opacity-90 -mt-2 mb-4">...until I learned to <strong>write code</strong> with it. Then I knew this would change everything.</div>
+AI never really did it for me
+<div class="text-lg opacity-90 -mt-2 mb-4">...until I learned to <strong>write code</strong> with it. Then I knew this would change things.</div>
 
 <div class="cicada-buddy" />
 
 <style scoped>
 .cicada-buddy {
   position: absolute;
-  right: 1.5rem;
-  bottom: 1rem;
-  width: 150px;
-  height: 150px;
+  right: 2rem;
+  bottom: 1.5rem;
+  width: 190px;
+  height: 190px;
   z-index: 10;
-  background-image: url('/cicada.svg');
+  background-image: url('/cicada-outline.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  filter: drop-shadow(0 6px 10px rgba(0,0,0,0.35));
-  animation: cicada-bob 3.2s ease-in-out infinite;
-}
-@keyframes cicada-bob {
-  0%, 100% { transform: rotate(-6deg) translateY(0); }
-  50%      { transform: rotate(-3deg) translateY(-8px); }
+  opacity: 0.9;
 }
 </style>
 
-<div class="grid grid-cols-3 gap-6 mt-2">
-
-<div>
-
-### What is "AI"?
-A model that predicts the next bit of text. Chatbots, autocomplete. Genuinely clever — but on its own it just *talks*.
-
-</div>
-
-<div>
-
-### What is an **agent**?
-That same model put in a **loop with tools**: it reads files, runs commands, sees the result, and tries again. It doesn't just answer — it *does*.
-
-</div>
-
-<div>
-
-### Why this works for code
-Code is text the agent can write **and** instantly test. It runs or it doesn't. That tight, self-checking feedback loop is exactly what an agent is good at.
-
-</div>
-
-</div>
 
 <!--
 The personal arc — this is the slide where I get the non-coders on board.
@@ -200,14 +180,6 @@ worked]. That was when it flipped from "neat" to "this changes everything,"
 because I wasn't reading its homework — I was watching it build, run, fail,
 and fix in a loop.
 
-Then walk the three boxes left-to-right, keep each to a sentence:
-- AI = next-token predictor; on its own it only talks.
-- Agent = that model in a loop with tools; it can act, observe, retry.
-- Coding = the perfect playground: code is text it writes, and it's instantly
-  testable, so the agent can check its own work without me in the loop.
-
-Land on: that's why the rest of this talk is full of finished projects instead
-of half-finished ideas.
 -->
 
 ---
@@ -236,14 +208,13 @@ layout: section
 
 # What is rdzSonde?
 
-- An **iOS port** of [`rdzwx-go`](https://github.com/rdzSonde/rdzwx-go) — the receiver/companion app for the popular **TTGO / ESP32 LoRa radiosonde receiver**
+- An **iOS or Android app** also called [`rdzwx-go`](https://github.com/rdzSonde/rdzwx-go) — the receiver/companion app for the popular **TTGO / ESP32 LoRa radiosonde receiver**
 - Talks to your TTGO over your **WiFi** (mDNS/Bonjour)
 - On your phone you get:
   - A **live map** of every sonde the receiver is hearing
   - **Distance & bearing** from you to each sonde
   - **Landing predictions** via the Sondehub Tawhiri API
   - Push **your GPS** to the receiver so it can compute relative bearings
-- **Privacy-first:** no accounts, no analytics, no backend — nothing leaves your devices
 
 <!--
 Many own and use a TTGO receiver, but the existing app story is thin.
@@ -253,7 +224,7 @@ My goal: put the same map-and-chase workflow in everyone's pocket.
 
 ---
 layout: image-right
-image: /rdzsonde.png
+image: /rdzSonde2.png
 backgroundSize: contain
 ---
 
@@ -270,71 +241,22 @@ better, while their navigator drives). Tell a recovery story here if time.
 
 ---
 
-# Building it with Claude Code
+# Getting there with Claude Code
 
-The interesting work wasn't the map — it was making a cross-platform app behave on iOS:
+This started as an experiment: how far can I get a coding agent to go?
 
-- **iOS Local Network permission** — Bonjour discovery silently fails without the right `Info.plist` entitlements; the agent diagnosed it from the symptoms
-- **mDNS / Bonjour** discovery of `_jsonrdz._tcp` then a raw **TCP** read loop
-- **App Store review** scaffolding — privacy manifest, a real **privacy policy**, screenshots, metadata
-- Wrangling the **Go + web + native** wrapper toolchain into something that builds and signs
+The end result: rdzSonde is available in testing on Apple/Google stores today.
 
-<div class="text-sm opacity-80 mt-4">
+Google: https://play.google.com/apps/internaltest/4701410666610803801
 
-I drove the decisions; the agent did the grinding — reading errors, trying fixes, and explaining the iOS quirks I'd never have known.
-
-</div>
+Apple: https://testflight.apple.com/join/5aQNkGnv
 
 <!--
-This is the heart of the rdzSonde section. Honest take: the AI didn't "know"
-how to ship an iOS app any more than I did, but it iterated through the iOS
-networking + signing maze far faster than I would have solo. Mention the
-privacy policy is published on my site as a concrete artifact.
--->
+App development and porting is something that I can do technically, but probably 
+would have never gotten the time for.
 
----
-layout: section
----
-
-# More balloon hacks
-### Small tools, fast, because the AI does the typing
-
----
-
-# A year of little balloon tools
-
-<div class="grid grid-cols-2 gap-x-8 gap-y-3 mt-2">
-
-<div>
-
-**On the payload**
-- `meshtastic-hab-bot-v2` — onboard app paired with a Meshtastic node
-- `sondehub-meshtastic-mqtt-gateway` — bridge HAB beacons into Sondehub Amateur
-- `radio_flyer` — Python payload tracker
-
-</div>
-
-<div>
-
-**On the ground / in the car**
-- `sonde-notifier` — follows my location in Home Assistant, pings me about nearby sondes
-- `aircraft-balloon-proximity` — how close do sondes come to aircraft?
-- TTGO / rdz tinkering
-
-</div>
-
-</div>
-
-<div class="text-sm opacity-80 mt-6">
-
-None of these would have gotten off my TODO list without an assistant doing the boilerplate.
-
-</div>
-
-<!--
-Don't read every repo — pick two the room will react to (sonde-notifier and
-aircraft-balloon-proximity tend to land). The point of the slide is volume:
-these are all weekend-sized ideas that AI made actually finishable.
+AI helped me navigate the app release pipeline too, configuring Github Actions to
+publish to both stores automatically.
 -->
 
 ---
