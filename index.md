@@ -13,6 +13,7 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [Traintap, an EOT freight train parser/monitor](https://trick.vanstaveren.us/wp/2026/06/30/traintap-an-eot-freight-train-parsermonitor/) - 2026-06-30
 * [Chasing AI: single-handedly programming a radio](https://trick.vanstaveren.us/wp/2026/06/02/chasing-ai-single-handedly-programming-a-radio/) - 2026-06-02
 * [Chasing AI: Who needs software anyway?](https://trick.vanstaveren.us/wp/2026/04/28/chasing-ai-who-needs-software-anyway/) - 2026-04-28
 * [The Impossible Job: Recovering a failing HFS+ external disk](https://trick.vanstaveren.us/wp/2026/04/25/recovering-a-failing-hfs-external-disk/) - 2026-04-25
@@ -27,9 +28,11 @@ usually happiest when my radio is locked onto a high-altitude balloon that I'm a
 * [Chasing AI: running ollama on my old AMD RX470 GPU](https://trick.vanstaveren.us/wp/2025/09/24/chasing-ai-running-ollama-on-my-old-amd-rx470-gpu/) - 2025-09-24
 * [HAB flight 6 - SSH:C strikes again](https://trick.vanstaveren.us/wp/2025/05/08/hab-flight-6-sshc-strikes-again/) - 2025-05-08
 * [HAB flight 5 - collaboration with SSH:C](https://trick.vanstaveren.us/wp/2025/04/10/hab-flight-5-collaboration-with-sshc/) - 2025-04-10
-* [Florida Space Coast visit and launch viewing guide](https://trick.vanstaveren.us/wp/2024/11/25/florida-space-coast-visit-launch-viewing-guide/) - 2024-11-25
 * [HAB flight 4 - "I'm back in the USA..."](https://trick.vanstaveren.us/wp/2024/09/23/hab-flight-4-im-back-in-the-usa/) - 2024-09-23
+
+**Pinned posts:**
 * [Solderless programming a DFM17 radiosonde](/wp/2023/09/26/solderless-programming-a-dfm17-radiosonde/) - 2023-09-26
+* [Florida Space Coast visit and launch viewing guide](https://trick.vanstaveren.us/wp/2024/11/25/florida-space-coast-visit-launch-viewing-guide/) - 2024-11-25
 
 <!--
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
