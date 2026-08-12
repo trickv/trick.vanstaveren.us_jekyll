@@ -13,6 +13,7 @@ I enjoy photography, running, biking, and radios. My kids keep me grounded, and 
 usually happiest when my radio is locked onto a high-altitude balloon that I'm about to launch.
 
 **Recent entries to [Web Log](http://trick.vanstaveren.us/wp):**
+* [HAB flight 8 – a real adventure – GPSL at Pella, Iowa](https://trick.vanstaveren.us/wp/2026/07/02/hab-flight-8-a-real-adventure-gpsl-at-pella-iowa/) - 2026-07-02
 * [Traintap, an EOT freight train parser/monitor](https://trick.vanstaveren.us/wp/2026/06/30/traintap-an-eot-freight-train-parsermonitor/) - 2026-06-30
 * [Chasing AI: single-handedly programming a radio](https://trick.vanstaveren.us/wp/2026/06/02/chasing-ai-single-handedly-programming-a-radio/) - 2026-06-02
 * [Chasing AI: Who needs software anyway?](https://trick.vanstaveren.us/wp/2026/04/28/chasing-ai-who-needs-software-anyway/) - 2026-04-28
