@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.3"
+gem "jekyll", "~> 4.4.1"
 
 # this is stupid? a dep of kramdown that I need to pull in? Hmm.
 gem "kramdown-parser-gfm"
