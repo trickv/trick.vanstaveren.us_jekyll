@@ -1,12 +1,13 @@
 # Privacy Policy - rdzSonde
 
-**Last updated:** 2026-06-07
+**Last updated:** 2026-08-09
 **Publisher:** Patrick van Staveren
 **Contact:** trick@vanstaveren.us
 
 This policy describes how the rdzSonde mobile application ("the app") handles
-your information. The app is open source; the source code is available at
-<https://github.com/rdzSonde/rdzwx-go>.
+your information. It applies to the app on all platforms (iOS and Android).
+The app is open source; the source code is available at
+<https://github.com/trickv/rdzSonde>.
 
 ## Summary
 
@@ -21,7 +22,7 @@ your information. The app is open source; the source code is available at
   position to your own TTGO radiosonde receiver on your local network.
 - A small number of clearly identified third-party services are contacted
   for specific, optional features (version check, landing prediction,
-  optional Radiosondy.info login). These are described in detail below.
+  online map tiles). These are described in detail below.
 
 ## What data the app accesses
 
@@ -39,8 +40,8 @@ your latitude and longitude to:
   to the publisher or any third party.
 
 Your location is **not** transmitted to the publisher or to any cloud
-service operated by the publisher. The most recent location is cached on
-your device in browser local storage so the map can re-center quickly
+service operated by the publisher. The most recent location is cached in
+the app's local storage on your device so the map can re-center quickly
 when you re-open the app; you can clear this by uninstalling the app or
 clearing the app's storage in your device settings.
 
@@ -49,16 +50,19 @@ device's system settings. The app will continue to function with reduced
 features (you will see radiosondes on the map but not their distance from
 your position).
 
-### Local network access (iOS)
+### Local network access
 
-On iOS, the app requests local network access in order to:
+The app communicates over your local network in order to:
 
-- Discover your TTGO radiosonde receiver via mDNS / Bonjour
+- Discover your TTGO radiosonde receiver via mDNS / Bonjour / DNS-SD
   (`_jsonrdz._tcp` service).
 - Connect to that receiver over TCP to read sonde data.
 
-This permission is used only to communicate with devices on your own
-local network. No data is transmitted to the publisher.
+This access is used only to communicate with devices on your own
+local network. No data is transmitted to the publisher. On iOS the
+operating system shows an explicit "Local Network" permission prompt for
+this; on Android no separate prompt is shown, but the app's use of the
+local network is the same.
 
 ## Third-party services the app may contact
 
@@ -89,21 +93,22 @@ we do not control.
 
 ### Map tile servers (if online maps are used)
 
-- **What:** When you use online maps (rather than the offline `.map`
-  files supported on Android), the map library fetches image tiles from
-  the tile server configured in the app, typically OpenStreetMap or a
-  similar provider.
+- **What:** When you use online maps (rather than offline map files),
+  the map library fetches image tiles from the tile server for the map
+  layer you have selected, such as OpenStreetMap or Esri (satellite
+  imagery).
 - **Data sent:** Standard HTTPS tile requests containing tile coordinates
   derived from the map area you are viewing. The publisher does not
   receive or log this.
 - **Used for:** Displaying the map background.
-- **Operator:** OpenStreetMap or whichever tile provider is configured.
+- **Operator:** OpenStreetMap, Esri, or whichever tile provider the
+  selected map layer uses.
 
 ## Information stored on your device
 
-The following information is stored locally on your device, in browser
-local storage. It never leaves your device and is not transmitted to the
-publisher.
+The following information is stored locally on your device, in the
+app's local storage. It never leaves your device and is not transmitted
+to the publisher.
 
 - The most recent GPS position the app saw, so the map can re-center
   quickly on launch.
@@ -111,8 +116,9 @@ publisher.
   address) for connecting to a TTGO receiver.
 - The manual TTGO address you last entered, if any.
 
-On Android, you may also select offline map files (Mapsforge `.map`
-files) from your device storage. These remain on your device.
+Where the app supports offline maps, you may also select offline map
+files (Mapsforge `.map` files) from your device storage. These remain on
+your device and are read only to draw the map.
 
 You can clear all locally stored data by uninstalling the app or by
 clearing the app's storage through your device's system settings.
@@ -141,4 +147,4 @@ Questions about this policy or about the app's data handling:
 
 Patrick van Staveren
 <trick@vanstaveren.us>
-<https://github.com/rdzSonde/rdzwx-go>
+<https://github.com/trickv/rdzSonde>
