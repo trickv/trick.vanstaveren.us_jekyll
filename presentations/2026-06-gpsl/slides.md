@@ -68,7 +68,9 @@ class: cover-slide
 <!--
 
 My first GPSL in person!
+
 I'm Patrick KD9PRC
+
 Stuff I've done with AI
 -->
 
@@ -197,10 +199,6 @@ I asked ChatGPT to write a script
 That was when it flipped from "what" to "this changes things"
 It strung together disparate concepts and got me 80% of the way there.
 
-In 2025, about a year ago, I left my big company job for a career break, some time with
-my kids (you certainly heard them yesterday.)  I ended up doing some contract work, 
-had the time/energy to learn AI coding before it became valuable, and now I teach
-classes on Claude Code.
 
 -->
 
@@ -278,6 +276,11 @@ layout: section
 </style>
 
 <!--
+In 2025, about a year ago, I left my big company job for a career break, some time with
+my kids (you certainly heard them yesterday.)  I ended up doing some contract work, 
+had the time/energy to learn AI coding before it became valuable, and now I teach
+classes on Claude Code.
+
 Many own and use a TTGO receiver, but the existing app story is thin.
 There wasn't an iOS app, and the Android app required sideloading.
 My goal: put the same map-and-chase workflow in everyone's pocket.
@@ -323,7 +326,9 @@ AI helped me navigate the app release pipeline too, configuring Github Actions t
 publish to both stores automatically.
 
 Today: I've been in touch with DL9RDZ Hansi Reiser to merge in changes and he's given me the thumbs up to publish.
+
 It might be live on the Apple App Store today!
+
 For Google I need another ten testers or so first.
 -->
 
@@ -336,6 +341,14 @@ class: text-center
 
 Turning live telemetry into play-by-play during a chase
 
+Reviews SSDV images and telemetry from both Wenet and Horus payloads and summarizes what we're seeing:
+
+"Lost telemetry at low altitude, must have landed"
+
+"Looks like we just went up through the cloud layer"
+
+"Hit the jet stream!"
+
 <div class="mt-8 text-xl">
 
 Follow tomorrow's flight: [**@KD9PRC_balloon**](https://mastodon.social/@KD9PRC_balloon)
@@ -344,7 +357,9 @@ Follow tomorrow's flight: [**@KD9PRC_balloon**](https://mastodon.social/@KD9PRC_
 
 <!--
 Ingests data from several receivers, including imagery, and runs them through an AI model.
+
 Provides commentary. The idea is for those non-technical folks like my mom to have something to read during a flight.
+
 I've gone so experimental that not only has AI written the code, but I have an AI Agent whose job it is to monitor the code telemetry during flight Saturday and has authorization to modify the code in-flight. (No, it's not on board!)
 -->
 
@@ -353,7 +368,10 @@ layout: section
 ---
 
 # Open questions
-### Let's talk about this AI stuff
+
+<!--
+The other day I ported LMS6 decoding to rdz_ttgo_sonde
+-->
 
 ---
 
