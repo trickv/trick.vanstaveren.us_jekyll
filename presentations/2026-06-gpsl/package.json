@@ -16,5 +16,11 @@
   },
   "devDependencies": {
     "playwright-chromium": "^1.61.0"
+  },
+  "overrides": {
+    "dompurify": "^3.4.13",
+    "slidev-theme-academic": {
+      "unocss": "^66.7.5"
+    }
   }
 }

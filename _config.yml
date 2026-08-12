@@ -31,6 +31,13 @@ exclude:
   - Gemfile.lock
   - node_modules
   - presentations/2026-06-gpsl/node_modules
+  - presentations/2026-06-gpsl/package.json
+  - presentations/2026-06-gpsl/package-lock.json
+  - presentations/2026-06-gpsl/vite.config.ts
+  - presentations/2026-06-gpsl/netlify.toml
+  - presentations/2026-06-gpsl/vercel.json
+  - presentations/2026-06-gpsl/githooks
+  - presentations/2026-06-gpsl/README.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
