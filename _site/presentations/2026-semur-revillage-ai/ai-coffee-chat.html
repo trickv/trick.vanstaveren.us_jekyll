@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI coffee &amp; chat — Semur-en-Auxois</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAFAF7;
+    --ink:#3E1220;
+    --wine:#5B1A28;
+    --slate:#5E6670;
+    --ochre:#C9891E;
+    --rule:#DAD5CB;
+    --pad:clamp(28px,7vmin,110px);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;background:var(--paper);color:var(--ink);
+    font-family:Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .deck{position:fixed;inset:0;overflow:hidden;cursor:default}
+  .slide{position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;
+    padding:var(--pad);padding-bottom:calc(var(--pad) + 3vmin)}
+  .slide.active{display:flex}
+  .slide.wine{background:var(--wine);color:var(--paper)}
+  .slide.wine .sub,.slide.wine .small{color:rgba(250,250,247,.72)}
+  .slide.wine .rule>*{border-color:rgba(250,250,247,.28)}
+
+  h1{font-family:Newsreader,Georgia,"Times New Roman",serif;font-weight:600;
+    font-size:clamp(36px,8vmin,130px);line-height:1.02;letter-spacing:-.022em;
+    margin:0 0 .4em;max-width:22ch;text-wrap:balance}
+  h1.xl{font-size:clamp(44px,11.5vmin,190px);max-width:12ch}
+  h1.q{font-weight:500;font-size:clamp(34px,7.6vmin,120px);max-width:20ch;line-height:1.1}
+  .sub{font-size:clamp(18px,3.1vmin,40px);color:var(--slate);margin:0;max-width:34ch;line-height:1.35}
+  .sub.after{margin-top:1.1em}
+  .small{font-size:clamp(14px,2vmin,24px);color:var(--slate);margin:1.2em 0 0;line-height:1.4}
+
+  .line{font-size:clamp(22px,4.4vmin,64px);line-height:1.18;margin:0;font-weight:500;max-width:30ch}
+  .rule>*{padding:.42em 0;border-top:1px solid var(--rule)}
+  .rule>*:first-child{border-top:0;padding-top:0}
+  .stack>*+*{margin-top:.55em}
+
+  .beat{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:clamp(28px,5.8vmin,88px);
+    line-height:1.15;margin:0;max-width:34ch;letter-spacing:-.01em}
+  .beat b{font-weight:600;box-shadow:inset 0 -.18em 0 var(--ochre)}
+
+  .frag{opacity:0;transform:translateY(.25em);transition:opacity .35s ease,transform .35s ease}
+  .frag.on{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.frag{transition:none;transform:none}}
+
+  .two{display:grid;grid-template-columns:1.1fr .9fr;gap:6vmin;align-items:center}
+  @media (max-aspect-ratio:1/1){.two{grid-template-columns:1fr}}
+  .loop{width:min(58vmin,520px);height:auto;display:block;margin-inline:auto}
+  .loop text{font-family:Figtree,system-ui,sans-serif;font-weight:600;font-size:26px;fill:var(--ink)}
+  .loop .ring{fill:none;stroke:var(--ink);stroke-width:5;stroke-linecap:round}
+
+  table{border-collapse:collapse;width:100%;margin-top:1.2em;table-layout:fixed}
+  th,td{border-top:1px solid var(--rule);text-align:left;vertical-align:top}
+  th{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:clamp(18px,3.3vmin,44px);
+    padding:0 .6em .45em 0;border-top:0;line-height:1.15}
+  td{height:clamp(44px,9vmin,120px)}
+  th:first-child{width:22%}
+
+  .cloud{display:flex;flex-wrap:wrap;gap:.3em 1em;align-content:center;justify-content:center;
+    max-height:78vh;overflow:hidden;padding-top:.6em}
+  .cloud .w{font-family:Newsreader,Georgia,serif;font-weight:600;white-space:nowrap;line-height:1.3}
+  .cloud .s1{font-size:clamp(13px,1.9vmin,22px)}
+  .cloud .s2{font-size:clamp(16px,2.8vmin,34px)}
+  .cloud .s3{font-size:clamp(20px,4vmin,50px)}
+  .cloud .s4{font-size:clamp(26px,5.6vmin,70px)}
+
+  .bar{position:fixed;top:0;left:0;height:4px;background:var(--ochre);width:0;transition:width .25s ease;z-index:5}
+  .count{position:fixed;right:var(--pad);bottom:calc(var(--pad) * .55);font-size:clamp(12px,1.7vmin,18px);
+    color:var(--slate);font-variant-numeric:tabular-nums;z-index:5}
+  .wine-on .count,.wine-on .mark{color:rgba(250,250,247,.6)}
+  .mark{position:fixed;left:var(--pad);bottom:calc(var(--pad) * .55);font-size:clamp(12px,1.7vmin,18px);color:var(--slate);z-index:5}
+  .hint{position:fixed;left:var(--pad);bottom:calc(var(--pad) * .55);font-size:clamp(12px,1.7vmin,18px);color:var(--slate);z-index:6}
+
+  .notes{display:none}
+  .panel{position:fixed;left:0;right:0;bottom:0;max-height:38vh;overflow:auto;background:#1F1A1B;color:#EDE8E1;
+    padding:18px var(--pad) 22px;font-size:clamp(14px,1.9vmin,20px);line-height:1.5;z-index:10;
+    border-top:3px solid var(--ochre);display:none}
+  .panel.open{display:block}
+  .panel p{margin:0 0 .6em;max-width:80ch}
+  .panel .t{color:var(--ochre);font-weight:600;margin-right:.6em}
+  :focus-visible{outline:3px solid var(--ochre);outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="bar" id="bar"></div>
+
+<main class="deck" id="deck" tabindex="0" aria-live="polite">
+
+  <!-- 1 -->
+  <section class="slide">
+    <h1 class="xl">AI coffee &amp;&nbsp;chat</h1>
+    <p class="sub">Ten minutes of me talking. Then it's yours.</p>
+    <p class="small">Semur-en-Auxois, September 2026<br>Trick (Patrick) van Staveren</p>
+    <aside class="notes">
+      <p><span class="t">0:00</span>Welcome. Set the contract up front: this is short, then it's a conversation. Coffee first.</p>
+      <p>Keys: arrows or space to advance, N toggles these notes, F goes fullscreen.</p>
+    </aside>
+  </section>
+
+  <!-- 2 -->
+  <section class="slide">
+    <div class="two">
+      <div>
+        <h1>About me</h1>
+        <p class="sub">Trick (Patrick) van Staveren</p>
+        <p class="small">Illinois &rarr; Florida (via Europe)<br>trick@vanstaveren.us<br>trick.vanstaveren.us</p>
+      </div>
+      <div class="stack rule">
+        <p class="line frag">Dad by day, nerd by night</p>
+        <p class="line frag">Three young kids</p>
+        <p class="line frag">Went solo to consult on AI</p>
+        <p class="line frag">Teaching courses on AI coding with Claude Code</p>
+        <p class="line frag">Running, cycling, FI nerd&mldr;too many hobbies</p>
+      </div>
+    </div>
+    <aside class="notes">
+      <p><span class="t">0:15</span>Quick personal intro before diving in — who I am, and why I'm the one up here talking about this. The business + the courses are the real answer to "why him": I left to consult on AI full-time and now teach people how to actually use Claude Code.</p>
+    </aside>
+  </section>
+
+  <!-- 3 -->
+  <section class="slide">
+    <h1>Where are you with it?</h1>
+    <div class="stack rule">
+      <p class="line frag">Never really touched it</p>
+      <p class="line frag">Chat with it sometimes</p>
+      <p class="line frag">Use it every day for work</p>
+      <p class="line frag">Built something with an agent</p>
+      <p class="line frag">My agents are working as we speak</p>
+    </div>
+    <aside class="notes">
+      <p><span class="t">0:30</span>Hands up, one level at a time. Keep hands up so people can see who's where. Five levels.</p>
+    </aside>
+  </section>
+
+  <!-- 4 -->
+  <section class="slide wine">
+    <h1>Topics for drinking?</h1>
+    <div class="stack rule">
+      <p class="line">Energy and data centres</p>
+      <p class="line">Jobs</p>
+      <p class="line">Who gets rich</p>
+    </div>
+    <aside class="notes">
+        Stuff we can't necessarily control - not that it's not worth talking about, but these topics also tend to just produce a lot of FUD...
+    </aside>
+  </section>
+
+  <!-- 5 -->
+  <section class="slide">
+    <h1>What is AI, in 2026?</h1>
+    <div class="stack">
+      <p class="beat frag">A system that <b>read almost everything</b>,</p>
+      <p class="beat frag">then got <b>trained to be useful</b>,</p>
+      <p class="beat frag">then got <b>handed tools</b>.</p>
+    </div>
+    <p class="small frag">Everything else is engineering.</p>
+    <aside class="notes">
+      <p><span class="t">2:30</span>Three beats. (1) Pretraining: predict the next word across the internet, and it turned out that scales into general capability. (2) Post-training: RLHF is what turned a text engine into something that answers you. Without it, no ChatGPT. Reasoning models are the same idea trained on maths and code. (3) Tools: give it functions to call and let it see the result.</p>
+      <p>If someone asks "isn't it just the 2017 transformer paper?" — the transformer is the engine block. The car is these three layers plus a lot of unglamorous engineering.</p>
+    </aside>
+  </section>
+
+  <!-- 6 -->
+  <section class="slide">
+    <div class="two">
+      <div>
+        <h1>What is an AI Agent?</h1>
+        <p class="sub">A model, with tools, in a loop.</p>
+        <p class="line frag" style="margin-top:.8em">It doesn't just answer. It does real things.</p>
+        <p class="line frag" style="margin-top:.8em">on your computer</p>
+        <p class="line frag" style="margin-top:.8em">or even stuff plugged into it.</p>
+      </div>
+      <svg class="loop" viewBox="0 0 320 320" role="img" aria-label="Loop: think, act, look, repeat">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="#3E1220"/>
+          </marker>
+        </defs>
+        <path class="ring" d="M180.8,41.8 A120,120 0 0 1 272.8,201" marker-end="url(#arrow)"/>
+        <path class="ring" d="M251.9,237.1 A120,120 0 0 1 68.1,237.1" marker-end="url(#arrow)"/>
+        <path class="ring" d="M47.2,201 A120,120 0 0 1 139.2,41.8" marker-end="url(#arrow)"/>
+        <text x="160" y="98" text-anchor="middle">Think</text>
+        <text x="222" y="212" text-anchor="middle">Act</text>
+        <text x="98" y="212" text-anchor="middle">Inspect</text>
+      </svg>
+    </div>
+    <aside class="notes">
+        <p> How does it differ from a chat bot? </p>
+      <p><span class="t">3:30</span>The 2024→2026 shift in one picture.</p>
+      <p>Bridge to the demo: "Rather than explain it, watch one."</p>
+    </aside>
+  </section>
+
+  <!-- 7 -->
+  <section class="slide">
+    <h1>So. Many. Tools.</h1>
+    <div class="cloud">
+      <span class="w s2" style="transform:rotate(-2deg);color:var(--ink)">Replit</span>
+      <span class="w s1" style="transform:rotate(6deg);color:var(--ink)">GitHub Copilot</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--wine)">Bolt</span>
+      <span class="w s1" style="transform:rotate(-6deg);color:var(--wine)">Rocket.new</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--slate)">Claude Code Review</span>
+      <span class="w s3" style="transform:rotate(8deg);color:var(--ink)">Orca</span>
+      <span class="w s1" style="transform:rotate(-6deg);color:var(--wine)">Claude Code</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--ink)">Gemini CLI</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--ink)">Devin Desktop</span>
+      <span class="w s1" style="transform:rotate(6deg);color:var(--ink)">TestSprite</span>
+      <span class="w s2" style="transform:rotate(4deg);color:var(--wine)">Zed AI</span>
+      <span class="w s3" style="transform:rotate(2deg);color:var(--ink)">Trae</span>
+      <span class="w s2" style="transform:rotate(-8deg);color:var(--ochre)">Symphony</span>
+      <span class="w s1" style="transform:rotate(4deg);color:var(--ink)">Lindy</span>
+      <span class="w s1" style="transform:rotate(8deg);color:var(--ink)">OpenClaw</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--ink)">Emergent</span>
+      <span class="w s2" style="transform:rotate(0deg);color:var(--ink)">Cursor</span>
+      <span class="w s1" style="transform:rotate(4deg);color:var(--wine)">OpenCode</span>
+      <span class="w s2" style="transform:rotate(2deg);color:var(--ink)">Momentic</span>
+      <span class="w s1" style="transform:rotate(-2deg);color:var(--ink)">JetBrains AI</span>
+      <span class="w s4" style="transform:rotate(-8deg);color:var(--wine)">Base44</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--wine)">Kiro</span>
+      <span class="w s2" style="transform:rotate(0deg);color:var(--slate)">Cursor Bugbot</span>
+      <span class="w s2" style="transform:rotate(2deg);color:var(--ochre)">Qwen Code</span>
+      <span class="w s3" style="transform:rotate(-8deg);color:var(--slate)">Aider</span>
+      <span class="w s1" style="transform:rotate(-2deg);color:var(--wine)">Factory</span>
+      <span class="w s1" style="transform:rotate(-2deg);color:var(--wine)">Stagehand</span>
+      <span class="w s2" style="transform:rotate(0deg);color:var(--ink)">Perplexity Personal Computer</span>
+      <span class="w s3" style="transform:rotate(0deg);color:var(--ink)">Cosine</span>
+      <span class="w s1" style="transform:rotate(-8deg);color:var(--ink)">Cline</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--ochre)">Junie CLI</span>
+      <span class="w s1" style="transform:rotate(-6deg);color:var(--slate)">Amp</span>
+      <span class="w s1" style="transform:rotate(2deg);color:var(--slate)">Baz</span>
+      <span class="w s3" style="transform:rotate(-4deg);color:var(--wine)">Kilo Code</span>
+      <span class="w s4" style="transform:rotate(-6deg);color:var(--slate)">v0</span>
+      <span class="w s2" style="transform:rotate(2deg);color:var(--ink)">Vibe Kanban</span>
+      <span class="w s1" style="transform:rotate(-6deg);color:var(--wine)">Mabl</span>
+      <span class="w s3" style="transform:rotate(0deg);color:var(--wine)">Microsoft Copilot</span>
+      <span class="w s2" style="transform:rotate(-2deg);color:var(--wine)">Nimbalyst</span>
+      <span class="w s2" style="transform:rotate(-4deg);color:var(--ochre)">Warp</span>
+      <span class="w s1" style="transform:rotate(-4deg);color:var(--wine)">Qodo</span>
+      <span class="w s2" style="transform:rotate(8deg);color:var(--slate)">Conductor</span>
+      <span class="w s2" style="transform:rotate(8deg);color:var(--wine)">Devin</span>
+      <span class="w s1" style="transform:rotate(4deg);color:var(--ink)">Cubic</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--slate)">CodeRabbit</span>
+      <span class="w s2" style="transform:rotate(4deg);color:var(--slate)">Agent Orchestrator</span>
+      <span class="w s1" style="transform:rotate(-2deg);color:var(--ink)">Codex Code Review</span>
+      <span class="w s3" style="transform:rotate(6deg);color:var(--ink)">Hermes Agent</span>
+      <span class="w s1" style="transform:rotate(-6deg);color:var(--ink)">Copilot Code Review</span>
+      <span class="w s1" style="transform:rotate(4deg);color:var(--slate)">Blitzy</span>
+      <span class="w s1" style="transform:rotate(-6deg);color:var(--slate)">Google AI Studio</span>
+      <span class="w s1" style="transform:rotate(-8deg);color:var(--slate)">Anything</span>
+      <span class="w s3" style="transform:rotate(6deg);color:var(--ink)">QA Wolf</span>
+      <span class="w s2" style="transform:rotate(-2deg);color:var(--slate)">Sculptor</span>
+      <span class="w s2" style="transform:rotate(4deg);color:var(--ink)">Emdash</span>
+      <span class="w s1" style="transform:rotate(4deg);color:var(--wine)">Figma Make</span>
+      <span class="w s1" style="transform:rotate(4deg);color:var(--slate)">Macroscope</span>
+      <span class="w s1" style="transform:rotate(-6deg);color:var(--slate)">Gemini Spark</span>
+      <span class="w s1" style="transform:rotate(-8deg);color:var(--ochre)">Crush</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--slate)">Claude Squad</span>
+      <span class="w s3" style="transform:rotate(6deg);color:var(--wine)">Graphite AI Reviews</span>
+      <span class="w s1" style="transform:rotate(2deg);color:var(--wine)">NemoClaw</span>
+      <span class="w s1" style="transform:rotate(-8deg);color:var(--ink)">Ranger</span>
+      <span class="w s1" style="transform:rotate(6deg);color:var(--ink)">Tempo</span>
+      <span class="w s1" style="transform:rotate(-4deg);color:var(--ink)">Devin Review</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--wine)">Spur</span>
+      <span class="w s1" style="transform:rotate(0deg);color:var(--ink)">Codex</span>
+      <span class="w s3" style="transform:rotate(-8deg);color:var(--slate)">cmux</span>
+      <span class="w s3" style="transform:rotate(0deg);color:var(--ochre)">Mistral Vibe</span>
+      <span class="w s2" style="transform:rotate(0deg);color:var(--wine)">Thunders</span>
+      <span class="w s2" style="transform:rotate(2deg);color:var(--ochre)">Google Antigravity</span>
+      <span class="w s2" style="transform:rotate(0deg);color:var(--ink)">Hostinger AI Builder</span>
+      <span class="w s4" style="transform:rotate(-4deg);color:var(--ink)">Sourcery</span>
+      <span class="w s4" style="transform:rotate(0deg);color:var(--wine)">Gas Town</span>
+      <span class="w s3" style="transform:rotate(-4deg);color:var(--wine)">Lovable</span>
+      <span class="w s1" style="transform:rotate(-4deg);color:var(--ink)">Claude Cowork</span>
+      <span class="w s4" style="transform:rotate(2deg);color:var(--wine)">Factory Droid CLI</span>
+      <span class="w s2" style="transform:rotate(-8deg);color:var(--wine)">Greptile</span>
+    </div>
+    <aside class="notes">
+      <p>Builders, editors, CLI agents, code review bots, QA agents, always-on agents, orchestrators — new ones every week. Nobody is expected to know all of these, including me.</p>
+      <p>Point: this is the landscape, and it's genuinely too much to track. That's normal. Pick one and go deep rather than chasing all of them.</p>
+    </aside>
+  </section>
+
+  <!-- 8 -->
+  <section class="slide wine">
+    <h1 class="xl">Live Demo Time.</h1>
+    <p class="sub">Poll: Claude Code or Lovable? (or both?)</p>
+    <aside class="notes">
+      <p><span class="t">4:00</span>Switch to the terminal. Sonnet model. Build me a web-based html/js note-taking app. Don't test it, just ship it and open it in my browser. </p>
+      <p>Hard stop at 90 seconds even if it isn't finished. The point is the loop, not the output.</p>
+    </aside>
+  </section>
+
+  <!-- 9 -->
+  <section class="slide">
+    <h1 class="q">Remote work untethered families from cities.</h1>
+    <h1 class="q frag">AI is untethering work itself.</h1>
+    <p class="small frag">It's why this community exists. It's also why this talk does.</p>
+    <aside class="notes">
+      <p><span class="t">6:00</span>The Revillage pitch is that remote work made living anywhere possible. That's the last untethering. This one changes what a day of work is. Not "adapt or die" — more that the people who understand this early get to choose how it shows up in their family.</p>
+    </aside>
+  </section>
+
+  <!-- 10 -->
+  <section class="slide wine">
+    <h1 class="q">What do we want for our kids?</h1>
+    <aside class="notes">
+      <p>
+        Ban it?<br>
+        Expect them to never need a job?<br>
+        My take: teach them to be adaptable
+      </p>
+    </aside>
+  </section>
+
+  <!-- 11 -->
+  <section class="slide">
+    <h1>Three prompts</h1>
+    <div class="stack rule">
+      <p class="line frag">Something AI did this month that surprised you</p>
+      <p class="line frag">Something you refuse to let AI do for you</p>
+      <p class="line frag">A recurring annoyance you'd hand off tomorrow</p>
+    </div>
+    <aside class="notes">
+      <p><span class="t">7:30</span>Pairs or threes, five minutes each prompt, then a couple of shares back to the room. The first two work at any skill level. The third one is the project harvest: stickies on the wall. Work stuff or village stuff — meals for eighteen, the kid rota, French bureaucracy.</p>
+    </aside>
+  </section>
+
+  <!-- 12 -->
+  <section class="slide">
+    <h1>Write on paper</h1>
+    <div class="stack rule">
+      <p class="line">Name</p>
+      <p class="line">Tools I use</p>
+      <p class="line">One thing I'd automate</p>
+      <p class="line">One thing I want to learn</p>
+      <p class="line">What I can help with</p>
+    </div>
+    <aside class="notes">
+      <p><span class="t">Break</span>Everyone jots bullets under each on their own paper — not a shared table. Collect the sheets after: the last two are the matching sheet, builders read "automate," upskillers read "help with." Keep it up all month.</p>
+    </aside>
+  </section>
+
+  <!-- 13 -->
+  <section class="slide wine">
+    <h1>The challenge</h1>
+    <p class="beat">Leave Semur having learned or made something new.</p>
+  </section>
+
+  <!-- 14 -->
+  <section class="slide">
+    <h1 class="xl">Now it's yours.</h1>
+    <p class="small">trick.vanstaveren.us</p>
+  </section>
+
+</main>
+
+<div class="mark" id="mark" hidden>AI coffee &amp; chat</div>
+<div class="hint" id="hint">Arrow keys to advance. N shows notes. F goes fullscreen.</div>
+<div class="count" id="count"></div>
+<div class="panel" id="panel" role="region" aria-label="Speaker notes"></div>
+
+<script>
+(function(){
+  const slides=[...document.querySelectorAll('.slide')];
+  const bar=document.getElementById('bar'), count=document.getElementById('count'),
+        panel=document.getElementById('panel'), hint=document.getElementById('hint'),
+        mark=document.getElementById('mark'), deck=document.getElementById('deck');
+  let i=0;
+
+  function show(n, revealAll){
+    n=Math.max(0,Math.min(slides.length-1,n));
+    slides[i].classList.remove('active');
+    i=n;
+    const s=slides[i];
+    s.querySelectorAll('.frag').forEach(f=>f.classList.toggle('on',!!revealAll));
+    s.classList.add('active');
+    document.body.classList.toggle('wine-on',s.classList.contains('wine'));
+    bar.style.width=(i/(slides.length-1)*100)+'%';
+    count.textContent=(i+1)+' / '+slides.length;
+    const notes=s.querySelector('.notes');
+    panel.innerHTML=notes?notes.innerHTML:'<p>No notes.</p>';
+    history.replaceState(null,'','#'+(i+1));
+    hint.hidden=i>0; mark.hidden=i===0;
+    publish();
+  }
+  function next(){
+    const f=slides[i].querySelector('.frag:not(.on)');
+    if(f){f.classList.add('on');publish();return}
+    if(i<slides.length-1)show(i+1,false);
+  }
+  function prev(){
+    const on=[...slides[i].querySelectorAll('.frag.on')];
+    if(on.length){on[on.length-1].classList.remove('on');publish();return}
+    if(i>0)show(i-1,true);
+  }
+
+  // Phone remote. Only active when the deck is served by serve.py (http://...);
+  // opened as a plain file it does nothing.
+  const remote=location.protocol.startsWith('http');
+  function h1text(s){const h=s&&s.querySelector('h1');return h?h.textContent.replace(/\s+/g,' ').trim():''}
+  function publish(){
+    if(!remote)return;
+    const s=slides[i], notes=s.querySelector('.notes');
+    fetch('/state',{method:'POST',body:JSON.stringify({type:'state',i,n:slides.length,
+      frag:s.querySelectorAll('.frag.on').length,fragTotal:s.querySelectorAll('.frag').length,
+      title:h1text(s),next:h1text(slides[i+1]),notes:notes?notes.innerHTML:''})}).catch(()=>{});
+  }
+  if(remote){
+    const es=new EventSource('/events');
+    es.onmessage=e=>{
+      let m;try{m=JSON.parse(e.data)}catch(_){return}
+      if(m.type!=='cmd')return;
+      if(m.action==='next')next();
+      else if(m.action==='prev')prev();
+      else if(m.action==='goto')show(m.i,false);
+      else if(m.action==='notes')panel.classList.toggle('open');
+    };
+  }
+
+  document.addEventListener('keydown',e=>{
+    if(e.metaKey||e.ctrlKey||e.altKey)return;
+    switch(e.key){
+      case 'ArrowRight':case 'ArrowDown':case ' ':case 'PageDown':case 'Enter':e.preventDefault();next();break;
+      case 'ArrowLeft':case 'ArrowUp':case 'PageUp':case 'Backspace':e.preventDefault();prev();break;
+      case 'Home':show(0,false);break;
+      case 'End':show(slides.length-1,true);break;
+      case 'n':case 'N':panel.classList.toggle('open');break;
+      case 'f':case 'F':document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();break;
+    }
+  });
+
+  deck.addEventListener('click',e=>{
+    if(e.target.closest('a'))return;
+    (e.clientX<window.innerWidth*0.22)?prev():next();
+  });
+
+  let tx=null;
+  deck.addEventListener('touchstart',e=>{tx=e.changedTouches[0].clientX},{passive:true});
+  deck.addEventListener('touchend',e=>{
+    if(tx===null)return;
+    const dx=e.changedTouches[0].clientX-tx; tx=null;
+    if(Math.abs(dx)>50){dx<0?next():prev()}
+  },{passive:true});
+
+  const start=parseInt(location.hash.slice(1),10);
+  show(isNaN(start)?0:start-1, false);
+  deck.focus();
+})();
+</script>
+</body>
+</html>

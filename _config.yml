@@ -38,6 +38,8 @@ exclude:
   - presentations/2026-06-gpsl/vercel.json
   - presentations/2026-06-gpsl/githooks
   - presentations/2026-06-gpsl/README.md
+  - presentations/2026-semur-revillage-ai/CLAUDE.md
+  - presentations/2026-semur-revillage-ai/serve.py
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
