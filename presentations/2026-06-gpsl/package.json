@@ -18,7 +18,7 @@
     "playwright-chromium": "^1.61.0"
   },
   "overrides": {
-    "dompurify": "^3.4.13",
+    "dompurify": "^3.4.16",
     "slidev-theme-academic": {
       "unocss": "^66.7.5"
     }
